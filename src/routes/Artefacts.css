@@ -1,9 +1,11 @@
 .artBox {
+  position: relative;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   gap: 8px 0;
   margin: 0 0 30px 0;
   padding: 0 20px;
+  z-index: 0;
 }
 
 .art {
@@ -23,37 +25,39 @@
 
 /*POPUP SCREEN*/
 
-#popupExitScreen {
+#popArtExitScreen {
+  position: fixed;
   display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
   height: 100%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
-  overflow: auto;
   z-index: 1;
 }
 
-#popupPreviewScreen {
+#popArtEnlarge {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 
 .popArt {
   display: none;
   max-width: 95%;
   max-height: 90%;
+  border-bottom: 3px solid rgb(226, 194, 162);
 }
+
+/*POPUP SCROLL*/
 
 #popArtScrollBox {
   position: relative;
-  display: flex;
   align-items: center;
   height: 75px;
   width: 95%;
@@ -61,7 +65,18 @@
   overflow-x: hidden;
 }
 
-.popArtScrollBtn {
+#popArtScrollBox img {
+  height: 75px;
+  width: 100px;
+}
+
+#popArtScroll {
+  position: absolute;
+  display: flex;
+}
+
+#popArtScrollLeft,
+#popArtScrollRight {
   position: absolute;
   height: 100%;
   width: 30px;
@@ -73,20 +88,13 @@
   transform: scaleX(-1);
 }
 
-#popArtScrollRigth {
+#popArtScrollRight {
   right: 0;
 }
 
-#popArtScroll {
-  position: absolute;
-  display: flex;
-}
+/*POPUP EXIT BTN*/
 
-.popArtScrollPrev {
-  height: 75px;
-}
-
-#popupPreviewExitBtn {
+#popArtExitBtn {
   width: 95%;
   color: #2e2e2e;
   font-size: 23px;

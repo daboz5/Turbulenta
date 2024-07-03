@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import bannerImg from "../assets/kat.png";
 
 import imgS1A1 from "../assets/artefacts/RingOfSafetyDistance.png"
@@ -62,11 +62,35 @@ export default function Artefacts() {
         }];
 
     const [pic, setPic] = useState({ sIndex: -1, picId: "" });
+    const scrollBtnWidth = 30;
+
+    useEffect(() => {
+        const scrollBox = document.getElementById("popArtScrollBox");
+        const scroll = document.getElementById("popArtScroll");
+        const leftBtn = document.getElementById("popArtScrollLeft");
+        const rightBtn = document.getElementById("popArtScrollRight");
+        if (scroll && scrollBox && leftBtn && rightBtn) {
+            const scrollBoxWidth = scrollBox.clientWidth;
+            const scrollWidth = scroll.clientWidth;
+            if (scrollWidth + (2 * scrollBtnWidth) < scrollBoxWidth) {
+                scrollBox.style.display = "flex";
+                leftBtn.style.display = "none";
+                rightBtn.style.display = "none";
+            } else {
+                scroll.style.left = `${scrollBtnWidth}px`;
+                scrollBox.style.display = "block";
+                leftBtn.style.display = "block";
+                rightBtn.style.display = "block";
+            }
+        }
+    }, [pic])
 
     const openPic = (sIndex: number, picId: string) => {
-        const picBoxEl = document.getElementById("popupExitScreen");
+        const picBoxEl = document.getElementById("popArtExitScreen");
         const picEl = document.getElementById("popArt" + picId);
-        if (picBoxEl && picEl) {
+        const scrollBox = document.getElementById("popArtScrollBox");
+        const scroll = document.getElementById("popArtScroll");
+        if (picBoxEl && picEl && scroll && scrollBox) {
             picBoxEl.style.display = "flex";
             picEl.style.display = "block";
         }
@@ -78,20 +102,50 @@ export default function Artefacts() {
 
     const closePic = (target: EventTarget, artId?: string) => {
         if (target instanceof Element) {
-            if (target.id === "popupExitScreen" || target.id === "popupPreviewExitBtn") {
-                const picBoxEl = document.getElementById("popupExitScreen");
-                const picEl = document.getElementById("popArt" + pic.picId);
-                if (picBoxEl && picEl) {
+            const picElArr = seasonsArr[pic.sIndex].artefacts.map(
+                (art) => { return document.getElementById("popArt" + art.id) }
+            );
+            if (target.id === "popArtExitScreen" || target.id === "popArtExitBtn") {
+                const picBoxEl = document.getElementById("popArtExitScreen");
+                if (picBoxEl && picElArr) {
                     picBoxEl.style.display = "none";
-                    picEl.style.display = "none";
+                    picElArr.forEach((pic) => { if (pic) { pic.style.display = "none" } });
                     setPic({ sIndex: -1, picId: "" });
                 }
-            } else if (target.className === "popArtScrollPrev" && artId) {
-                const picEl = document.getElementById("popArt" + pic.picId);
-                if (picEl && artId !== pic.picId) {
-                    picEl.style.display = "none";
+            }
+            else if (target.className === "popArtScrollImg" && artId) {
+                if (picElArr && artId !== pic.picId) {
+                    picElArr.forEach((pic) => { if (pic) { pic.style.display = "none" } });
                 }
             }
+        }
+    }
+
+    const scrollPopup = (back: boolean) => {
+        const scrollBox = document.getElementById("popArtScrollBox");
+        const scroll = document.getElementById("popArtScroll");
+        if (scrollBox && scroll) {
+            const scrollBoxWidth = scrollBox.clientWidth;
+            const scrollWidth = scroll.clientWidth
+            const scrollConstant = 60;
+            const left = scroll.style.left;
+            const leftNum = Number(left.slice(0, left.length - 2))
+            if (back) {
+                if (scrollBoxWidth + leftNum > -(2 * scrollBtnWidth)) {
+                    scroll.style.left = `${leftNum - scrollConstant}px`;
+                }
+                else if (scrollBoxWidth + leftNum > - scrollConstant - (2 * scrollBtnWidth)) {
+                    scroll.style.left = `${scrollBoxWidth - scrollWidth - scrollBtnWidth}px`;
+                }
+            } else {
+                if (leftNum < scrollBtnWidth && leftNum > 0) {
+                    scroll.style.left = `${scrollBtnWidth}px`;
+                } else if (leftNum < scrollBtnWidth) {
+                    scroll.style.left = `${leftNum + scrollConstant}px`;
+                }
+
+            }
+
         }
     }
 
@@ -120,8 +174,8 @@ export default function Artefacts() {
 
     const enlargedPics = () => {
         return (
-            <span id="popupExitScreen" onClick={(e) => closePic(e.target)}>
-                <span id="popupPreviewScreen">
+            <span id="popArtExitScreen" onClick={(e) => closePic(e.target)}>
+                <span id="popArtEnlarge">
                     {seasonsArr.map((season) => {
                         return season.artefacts.map((artefact) => {
                             return (
@@ -141,7 +195,7 @@ export default function Artefacts() {
                                 seasonsArr[pic.sIndex].artefacts.map(
                                     (art) => {
                                         return <img
-                                            className="popArtScrollPrev"
+                                            className="popArtScrollImg"
                                             src={art.src}
                                             onClick={(e) => {
                                                 closePic(e.target, art.id);
@@ -152,16 +206,20 @@ export default function Artefacts() {
                         </span>
                         <button
                             id="popArtScrollLeft"
-                            className="popArtScrollBtn">
+                            onClick={() => scrollPopup(true)}>
                             ➧
                         </button>
                         <button
-                            id="popArtScrollRigth"
-                            className="popArtScrollBtn">
+                            id="popArtScrollRight"
+                            onClick={() => scrollPopup(false)}>
                             ➧
                         </button>
                     </span>
-                    <button id="popupPreviewExitBtn">X</button>
+                    <button
+                        id="popArtExitBtn"
+                        onClick={(e) => closePic(e.target)}>
+                        X
+                    </button>
                 </span>
             </span>
         )
