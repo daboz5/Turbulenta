@@ -57,6 +57,8 @@ export default function Navbar() {
                     </div>
                 </div>
 
+                <div id="navSpacer"></div>
+
                 <a
                     className="navbarIconBox"
                     href="https://www.instagram.com/amulet_d20/"

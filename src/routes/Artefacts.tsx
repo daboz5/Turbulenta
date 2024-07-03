@@ -1,99 +1,113 @@
 import { useState } from "react";
 import bannerImg from "../assets/kat.png";
 
-import img1 from "../assets/items/RingOfSafetyDistance.png"
-import img2 from "../assets/items/RoyalRoseLongbow.png"
-import img3 from "../assets/items/VinegraspShield.png"
-import img4 from "../assets/items/RapidsGlaive.png"
-import img5 from "../assets/items/ConchShellOfTheMaokah.png"
-import img6 from "../assets/items/Bailar.png"
-import img7 from "../assets/items/EchoBracelet.png"
-import img8 from "../assets/items/LightningStone.png"
-import img9 from "../assets/items/HelmOfShidin.png"
-import img10 from "../assets/items/RodOfKadram.png"
-import img11 from "../assets/items/TormentDagger.png"
-import img12 from "../assets/items/Hugfish.png"
-import img13 from "../assets/items/DreadlordsCleaver.png"
-import img14 from "../assets/items/VeilOfMidnight.png"
-import img15 from "../assets/items/DemodandTriangleOfAncestralMemory.png"
-import img16 from "../assets/items/CrystalOfBedlam.png"
-import img17 from "../assets/items/ShieldOfSlaad.png"
-import img18 from "../assets/items/ClokworkCrossbow.png"
+import imgS1A1 from "../assets/artefacts/RingOfSafetyDistance.png"
+import imgS1A2 from "../assets/artefacts/RoyalRoseLongbow.png"
+import imgS1A3 from "../assets/artefacts/VinegraspShield.png"
+import imgS1A4 from "../assets/artefacts/RapidsGlaive.png"
+import imgS1A5 from "../assets/artefacts/ConchShellOfTheMaokah.png"
+import imgS1A6 from "../assets/artefacts/Bailar.png"
+import imgS1A7 from "../assets/artefacts/EchoBracelet.png"
+import imgS1A8 from "../assets/artefacts/LightningStone.png"
+import imgS1A9 from "../assets/artefacts/HelmOfShidin.png"
+import imgS1A10 from "../assets/artefacts/RodOfKadram.png"
+import imgS2A1 from "../assets/artefacts/TormentDagger.png"
+import imgS2A2 from "../assets/artefacts/Hugfish.png"
+import imgS2A3 from "../assets/artefacts/DreadlordsCleaver.png"
+import imgS2A4 from "../assets/artefacts/VeilOfMidnight.png"
+import imgS2A5 from "../assets/artefacts/DemodandTriangleOfAncestralMemory.png"
+import imgS2A6 from "../assets/artefacts/CrystalOfBedlam.png"
+import imgS2A7 from "../assets/artefacts/ShieldOfSlaad.png"
+import imgS2A8 from "../assets/artefacts/ClokworkCrossbow.png"
 
 import "./Artefacts.css"
 
 export default function Artefacts() {
 
-    const [pic, setPic] = useState(0);
-
-    const openPic = (num: number) => {
-        const picBoxEl = document.getElementById("popup");
-        const picEl = document.getElementById("popItem" + num);
-        if (picBoxEl && picEl) {
-            picBoxEl.style.display = "flex";
-            picEl.style.display = "block";
-        }
-        setPic(num);
-    }
-
-    const closePic = () => {
-        const picBoxEl = document.getElementById("popup");
-        const picEl = document.getElementById("popItem" + pic);
-        if (picBoxEl && picEl) {
-            picBoxEl.style.display = "none";
-            picEl.style.display = "none";
-        }
-    }
+    type Artefacts = {
+        title: string;
+        artefacts: {
+            id: string;
+            src: string;
+        }[];
+    }[];
 
     const seasonsArr = [
         {
             title: "Season 1",
             artefacts: [
-                { id: 1, src: img1 },
-                { id: 2, src: img2 },
-                { id: 3, src: img3 },
-                { id: 4, src: img4 },
-                { id: 5, src: img5 },
-                { id: 6, src: img6 },
-                { id: 7, src: img7 },
-                { id: 8, src: img8 },
-                { id: 9, src: img9 },
-                { id: 10, src: img10 }
+                { id: "S1A1", src: imgS1A1 },
+                { id: "S1A2", src: imgS1A2 },
+                { id: "S1A3", src: imgS1A3 },
+                { id: "S1A4", src: imgS1A4 },
+                { id: "S1A5", src: imgS1A5 },
+                { id: "S1A6", src: imgS1A6 },
+                { id: "S1A7", src: imgS1A7 },
+                { id: "S1A8", src: imgS1A8 },
+                { id: "S1A9", src: imgS1A9 },
+                { id: "S1A10", src: imgS1A10 }
             ]
         }, {
             title: "Season 2",
             artefacts: [
-                { id: 11, src: img11 },
-                { id: 12, src: img12 },
-                { id: 13, src: img13 },
-                { id: 14, src: img14 },
-                { id: 15, src: img15 },
-                { id: 16, src: img16 },
-                { id: 17, src: img17 },
-                { id: 18, src: img18 },
+                { id: "S2A1", src: imgS2A1 },
+                { id: "S2A2", src: imgS2A2 },
+                { id: "S2A3", src: imgS2A3 },
+                { id: "S2A4", src: imgS2A4 },
+                { id: "S2A5", src: imgS2A5 },
+                { id: "S2A6", src: imgS2A6 },
+                { id: "S2A7", src: imgS2A7 },
+                { id: "S2A8", src: imgS2A8 },
             ]
         }];
 
-    const createArtefactGrids = (content: {
-        title: string;
-        artefacts: {
-            id: number;
-            src: string;
-        }[];
-    }[]
-    ) => {
-        return content.map((season, index) => {
+    const [pic, setPic] = useState({ sIndex: -1, picId: "" });
+
+    const openPic = (sIndex: number, picId: string) => {
+        const picBoxEl = document.getElementById("popupExitScreen");
+        const picEl = document.getElementById("popArt" + picId);
+        if (picBoxEl && picEl) {
+            picBoxEl.style.display = "flex";
+            picEl.style.display = "block";
+        }
+        setPic({
+            sIndex: sIndex,
+            picId: picId
+        });
+    }
+
+    const closePic = (target: EventTarget, artId?: string) => {
+        if (target instanceof Element) {
+            if (target.id === "popupExitScreen" || target.id === "popupPreviewExitBtn") {
+                const picBoxEl = document.getElementById("popupExitScreen");
+                const picEl = document.getElementById("popArt" + pic.picId);
+                if (picBoxEl && picEl) {
+                    picBoxEl.style.display = "none";
+                    picEl.style.display = "none";
+                    setPic({ sIndex: -1, picId: "" });
+                }
+            } else if (target.className === "popArtScrollPrev" && artId) {
+                const picEl = document.getElementById("popArt" + pic.picId);
+                if (picEl && artId !== pic.picId) {
+                    picEl.style.display = "none";
+                }
+            }
+        }
+    }
+
+    const createArtefactGrids = (arr: Artefacts) => {
+        return arr.map((season, sIndex) => {
             return (
-                <span key={`season${index}Items`}>
+                <span key={`${season.title}Artefacts`}>
                     <h2>{season.title}</h2>
-                    <span className="itemsBox">
+                    <span className="artBox">
                         {season.artefacts.map((artefact) => {
                             return (
                                 <button
-                                    id={`item${artefact.id}`}
-                                    className="item"
-                                    onClick={() => openPic(artefact.id)}
-                                    key={`item${artefact.id}`}>
+                                    id={`art${artefact.id}`}
+                                    className="art"
+                                    onClick={() => openPic(sIndex, artefact.id)}
+                                    key={`art${artefact.id}`}>
                                     <img id={`image${artefact.id}`} src={artefact.src} alt="Artefact" />
                                 </button>
                             )
@@ -105,26 +119,50 @@ export default function Artefacts() {
     }
 
     const enlargedPics = () => {
-        let counter = 0;
         return (
-            <span id="popup" onClick={() => closePic()}>
-                <span id="closeBtnBox">
-                    <button id="closeBtn">X</button>
-                </span>
-                {seasonsArr.map((season, sIndex) => {
-                    return season.artefacts.map((artefact, aIndex) => {
-                        counter++
-                        return (
-                            <img
-                                id={`popItem${counter}`}
-                                className="popupItem"
-                                src={artefact.src}
-                                alt="Full Artefact Image"
-                                key={`artefactS${sIndex}A${aIndex}`} />
-                        )
+            <span id="popupExitScreen" onClick={(e) => closePic(e.target)}>
+                <span id="popupPreviewScreen">
+                    {seasonsArr.map((season) => {
+                        return season.artefacts.map((artefact) => {
+                            return (
+                                <img
+                                    id={`popArt${artefact.id}`}
+                                    className="popArt"
+                                    src={artefact.src}
+                                    alt="Full Artefact Image"
+                                    key={`art${artefact.id}`} />
+                            )
+                        })
                     })
-                })
-                }
+                    }
+                    <span id="popArtScrollBox">
+                        <span id="popArtScroll">
+                            {pic.sIndex >= 0 &&
+                                seasonsArr[pic.sIndex].artefacts.map(
+                                    (art) => {
+                                        return <img
+                                            className="popArtScrollPrev"
+                                            src={art.src}
+                                            onClick={(e) => {
+                                                closePic(e.target, art.id);
+                                                openPic(pic.sIndex, art.id);
+                                            }}
+                                            key={`popArtScroll${art.id}`} />
+                                    })}
+                        </span>
+                        <button
+                            id="popArtScrollLeft"
+                            className="popArtScrollBtn">
+                            ➧
+                        </button>
+                        <button
+                            id="popArtScrollRigth"
+                            className="popArtScrollBtn">
+                            ➧
+                        </button>
+                    </span>
+                    <button id="popupPreviewExitBtn">X</button>
+                </span>
             </span>
         )
     }

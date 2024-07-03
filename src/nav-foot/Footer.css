@@ -1,54 +1,16 @@
 footer {
-    position: relative;
-    display: sticky;
-    bottom: 0;
-    background-color: hsl(228, 6%, 16%);
-    color: white;
-    width: 100%;
-    z-index: 0;
-}
-
-.footerBox {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 1fr;
 }
 
-.pages {
-    grid-column: 1 / 2;
+.fLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0;
 }
 
-.pages a {
-    text-decoration: none;
+.fLink a {
     color: white;
-}
-
-.pages ul {
-    list-style-type: none;
-}
-
-.roleplays {
-    grid-column: 2 / 3;
-}
-
-.roleplays a {
-    text-decoration: none;
-    color: white;
-}
-
-.roleplays ul {
-    list-style-type: none;
-}
-
-.links {
-    grid-column: 3 / 4;
-}
-
-.links a {
-    text-decoration: none;
-    color: white;
-}
-
-.links ul {
-    list-style-type: none;
 }

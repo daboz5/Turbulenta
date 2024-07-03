@@ -1,54 +1,29 @@
-.itemsBox {
-  position: relative;
+.artBox {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  gap: 8px 0;
+  margin: 0 0 30px 0;
+  padding: 0 20px;
 }
 
-.itemsBox .filter {
-  border: 2px solid hsl(231, 26%, 20%);
-  border-radius: 20px;
-  margin: 20px;
-  background-color: hsl(231, 26%, 20%);
-}
-
-.itemsBox label {
-  display: block;
-  padding-left: 20px;
-  padding-bottom: 10px;
-  margin: 0;
-  text-align: center;
-}
-
-.filter h2 {
-  text-align: center;
-}
-
-.item img {
-  width: 90%;
-  height: auto;
-
-}
-
-.item {
+.art {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-button {
-  background-color: transparent;
   border: none;
-  padding: none;
-  margin: none;
+  background-color: transparent;
 }
 
-button:hover {
-  cursor: pointer;
+.art img {
+  width: 100%;
+  border-radius: 7px;
+  height: auto;
+  transition: 2s;
 }
 
 /*POPUP SCREEN*/
 
-#popup {
+#popupExitScreen {
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -63,27 +38,61 @@ button:hover {
   z-index: 1;
 }
 
-.popupItem {
+#popupPreviewScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popArt {
   display: none;
-  max-width: 90%;
+  max-width: 95%;
   max-height: 90%;
 }
 
-#closeBtnBox {
+#popArtScrollBox {
   position: relative;
-  width: 90%;
+  display: flex;
+  align-items: center;
+  height: 75px;
+  width: 95%;
+  background-color: rgb(255, 218, 194);
+  overflow-x: hidden;
 }
 
-#closeBtn {
+.popArtScrollBtn {
   position: absolute;
-  right: 0px;
-  height: 40px;
-  width: 40px;
-  color: #2e2e2e;
+  height: 100%;
+  width: 30px;
   font-size: 25px;
-  font-weight: bold;
-  margin: 5px;
-  border-radius: 10px;
-  border: 3px solid rgb(226, 203, 162);
-  background-color: rgb(255, 235, 194);
+}
+
+#popArtScrollLeft {
+  left: 0;
+  transform: scaleX(-1);
+}
+
+#popArtScrollRigth {
+  right: 0;
+}
+
+#popArtScroll {
+  position: absolute;
+  display: flex;
+}
+
+.popArtScrollPrev {
+  height: 75px;
+}
+
+#popupPreviewExitBtn {
+  width: 95%;
+  color: #2e2e2e;
+  font-size: 23px;
+  font-weight: 700;
+  border-radius: 0 0 5px 5px;
+  border: 3px solid rgb(226, 194, 162);
+  padding: 3px;
+  background-color: rgb(255, 218, 194);
 }
