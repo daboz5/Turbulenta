@@ -24,8 +24,7 @@ export default function Roleplay() {
                 </div>
                 <a href="char1.html">
                     <div className="rp-box">
-                        <h2>Chaos Children Episode 1: How do you like your taters? </h2>
-                        <span>16+</span>
+                        <h2>Episode 1 </h2>
                         <hr />
                         <p>Mashed potatoes, "mating" and much more!</p>
                     </div>
