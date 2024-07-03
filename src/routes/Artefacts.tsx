@@ -131,11 +131,14 @@ export default function Artefacts() {
             const left = scroll.style.left;
             const leftNum = Number(left.slice(0, left.length - 2))
             if (back) {
-                if (scrollBoxWidth + leftNum > -(2 * scrollBtnWidth)) {
-                    scroll.style.left = `${leftNum - scrollConstant}px`;
-                }
-                else if (scrollBoxWidth + leftNum > - scrollConstant - (2 * scrollBtnWidth)) {
+                console.log(scrollWidth - scrollBoxWidth + leftNum)
+                if (
+                    scrollBoxWidth + leftNum > - scrollConstant - (2 * scrollBtnWidth) &&
+                    scrollWidth - scrollBoxWidth + leftNum - scrollConstant <= 0
+                ) {
                     scroll.style.left = `${scrollBoxWidth - scrollWidth - scrollBtnWidth}px`;
+                } else if (scrollBoxWidth + leftNum > -(2 * scrollBtnWidth)) {
+                    scroll.style.left = `${leftNum - scrollConstant}px`;
                 }
             } else {
                 if (leftNum < scrollBtnWidth && leftNum > 0) {
