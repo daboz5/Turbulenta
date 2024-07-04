@@ -1,4 +1,4 @@
-import bannerImg from "../assets/kat.png";
+import bannerImg from "../assets/banners/artefacts.png";
 
 import "./Info.css"
 

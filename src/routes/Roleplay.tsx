@@ -1,4 +1,4 @@
-import bannerImg from "../assets/pajdo_writing.png";
+import bannerImg from "../assets//banners/roleplay.png";
 
 import "./Roleplay.css"
 

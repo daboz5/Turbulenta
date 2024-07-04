@@ -5,20 +5,19 @@
 
   box-sizing: border-box;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.9);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* scrollbar-gutter: stable both-edges; */
+  scrollbar-gutter: stable both-edges;
 }
 
 body {
   margin: 0;
-  min-width: 320px;
   min-height: 100vh;
+  min-width: 320px;
   background-color: rgb(19, 21, 32);
   overflow: overlay;
 }
@@ -31,8 +30,8 @@ main {
 /*SCROLLBAR*/
 
 ::-webkit-scrollbar {
-  height: 50px;
-  width: 12px;
+  height: 13px;
+  width: 5px;
 }
 
 /* ::-webkit-scrollbar-track {
@@ -44,9 +43,9 @@ main {
 }
 
 ::-webkit-scrollbar-thumb {
-  box-shadow: inset 2px 3px 5px 2px rgb(38, 53, 84);
+  box-shadow: inset 1px 2px 3px 1px rgb(19, 70, 165);
   border-radius: 10px;
-  background-color: rgb(5, 11, 48);
+  background-color: rgb(7, 13, 49);
 }
 
 h1 {

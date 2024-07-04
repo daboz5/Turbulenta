@@ -1,14 +1,6 @@
-import bannerImg from "../assets/shipwreck.png";
-
 export default function Homepage() {
     return (
         <>
-            <span className='bannerBox'>
-                <h1>Welcome to Turbulenta!</h1>
-                <p className='bannerText'>Turbulenta is a (free) online D&D campaign, that was started in 2023 by Mladi zmaji, in collaboration with Amulet D20. It's played on the official Mladi Zmaji discord server DigiMC.</p>
-                <img className='bannerImg' src={bannerImg} alt="Banner Image" />
-            </span>
-
             <div className="qna">
                 <div className="questions">
                     <h2>What is Turbulenta</h2>

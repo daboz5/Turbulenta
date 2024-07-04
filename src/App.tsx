@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router'
 import { Toaster } from 'react-hot-toast'
-import Navbar from './nav-foot/Navbar'
-import Footer from './nav-foot/Footer'
-import './App.css'
+import Navbar from './nav-ban-foot/Navbar'
+import Footer from './nav-ban-foot/Footer'
+import Banner from './nav-ban-foot/Banner'
 import "./media-size.css"
 
 export default function App() {
@@ -16,6 +16,7 @@ export default function App() {
       />
 
       <Navbar />
+      <Banner />
 
       <main id="mainBox">
         <Outlet></Outlet>
