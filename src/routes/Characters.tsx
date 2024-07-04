@@ -1,14 +1,6 @@
-import bannerImg from "../assets/banners/roleplay.png";
-
 export default function Characters() {
     return (
         <>
-            <span className='bannerBox'>
-                <h1>Past Characters</h1>
-                <p className='bannerText'>Here you can find some of the Roleplays that our wonderful player have written and ported to this website.</p>
-                <img className='bannerImg' src={bannerImg} alt="Banner Image" />
-            </span>
-
             <h1>Chaos Children Episode 1: How do you like your taters?</h1>
             <div id="char">
                 <h3>Caracters:

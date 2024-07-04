@@ -7,7 +7,6 @@ import "./Banner.css"
 export default function Banner() {
 
     const defBanner = {
-        path: "/",
         title: "Welcome to Turbulenta!",
         text: "Something went wrong, maybe try another page.",
         img: landingImg,
@@ -34,7 +33,7 @@ export default function Banner() {
             default:
                 setBanner(defBanner)
         }
-    }, []);
+    }, [pathname]);
 
     return (<>
         <div id='bannerBox'>

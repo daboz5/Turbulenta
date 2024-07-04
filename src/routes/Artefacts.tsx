@@ -231,12 +231,6 @@ export default function Artefacts() {
     return (
         <>
 
-            <span className='bannerBox'>
-                <h1>Artefacts</h1>
-                <p className='bannerText'>Items in the Hall of Artifacts.</p>
-                <img className='bannerImg' src={bannerImg} alt="Banner Image" />
-            </span>
-
             {createArtefactGrids(seasonsArr)}
 
             {enlargedPics()}

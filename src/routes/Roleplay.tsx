@@ -1,16 +1,8 @@
-import bannerImg from "../assets//banners/roleplay.png";
-
 import "./Roleplay.css"
 
 export default function Roleplay() {
     return (
         <>
-            <span className='bannerBox'>
-                <h1>Roleplays and Fiction</h1>
-                <p className='bannerText'>Here you can find some of the Roleplays that our wonderful player have written and ported to this website.</p>
-                <img className='bannerImg' src={bannerImg} alt="Banner Image" />
-            </span>
-
             <h2>Our Latest Roleplays!</h2>
             <div className="roleplayBox">
                 <div className="legend">
