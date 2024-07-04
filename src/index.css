@@ -7,12 +7,12 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.9);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* scrollbar-gutter: stable both-edges; */
 }
 
 body {
@@ -20,11 +20,33 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: rgb(19, 21, 32);
+  overflow: overlay;
 }
 
 main {
   z-index: -1;
   padding: 0 25px 20px;
+}
+
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+  height: 50px;
+  width: 12px;
+}
+
+/* ::-webkit-scrollbar-track {
+  background: transparent;
+} */
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 2px 3px 5px 2px rgb(38, 53, 84);
+  border-radius: 10px;
+  background-color: rgb(5, 11, 48);
 }
 
 h1 {
