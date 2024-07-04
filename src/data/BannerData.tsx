@@ -7,7 +7,7 @@ export default function BannerData() {
     const banners = {
         landingPage: {
             title: "Welcome to Turbulenta!",
-            text: "Here you can find some of the Roleplays that our wonderful player have written and ported to this website.",
+            text: "Turbulenta is a (free) online D&D campaign, that was started in 2023 by Mladi zmaji, in collaboration with Amulet D20. It's played on the official Mladi Zmaji discord server DigiMC.",
             img: landingImg,
         },
         artefactsPage: {

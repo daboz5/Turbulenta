@@ -24,7 +24,7 @@ export default function Banner() {
             case "/artefacts":
                 setBanner(banners.artefactsPage);
                 break;
-            case "/roleplay":
+            case "/roleplays":
                 setBanner(banners.roleplayPage);
                 break;
             case "/characters":
