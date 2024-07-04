@@ -26,7 +26,7 @@ const router = createBrowserRouter([{
     path: PathConstants.CHARACTERS,
     element: <Characters />
   }, {
-    path: PathConstants.ROLEPLAY,
+    path: PathConstants.ROLEPLAYS,
     element: <Roleplay />
   }
   ]

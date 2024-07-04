@@ -1,3 +1,16 @@
 export default function RoleplayData() {
-    return {}
+
+    const roleplays = [{
+        title: "",
+        shortDesc: "",
+        contents: [{
+            char: "",
+            content: <>{``}</>
+        }, {
+            char: "",
+            content: <>{``}</>
+        }]
+    }]
+
+    return { roleplays }
 }

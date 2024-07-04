@@ -1,16 +1,5 @@
 footer {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 1fr;
-}
-
-.fLink {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 12px 0;
-}
-
-.fLink a {
-    color: white;
+    justify-content: center;
+    font-weight: 600;
 }

@@ -3,7 +3,7 @@ const PathConstants = {
     ARTEFACTS: "artefacts",
     CHARACTERS: "characters",
     INFO: "info",
-    ROLEPLAY: "roleplay",
+    ROLEPLAYS: "roleplays",
 }
 
 export default PathConstants

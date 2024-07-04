@@ -10,6 +10,84 @@ import "./Navbar.css"
 
 export default function Navbar() {
 
+    const dropInfo = {
+        tabTitle: "Info",
+        tabPath: "info",
+        dropContent: [{
+            dropTitle: "About the Game",
+            dropPath: "/"
+        }, {
+            dropTitle: "Where To Find Us",
+            dropPath: "/"
+        }, {
+            dropTitle: "Rules",
+            dropPath: "/"
+        }]
+    }
+
+    const dropIsland = {
+        tabTitle: "The Island of Turbulenta",
+        tabPath: "/",
+        dropContent: [{
+            dropTitle: "General Lore",
+            dropPath: "/"
+        }, {
+            dropTitle: "Flora & Fauna",
+            dropPath: "/"
+        }, {
+            dropTitle: "Tribes",
+            dropPath: "/"
+        }, {
+            dropTitle: "Stores",
+            dropPath: "/"
+        }, {
+            dropTitle: "Crafting",
+            dropPath: "/"
+        }, {
+            dropTitle: "Locations",
+            dropPath: "/"
+        }, {
+            dropTitle: "Portal Lake",
+            dropPath: "/"
+        }]
+    }
+
+    const dropCamp = {
+        tabTitle: "Campaigns",
+        tabPath: "/",
+        dropContent: [{
+            dropTitle: "Reports",
+            dropPath: "/"
+        }, {
+            dropTitle: "Season 1",
+            dropPath: "/"
+        }, {
+            dropTitle: "Season 2",
+            dropPath: "/"
+        }, {
+            dropTitle: "Artefacts",
+            dropPath: "artefacts"
+        }]
+    }
+
+    const dropArchive = {
+        tabTitle: "Archives",
+        tabPath: "/",
+        dropContent: [{
+            dropTitle: "Characters",
+            dropPath: "characters"
+        }, {
+            dropTitle: "Roleplays",
+            dropPath: "roleplays"
+        }, {
+            dropTitle: "Recordings",
+            dropPath: "/"
+        }, {
+            dropTitle: "Art",
+            dropPath: "/"
+        }]
+    }
+
     const openMenu = (blockOpen?: boolean) => {
         const body = document.getElementsByTagName("body")[0];
         const screen = document.getElementById("menuScreen");
@@ -34,6 +112,44 @@ export default function Navbar() {
                 arrow.style.zIndex = "0";
             }
         }
+    }
+
+    const createDropdown = (content: {
+        tabTitle: string;
+        tabPath: string;
+        dropContent: {
+            dropTitle: string;
+            dropPath: string;
+        }[]
+    }) => {
+        return (
+            <div className="dropBox">
+                <div className="tab">
+                    <Link
+                        className="tabLink"
+                        to={content.tabPath}
+                        onClick={() => openMenu()}>
+                        {content.tabTitle}
+                    </Link>
+                    <div className="drop">
+                        {content.dropContent.map((link) => {
+                            return (
+                                <span
+                                    className="linkBox"
+                                    key={`nav${link.dropTitle.replace(" ", "")}`}>
+                                    <Link
+                                        to={link.dropPath}
+                                        onClick={() => openMenu()}>
+                                        {link.dropTitle}
+                                    </Link>
+                                    <hr />
+                                </span>
+                            )
+                        })}
+                    </div>
+                </div>
+            </div>
+        )
     }
 
     return (
@@ -61,109 +177,14 @@ export default function Navbar() {
                     </button>
 
                     <span id="menu">
-                        <div className="dropBox">
-                            <div className="tab">
-                                <Link className="tabLink" to="info">Info</Link>
-                                <div className="drop">
-                                    <span className="linkBox">
-                                        <Link to="/">About The Game</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Where To Find Us</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Rules</Link>
-                                        <hr />
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div className="dropBox">
-                            <div className="tab">
-                                <Link className="tabLink" to="/">The Island of Turbulenta</Link>
-                                <div className="drop">
-                                    <span className="linkBox">
-                                        <Link to="/">General Lore</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Flora and Fauna</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Tribes</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Stores</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Crafting</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Locations</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Portal lake</Link>
-                                        <hr />
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
+                        {createDropdown(dropInfo)}
 
-                        <div className="dropBox">
-                            <div className="tab">
-                                <Link className="tabLink" to="/" >Campaign</Link>
-                                <div className="drop">
-                                    <span className="linkBox">
-                                        <Link to="/">Reports</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Season 1</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Season 2</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="artefacts">Artefacts</Link>
-                                        <hr />
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
+                        {createDropdown(dropIsland)}
 
-                        <div className="dropBox">
-                            <div className="tab">
-                                <Link className="tabLink" to="/" >Archives</Link>
-                                <div className="drop">
-                                    <span className="linkBox">
-                                        <Link to="/characters">Characters</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="roleplay">Role-play and fiction</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Audio recordings</Link>
-                                        <hr />
-                                    </span>
-                                    <span className="linkBox">
-                                        <Link to="/">Art</Link>
-                                        <hr />
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
+                        {createDropdown(dropCamp)}
+
+                        {createDropdown(dropArchive)}
 
                         <span id="navbarIcons">
                             <a
@@ -203,6 +224,7 @@ export default function Navbar() {
                                     alt="Discord Icon" />
                             </a>
                         </span>
+
                     </span>
                 </span>
 
