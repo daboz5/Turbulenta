@@ -21,7 +21,7 @@ export default function BannerData() {
             img: roleplayImg,
         },
         characterPage: {
-            title: "Characters",
+            title: "Stories",
             text: "Here you can find some of the Roleplays that our wonderful player have written and ported to this website.",
             img: roleplayImg,
         }
