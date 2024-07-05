@@ -1,0 +1,34 @@
+.homepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.homeInfoBox h2 {
+    margin: 25px 20px 15px;
+}
+
+.homeInfoBox {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(38, 42, 64);
+    border-radius: 20px;
+    background-color: rgb(38, 42, 64);
+}
+
+.homeInfoBox p {
+    font-size: 23px;
+    text-align: center;
+    margin: 0;
+    margin: 0 35px 12px;
+}
+
+.homeInfoBox a {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 30px 25px;
+}
