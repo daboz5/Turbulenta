@@ -12,6 +12,7 @@ export default function HomeData() {
         {
             title: "Test title",
             text: <>
+                {`Hello`}<br />
                 {`Nobody is unknown and misterious`}<br />
                 {`Nobody is unknown and misterious`}
             </>,
