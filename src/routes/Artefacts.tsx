@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import bannerImg from "../assets/banners/artefacts.png";
 
 import imgS1A1 from "../assets/artefacts/RingOfSafetyDistance.png"
 import imgS1A2 from "../assets/artefacts/RoyalRoseLongbow.png"
