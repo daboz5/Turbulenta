@@ -1,4 +1,4 @@
-import { CharNames, RPTags, Seasons } from "../types";
+import { CharNamesS1, CharNamesS2, RPTags, Seasons } from "../types";
 
 export default function RoleplayData() {
 
@@ -7,9 +7,9 @@ export default function RoleplayData() {
         season: Seasons;
         shortDesc: string;
         tags: RPTags[];
-        chars: CharNames[];
+        chars: CharNamesS1 | CharNamesS2[];
         contents: {
-            char: CharNames;
+            char: CharNamesS1 | CharNamesS2;
             content: JSX.Element;
         }[];
     }[]
