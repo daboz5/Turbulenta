@@ -1,64 +1,11 @@
 import { useEffect, useState } from "react";
-
-import imgS1A1 from "../assets/artefacts/RingOfSafetyDistance.png"
-import imgS1A2 from "../assets/artefacts/RoyalRoseLongbow.png"
-import imgS1A3 from "../assets/artefacts/VinegraspShield.png"
-import imgS1A4 from "../assets/artefacts/RapidsGlaive.png"
-import imgS1A5 from "../assets/artefacts/ConchShellOfTheMaokah.png"
-import imgS1A6 from "../assets/artefacts/Bailar.png"
-import imgS1A7 from "../assets/artefacts/EchoBracelet.png"
-import imgS1A8 from "../assets/artefacts/LightningStone.png"
-import imgS1A9 from "../assets/artefacts/HelmOfShidin.png"
-import imgS1A10 from "../assets/artefacts/RodOfKadram.png"
-import imgS2A1 from "../assets/artefacts/TormentDagger.png"
-import imgS2A2 from "../assets/artefacts/Hugfish.png"
-import imgS2A3 from "../assets/artefacts/DreadlordsCleaver.png"
-import imgS2A4 from "../assets/artefacts/VeilOfMidnight.png"
-import imgS2A5 from "../assets/artefacts/DemodandTriangleOfAncestralMemory.png"
-import imgS2A6 from "../assets/artefacts/CrystalOfBedlam.png"
-import imgS2A7 from "../assets/artefacts/ShieldOfSlaad.png"
-import imgS2A8 from "../assets/artefacts/ClokworkCrossbow.png"
-
+import ArtefactData from "../data/ArtefactData";
+import type { Artefacts } from "../types";
 import "./Artefacts.css"
 
 export default function Artefacts() {
 
-    type Artefacts = {
-        title: string;
-        artefacts: {
-            id: string;
-            src: string;
-        }[];
-    }[];
-
-    const seasonsArr = [
-        {
-            title: "Season 1",
-            artefacts: [
-                { id: "S1A1", src: imgS1A1 },
-                { id: "S1A2", src: imgS1A2 },
-                { id: "S1A3", src: imgS1A3 },
-                { id: "S1A4", src: imgS1A4 },
-                { id: "S1A5", src: imgS1A5 },
-                { id: "S1A6", src: imgS1A6 },
-                { id: "S1A7", src: imgS1A7 },
-                { id: "S1A8", src: imgS1A8 },
-                { id: "S1A9", src: imgS1A9 },
-                { id: "S1A10", src: imgS1A10 }
-            ]
-        }, {
-            title: "Season 2",
-            artefacts: [
-                { id: "S2A1", src: imgS2A1 },
-                { id: "S2A2", src: imgS2A2 },
-                { id: "S2A3", src: imgS2A3 },
-                { id: "S2A4", src: imgS2A4 },
-                { id: "S2A5", src: imgS2A5 },
-                { id: "S2A6", src: imgS2A6 },
-                { id: "S2A7", src: imgS2A7 },
-                { id: "S2A8", src: imgS2A8 },
-            ]
-        }];
+    const { artefacts } = ArtefactData();
 
     const [pic, setPic] = useState({ sIndex: -1, picId: "" });
     const scrollBtnWidth = 30;
@@ -101,7 +48,7 @@ export default function Artefacts() {
 
     const closePic = (target: EventTarget, artId?: string) => {
         if (target instanceof Element) {
-            const picElArr = seasonsArr[pic.sIndex].artefacts.map(
+            const picElArr = artefacts[pic.sIndex].artefacts.map(
                 (art) => { return document.getElementById("popArt" + art.id) }
             );
             if (target.id === "popArtExitScreen" || target.id === "popArtExitBtn") {
@@ -145,13 +92,11 @@ export default function Artefacts() {
                 } else if (leftNum < scrollBtnWidth) {
                     scroll.style.left = `${leftNum + scrollConstant}px`;
                 }
-
             }
-
         }
     }
 
-    const createArtefactGrids = (arr: Artefacts) => {
+    const createArtefactGrids = (arr: Artefacts[]) => {
         return arr.map((season, sIndex) => {
             return (
                 <span key={`${season.title}Artefacts`}>
@@ -178,7 +123,7 @@ export default function Artefacts() {
         return (
             <span id="popArtExitScreen" onClick={(e) => closePic(e.target)}>
                 <span id="popArtEnlarge">
-                    {seasonsArr.map((season) => {
+                    {artefacts.map((season) => {
                         return season.artefacts.map((artefact) => {
                             return (
                                 <img
@@ -194,7 +139,7 @@ export default function Artefacts() {
                     <span id="popArtScrollBox">
                         <span id="popArtScroll">
                             {pic.sIndex >= 0 &&
-                                seasonsArr[pic.sIndex].artefacts.map(
+                                artefacts[pic.sIndex].artefacts.map(
                                     (art) => {
                                         return <img
                                             className="popArtScrollImg"
@@ -230,7 +175,7 @@ export default function Artefacts() {
     return (
         <>
 
-            {createArtefactGrids(seasonsArr)}
+            {createArtefactGrids(artefacts)}
 
             {enlargedPics()}
 
