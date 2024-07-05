@@ -1,8 +1,11 @@
-type RPTags = "";
+type RPTags = "sex" | "blood";
 
-type CharNames = "";
+type CharNames = "Remember Me" | "Minamoto";
+
+type Seasons = "Season 1" | "Season 2";
 
 export {
     RPTags,
-    CharNames
+    CharNames,
+    Seasons
 }

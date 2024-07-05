@@ -1,6 +1,62 @@
+import RoleplayData from "../data/RoleplayData"
 import "./Roleplay.css"
 
 export default function Roleplay() {
+
+    const { roleplays } = RoleplayData();
+
+    const createRoleplay = () => {
+        return roleplays.map((act, index) => {
+            return (
+                <div
+                    className="roleplayBox"
+                    key={`roleplay${index}`}>
+                    <h3>{act.title}</h3>
+                    <p className="seasonRP">
+                        {act.season}
+                    </p>
+                    <p className="shortDescRP">
+                        {act.shortDesc}
+                    </p>
+                    <div className="charsRP">
+                        {act.chars.map((char, charInx) => {
+                            return (
+                                <span
+                                    className="charRP"
+                                    key={`char${charInx}`}>
+                                    {char}
+                                </span>
+                            )
+                        })}
+                    </div>
+                    <div className="tagsRP">
+                        {act.tags.map((tag, tagInx) => {
+                            return (
+                                <span
+                                    className="tagRP"
+                                    key={`tag${tagInx}`}>
+                                    {tag}
+                                </span>
+                            )
+                        })}
+                    </div>
+                    <div className="roleplay">
+                        {act.contents.map((talk, talkInx) => {
+                            return (
+                                <div
+                                    className="talkRP"
+                                    key={`talkLine${talkInx}`}>
+                                    <h3>{talk.char}</h3>
+                                    <p>{talk.content}</p>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
+            )
+        });
+    }
+
     return (
         <>
             <h2>Our Latest Roleplays!</h2>
@@ -14,14 +70,9 @@ export default function Roleplay() {
                         <li><span id="primer">character name</span> = this character is participating in the roleplay </li>
                     </ul>
                 </div>
-                <a href="char1.html">
-                    <div className="rp-box">
-                        <h2>Episode 1 </h2>
-                        <hr />
-                        <p>Mashed potatoes, "mating" and much more!</p>
-                    </div>
-                </a>
             </div>
+
+            {createRoleplay()}
         </>
     )
 }
