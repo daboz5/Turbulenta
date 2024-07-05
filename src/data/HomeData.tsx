@@ -23,5 +23,19 @@ export default function HomeData() {
         },
     ]
 
+    {/*
+    {
+        title: "",
+        text: <>
+            {``}<br />
+            {``}
+        </>,
+        link: <Link
+            to="">
+            {``}
+        </Link>
+    },
+*/}
+
     return { infoPointsArr };
 }
