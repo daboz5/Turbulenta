@@ -1,10 +1,19 @@
-import { type CharData } from "../types";
+import { CharNames } from "../types";
 
 export default function CharData() {
 
+    type CharData = {
+        name: CharNames;
+        class: {
+            class: string;
+            lvl: number;
+        }[];
+        description: JSX.Element;
+    }[]
+
     const chars: CharData = [
         {
-            tag: "Nobody",
+            name: "",
             class: [{
                 class: "Unknown",
                 lvl: 1
@@ -18,7 +27,7 @@ export default function CharData() {
             </>,
         },
         {
-            tag: "",
+            name: "",
             class: [{
                 class: "",
                 lvl: 0

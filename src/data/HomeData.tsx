@@ -2,7 +2,13 @@ import { Link } from "react-router-dom";
 
 export default function HomeData() {
 
-    const infoPointsArr = [
+    type HomeInfo = {
+        title: string;
+        text: JSX.Element;
+        link: JSX.Element;
+    }[]
+
+    const infoPointsArr: HomeInfo = [
         {
             title: "Test title",
             text: <>
