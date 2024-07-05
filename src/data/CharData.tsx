@@ -1,19 +1,20 @@
-import { CharNames } from "../types";
+import { CharNamesS1, CharNamesS2 } from "../types";
 
 export default function CharData() {
 
     type CharData = {
-        name: CharNames;
+        name: CharNamesS1 | CharNamesS2;
         class: {
             class: string;
             lvl: number;
         }[];
         description: JSX.Element;
+        img?: string;
     }[]
 
     const chars: CharData = [
         {
-            name: "Remember Me",
+            name: "Morwyn",
             class: [{
                 class: "Unknown",
                 lvl: 1
@@ -25,6 +26,7 @@ export default function CharData() {
                 {`Nobody is unknown and misterious`}<br />
                 {`It is unknown how misterious it is.`}
             </>,
+            img: ""
         },
         {
             name: "Minamoto",
