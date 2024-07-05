@@ -13,7 +13,7 @@ export default function CharData() {
 
     const chars: CharData = [
         {
-            name: "",
+            name: "Remember Me",
             class: [{
                 class: "Unknown",
                 lvl: 1
@@ -27,7 +27,7 @@ export default function CharData() {
             </>,
         },
         {
-            name: "",
+            name: "Minamoto",
             class: [{
                 class: "",
                 lvl: 0
