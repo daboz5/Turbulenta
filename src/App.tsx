@@ -30,13 +30,15 @@ export default function App() {
       />
 
       <Navbar />
-      <Banner />
 
-      <main id="mainBox">
-        <Outlet></Outlet>
-      </main>
+      <span id="mainBox">
+        <Banner />
+        <main>
+          <Outlet></Outlet>
+        </main>
+        <Footer />
+      </span>
 
-      <Footer />
 
     </>
   )
