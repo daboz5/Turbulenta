@@ -26,9 +26,9 @@ export default function ArtefactData() {
             artefacts: [
                 {
                     id: "S1A1",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Test Name",
+                    story: "Something happened, then something else happened.",
+                    shortDesc: "Ou, yes, yes, totaly, just crazy how it looks like, and the smell, yes, yes, also, it is a ring.",
                     src: imgS1A1
                 },
                 {

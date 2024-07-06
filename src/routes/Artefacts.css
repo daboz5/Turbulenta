@@ -1,3 +1,11 @@
+main {
+  --lighterPastel: rgb(255, 228, 210);
+  --lightPastel: rgb(255, 204, 171);
+  --mediumPastel: rgb(232, 199, 167);
+  --darkPastel: rgb(255, 158, 94);
+  --darkerPastel: rgb(255, 139, 62);
+}
+
 .artBox {
   position: relative;
   display: grid;
@@ -49,9 +57,9 @@
 
 .popArt {
   display: none;
-  max-width: 95%;
-  max-height: 90%;
-  border-bottom: 3px solid rgb(226, 194, 162);
+  max-width: 90%;
+  max-height: 80%;
+  border-bottom: 3px solid var(--mediumPastel);
 }
 
 /*POPUP SCROLL*/
@@ -59,15 +67,14 @@
 #popArtScrollBox {
   position: relative;
   align-items: center;
-  height: 75px;
-  width: 95%;
-  background-color: rgb(255, 218, 194);
+  height: 90px;
+  width: 90%;
+  background-color: var(--lighterPastel);
   overflow-x: hidden;
 }
 
 #popArtScrollBox img {
-  height: 75px;
-  width: 100px;
+  height: 90px;
 }
 
 #popArtScroll {
@@ -79,8 +86,14 @@
 #popArtScrollRight {
   position: absolute;
   height: 100%;
-  width: 30px;
-  font-size: 25px;
+  width: 40px;
+  font-size: 35px;
+  border: 3px solid var(--mediumPastel);
+  border-top: none;
+  border-bottom: none;
+  padding-left: 8px;
+  background-color: var(--darkPastel);
+  transition: 0.2s;
 }
 
 #popArtScrollLeft {
@@ -92,15 +105,117 @@
   right: 0;
 }
 
-/*POPUP EXIT BTN*/
+#popArtScrollLeft:hover,
+#popArtScrollRight:hover {
+  background-color: var(--darkerPastel);
+}
+
+/*POPUP BTNS*/
+
+#popArtInfoBtn,
+#popArtExitBtn {
+  width: 90%;
+  color: #2e2e2e;
+  font-size: 20px;
+  font-weight: 700;
+  border: 3px solid var(--mediumPastel);
+  background-color: var(--lighterPastel);
+  transition: 0.2s;
+}
+
+#popArtInfoBtn:hover,
+#popArtExitBtn:hover {
+  background-color: var(--lightPastel);
+}
+
+#popArtInfoBtn {
+  border: 3px solid var(--mediumPastel);
+  border-top: 0;
+  padding: 5px 0 0;
+}
 
 #popArtExitBtn {
-  width: 95%;
-  color: #2e2e2e;
-  font-size: 23px;
-  font-weight: 700;
+  display: flex;
+  justify-content: center;
   border-radius: 0 0 5px 5px;
-  border: 3px solid rgb(226, 194, 162);
-  padding: 3px;
-  background-color: rgb(255, 218, 194);
+  padding: 4px 0;
+}
+
+#popArtInfoBtn img,
+#popArtExitBtn img {
+  max-height: 35px;
+}
+
+/*INFO SCREEN*/
+
+#artInfoBox {
+  position: absolute;
+  width: 70%;
+  max-width: 700px;
+  border: 5px solid var(--mediumPastel);
+  border-radius: 20px;
+  background-color: var(--lighterPastel);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+#artInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 0 35px;
+}
+
+#artInfoTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#artInfoTitle hr {
+  position: absolute;
+  width: 75%;
+  top: 36px;
+  border: 1px solid black;
+  z-index: -1;
+}
+
+#artInfoTitle h4 {
+  font-size: 24px;
+  text-shadow: 1px 1px 1px var(--mediumPastel);
+  padding: 0 10px;
+  background-color: var(--lighterPastel);
+}
+
+#artInfoStory,
+#artInfoDesc {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 15px 25px;
+  background-color: var(--mediumPastel);
+}
+
+#artInfoExit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  border-top: 3px solid var(--mediumPastel);
+  border-radius: 0 0 20px 20px;
+  padding: 4px 0;
+  background-color: var(--lighterPastel);
+  transition: 0.2s;
+}
+
+#artInfoExit:hover {
+  background-color: var(--lightPastel);
+}
+
+#artInfoExit img {
+  height: 35px;
 }
