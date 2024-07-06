@@ -12,8 +12,17 @@
     box-shadow: 0 0 15px 5px rgb(0, 174, 255);
 }
 
+#islandMapGrid {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    height: 100%;
+    width: 100%;
+}
+
 .poi {
+    text-align: center;
     color: rgba(0, 0, 0, 0.9);
     font-weight: 700;
-    position: absolute;
 }

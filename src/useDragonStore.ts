@@ -3,7 +3,6 @@ import { create } from 'zustand';
 type State = {
     currentYear: number,
     pageWidth: number,
-    footOpened: boolean,
 }
 
 type Action = {
@@ -16,11 +15,6 @@ const useDragonStore = create<State & Action>(set => ({
     pageWidth: 0,
     setPageWidth: (newSize) => set(() => ({
         pageWidth: newSize
-    })),
-
-    footOpened: false,
-    switchFootOpened: () => set((state) => ({
-        footOpened: !state.footOpened
     })),
 }))
 
