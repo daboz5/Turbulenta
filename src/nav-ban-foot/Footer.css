@@ -1,5 +1,9 @@
 footer {
+    position: relative;
+    flex-grow: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
     font-weight: 600;
 }

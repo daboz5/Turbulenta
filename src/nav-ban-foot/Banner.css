@@ -1,8 +1,12 @@
 #bannerBox {
-  padding: 90px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 10% 0;
 }
 
 #bannerText {
+  max-width: 750px;
   font-size: 23px;
   text-align: center;
   font-style: italic;

@@ -24,11 +24,14 @@ export default function Banner() {
             case "/artefacts":
                 setBanner(banners.artefactsPage);
                 break;
-            case "/roleplays":
-                setBanner(banners.roleplayPage);
-                break;
             case "/characters":
                 setBanner(banners.characterPage);
+                break;
+            case "/island":
+                setBanner(banners.islandPage);
+                break;
+            case "/roleplays":
+                setBanner(banners.roleplayPage);
                 break;
             default:
                 setBanner(defBanner)

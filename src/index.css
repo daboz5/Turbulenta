@@ -22,6 +22,14 @@ body {
   overflow: overlay;
 }
 
+#root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
 main {
   z-index: -1;
   padding: 0 25px 20px;
@@ -34,10 +42,6 @@ main {
   width: 5px;
 }
 
-/* ::-webkit-scrollbar-track {
-  background: transparent;
-} */
-
 ::-webkit-scrollbar-corner {
   display: none;
 }
@@ -47,6 +51,8 @@ main {
   border-radius: 10px;
   background-color: rgb(7, 13, 49);
 }
+
+/*COMMON ELEMENTS*/
 
 h1 {
   font-size: 50px;

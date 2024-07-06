@@ -27,7 +27,7 @@ export default function Navbar() {
 
     const dropIsland = {
         tabTitle: "The Island of Turbulenta",
-        tabPath: "/",
+        tabPath: "island",
         dropContent: [{
             dropTitle: "General Lore",
             dropPath: "/"

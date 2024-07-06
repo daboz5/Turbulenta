@@ -24,6 +24,11 @@ export default function BannerData() {
             title: "Stories",
             text: "Here you can find some of the Roleplays that our wonderful player have written and ported to this website.",
             img: roleplayImg,
+        },
+        islandPage: {
+            title: "Island of Turbulenta",
+            text: "Here you can find interesting locations on Turbulenta and from Turbulenta navigatable places.",
+            img: roleplayImg,
         }
     }
 

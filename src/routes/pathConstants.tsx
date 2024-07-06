@@ -3,6 +3,7 @@ const PathConstants = {
     ARTEFACTS: "artefacts",
     CHARACTERS: "characters",
     INFO: "info",
+    ISLAND: "island",
     ROLEPLAYS: "roleplays",
 }
 

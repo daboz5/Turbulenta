@@ -1,0 +1,19 @@
+#islandMapBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#islandMap {
+    max-width: 95%;
+    border: 5px solid rgb(0, 61, 147);
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px rgb(0, 174, 255);
+}
+
+.poi {
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 700;
+    position: absolute;
+}
