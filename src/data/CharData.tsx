@@ -3,18 +3,17 @@ import { CharNamesS1, CharNamesS2 } from "../types";
 export default function CharData() {
 
     type CharData = {
-        name: CharNamesS1 | CharNamesS2;
+        name: CharNamesS2;
         class: {
             class: string;
             lvl: number;
         }[];
         description: JSX.Element;
-        img?: string;
     }[]
 
     const chars: CharData = [
         {
-            name: "Morwyn",
+            name: "Remember Me",
             class: [{
                 class: "Unknown",
                 lvl: 1
@@ -26,7 +25,6 @@ export default function CharData() {
                 {`Nobody is unknown and misterious`}<br />
                 {`It is unknown how misterious it is.`}
             </>,
-            img: ""
         },
         {
             name: "Minamoto",

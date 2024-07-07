@@ -44,7 +44,7 @@ export default function HomeData() {
             </Link>
         },
         {
-            title: "What is Turbulenta",
+            title: "Where to find us",
             text: <>
                 {`The D&D game itself is happening on the discord server DigiMC, which is the offical discord server
                      of Mladi zmaji.`}<br />
