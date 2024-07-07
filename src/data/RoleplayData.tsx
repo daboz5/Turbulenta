@@ -7,7 +7,7 @@ export default function RoleplayData() {
         season: Seasons;
         shortDesc: string;
         tags: RPTags[];
-        chars: CharNamesS1 | CharNamesS2[];
+        chars: (CharNamesS1 | CharNamesS2)[];
         contents: {
             char: CharNamesS1 | CharNamesS2;
             content: JSX.Element;
