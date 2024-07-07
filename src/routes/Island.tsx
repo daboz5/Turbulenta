@@ -8,6 +8,29 @@ export default function Island() {
     const { pointsOfInterestArr } = IslandData();
     const { pageWidth } = useDragonStore();
 
+    const createPOI = (content: {
+        name: string,
+        type: "poi" | "shield",
+        img?: string,
+        alt: string
+    }) => {
+        if (content.type === "shield") {
+            return (
+                <img
+                    className="islandMapPOIShield"
+                    src={content.img}
+                    alt={content.alt}
+                />
+            )
+        } else if (content.type === "poi") {
+            return (
+                <span className="islandMapPOIDot">
+                    X
+                </span>
+            )
+        }
+    }
+
     const createGrid = () => {
         return (
             <span id="islandMapGrid">
@@ -15,8 +38,8 @@ export default function Island() {
                     (poi, inx) => {
 
                         const smallScreen = {
-                            gridRow: `${poi.y - 5} / ${poi.y + 5}`,
-                            gridColumn: `${poi.x - 10} / ${poi.x + 10}`
+                            gridRow: `${poi.y - 4} / ${poi.y + 4}`,
+                            gridColumn: `${poi.x - 9} / ${poi.x + 9}`
                         };
                         const mediumScreen = {
                             gridRow: `${poi.y - 3} / ${poi.y + 3}`,
@@ -36,7 +59,7 @@ export default function Island() {
                                             mediumScreen : smallScreen
                                 }
                                 key={`poi${inx}`}>
-                                <p>{poi.content}</p>
+                                {createPOI(poi.content)}
                             </span>
                         )
                     })}

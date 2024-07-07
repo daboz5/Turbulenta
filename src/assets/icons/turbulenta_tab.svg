@@ -1,0 +1,10 @@
+<svg width="1715" height="1978" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><defs><clipPath id="shield_963829584"><path d="m 185,100 a 85,85 0 0 1 -85,85 85,85 0 0 1 -85,-85 85,85 0 0 1 85,-85 85,85 0 0 1 85,85"/></clipPath><style>.secondary {
+      fill: var(--secondary);
+    }
+    .tertiary {
+      fill: var(--tertiary);
+    }</style><radialGradient id="spotlight" cx="35%" cy="35%" r="100%">
+            <stop stop-color="#fff" stop-opacity=".3" offset="0"/>
+            <stop stop-color="#fff" stop-opacity=".15" offset=".2"/>
+            <stop stop-color="#000" stop-opacity="0" offset=".7"/>
+          </radialGradient><style xmlns="http://www.w3.org/1999/xhtml" type="text/css"></style></defs>  <g clip-path="url(#shield_963829584)"><rect class="field" x="0" y="0" width="200" height="200" fill="#04b700"/><g class="ordinary" i="0" transform="translate(0 -11) rotate(-64 100 100)" fill="#000215" stroke="none" stroke-width="1"><g><path d="M20,0 Q30,75 100,100 Q80,150 100,200 L0,200 L0,0 Z"/></g></g><g class="ordinary" i="1" fill="#2d6afb" stroke="none" stroke-width="1"><path d="m 185,100 a 85,85 0 0 1 -85,85 85,85 0 0 1 -85,-85 85,85 0 0 1 85,-85 85,85 0 0 1 85,85" fill="none" stroke="#2d6afb" stroke-width="33.3"/></g><g class="ordinary" i="2" transform="translate(3 3) scale(0.97)" fill="#2d6afb" stroke="none" stroke-width="1"><path d="m 185,100 a 85,85 0 0 1 -85,85 85,85 0 0 1 -85,-85 85,85 0 0 1 85,-85 85,85 0 0 1 85,85" fill="none" stroke="#2d6afb" stroke-width="10" transform="translate(15 15) scale(.85)"/></g></g> <path class="grad" d="m 185,100 a 85,85 0 0 1 -85,85 85,85 0 0 1 -85,-85 85,85 0 0 1 85,-85 85,85 0 0 1 85,85" fill="url(#spotlight)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>  </svg>

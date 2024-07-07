@@ -23,7 +23,28 @@
 }
 
 .poi {
-    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgba(0, 0, 0, 0.9);
     font-weight: 700;
+}
+
+.islandMapPOIShield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.islandMapPOIDot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: white;
 }
