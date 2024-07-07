@@ -3,7 +3,7 @@ import { CharNamesS1, CharNamesS2 } from "../types";
 export default function CharData() {
 
     type CharData = {
-        name: CharNamesS2;
+        name: CharNamesS1 | CharNamesS2;
         class: {
             class: string;
             lvl: number;
