@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { POICont } from "../types";
+import { POI, POICont } from "../types";
 import mapTurbulenta from "../assets/maps/Turbulenta_Empty.svg"
 import IslandData from "../data/IslandData"
 import useDragonStore from "../useDragonStore";
@@ -18,6 +18,21 @@ export default function Island() {
         alt: "poi",
         desc: <>{``}</>,
     });
+
+    const sortPoi = (poiArr: POI[]) => {
+        const sorted = poiArr.sort((a, b) => {
+            const upperA = a.content.name.toLocaleUpperCase();
+            const upperB = b.content.name.toLocaleUpperCase();
+            if (upperA < upperB) {
+                return -1;
+            }
+            if (upperA > upperB) {
+                return 1;
+            }
+            return 0
+        });
+        return sorted
+    }
 
     const switchMapState = (state: "list" | "map") => {
         if (state !== mapState) {
@@ -84,9 +99,22 @@ export default function Island() {
                 </button>
             </span>
 
+            {mapState === "list" &&
+                <span
+                    id="islandLocationsBox"
+                    className="flexCol">
+                    {sortPoi(pointsOfInterestArr).map(
+                        (poi) => {
+                            return <button
+                                onClick={() => openPOI(poi.content, true)}
+                                key={`listPOI${poi.x}-${poi.y}`}>
+                                {poi.content.name}
+                            </button>
+                        })}
+                </span>}
+
             {mapState === "map" && <span id="islandMapBox">
                 <img id="islandMap" src={mapTurbulenta} alt="Island Map" />
-
                 {<span id="islandMapGrid">
                     {pointsOfInterestArr.map(
                         (poi, inx) => {
@@ -117,22 +145,22 @@ export default function Island() {
                             )
                         })}
                 </span>}
-
-                <span className="screen flexCol flexCen">
-                    <div id="poiDescBox" className="flexCol">
-                        <h4>{openPoi.name}</h4>
-                        <hr />
-                        <div id="poiDesc">{openPoi.desc}</div>
-                        {openPoi.link &&
-                            <Link to={openPoi.link}>
-                                More info
-                            </Link>}
-                        <button onClick={() => openPOI(openPoi, false)}>
-                            Close
-                        </button>
-                    </div>
-                </span>
             </span>}
+
+            <span className="screen flexCol flexCen">
+                <div id="poiDescBox" className="flexCol">
+                    <h4>{openPoi.name}</h4>
+                    <hr />
+                    <div id="poiDesc">{openPoi.desc}</div>
+                    {openPoi.link &&
+                        <Link to={openPoi.link}>
+                            More info
+                        </Link>}
+                    <button onClick={() => openPOI(openPoi, false)}>
+                        Close
+                    </button>
+                </div>
+            </span>
 
         </span>
     </>)
