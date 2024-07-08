@@ -9,45 +9,48 @@ import "./Island.css"
 export default function Island() {
 
     const { pointsOfInterestArr } = IslandData();
-    const { pageWidth } = useDragonStore();
+    const { pageWidth, mapState, setMapState } = useDragonStore();
 
-    const emptyPoi: POICont = {
-        name: "Empty",
+    const [openPoi, setOpenPoi] = useState<POICont>({
+        name: "",
         type: "poi",
         img: "",
         alt: "poi",
         desc: <>{``}</>,
-    }
+    });
 
-    const [openPoi, setOpenPoi] = useState<POICont>(emptyPoi);
+    const switchMapState = (state: "list" | "map") => {
+        if (state !== mapState) {
+            setMapState(state);
+        }
+    }
 
     const createPOI = (content: POICont) => {
         if (content.type === "shield") {
             return (
                 <img
-                    className="islandMapPOIShield"
+                    className="islandMapPOIShield flex flexCen"
                     src={content.img}
                     alt={content.alt}
                 />
             )
         } else if (content.type === "poi") {
             return (
-                <span className="islandMapPOIDot">
+                <span className="islandMapPOIDot flex flexCen">
                     X
                 </span>
             )
         }
     }
 
-    const openPOI = (poi: POICont) => {
+    const openPOI = (poi: POICont, state: boolean) => {
         const poiDesc = document.getElementById("poiDescBox");
         if (poiDesc) {
-            if (openPoi.name !== poi.name) {
+            if (state) {
                 setOpenPoi(poi);
                 poiDesc.style.opacity = "1";
                 poiDesc.style.pointerEvents = "all";
             } else {
-                setOpenPoi(emptyPoi);
                 poiDesc.style.opacity = "0";
                 poiDesc.style.pointerEvents = "none";
             }
@@ -55,56 +58,82 @@ export default function Island() {
     }
 
     return (<>
-        <div id="islandMapBox">
+        <span className="flexCol flexCen">
 
-            <img id="islandMap" src={mapTurbulenta} alt="Island Map" />
+            <span id="islandModeBox">
+                <button
+                    style={mapState === "list" ?
+                        {
+                            boxShadow: "inset 0 0 10px 3px rgb(109, 44, 0)",
+                            backgroundColor: "rgb(255, 139, 62)"
+                        } : {}
+                    }
+                    onClick={() => switchMapState("list")}>
+                    Locations
+                </button>
+                <button
+                    style={mapState === "map" ?
+                        {
+                            boxShadow: "inset 0 0 10px 3px rgb(109, 44, 0)",
+                            backgroundColor: "rgb(255, 139, 62)"
+                        } : {}
+                    }
+                    onClick={() => switchMapState("map")}>
+                    Island Map
 
-            {<span id="islandMapGrid">
-                {pointsOfInterestArr.map(
-                    (poi, inx) => {
-                        const smallScreen = {
-                            gridRow: `${poi.y - 4} / ${poi.y + 4}`,
-                            gridColumn: `${poi.x - 9} / ${poi.x + 9}`
-                        };
-                        const mediumScreen = {
-                            gridRow: `${poi.y - 3} / ${poi.y + 3}`,
-                            gridColumn: `${poi.x - 5} / ${poi.x + 5}`
-                        };
-                        const wideScreen = {
-                            gridRow: `${poi.y - 2} / ${poi.y + 2}`,
-                            gridColumn: `${poi.x - 3} / ${poi.x + 3}`
-                        };
-                        return (
-                            <span
-                                className="poi"
-                                style={
-                                    pageWidth > 1000 ?
-                                        wideScreen : pageWidth > 700 ?
-                                            mediumScreen : smallScreen
-                                }
-                                onClick={() => openPOI(poi.content)}
-                                key={`poi${inx}`}>
-                                {createPOI(poi.content)}
-                            </span>
-                        )
-                    })}
-            </span>}
-
-            <span className="screen flexCol flexCenter">
-                <div id="poiDescBox" className="flexCol">
-                    <h4>{openPoi.name}</h4>
-                    <hr />
-                    <div id="poiDesc">{openPoi.desc}</div>
-                    {openPoi.link &&
-                        <Link to={openPoi.link}>
-                            More info
-                        </Link>}
-                    <button onClick={() => openPOI(openPoi)}>
-                        Close
-                    </button>
-                </div>
+                </button>
             </span>
 
-        </div>
+            {mapState === "map" && <span id="islandMapBox">
+                <img id="islandMap" src={mapTurbulenta} alt="Island Map" />
+
+                {<span id="islandMapGrid">
+                    {pointsOfInterestArr.map(
+                        (poi, inx) => {
+                            const smallScreen = {
+                                gridRow: `${poi.y - 4} / ${poi.y + 4}`,
+                                gridColumn: `${poi.x - 9} / ${poi.x + 9}`
+                            };
+                            const mediumScreen = {
+                                gridRow: `${poi.y - 3} / ${poi.y + 3}`,
+                                gridColumn: `${poi.x - 5} / ${poi.x + 5}`
+                            };
+                            const wideScreen = {
+                                gridRow: `${poi.y - 2} / ${poi.y + 2}`,
+                                gridColumn: `${poi.x - 3} / ${poi.x + 3}`
+                            };
+                            return (
+                                <span
+                                    className="poi flex flexCen"
+                                    style={
+                                        pageWidth > 1000 ?
+                                            wideScreen : pageWidth > 700 ?
+                                                mediumScreen : smallScreen
+                                    }
+                                    onClick={() => openPOI(poi.content, true)}
+                                    key={`poi${inx}`}>
+                                    {createPOI(poi.content)}
+                                </span>
+                            )
+                        })}
+                </span>}
+
+                <span className="screen flexCol flexCen">
+                    <div id="poiDescBox" className="flexCol">
+                        <h4>{openPoi.name}</h4>
+                        <hr />
+                        <div id="poiDesc">{openPoi.desc}</div>
+                        {openPoi.link &&
+                            <Link to={openPoi.link}>
+                                More info
+                            </Link>}
+                        <button onClick={() => openPOI(openPoi, false)}>
+                            Close
+                        </button>
+                    </div>
+                </span>
+            </span>}
+
+        </span>
     </>)
 }

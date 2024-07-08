@@ -31,7 +31,8 @@ main {
     flex-direction: column;
 }
 
-.flexCenter {
+.flexCen {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
