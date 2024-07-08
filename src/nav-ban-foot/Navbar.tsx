@@ -29,6 +29,9 @@ export default function Navbar() {
         tabTitle: "The Island of Turbulenta",
         tabPath: "island",
         dropContent: [{
+            dropTitle: "Island Map",
+            dropPath: "island"
+        }, {
             dropTitle: "General Lore",
             dropPath: "/"
         }, {
@@ -42,9 +45,6 @@ export default function Navbar() {
             dropPath: "/"
         }, {
             dropTitle: "Crafting",
-            dropPath: "/"
-        }, {
-            dropTitle: "Locations",
             dropPath: "/"
         }, {
             dropTitle: "Portal Lake",
