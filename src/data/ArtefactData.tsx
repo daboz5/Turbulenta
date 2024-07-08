@@ -26,72 +26,72 @@ export default function ArtefactData() {
             artefacts: [
                 {
                     id: "S1A1",
-                    name: "Test Name",
-                    story: "Something happened, then something else happened.",
-                    shortDesc: "Ou, yes, yes, totaly, just crazy how it looks like, and the smell, yes, yes, also, it is a ring.",
+                    name: "Ring of Safety Distance",
+                    story: "Retrieved by a party of heroes during the beginning stages of colonisation of Turbulenta.",
+                    shortDesc: "A golden and electruma band with an inlaid arcane pearl imbued by ambient magic.",
                     src: imgS1A1
                 },
                 {
                     id: "S1A2",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Royal Rose Longbow",
+                    story: "Retrieved from a shipwreck after the colonisers first arrived on the island.",
+                    shortDesc: "An oak and bronze longbow, finely crafted by the court smiths of the Kingdom of the Iron Rose.",
                     src: imgS1A2
                 },
                 {
                     id: "S1A3",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Vinegrasp Shield",
+                    story: "Retrieved by a party of heroes during their foray into the jungle and the ruined temples of the spirits.",
+                    shortDesc: "A shield of tightly woven vines, the green,living leaves contained in the middle by the sturdy and unyielding wood on the outside. The bottom is carved and shaped into the face of an owl.",
                     src: imgS1A3
                 },
                 {
                     id: "S1A4",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Rapids Glaive",
+                    story: "Retrieved by a party of heroes during the beginning stages of colonisation of Turbulenta.",
+                    shortDesc: "A long glaive with a cruelly serrated bonewood blade. The shaft is woven over with living vines and has wave-like carvings.",
                     src: imgS1A4
                 },
                 {
                     id: "S1A5",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Conch Shell of the Maok'ah",
+                    story: "Given to the heroes by the native tribe of the Maok'ha after they did them a great service.",
+                    shortDesc: "A beautifully conch with a pearlascent streaks on the inside. While in the water it gives off a soft shimmering light.",
                     src: imgS1A5
                 },
                 {
                     id: "S1A6",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Bailar",
+                    story: "Retrieved from a secret underground library of a ruined tower. The blade was protected by the dead bodies of fallen traitors to the kingdom.",
+                    shortDesc: "An ancient and beauitiful shortsword with an engraved hilt and blade. While it dances it is accompanied by flashes of lightning.",
                     src: imgS1A6
                 },
                 {
                     id: "S1A7",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Echo Bracelet",
+                    story: "Retrieved by a party of heroes during the ending stages of colonisation of Turbulenta.",
+                    shortDesc: "An elaborate bracelet with a central gem, surrounded by petals of worked brass. Clearly of elven make.",
                     src: imgS1A7
                 },
                 {
                     id: "S1A8",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Lightning Stone",
+                    story: "Retrieved by a party of heroes during the ending stages of colonisation of Turbulenta.",
+                    shortDesc: "A small dull grey pebble, streakod through with silvery blue streaks.",
                     src: imgS1A8
                 },
                 {
                     id: "S1A9",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Helm of Shidin",
+                    story: "Crafted with the combined might of heroes and natives before they were to face the dragon gods.",
+                    shortDesc: "An elaborate helm, a masterwork of many smiths. Resembling the spiked dragon skulls it shines under stormy skies.",
                     src: imgS1A9
                 },
                 {
                     id: "S1A10",
-                    name: "",
-                    story: "",
-                    shortDesc: "",
+                    name: "Rod of Kadram",
+                    story: "Crafted with the combined might of heroes and natives before they were to face the dragon gods.",
+                    shortDesc: "A sturdy rod engraved with lines of a magic nexus and a head of imbued arcane crystal.",
                     src: imgS1A10
                 }
             ]
