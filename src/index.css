@@ -22,15 +22,6 @@ body {
   overflow: overlay;
 }
 
-#mainBox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  z-index: -1;
-  padding: 0 25px 0;
-}
-
 /*SCROLLBAR*/
 
 ::-webkit-scrollbar {

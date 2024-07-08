@@ -1,3 +1,18 @@
+type POICont = {
+    name: string,
+    type: "poi" | "shield",
+    img?: string,
+    alt: string,
+    desc: JSX.Element,
+    link?: string
+}
+
+type POI = {
+    x: number;
+    y: number;
+    content: POICont;
+}
+
 type Artefact = {
     id: string;
     name: string;
@@ -22,8 +37,10 @@ type Seasons = "Season 1" | "Season 2";
 export {
     Artefact,
     Artefacts,
-    RPTags,
     CharNamesS1,
     CharNamesS2,
-    Seasons
+    POI,
+    POICont,
+    RPTags,
+    Seasons,
 }

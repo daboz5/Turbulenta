@@ -1,0 +1,37 @@
+main {
+    --lighterPastel: rgb(255, 228, 210);
+    --lightPastel: rgb(255, 204, 171);
+    --mediumPastel: rgb(232, 199, 167);
+    --darkPastel: rgb(255, 158, 94);
+    --darkerPastel: rgb(255, 139, 62);
+}
+
+#mainBox {
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 25px 0;
+    z-index: -1;
+}
+
+.screen {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    pointer-events: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCenter {
+    justify-content: center;
+    align-items: center;
+}
