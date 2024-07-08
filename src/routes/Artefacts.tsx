@@ -129,32 +129,31 @@ export default function Artefacts() {
         }
     }
 
-    const createArtefactGrids = (arr: Artefacts[]) => {
-        return arr.map((season, sIndex) => {
-            return (
-                <span key={`${season.title}Artefacts`}>
-                    <h2>{season.title}</h2>
-                    <span className="artBox">
-                        {season.artefacts.map((artefact) => {
-                            return (
-                                <button
-                                    id={`art${artefact.id}`}
-                                    className="art"
-                                    onClick={() => openPic(sIndex, artefact)}
-                                    key={`art${artefact.id}`}>
-                                    <img id={`image${artefact.id}`} src={artefact.src} alt="Artefact" />
-                                </button>
-                            )
-                        })}
-                    </span>
-                </span>
-            )
-        })
-    }
+    return (
+        <>
 
-    const enlargedPics = () => {
-        return (
-            <span id="popArtExitScreen" onClick={(e) => closePic(e.target)}>
+            {artefacts.map((season, sIndex) => {
+                return (
+                    <span key={`${season.title}Artefacts`}>
+                        <h2>{season.title}</h2>
+                        <span className="artBox">
+                            {season.artefacts.map((artefact) => {
+                                return (
+                                    <button
+                                        id={`art${artefact.id}`}
+                                        className="art"
+                                        onClick={() => openPic(sIndex, artefact)}
+                                        key={`art${artefact.id}`}>
+                                        <img id={`image${artefact.id}`} src={artefact.src} alt="Artefact" />
+                                    </button>
+                                )
+                            })}
+                        </span>
+                    </span>
+                )
+            })}
+
+            {<span id="popArtExitScreen" onClick={(e) => closePic(e.target)}>
 
                 <span id="popArtEnlarge">
                     {artefacts.map((season) => {
@@ -239,16 +238,7 @@ export default function Artefacts() {
                     </button>
 
                 </span>
-            </span>
-        )
-    }
-
-    return (
-        <>
-
-            {createArtefactGrids(artefacts)}
-
-            {enlargedPics()}
+            </span>}
 
         </>
     )

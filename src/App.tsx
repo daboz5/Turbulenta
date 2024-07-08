@@ -5,6 +5,7 @@ import Navbar from './nav-ban-foot/Navbar'
 import Footer from './nav-ban-foot/Footer'
 import Banner from './nav-ban-foot/Banner'
 import { useEffect } from 'react'
+import "./App.css"
 import "./media-size.css"
 
 export default function App() {
@@ -31,12 +32,16 @@ export default function App() {
 
       <Navbar />
 
-      <span id="mainBox">
+      <span id="mainBox" className="flexCol">
+
         <Banner />
+
         <main>
           <Outlet></Outlet>
         </main>
+
         <Footer />
+
       </span>
 
 
