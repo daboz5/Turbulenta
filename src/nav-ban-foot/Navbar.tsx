@@ -7,10 +7,24 @@ import homeIcon from "../assets/icons/island-svgrepo-com.svg"
 import upIcon from "../assets/icons/Arrow_up.svg"
 
 import "./Navbar.css"
+import useDragonStore from "../useDragonStore"
 
 export default function Navbar() {
 
-    const dropInfo = {
+    type DropDown = {
+        tabTitle: string;
+        tabPath: string;
+        tabFunc?: () => void;
+        dropContent: {
+            dropTitle: string;
+            dropPath: string;
+            dropFunc?: () => void;
+        }[];
+    }
+
+    const { setMapState } = useDragonStore();
+
+    const dropInfo: DropDown = {
         tabTitle: "Info",
         tabPath: "info",
         dropContent: [{
@@ -25,12 +39,17 @@ export default function Navbar() {
         }]
     }
 
-    const dropIsland = {
+    const dropIsland: DropDown = {
         tabTitle: "The Island of Turbulenta",
         tabPath: "island",
         dropContent: [{
             dropTitle: "Island Map",
-            dropPath: "island"
+            dropPath: "island",
+            dropFunc: () => setMapState("map")
+        }, {
+            dropTitle: "Island Locations",
+            dropPath: "island",
+            dropFunc: () => setMapState("list")
         }, {
             dropTitle: "General Lore",
             dropPath: "/"
@@ -52,7 +71,7 @@ export default function Navbar() {
         }]
     }
 
-    const dropCamp = {
+    const dropCamp: DropDown = {
         tabTitle: "Campaigns",
         tabPath: "/",
         dropContent: [{
@@ -70,7 +89,7 @@ export default function Navbar() {
         }]
     }
 
-    const dropArchive = {
+    const dropArchive: DropDown = {
         tabTitle: "Archives",
         tabPath: "/",
         dropContent: [{
@@ -88,7 +107,7 @@ export default function Navbar() {
         }]
     }
 
-    const openMenu = (blockOpen?: boolean) => {
+    const openMenu = (blockOpen?: boolean, func?: () => void) => {
         const body = document.getElementsByTagName("body")[0];
         const screen = document.getElementById("menuScreen");
         const arrow = document.getElementById("navArrowBtn");
@@ -112,23 +131,20 @@ export default function Navbar() {
                 arrow.style.zIndex = "0";
             }
         }
+        if (func) { func() }
     }
 
-    const createDropdown = (content: {
-        tabTitle: string;
-        tabPath: string;
-        dropContent: {
-            dropTitle: string;
-            dropPath: string;
-        }[]
-    }) => {
+    const createDropdown = (content: DropDown) => {
         return (
             <div className="dropBox">
                 <div className="tab">
                     <Link
                         className="tabLink"
                         to={content.tabPath}
-                        onClick={() => openMenu()}>
+                        onClick={() => {
+                            openMenu()
+                            content.tabFunc && content.tabFunc()
+                        }}>
                         {content.tabTitle}
                     </Link>
                     <div className="drop">
@@ -139,7 +155,10 @@ export default function Navbar() {
                                     key={`nav${link.dropTitle.replace(" ", "")}`}>
                                     <Link
                                         to={link.dropPath}
-                                        onClick={() => openMenu()}>
+                                        onClick={() => {
+                                            openMenu()
+                                            link.dropFunc && link.dropFunc()
+                                        }}>
                                         {link.dropTitle}
                                     </Link>
                                     <hr />
