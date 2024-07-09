@@ -151,7 +151,8 @@ export default function Island() {
                 <div id="poiDescBox" className="flexCol">
                     <h4>{openPoi.name}</h4>
                     <hr />
-                    <div id="poiDesc">{openPoi.desc}</div>
+                    {openPoi.desc && <div id="poiDesc">{openPoi.desc}</div>}
+                    {openPoi.img && <img src={openPoi.img} alt={openPoi.alt} />}
                     {openPoi.link &&
                         <Link to={openPoi.link}>
                             More info

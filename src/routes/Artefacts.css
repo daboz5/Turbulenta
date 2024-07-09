@@ -1,56 +1,53 @@
-.artBox {
+#artPageBox {
+  gap: 20px;
+}
+
+#artPageBox h2 {
+  margin: 0 0 15px;
+}
+
+/*GROUP OF ARTEFACTS*/
+
+.artsBox {
   position: relative;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   gap: 8px 0;
-  margin: 0 0 30px 0;
   padding: 0 20px;
-  z-index: 0;
 }
 
-.art {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.artsBox button {
   border: none;
   background-color: transparent;
 }
 
-.art img {
+.artsBox img {
   width: 100%;
   border-radius: 7px;
-  height: auto;
-  transition: 2s;
+  transition: 0.2s;
+}
+
+.artsBox img:hover {
+  transform: scale(1.1);
 }
 
 /*POPUP SCREEN*/
 
 #popArtExitScreen {
-  position: fixed;
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
-  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
 }
 
 #popArtEnlarge {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   max-width: 90%;
 }
 
 .popArt {
   display: none;
+  max-height: 70%;
   max-width: 90%;
-  max-height: 80%;
   border-bottom: 3px solid var(--mediumPastel);
 }
 
@@ -129,12 +126,12 @@
 #popArtExitBtn {
   display: flex;
   justify-content: center;
+  font-size: 22px;
   border-radius: 0 0 5px 5px;
-  padding: 4px 0;
+  padding: 7px 0;
 }
 
-#popArtInfoBtn img,
-#popArtExitBtn img {
+#popArtInfoBtn img {
   max-height: 35px;
 }
 
@@ -153,16 +150,12 @@
 }
 
 #artInfo {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   color: rgba(0, 0, 0, 0.9);
   padding: 0 35px;
 }
 
 #artInfoTitle {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   width: 100%;
 }
@@ -177,6 +170,7 @@
 
 #artInfoTitle h4 {
   font-size: 24px;
+  text-align: center;
   text-shadow: 1px 1px 1px var(--mediumPastel);
   padding: 0 10px;
   background-color: var(--lighterPastel);
@@ -194,9 +188,9 @@
 }
 
 #artInfoExit {
-  width: 100%;
   display: flex;
   justify-content: center;
+  width: 100%;
   margin-top: 10px;
   border-top: 3px solid var(--mediumPastel);
   border-radius: 0 0 20px 20px;

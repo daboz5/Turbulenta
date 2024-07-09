@@ -24,20 +24,20 @@ export default function Navbar() {
 
     const { setMapState } = useDragonStore();
 
-    const dropInfo: DropDown = {
-        tabTitle: "Info",
-        tabPath: "info",
-        dropContent: [{
-            dropTitle: "About the Game",
-            dropPath: "/"
-        }, {
-            dropTitle: "Where To Find Us",
-            dropPath: "/"
-        }, {
-            dropTitle: "Rules",
-            dropPath: "/"
-        }]
-    }
+    // const dropInfo: DropDown = {
+    //     tabTitle: "Info",
+    //     tabPath: "info",
+    //     dropContent: [{
+    //         dropTitle: "About the Game",
+    //         dropPath: "/"
+    //     }, {
+    //         dropTitle: "Where To Find Us",
+    //         dropPath: "/"
+    //     }, {
+    //         dropTitle: "Rules",
+    //         dropPath: "/"
+    //     }]
+    // }
 
     const dropIsland: DropDown = {
         tabTitle: "The Island of Turbulenta",
@@ -47,65 +47,71 @@ export default function Navbar() {
             dropPath: "island",
             dropFunc: () => setMapState("map")
         }, {
-            dropTitle: "Island Locations",
+            dropTitle: "List of Locations",
             dropPath: "island",
             dropFunc: () => setMapState("list")
-        }, {
-            dropTitle: "General Lore",
-            dropPath: "/"
-        }, {
-            dropTitle: "Flora & Fauna",
-            dropPath: "/"
-        }, {
-            dropTitle: "Tribes",
-            dropPath: "/"
-        }, {
-            dropTitle: "Stores",
-            dropPath: "/"
-        }, {
-            dropTitle: "Crafting",
-            dropPath: "/"
-        }, {
-            dropTitle: "Portal Lake",
-            dropPath: "/"
-        }]
+        }
+            // {
+            //     dropTitle: "General Lore",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Flora & Fauna",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Tribes",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Stores",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Crafting",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Portal Lake",
+            //     dropPath: "/"
+            // }
+        ]
     }
 
     const dropCamp: DropDown = {
         tabTitle: "Campaigns",
         tabPath: "/",
-        dropContent: [{
-            dropTitle: "Reports",
-            dropPath: "/"
-        }, {
-            dropTitle: "Season 1",
-            dropPath: "/"
-        }, {
-            dropTitle: "Season 2",
-            dropPath: "/"
-        }, {
-            dropTitle: "Artefacts",
-            dropPath: "artefacts"
-        }]
+        dropContent: [
+            //     {
+            //     dropTitle: "Reports",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Season 1",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Season 2",
+            //     dropPath: "/"
+            // },
+            {
+                dropTitle: "Artefacts",
+                dropPath: "artefacts"
+            }]
     }
 
-    const dropArchive: DropDown = {
-        tabTitle: "Archives",
-        tabPath: "/",
-        dropContent: [{
-            dropTitle: "Characters",
-            dropPath: "characters"
-        }, {
-            dropTitle: "Roleplays",
-            dropPath: "roleplays"
-        }, {
-            dropTitle: "Recordings",
-            dropPath: "/"
-        }, {
-            dropTitle: "Art",
-            dropPath: "/"
-        }]
-    }
+    // const dropArchive: DropDown = {
+    //     tabTitle: "Archives",
+    //     tabPath: "/",
+    //     dropContent: [
+    //         {
+    //         dropTitle: "Characters",
+    //         dropPath: "characters"
+    //     }, {
+    //         dropTitle: "Roleplays",
+    //         dropPath: "roleplays"
+    //     }, {
+    //         dropTitle: "Recordings",
+    //         dropPath: "/"
+    //     }, {
+    //         dropTitle: "Art",
+    //         dropPath: "/"
+    //     }
+    // ]
+    // }
 
     const openMenu = (blockOpen?: boolean, func?: () => void) => {
         const body = document.getElementsByTagName("body")[0];
@@ -197,13 +203,13 @@ export default function Navbar() {
 
                     <span id="menu">
 
-                        {createDropdown(dropInfo)}
+                        {/* {createDropdown(dropInfo)} */}
 
                         {createDropdown(dropIsland)}
 
                         {createDropdown(dropCamp)}
 
-                        {createDropdown(dropArchive)}
+                        {/* {createDropdown(dropArchive)} */}
 
                         <span id="navbarIcons">
                             <a
