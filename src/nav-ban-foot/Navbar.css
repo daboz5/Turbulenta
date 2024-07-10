@@ -40,21 +40,73 @@ nav {
     transform: scale(1.1);
 }
 
+/*OPEN-CLOSE MENU SVG ANIMATION*/
+
 #navArrowBtn {
     border: none;
     background-color: rgba(0, 0, 0, 0);
+    transform: rotate(180deg) translateY(25px);
 }
 
 #navArrow {
     position: sticky;
     width: 55px;
-    transform: translateY(-25px) scaleY(-1);
     transition: 0.3s;
+    overflow: visible;
     z-index: 0;
 }
 
-#navArrow:hover {
-    transform: translateY(-15px) scaleY(-1);
+#navArrow:hover #arrowUpIn {
+    transform: rotate(45deg) translate(-45px, -182px);
+}
+
+.cls-1 {
+    fill: none;
+    stroke: rgb(7, 13, 49);
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 30px
+}
+
+#arrowUpIn {
+    transition: 0.2s;
+    animation: 2s arrowInner ease infinite;
+    transform: rotate(-45 82.175 102.97);
+}
+
+#arrowUpOut {
+    animation: 2s arrowOuter ease infinite;
+}
+
+@keyframes arrowInner {
+    0% {
+        stroke: rgb(0, 21, 47);
+    }
+
+    70% {
+        stroke: rgb(0, 208, 255);
+    }
+
+    100% {
+        stroke: rgb(0, 21, 47);
+    }
+}
+
+@keyframes arrowOuter {
+    0% {
+        stroke: rgb(39, 114, 255);
+        transform: translateY(40px);
+    }
+
+    60% {
+        stroke: rgb(0, 21, 47);
+        transform: translateY(0px);
+    }
+
+    100% {
+        stroke: rgb(39, 114, 255);
+        transform: translateY(40px);
+    }
 }
 
 /*MENU*/

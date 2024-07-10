@@ -4,7 +4,7 @@ import discordIcon from "../assets/icons/discord-svgrepo-com.svg"
 import dragonIcon from "../assets/icons/dragon-svgrepo-com.svg"
 import instgramIcon from "../assets/icons/instagram-svgrepo-com.svg"
 import homeIcon from "../assets/icons/island-svgrepo-com.svg"
-import upIcon from "../assets/icons/Arrow_up.svg"
+import Arrow from "../assets/icons/Arrow_up.tsx"
 
 import "./Navbar.css"
 import useDragonStore from "../useDragonStore"
@@ -125,7 +125,7 @@ export default function Navbar() {
                 screen.style.backgroundColor = "rgba(0, 72, 120, 1)";
                 screen.style.boxShadow = "inset 0 0 100px 1px rgb(0, 19, 80)";
                 menu.style.display = "flex";
-                arrow.style.transform = "translateY(-35px) rotate(180deg)";
+                arrow.style.transform = "translateY(-20px) rotate(0deg)";
                 arrow.style.zIndex = "1";
             } else if (screen.style.height === "100%") {
                 body.style.overflow = "visible";
@@ -133,7 +133,7 @@ export default function Navbar() {
                 screen.style.backgroundColor = "rgba(0, 72, 120, 0)";
                 screen.style.boxShadow = "inset 0 0 0 0 black";
                 menu.style.display = "none";
-                arrow.style.transform = "translateY(5px) rotate(0deg)";
+                arrow.style.transform = "translateY(-25px) rotate(180deg)";
                 arrow.style.zIndex = "0";
             }
         }
@@ -194,11 +194,7 @@ export default function Navbar() {
                     <button
                         id="navArrowBtn"
                         onClick={() => openMenu()}>
-                        <img
-                            id="navArrow"
-                            src={upIcon}
-                            alt="Arrow"
-                        />
+                        <Arrow />
                     </button>
 
                     <span id="menu">
