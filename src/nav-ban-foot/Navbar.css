@@ -70,12 +70,12 @@ nav {
 
 #arrowUpIn {
     transition: 0.2s;
-    animation: 2s arrowInner ease infinite;
+    animation: 3s arrowInner ease infinite;
     transform: rotate(-45 82.175 102.97);
 }
 
 #arrowUpOut {
-    animation: 2s arrowOuter ease infinite;
+    animation: 3s arrowOuter ease infinite;
 }
 
 @keyframes arrowInner {
@@ -83,7 +83,7 @@ nav {
         stroke: rgb(0, 21, 47);
     }
 
-    70% {
+    60% {
         stroke: rgb(0, 208, 255);
     }
 
