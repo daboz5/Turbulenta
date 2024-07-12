@@ -1,21 +1,59 @@
+import { useState } from "react";
+import { Char } from "../types";
+import CharData from "../data/CharData";
 import "./Characters.css"
 
 export default function Characters() {
+
+    const { chars } = CharData();
+
+    const emptyInfo: Char = {
+        name: "",
+        class: [],
+        descript: <>{``}</>
+    }
+
+    const [charInfo, setCharInfo] = useState(emptyInfo);
+
+    const sortChars = () => {
+        const sorted = chars.sort((a, b) => {
+            const upperA = a.name.toLocaleUpperCase();
+            const upperB = b.name.toLocaleUpperCase();
+            if (upperA < upperB) {
+                return -1;
+            }
+            if (upperA > upperB) {
+                return 1;
+            }
+            return 0
+        });
+        return sorted;
+    }
+
     return (
         <>
-            <h1>Chaos Children Episode 1: How do you like your taters?</h1>
-            <div id="char">
-                <h3>Caracters:
-                    <ul>
-                        <li id="ceres">Ceres Liontari - Timmy</li>
-                        <li id="caraxes">Caraxes - Daevala</li>
-                        <li>Thian - ReallyHighWitch</li>
-                        <li>Morwyn - Daevala</li>
-                        <li>Minamoto No Tametomo - Tatriks </li>
-                    </ul>
-                </h3>
-            </div>
-            <p id="caraxes">
+            <span
+                id="charactersBox"
+                className="flexCol flexCen">
+                <span className="flexCol">
+                    {sortChars().map((char, inx) => {
+                        return (
+                            <button
+                                onClick={() => setCharInfo(char)}
+                                key={`char${inx}`}>
+                                {char.name}
+                            </button>
+                        )
+                    })}
+                </span>
+            </span>
+
+            <span id="charInfoBox">
+                <h3>{charInfo.name}</h3>
+                <div>{charInfo.descript}</div>
+            </span>
+
+            {/* <p id="caraxes">
                 Caraxes looks up at the tall, helpless fingerling.
                 He's just standing there, looking after where the mistress went. <i> "I am herre.."</i>
             </p>
@@ -37,7 +75,7 @@ export default function Characters() {
                 He proudly recites, his long line of achievements.
                 Now he must only serve his contract before he ascends.
                 "<i> is mistrressess new mate. And ssshe hass invited you .... To live in herrr domain.</i>"
-            </p>
+            </p> */}
         </>
     )
 }

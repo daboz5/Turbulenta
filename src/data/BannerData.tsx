@@ -10,26 +10,31 @@ export default function BannerData() {
             text: "Turbulenta is a (free) online D&D campaign, that was started in 2023 by Mladi zmaji, in collaboration with Amulet D20. It's played on the official Mladi Zmaji discord server DigiMC.",
             img: landingImg,
         },
+        islandPage: {
+            title: "Island of Turbulenta",
+            text: "Here you can find interesting locations on Turbulenta and from Turbulenta navigatable places.",
+            img: roleplayImg,
+        },
+        campaignsPage: {
+            title: "Campaigns",
+            text: "Quick look into past campaigns.",
+            img: arteactsImg,
+        },
         artefactsPage: {
             title: "Artefacts",
             text: "Items in the Hall of Artifacts.",
             img: arteactsImg,
         },
         roleplayPage: {
-            title: "Roleplays and Fiction",
-            text: "Here you can find some of the Roleplays that our wonderful player have written and ported to this website.",
-            img: roleplayImg,
-        },
-        characterPage: {
             title: "Stories",
             text: "Here you can find some of the Roleplays that our wonderful player have written and ported to this website.",
             img: roleplayImg,
         },
-        islandPage: {
-            title: "Island of Turbulenta",
-            text: "Here you can find interesting locations on Turbulenta and from Turbulenta navigatable places.",
+        characterPage: {
+            title: "Characters",
+            text: "More info about characters.",
             img: roleplayImg,
-        }
+        },
     }
 
     return { banners }

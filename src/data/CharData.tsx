@@ -1,27 +1,18 @@
-import { CharNamesS1, CharNamesS2 } from "../types";
+import { Char } from "../types";
 
 export default function CharData() {
 
-    type CharData = {
-        name: CharNamesS1 | CharNamesS2;
-        class: {
-            class: string;
-            lvl: number;
-        }[];
-        description: JSX.Element;
-    }[]
-
-    const chars: CharData = [
+    const chars: Char[] = [
         {
             name: "Remember Me",
             class: [{
-                class: "Unknown",
+                title: "Unknown",
                 lvl: 1
             }, {
-                class: "Misterious",
+                title: "Misterious",
                 lvl: 5
             }],
-            description: <>
+            descript: <>
                 {`Nobody is unknown and misterious`}<br />
                 {`It is unknown how misterious it is.`}
             </>,
@@ -29,10 +20,10 @@ export default function CharData() {
         {
             name: "Minamoto",
             class: [{
-                class: "",
+                title: "",
                 lvl: 0
             }],
-            description: <>{``}</>
+            descript: <>{``}</>
         },
     ]
 

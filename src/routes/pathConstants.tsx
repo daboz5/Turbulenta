@@ -1,10 +1,17 @@
 const PathConstants = {
     HOME: "/",
-    ARTEFACTS: "artefacts",
-    CHARACTERS: "characters",
-    INFO: "info",
-    ISLAND: "island",
-    ROLEPLAYS: "roleplays",
+    ISLAND: {
+        DEF: "island"
+    },
+    CAMPAIGNS: {
+        DEF: "campaigns",
+        ARTEFACTS: "campaigns/artefacts",
+        CHARACTERS: "campaigns/characters",
+        ROLEPLAYS: "campaigns/stories",
+    },
+    INFO: {
+        DEF: "info"
+    },
 }
 
 export default PathConstants

@@ -102,15 +102,17 @@ export default function Island() {
             {mapState === "list" &&
                 <span
                     id="islandLocationsBox"
-                    className="flexCol">
-                    {sortPoi(pointsOfInterestArr).map(
-                        (poi) => {
-                            return <button
-                                onClick={() => openPOI(poi.content, true)}
-                                key={`listPOI${poi.x}-${poi.y}`}>
-                                {poi.content.name}
-                            </button>
-                        })}
+                    className="flexCol flexCen">
+                    <span className="flexCol">
+                        {sortPoi(pointsOfInterestArr).map(
+                            (poi) => {
+                                return <button
+                                    onClick={() => openPOI(poi.content, true)}
+                                    key={`listPOI${poi.x}-${poi.y}`}>
+                                    {poi.content.name}
+                                </button>
+                            })}
+                    </span>
                 </span>}
 
             {mapState === "map" && <span id="islandMapBox">

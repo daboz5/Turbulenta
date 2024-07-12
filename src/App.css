@@ -4,6 +4,7 @@ main {
     --mediumPastel: rgb(232, 199, 167);
     --darkPastel: rgb(255, 158, 94);
     --darkerPastel: rgb(255, 139, 62);
+    width: 100%;
 }
 
 #mainBox {

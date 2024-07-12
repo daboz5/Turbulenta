@@ -75,7 +75,7 @@ export default function Navbar() {
 
     const dropCamp: DropDown = {
         tabTitle: "Campaigns",
-        tabPath: "/",
+        tabPath: "/campaigns",
         dropContent: [
             //     {
             //     dropTitle: "Reports",
@@ -86,31 +86,26 @@ export default function Navbar() {
             // }, {
             //     dropTitle: "Season 2",
             //     dropPath: "/"
-            // },
+            {
+                dropTitle: "Characters",
+                dropPath: "/campaigns/characters"
+            },
             {
                 dropTitle: "Artefacts",
-                dropPath: "artefacts"
+                dropPath: "/campaigns/artefacts"
             }]
     }
 
     // const dropArchive: DropDown = {
-    //     tabTitle: "Archives",
-    //     tabPath: "/",
-    //     dropContent: [
-    //         {
-    //         dropTitle: "Characters",
-    //         dropPath: "characters"
-    //     }, {
-    //         dropTitle: "Roleplays",
-    //         dropPath: "roleplays"
-    //     }, {
-    //         dropTitle: "Recordings",
-    //         dropPath: "/"
+    //     tabTitle: "Archive",
+    //     tabPath: "/art",
+    //     dropContent: [{
+    //         dropTitle: "Stories",
+    //         dropPath: "stories"
     //     }, {
     //         dropTitle: "Art",
-    //         dropPath: "/"
-    //     }
-    // ]
+    //         dropPath: "/art"
+    //     }]
     // }
 
     const openMenu = (blockOpen?: boolean, func?: () => void) => {
