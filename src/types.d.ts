@@ -32,7 +32,10 @@ type Char = {
         title: string;
         lvl: number;
     }[];
-    descript: JSX.Element;
+    background: string;
+    img?: string[];
+    defImg?: number,
+    descript?: JSX.Element;
 }
 
 type RPTags = "sex" | "blood";

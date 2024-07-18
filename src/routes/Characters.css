@@ -34,3 +34,113 @@
     ;
     background-color: var(--darkerPastel);
 }
+
+/*SHOW CHARACTER'S INFO*/
+
+#charInfoBox {
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "nameplate"
+        "classplate"
+        "backplate"
+        "imageplate"
+        "descplate"
+        "exitplate";
+    justify-items: center;
+    border-radius: 20px;
+    background-color: var(--darkerPastel);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+#charInfoBox h3,
+#charInfoClass,
+#charInfoBackground,
+#charInfoImg,
+#charInfoDescription,
+#charExitBtn {
+    width: 100%;
+    border: 3px solid var(--darkerPastel);
+    box-shadow: inset 0 0 5px 1px rgb(109, 44, 0), 0 0 0 3px var(--darkerPastel);
+    padding: 13px 0;
+    background-color: var(--darkPastel);
+}
+
+#charInfoClass,
+#charInfoBackground,
+#charInfoDescription,
+#charExitBtn {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#charInfoBox h3 {
+    grid-area: nameplate;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 0 13px;
+}
+
+#charInfoClass {
+    grid-area: classplate;
+    gap: 20px;
+}
+
+#charInfoBackground {
+    grid-area: backplate;
+    text-align: center;
+}
+
+#charInfoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: imageplate;
+}
+
+#charInfoImg button {
+    width: 40px;
+    font-size: 35px;
+    border: none;
+    padding-left: 8px;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+#charInfoImg button:first-of-type {
+    transform: scaleX(-1);
+}
+
+#charInfoImg img {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.charImg {
+    display: none;
+}
+
+#charInfoDescription {
+    grid-area: descplate;
+    text-align: center;
+}
+
+#charExitBtn {
+    grid-area: exitplate;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    transition: 0.2s;
+}
+
+#charExitBtn:hover {
+    box-shadow: inset 0 0 7px 1px rgb(109, 44, 0),
+        0 0 0 3px var(--darkerPastel);
+    ;
+    background-color: var(--darkerPastel);
+}

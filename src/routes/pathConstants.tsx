@@ -1,7 +1,9 @@
 const PathConstants = {
     HOME: "/",
     ISLAND: {
-        DEF: "island"
+        DEF: "island",
+        ROSARIENDO: "island/rosa-riendo",
+        FARODELUZ: "island/faro-de-luz"
     },
     CAMPAIGNS: {
         DEF: "campaigns",

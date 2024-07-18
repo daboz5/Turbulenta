@@ -22,6 +22,12 @@ const router = createBrowserRouter([{
     path: PathConstants.ISLAND.DEF,
     element: <Island />
   }, {
+    path: PathConstants.ISLAND.ROSARIENDO,
+    element: <Island />
+  }, {
+    path: PathConstants.ISLAND.FARODELUZ,
+    element: <Island />
+  }, {
     path: PathConstants.CAMPAIGNS.DEF,
     element: <Campaigns />,
   }, {

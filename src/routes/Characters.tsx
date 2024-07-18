@@ -1,19 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Char } from "../types";
 import CharData from "../data/CharData";
 import "./Characters.css"
+
+import emptyFrame from "../assets/icons/dragon-svgrepo-com.svg"
 
 export default function Characters() {
 
     const { chars } = CharData();
 
-    const emptyInfo: Char = {
-        name: "",
-        class: [],
-        descript: <>{``}</>
-    }
-
-    const [charInfo, setCharInfo] = useState(emptyInfo);
 
     const sortChars = () => {
         const sorted = chars.sort((a, b) => {
@@ -30,6 +25,63 @@ export default function Characters() {
         return sorted;
     }
 
+    const emptyInfo: Char = {
+        name: "",
+        class: [],
+        background: "",
+        descript: <>{``}</>
+    }
+
+    const [charInfo, setCharInfo] = useState(emptyInfo);
+    const [charImgNum, setCharImgNum] = useState(1);
+
+    useEffect(() => {
+        charInfo.img?.forEach((img, imgInx) => {
+            const imgEl = document.getElementById("charImg" + (imgInx));
+            if (imgEl && img) {
+                imgEl.style.display = "none";
+            }
+        })
+        const pickedImg = document.getElementById("charImg" + (charInfo.defImg ? (charInfo.defImg) : 1));
+        pickedImg ? pickedImg.style.display = "block" : {};
+        charInfo.defImg ? setCharImgNum(charInfo.defImg) : setCharImgNum(0);
+    }, [charInfo])
+
+    const setNextImg = (dir: "back" | "forw") => {
+        let newImg: HTMLElement | null = null;
+        if (dir === "back") {
+            newImg = document.getElementById("charImg" + (charImgNum - 1));
+        } else if (dir === "forw") {
+            newImg = document.getElementById("charImg" + (charImgNum + 1));
+        }
+        if (newImg) {
+            charInfo.img?.forEach((img, imgInx) => {
+                const imgEl = document.getElementById("charImg" + (imgInx));
+                if (imgEl && img) {
+                    imgEl.style.display = "none";
+                }
+            })
+            newImg.style.display = "block";
+            if (dir === "back") {
+                setCharImgNum(charImgNum - 1);
+            } else {
+                setCharImgNum(charImgNum + 1);
+            }
+        }
+    }
+
+    const setCharacterDisplay = (char?: Char) => {
+        const infoBox = document.getElementById("charInfoBox");
+        if (infoBox && char) {
+            infoBox.style.opacity = "1";
+            infoBox.style.pointerEvents = "all";
+            setCharInfo(char);
+        } else if (infoBox) {
+            infoBox.style.opacity = "0";
+            infoBox.style.pointerEvents = "none";
+        }
+    }
+
     return (
         <>
             <span
@@ -39,7 +91,7 @@ export default function Characters() {
                     {sortChars().map((char, inx) => {
                         return (
                             <button
-                                onClick={() => setCharInfo(char)}
+                                onClick={() => setCharacterDisplay(char)}
                                 key={`char${inx}`}>
                                 {char.name}
                             </button>
@@ -50,32 +102,49 @@ export default function Characters() {
 
             <span id="charInfoBox">
                 <h3>{charInfo.name}</h3>
-                <div>{charInfo.descript}</div>
+                <div id="charInfoClass" className="flex flexCen">
+                    {charInfo.class.map((classInfo) => {
+                        return <span key={`${charInfo.name + classInfo.title + classInfo.lvl}`}>
+                            {classInfo.title} {classInfo.lvl}
+                        </span>
+                    })}
+                </div>
+                <div id="charInfoBackground">
+                    {charInfo.background}
+                </div>
+                <div id="charInfoImg" className="flex flexCen">
+                    {charInfo.img && charInfo.img.length > 0 ?
+                        <>
+                            <button onClick={() => setNextImg("back")}>
+                                ➧
+                            </button>
+                            {charInfo.img.map((charImg, inx) => {
+                                return (
+                                    <img
+                                        id={`charImg${inx}`}
+                                        className="charImg"
+                                        src={charImg}
+                                        alt={`${charInfo.name} Image`}
+                                        key={`charImg${inx}`} />
+                                )
+                            })}
+                            <button onClick={() => setNextImg("forw")}>
+                                ➧
+                            </button>
+                        </> :
+                        <img
+                            src={emptyFrame}
+                            alt={`No Character Image`} />}
+                </div>
+                <div id="charInfoDescription">
+                    {charInfo.descript}
+                </div>
+                <div
+                    id="charExitBtn"
+                    onClick={() => setCharacterDisplay()}>
+                    Close
+                </div>
             </span>
-
-            {/* <p id="caraxes">
-                Caraxes looks up at the tall, helpless fingerling.
-                He's just standing there, looking after where the mistress went. <i> "I am herre.."</i>
-            </p>
-            <p id="ceres">
-                Ceres is entirely fascinated by what he sees.
-                He is uncertain how to proceed though, for he has never seen a fiend before, at least not in person.
-                <i>"It is a pleasure to meet you, little mister," </i>he begins, trying to be polite while doing a quick
-                bow.
-                <i>"Hmm... Are you the master of Lady Morwyn and commander Minamoto? Are they your loyal servants?
-                    A proper title befits a creature such as yourself, but I must admit, I do not know how to address you.
-                    Will Sir Devil Baby suffice?"</i> he asks in genuine curiosity.
-            </p>
-            <p id="caraxes">
-                Caraxes puffs himself up, finally someone to see how great he was.
-                "<i>I am Caraxes, once known as Lord Al'xitar, Holderrr of the Gate,
-                    Ssslayer of the Drreadhorrrrorrss and Tyrrrant of the Dawnfox Coassst.
-                    Fallen in the age of the Black rain. I have been ssserrrving in Hellssss for almost 2 millenniasss
-                    and I am contracted to ssserve Morwyndell Eldamar until herrr demissse.</i>"
-                He proudly recites, his long line of achievements.
-                Now he must only serve his contract before he ascends.
-                "<i> is mistrressess new mate. And ssshe hass invited you .... To live in herrr domain.</i>"
-            </p> */}
         </>
     )
 }

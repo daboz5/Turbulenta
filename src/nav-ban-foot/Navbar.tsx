@@ -50,6 +50,14 @@ export default function Navbar() {
             dropTitle: "List of Locations",
             dropPath: "island",
             dropFunc: () => setMapState("list")
+        }, {
+            dropTitle: "Rosa Riendo",
+            dropPath: "island/rosa-riendo",
+            dropFunc: () => setMapState("list")
+        }, {
+            dropTitle: "Faro de Luz",
+            dropPath: "island/faro-de-luz",
+            dropFunc: () => setMapState("list")
         }
             // {
             //     dropTitle: "General Lore",
@@ -87,12 +95,14 @@ export default function Navbar() {
             //     dropTitle: "Season 2",
             //     dropPath: "/"
             {
-                dropTitle: "Characters",
-                dropPath: "/campaigns/characters"
-            },
-            {
                 dropTitle: "Artefacts",
                 dropPath: "/campaigns/artefacts"
+            }, {
+                dropTitle: "Characters",
+                dropPath: "/campaigns/characters"
+            }, {
+                dropTitle: "Stories",
+                dropPath: "/campaigns/stories"
             }]
     }
 
