@@ -36,15 +36,15 @@ export default function Characters() {
     const [charImgNum, setCharImgNum] = useState(1);
 
     useEffect(() => {
-        charInfo.img?.forEach((img, imgInx) => {
+        charInfo.img?.imgArr.forEach((img, imgInx) => {
             const imgEl = document.getElementById("charImg" + (imgInx));
             if (imgEl && img) {
                 imgEl.style.display = "none";
             }
         })
-        const pickedImg = document.getElementById("charImg" + (charInfo.defImg ? (charInfo.defImg) : 1));
+        const pickedImg = document.getElementById("charImg" + (charInfo.img?.imgDef ? (charInfo.img.imgDef) : 1));
         pickedImg ? pickedImg.style.display = "block" : {};
-        charInfo.defImg ? setCharImgNum(charInfo.defImg) : setCharImgNum(0);
+        charInfo.img?.imgDef ? setCharImgNum(charInfo.img.imgDef) : setCharImgNum(0);
     }, [charInfo])
 
     const setNextImg = (dir: "back" | "forw") => {
@@ -55,7 +55,7 @@ export default function Characters() {
             newImg = document.getElementById("charImg" + (charImgNum + 1));
         }
         if (newImg) {
-            charInfo.img?.forEach((img, imgInx) => {
+            charInfo.img?.imgArr.forEach((img, imgInx) => {
                 const imgEl = document.getElementById("charImg" + (imgInx));
                 if (imgEl && img) {
                     imgEl.style.display = "none";
@@ -71,7 +71,7 @@ export default function Characters() {
     }
 
     const setCharacterDisplay = (char?: Char) => {
-        const infoBox = document.getElementById("charInfoBox");
+        const infoBox = document.getElementById("charInfoBoxContainer");
         if (infoBox && char) {
             infoBox.style.opacity = "1";
             infoBox.style.pointerEvents = "all";
@@ -100,51 +100,63 @@ export default function Characters() {
                 </span>
             </span>
 
-            <span id="charInfoBox">
-                <h3>{charInfo.name}</h3>
-                <div id="charInfoClass" className="flex flexCen">
-                    {charInfo.class.map((classInfo) => {
-                        return <span key={`${charInfo.name + classInfo.title + classInfo.lvl}`}>
-                            {classInfo.title} {classInfo.lvl}
-                        </span>
-                    })}
-                </div>
-                <div id="charInfoBackground">
-                    {charInfo.background}
-                </div>
-                <div id="charInfoImg" className="flex flexCen">
-                    {charInfo.img && charInfo.img.length > 0 ?
-                        <>
-                            <button onClick={() => setNextImg("back")}>
-                                ➧
-                            </button>
-                            {charInfo.img.map((charImg, inx) => {
-                                return (
-                                    <img
-                                        id={`charImg${inx}`}
-                                        className="charImg"
-                                        src={charImg}
-                                        alt={`${charInfo.name} Image`}
-                                        key={`charImg${inx}`} />
-                                )
-                            })}
-                            <button onClick={() => setNextImg("forw")}>
-                                ➧
-                            </button>
-                        </> :
-                        <img
-                            src={emptyFrame}
-                            alt={`No Character Image`} />}
-                </div>
-                <div id="charInfoDescription">
-                    {charInfo.descript}
-                </div>
-                <div
-                    id="charExitBtn"
-                    onClick={() => setCharacterDisplay()}>
-                    Close
-                </div>
-            </span>
+            <div
+                id="charInfoBoxContainer"
+                className="flexCen">
+                <span id="charInfoBox">
+                    <h3>{charInfo.name}</h3>
+                    <div id="charInfoClass" className="flexCen">
+                        {charInfo.class.map((classInfo) => {
+                            return <span key={`${charInfo.name + classInfo.title + classInfo.lvl}`}>
+                                {classInfo.title} {classInfo.lvl}
+                            </span>
+                        })}
+                    </div>
+                    <div id="charInfoBackground">
+                        {charInfo.background}
+                    </div>
+                    <div id="charInfoImg" className="flexCen">
+                        {charInfo.img && charInfo.img.imgArr.length > 0 ?
+                            <>
+                                <div
+                                    id="charImgBox"
+                                    className="flexCen">
+                                    <button
+                                        className="charImgHandle"
+                                        onClick={() => setNextImg("back")}>
+                                        ➧
+                                    </button>
+                                    {charInfo.img.imgArr.map((charImg, inx) => {
+                                        return (
+                                            <img
+                                                id={`charImg${inx}`}
+                                                className="charImg"
+                                                src={charImg}
+                                                alt={`${charInfo.name} Image`}
+                                                key={`charImg${inx}`} />
+                                        )
+                                    })}
+                                    <button
+                                        className="charImgHandle"
+                                        onClick={() => setNextImg("forw")}>
+                                        ➧
+                                    </button>
+                                </div>
+                            </> :
+                            <img
+                                src={emptyFrame}
+                                alt={`No Character Image`} />}
+                    </div>
+                    <div id="charInfoDescription">
+                        {charInfo.descript}
+                    </div>
+                    <div
+                        id="charExitBtn"
+                        onClick={() => setCharacterDisplay()}>
+                        Close
+                    </div>
+                </span>
+            </div>
         </>
     )
 }

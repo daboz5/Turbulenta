@@ -40,10 +40,9 @@ export default function App() {
           <Outlet></Outlet>
         </main>
 
-        <Footer />
-
       </span>
 
+      <Footer />
 
     </>
   )

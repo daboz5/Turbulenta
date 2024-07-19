@@ -21,15 +21,18 @@ export default function CharData() {
                 lvl: 2
             }],
             background: "Acolyte",
-            img: [
-                remember1,
-                remember2,
-                remember3,
-                remember4,
-                remember5,
-                remember6
-            ],
-            defImg: 2,
+            img: {
+                imgDef: 2,
+                imgArr: [
+                    remember1,
+                    remember2,
+                    remember3,
+                    remember4,
+                    remember5,
+                    remember6]
+            },
+            companions: <>{`Repko`}</>,
+            possessions: <>{`Nobody's Respite`}</>,
             descript: <>
                 {`Nobody is unknown and misterious`}<br />
                 {`It is unknown how misterious it is.`}

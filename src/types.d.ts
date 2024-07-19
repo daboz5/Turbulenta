@@ -28,14 +28,12 @@ type Artefacts = {
 
 type Char = {
     name: CharNamesS1 | CharNamesS2;
-    class: {
-        title: string;
-        lvl: number;
-    }[];
+    class: { title: string, lvl: number }[];
     background: string;
-    img?: string[];
-    defImg?: number,
-    descript?: JSX.Element;
+    img?: { imgDef: number, imgArr: string[] };
+    companions?: JSX.Element;
+    possessions?: JSX.Element;
+    descript: JSX.Element;
 }
 
 type RPTags = "sex" | "blood";

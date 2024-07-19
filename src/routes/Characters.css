@@ -37,10 +37,19 @@
 
 /*SHOW CHARACTER'S INFO*/
 
-#charInfoBox {
+#charInfoBoxContainer {
     position: absolute;
     top: 20px;
+    width: 100%;
+    max-width: 90%;
+    padding-bottom: 20px;
     z-index: 1;
+    transition: 0.3s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+#charInfoBox {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -53,9 +62,6 @@
     justify-items: center;
     border-radius: 20px;
     background-color: var(--darkerPastel);
-    opacity: 0;
-    pointer-events: none;
-    transition: 0.3s;
 }
 
 #charInfoBox h3,
@@ -98,32 +104,45 @@
 }
 
 #charInfoImg {
+    grid-area: imageplate;
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-area: imageplate;
 }
 
-#charInfoImg button {
+#charImgBox {
+    height: calc(100% - 14px);
+    padding: 10px 0;
+}
+
+.charImgHandle {
+    height: 100%;
     width: 40px;
     font-size: 35px;
+    margin: 0 2px;
     border: none;
-    padding-left: 8px;
-    background-color: transparent;
+    border-radius: 0 10px 10px 0;
+    box-shadow: inset 0 0 5px 3px rgba(0, 0, 0, 0.5);
+    padding-left: 7px;
+    background-color: var(--mediumPastel);
     transition: 0.2s;
 }
 
-#charInfoImg button:first-of-type {
-    transform: scaleX(-1);
+.charImgHandle:hover {
+    background-color: var(--darkerPastel);
+    box-shadow: inset 0 0 5px 3px rgba(0, 0, 0, 0.6);
 }
 
-#charInfoImg img {
-    max-height: 90%;
-    max-width: 90%;
+.charImgHandle:first-of-type {
+    transform: scaleX(-1);
 }
 
 .charImg {
     display: none;
+    width: 100%;
+    max-width: 70%;
+    max-height: 500px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
 }
 
 #charInfoDescription {
@@ -131,11 +150,14 @@
     text-align: center;
 }
 
+/*EXIT*/
+
 #charExitBtn {
     grid-area: exitplate;
     text-align: center;
     border-radius: 0 0 20px 20px;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 #charExitBtn:hover {
