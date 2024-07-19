@@ -16,9 +16,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid rgb(38, 42, 64);
+    border: 3px solid var(--darkMarine);
     border-radius: 20px;
-    background-color: rgb(38, 42, 64);
+    background-color: var(--darkMarine);
 }
 
 .homeInfoBox p {

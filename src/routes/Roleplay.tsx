@@ -54,8 +54,8 @@ export default function Roleplay() {
 
     return (
         <>
-            <div id="tagsBox">
-                <div className="legend">
+            <div id="tagsBox" className="flexCen">
+                <div id="tags">
                     <h4>Tags:</h4>
                     <ul>
                         {tagArr.map((tag, tagInx) => {
@@ -148,6 +148,7 @@ export default function Roleplay() {
                             )
                         })}
                     </div>
+                    <hr />
                     <button onClick={() => setPlay(null)}>
                         Close
                     </button>

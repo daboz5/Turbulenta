@@ -12,7 +12,7 @@
     font-size: 25px;
     font-weight: 600;
     border: 3px solid var(--darkerPastel);
-    box-shadow: inset 0 0 5px 1px rgb(109, 44, 0),
+    box-shadow: inset 0 0 5px 1px var(--deepPastel),
         0 0 0 3px var(--darkerPastel);
     padding: 12px 30px;
     background-color: var(--darkPastel);
@@ -29,7 +29,7 @@
 }
 
 #charactersBox button:hover {
-    box-shadow: inset 0 0 7px 1px rgb(109, 44, 0),
+    box-shadow: inset 0 0 7px 1px var(--deepPastel),
         0 0 0 3px var(--darkerPastel);
     ;
     background-color: var(--darkerPastel);
@@ -72,7 +72,7 @@
 #charExitBtn {
     width: 100%;
     border: 3px solid var(--darkerPastel);
-    box-shadow: inset 0 0 5px 1px rgb(109, 44, 0), 0 0 0 3px var(--darkerPastel);
+    box-shadow: inset 0 0 5px 1px var(--deepPastel), 0 0 0 3px var(--darkerPastel);
     padding: 13px 0;
     background-color: var(--darkPastel);
 }
@@ -161,7 +161,7 @@
 }
 
 #charExitBtn:hover {
-    box-shadow: inset 0 0 7px 1px rgb(109, 44, 0),
+    box-shadow: inset 0 0 7px 1px var(--deepPastel),
         0 0 0 3px var(--darkerPastel);
     background-color: var(--darkerPastel);
 }
