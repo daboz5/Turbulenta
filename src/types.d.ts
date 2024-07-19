@@ -30,7 +30,11 @@ type Char = {
     name: (CharNamesS1 | CharNamesS2 | "");
     class: { title: string, lvl: number }[];
     background: string;
-    img?: { imgDef: number, imgArr: string[] };
+    img?: {
+        imgDef: number,
+        token: string,
+        imgArr: string[]
+    };
     companions?: JSX.Element;
     possessions?: JSX.Element;
     descript: JSX.Element;
