@@ -8,6 +8,17 @@ export default function Roleplay() {
     const { rpS1, rpS2 } = RoleplayData();
     const rpSArr = [rpS1, rpS2];
 
+    const tagArr = [{
+        id: "blood",
+        desc: "this character is participating in the roleplay",
+    }, {
+        id: "sex",
+        desc: "this character is participating in the roleplay",
+    }, {
+        id: "18+",
+        desc: "may include: heavy violence or sexual intercourse",
+    }]
+
     const [groupId, setGroupId] = useState("");
     const [play, setPlay] = useState<RPPlay | null>(null);
 
@@ -47,9 +58,10 @@ export default function Roleplay() {
                 <div className="legend">
                     <h4>Tags:</h4>
                     <ul>
-                        <li><span className="tag">blood</span> - this character is participating in the roleplay </li>
-                        <li><span className="tag">sex</span> - this character is participating in the roleplay </li>
-                        <li><span className="tag">18+</span> - may include: heavy violence or sexual intercourse</li>
+                        {tagArr.map((tag, tagInx) => {
+                            return (
+                                <li key={`tag${tagInx}`}><span className="tagExample">{tag.id}</span> - {tag.desc}</li>)
+                        })}
                     </ul>
                 </div>
             </div>
@@ -92,43 +104,45 @@ export default function Roleplay() {
 
             {play && <>
                 <div
-                    className="roleplayBox">
+                    id="roleplayBox"
+                    className="flexCol">
                     <h4>{play.title}</h4>
-                    <p className="seasonRP">
-                        {groupId}
-                    </p>
-                    <p className="shortDescRP">
-                        {play.shortDesc}
-                    </p>
-                    <div className="charsRP">
-                        {play.chars.map((char, charInx) => {
-                            return (
-                                <span
-                                    className="tag"
-                                    key={`char${charInx}`}>
-                                    {char}
-                                </span>
-                            )
-                        })}
-                    </div>
-                    <div className="tagsRP">
-                        {play.tags.map((tag, tagInx) => {
-                            return (
-                                <span
-                                    className="tag"
-                                    key={`tag${tagInx}`}>
-                                    {tag}
-                                </span>
-                            )
-                        })}
-                    </div>
-                    <div className="roleplay">
+                    <p id="seasonRP">{groupId}</p>
+                    <p id="shortDescRP">{play.shortDesc}</p>
+                    {(play.chars.length + play.tags.length) > 0 &&
+                        <>
+                            <hr />
+                            <div id="charsRP" className="flex">
+                                {play.chars.map((char, charInx) => {
+                                    return (
+                                        <span
+                                            className="tag"
+                                            key={`char${charInx}`}>
+                                            {char}
+                                        </span>
+                                    )
+                                })}
+                            </div>
+                            <div id="tagsRP" className="flex">
+                                {play.tags.map((tag, tagInx) => {
+                                    return (
+                                        <span
+                                            className="tag"
+                                            key={`tag${tagInx}`}>
+                                            {tag}
+                                        </span>
+                                    )
+                                })}
+                            </div>
+                            <hr />
+                        </>}
+                    <div id="roleplay">
                         {play.contents.map((talk, talkInx) => {
                             return (
                                 <div
                                     className="talkRP"
                                     key={`talkLine${talkInx}`}>
-                                    <h3>{talk.char}</h3>
+                                    <h5>{talk.char}</h5>
                                     <p>{talk.content}</p>
                                 </div>
                             )
@@ -138,7 +152,6 @@ export default function Roleplay() {
                         Close
                     </button>
                 </div>
-                )
             </>}
         </>
     )

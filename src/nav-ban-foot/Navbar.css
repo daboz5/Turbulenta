@@ -23,7 +23,6 @@ nav {
     padding-top: 20px;
     background-color: rgba(0, 72, 120, 0);
     transition: 0.3s;
-    pointer-events: all;
     z-index: -1;
 }
 
@@ -31,9 +30,10 @@ nav {
 
 #homeBtn {
     position: relative;
-    width: 75px;
-    transition: 0.3s;
     z-index: 1;
+    width: 75px;
+    pointer-events: all;
+    transition: 0.3s;
 }
 
 #homeBtn:hover {
@@ -46,6 +46,7 @@ nav {
     border: none;
     background-color: rgba(0, 0, 0, 0);
     transform: rotate(180deg) translateY(25px);
+    pointer-events: all;
 }
 
 #navArrow {

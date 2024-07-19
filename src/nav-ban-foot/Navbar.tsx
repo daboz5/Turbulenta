@@ -135,6 +135,7 @@ export default function Navbar() {
                 screen.style.height = "100%";
                 screen.style.backgroundColor = "rgba(0, 72, 120, 1)";
                 screen.style.boxShadow = "inset 0 0 100px 1px rgb(0, 19, 80)";
+                screen.style.pointerEvents = "all";
                 menu.style.display = "flex";
                 arrow.style.transform = "translateY(-20px) rotate(0deg)";
                 arrow.style.zIndex = "1";
@@ -143,6 +144,7 @@ export default function Navbar() {
                 screen.style.height = "110px";
                 screen.style.backgroundColor = "rgba(0, 72, 120, 0)";
                 screen.style.boxShadow = "inset 0 0 0 0 black";
+                screen.style.pointerEvents = "none";
                 menu.style.display = "none";
                 arrow.style.transform = "translateY(-25px) rotate(180deg)";
                 arrow.style.zIndex = "0";
