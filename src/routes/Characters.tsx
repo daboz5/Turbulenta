@@ -9,7 +9,6 @@ export default function Characters() {
 
     const { chars } = CharData();
 
-
     const sortChars = () => {
         const sorted = chars.sort((a, b) => {
             const upperA = a.name.toLocaleUpperCase();
@@ -104,7 +103,9 @@ export default function Characters() {
                 id="charInfoBoxContainer"
                 className="flexCen">
                 <span id="charInfoBox">
+
                     <h3>{charInfo.name}</h3>
+
                     <div id="charInfoClass" className="flexCen">
                         {charInfo.class.map((classInfo) => {
                             return <span key={`${charInfo.name + classInfo.title + classInfo.lvl}`}>
@@ -112,9 +113,11 @@ export default function Characters() {
                             </span>
                         })}
                     </div>
+
                     <div id="charInfoBackground">
                         {charInfo.background}
                     </div>
+
                     <div id="charInfoImg" className="flexCen">
                         {charInfo.img && charInfo.img.imgArr.length > 0 ?
                             <>
@@ -144,17 +147,21 @@ export default function Characters() {
                                 </div>
                             </> :
                             <img
+                                className="charImg"
                                 src={emptyFrame}
                                 alt={`No Character Image`} />}
                     </div>
+
                     <div id="charInfoDescription">
                         {charInfo.descript}
                     </div>
+
                     <div
                         id="charExitBtn"
                         onClick={() => setCharacterDisplay()}>
                         Close
                     </div>
+
                 </span>
             </div>
         </>

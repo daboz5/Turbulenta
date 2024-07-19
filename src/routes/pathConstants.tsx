@@ -12,7 +12,8 @@ const PathConstants = {
         ROLEPLAYS: "campaigns/stories",
     },
     INFO: {
-        DEF: "info"
+        DEF: "info",
+        CREDITS: "info/credits"
     },
 }
 

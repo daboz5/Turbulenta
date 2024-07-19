@@ -163,6 +163,5 @@
 #charExitBtn:hover {
     box-shadow: inset 0 0 7px 1px rgb(109, 44, 0),
         0 0 0 3px var(--darkerPastel);
-    ;
     background-color: var(--darkerPastel);
 }

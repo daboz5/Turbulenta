@@ -24,21 +24,6 @@ export default function Navbar() {
 
     const { setMapState } = useDragonStore();
 
-    // const dropInfo: DropDown = {
-    //     tabTitle: "Info",
-    //     tabPath: "info",
-    //     dropContent: [{
-    //         dropTitle: "About the Game",
-    //         dropPath: "/"
-    //     }, {
-    //         dropTitle: "Where To Find Us",
-    //         dropPath: "/"
-    //     }, {
-    //         dropTitle: "Rules",
-    //         dropPath: "/"
-    //     }]
-    // }
-
     const dropIsland: DropDown = {
         tabTitle: "The Island of Turbulenta",
         tabPath: "island",
@@ -117,6 +102,27 @@ export default function Navbar() {
     //         dropPath: "/art"
     //     }]
     // }
+
+
+    const dropInfo: DropDown = {
+        tabTitle: "Extra Info",
+        tabPath: "info",
+        dropContent: [{
+            dropTitle: "Credits",
+            dropPath: "/info/credits"
+        },
+            //     {
+            //     dropTitle: "About the Game",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Where To Find Us",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Rules",
+            //     dropPath: "/"
+            // }
+        ]
+    }
 
     const openMenu = (blockOpen?: boolean, func?: () => void) => {
         const body = document.getElementsByTagName("body")[0];
@@ -204,12 +210,9 @@ export default function Navbar() {
 
                     <span id="menu">
 
-                        {/* {createDropdown(dropInfo)} */}
-
                         {createDropdown(dropIsland)}
-
                         {createDropdown(dropCamp)}
-
+                        {createDropdown(dropInfo)}
                         {/* {createDropdown(dropArchive)} */}
 
                         <span id="navbarIcons">

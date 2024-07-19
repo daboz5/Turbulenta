@@ -4,12 +4,13 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import PathConstants from './routes/pathConstants.tsx';
 import Homepage from './routes/Homepage.tsx';
+import Island from './routes/Island.tsx';
 import Artefacts from './routes/Artefacts.tsx';
 import Characters from './routes/Characters.tsx';
-import Info from './routes/Info.tsx';
-import Island from './routes/Island.tsx';
 import Roleplay from './routes/Roleplay.tsx';
 import Campaigns from './routes/Campaigns.tsx';
+import Info from './routes/Info.tsx';
+import Credits from './routes/Credits.tsx';
 import './index.css'
 
 const router = createBrowserRouter([{
@@ -34,14 +35,17 @@ const router = createBrowserRouter([{
     path: PathConstants.CAMPAIGNS.ARTEFACTS,
     element: <Artefacts />
   }, {
-    path: PathConstants.INFO.DEF,
-    element: <Info />
-  }, {
     path: PathConstants.CAMPAIGNS.CHARACTERS,
     element: <Characters />
   }, {
     path: PathConstants.CAMPAIGNS.ROLEPLAYS,
     element: <Roleplay />
+  }, {
+    path: PathConstants.INFO.DEF,
+    element: <Info />
+  }, {
+    path: PathConstants.INFO.CREDITS,
+    element: <Credits />
   }]
 }]);
 

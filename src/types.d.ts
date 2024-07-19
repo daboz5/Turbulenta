@@ -27,7 +27,7 @@ type Artefacts = {
 }
 
 type Char = {
-    name: CharNamesS1 | CharNamesS2;
+    name: (CharNamesS1 | CharNamesS2 | "");
     class: { title: string, lvl: number }[];
     background: string;
     img?: { imgDef: number, imgArr: string[] };
@@ -36,11 +36,27 @@ type Char = {
     descript: JSX.Element;
 }
 
+type RPGroup = {
+    id: string;
+    roleplays: RPGPlay[];
+}
+
+type RPPlay = {
+    title: string;
+    shortDesc: string;
+    tags: RPTags[];
+    chars: (CharNamesS1 | CharNamesS2 | "")[];
+    contents: {
+        char: string;
+        content: JSX.Element;
+    }[];
+}
+
 type RPTags = "sex" | "blood";
 
-type CharNamesS1 = "" | "Remember Me" | "Minamoto" | "Morwyn";
+type CharNamesS1 = "Remember Me" | "Minamoto" | "Morwyn";
 
-type CharNamesS2 = "" | "Remember Me" | "Minamoto" | "Morwyn" | "Ceres" | "Thian" | "Caraxes" | "Jožef" | "Anderson" | "Alvida" | "Bob" | "Parateretes" | "Catalan" | "Janez" | "Davric" | "Rua" | "Coco";
+type CharNamesS2 = "Remember Me" | "Minamoto" | "Morwyn" | "Ceres" | "Thian" | "Caraxes" | "Jožef" | "Anderson" | "Alvida" | "Bob" | "Parateretes" | "Catalan" | "Janez" | "Davric" | "Rua" | "Coco";
 
 type Seasons = "Season 1" | "Season 2";
 
@@ -54,4 +70,6 @@ export {
     RPTags,
     Seasons,
     Char,
+    RPGroup,
+    RPPlay,
 }

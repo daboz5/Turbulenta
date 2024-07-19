@@ -27,7 +27,7 @@ export default function BannerData() {
         },
         roleplayPage: {
             title: "Stories",
-            text: "Here you can find some of the Roleplays that our wonderful player have written and ported to this website.",
+            text: "Here you can find some of the stories that players have written.",
             img: roleplayImg,
         },
         characterPage: {

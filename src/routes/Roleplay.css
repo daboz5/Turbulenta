@@ -1,20 +1,83 @@
-.roleplayBox {
-    position: relative;
-    z-index: 0;
-}
+/*TAG EXPLAINER*/
 
-.roleplayBox div {
-    margin: 20px;
-    border: 1px solid rgb(38, 42, 64);
+#tagsBox {
+    border: 3px solid rgb(38, 42, 64);
     border-radius: 20px;
-    padding: 0 20px;
     background-color: rgb(38, 42, 64);
+    padding: 0px 20px 7px 5px;
 }
 
-.roleplayBox span {
-    color: rgb(75, 115, 11);
-    font-size: 12px;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: rgb(57, 57, 57);
+#tagsBox h4 {
+    text-indent: 1rem;
+}
+
+#tagsBox li {
+    margin: 10px 0;
+}
+
+.tag {
+    color: rgb(38, 42, 64);
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 2px 6px;
+    background-color: rgba(179, 181, 215, 0.9);
+}
+
+/*LIST*/
+
+.rpGroupBtnBox {
+    width: 100%;
+    max-width: 85%;
+    border: 3px solid var(--darkerPastel);
+    box-shadow: inset 0 0 5px 1px rgb(109, 44, 0),
+        0 0 0 3px var(--darkerPastel);
+    padding: 12px 15px;
+    background-color: var(--darkPastel);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.rpGroupBtnBox:first-of-type {
+    border-radius: 20px 20px 0 0;
+}
+
+.rpGroupBtnBox:last-of-type {
+    border-radius: 0 0 20px 20px;
+    border-bottom: 5px solid var(--darkerPastel);
+}
+
+.rpGroupBtnBox:hover {
+    box-shadow: inset 0 0 7px 1px rgb(109, 44, 0),
+        0 0 0 3px var(--darkerPastel);
+    background-color: var(--darkerPastel);
+}
+
+.rpGroupBtn {
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.rpPlayBtnBox {
+    display: none;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.rpPlayBtn {
+    width: 100%;
+    font-size: 23px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 0 10px 5px var(--mediumPastel);
+    padding: 3px 30px 0;
+    background-color: var(--mediumPastel);
+    transition: 0.3s;
+}
+
+.rpPlayBtn:hover {
+    background-color: var(--lightPastel);
+    box-shadow: 0 0 5px 5px var(--lightPastel);
 }

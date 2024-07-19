@@ -30,10 +30,10 @@ export default function Banner() {
             case "/campaigns/artefacts":
                 setBanner(banners.artefactsPage);
                 break;
-            case "/characters":
+            case "/campaigns/characters":
                 setBanner(banners.characterPage);
                 break;
-            case "/roleplays":
+            case "/campaigns/stories":
                 setBanner(banners.roleplayPage);
                 break;
             default:
