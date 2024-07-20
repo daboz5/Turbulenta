@@ -24,26 +24,21 @@ export default function Characters() {
         return sorted;
     }
 
-    const emptyInfo: Char = {
-        name: "",
-        class: [],
-        background: "",
-        descript: <>{``}</>
-    }
-
-    const [charInfo, setCharInfo] = useState(emptyInfo);
+    const [charInfo, setCharInfo] = useState<Char | null>(null);
     const [charImgNum, setCharImgNum] = useState(1);
 
     useEffect(() => {
-        charInfo.img?.imgArr.forEach((img, imgInx) => {
-            const imgEl = document.getElementById("charImg" + (imgInx));
-            if (imgEl && img) {
-                imgEl.style.display = "none";
-            }
-        })
-        const pickedImg = document.getElementById("charImg" + (charInfo.img?.imgDef ? (charInfo.img.imgDef) : 1));
-        pickedImg ? pickedImg.style.display = "block" : {};
-        charInfo.img?.imgDef ? setCharImgNum(charInfo.img.imgDef) : setCharImgNum(0);
+        if (charInfo) {
+            charInfo.img?.imgArr.forEach((img, imgInx) => {
+                const imgEl = document.getElementById("charImg" + (imgInx));
+                if (imgEl && img) {
+                    imgEl.style.display = "none";
+                }
+            })
+            const pickedImg = document.getElementById("charImg" + (charInfo.img?.imgDef ? (charInfo.img.imgDef) : 1));
+            pickedImg ? pickedImg.style.display = "block" : {};
+            charInfo.img?.imgDef ? setCharImgNum(charInfo.img.imgDef) : setCharImgNum(0);
+        }
     }, [charInfo])
 
     const setNextImg = (dir: "back" | "forw") => {
@@ -53,7 +48,7 @@ export default function Characters() {
         } else if (dir === "forw") {
             newImg = document.getElementById("charImg" + (charImgNum + 1));
         }
-        if (newImg) {
+        if (newImg && charInfo) {
             charInfo.img?.imgArr.forEach((img, imgInx) => {
                 const imgEl = document.getElementById("charImg" + (imgInx));
                 if (imgEl && img) {
@@ -104,10 +99,10 @@ export default function Characters() {
                 className="flexCen">
                 <span id="charInfoBox">
 
-                    <h3>{charInfo.name}</h3>
+                    <h3>{charInfo?.name}</h3>
 
                     <div id="charInfoClass" className="flexCen">
-                        {charInfo.class.map((classInfo) => {
+                        {charInfo?.class.map((classInfo) => {
                             return <span key={`${charInfo.name + classInfo.title + classInfo.lvl}`}>
                                 {classInfo.title} {classInfo.lvl}
                             </span>
@@ -115,11 +110,11 @@ export default function Characters() {
                     </div>
 
                     <div id="charInfoBackground">
-                        {charInfo.background}
+                        {charInfo?.background}
                     </div>
 
                     <div id="charInfoImg" className="flexCen">
-                        {charInfo.img && charInfo.img.imgArr.length > 0 ?
+                        {charInfo?.img && charInfo.img.imgArr.length > 0 ?
                             <>
                                 <div
                                     id="charImgBox"
@@ -153,7 +148,7 @@ export default function Characters() {
                     </div>
 
                     <div id="charInfoDescription">
-                        {charInfo.descript}
+                        {charInfo?.desc}
                     </div>
 
                     <div
