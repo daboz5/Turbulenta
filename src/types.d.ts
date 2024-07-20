@@ -1,10 +1,10 @@
 type POICont = {
-    name: string,
-    type: "poi" | "shield",
-    img?: string,
-    alt: string,
-    desc: JSX.Element,
-    link?: string
+    name: string;
+    type: "poi" | "shield";
+    img?: string;
+    alt: string;
+    desc: JSX.Element;
+    link?: string;
 }
 
 type POI = {
@@ -23,7 +23,7 @@ type Artefact = {
 
 type Artefacts = {
     title: string;
-    artefacts: Artefact[]
+    artefacts: Artefact[];
 }
 
 type Char = {
@@ -31,20 +31,21 @@ type Char = {
     class: { title: string, lvl: number }[];
     background: string;
     img?: {
-        imgDef: number,
-        tokenArr: string[],
-        imgArr: string[]
+        imgDef: number;
+        tokenArr: string[];
+        imgArr: string[];
     };
+    desc: string | JSX.Element;
     companions?: {
-        name: string,
-        token: string,
-        desc: string
+        name: string;
+        token: string;
+        desc: string | JSX.Element;
     }[];
     possessions?: {
-        name: string,
-        desc: string
+        name: string;
+        desc: string | JSX.Element;
     }[];
-    desc: JSX.Element;
+    backstory?: string | JSX.Element;
 }
 
 type RPGroup = {
