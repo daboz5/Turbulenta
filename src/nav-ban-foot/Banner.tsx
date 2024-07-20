@@ -21,16 +21,19 @@ export default function Banner() {
             case "/":
                 setBanner(banners.landingPage);
                 break;
-            case "/artefacts":
-                setBanner(banners.artefactsPage);
-                break;
-            case "/characters":
-                setBanner(banners.characterPage);
-                break;
             case "/island":
                 setBanner(banners.islandPage);
                 break;
-            case "/roleplays":
+            case "/campaigns":
+                setBanner(banners.campaignsPage);
+                break;
+            case "/campaigns/artefacts":
+                setBanner(banners.artefactsPage);
+                break;
+            case "/campaigns/characters":
+                setBanner(banners.characterPage);
+                break;
+            case "/campaigns/stories":
                 setBanner(banners.roleplayPage);
                 break;
             default:

@@ -32,7 +32,7 @@ export default function Artefacts() {
             const scrollBoxWidth = scrollBox.clientWidth;
             const scrollWidth = scroll.clientWidth;
             if (scrollWidth + (2 * scrollBtnWidth) < scrollBoxWidth) {
-                scrollBox.style.display = "flex";
+                scrollBox.style.justifyContent = "center";
                 leftBtn.style.display = "none";
                 rightBtn.style.display = "none";
             } else if (!pic.selectArt.id) {
@@ -48,7 +48,8 @@ export default function Artefacts() {
         const picBoxEl = document.getElementById("popArtExitScreen");
         const picEl = document.getElementById("popArt" + art.id);
         if (picBoxEl && picEl) {
-            picBoxEl.style.display = "flex";
+            picBoxEl.style.opacity = "1";
+            picBoxEl.style.pointerEvents = "all";
             picEl.style.display = "block";
         }
         setPic({
@@ -62,14 +63,11 @@ export default function Artefacts() {
             const picElArr = artefacts[pic.sIndex].artefacts.map(
                 (art) => { return document.getElementById("popArt" + art.id) }
             );
-            if (
-                target.id === "popArtExitScreen" ||
-                target.id === "popArtExitBtn" ||
-                target.id === "popArtExitImg"
-            ) {
+            if (target.id === "popArtExitScreen" || target.id === "popArtExitBtn") {
                 const picBoxEl = document.getElementById("popArtExitScreen");
                 if (picBoxEl && picElArr) {
-                    picBoxEl.style.display = "none";
+                    picBoxEl.style.opacity = "0";
+                    picBoxEl.style.pointerEvents = "none";
                     picElArr.forEach((pic) => { if (pic) { pic.style.display = "none" } });
                     setPic(emptyPic);
                     switchInfoBox(false);
@@ -130,18 +128,18 @@ export default function Artefacts() {
     }
 
     return (
-        <>
+        <span id="artPageBox" className="flexCol">
 
             {artefacts.map((season, sIndex) => {
                 return (
                     <span key={`${season.title}Artefacts`}>
                         <h2>{season.title}</h2>
-                        <span className="artBox">
+                        <span className="artsBox">
                             {season.artefacts.map((artefact) => {
                                 return (
                                     <button
                                         id={`art${artefact.id}`}
-                                        className="art"
+                                        className="flexCen"
                                         onClick={() => openPic(sIndex, artefact)}
                                         key={`art${artefact.id}`}>
                                         <img id={`image${artefact.id}`} src={artefact.src} alt="Artefact" />
@@ -153,9 +151,12 @@ export default function Artefacts() {
                 )
             })}
 
-            {<span id="popArtExitScreen" onClick={(e) => closePic(e.target)}>
+            {<span
+                id="popArtExitScreen"
+                className="screenBlock flexCol flexCen"
+                onClick={(e) => closePic(e.target)}>
 
-                <span id="popArtEnlarge">
+                <span id="popArtEnlarge" className="flexCol flexCen">
                     {artefacts.map((season) => {
                         return season.artefacts.map((artefact) => {
                             return (
@@ -176,8 +177,8 @@ export default function Artefacts() {
                     </button>
 
                     <span id="artInfoBox">
-                        <span id="artInfo">
-                            <span id="artInfoTitle">
+                        <span id="artInfo" className="flexCol">
+                            <span id="artInfoTitle" className="flexCol">
                                 <hr />
                                 <h4>{pic.selectArt.name}</h4>
                             </span>
@@ -231,15 +232,12 @@ export default function Artefacts() {
                     <button
                         id="popArtExitBtn"
                         className="popArtExitIcon">
-                        <img
-                            src={exitBtn}
-                            id="popArtExitImg"
-                            alt="Exit Here" />
+                        Close
                     </button>
 
                 </span>
             </span>}
 
-        </>
+        </span>
     )
 }

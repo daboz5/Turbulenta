@@ -4,91 +4,127 @@ import discordIcon from "../assets/icons/discord-svgrepo-com.svg"
 import dragonIcon from "../assets/icons/dragon-svgrepo-com.svg"
 import instgramIcon from "../assets/icons/instagram-svgrepo-com.svg"
 import homeIcon from "../assets/icons/island-svgrepo-com.svg"
-import upIcon from "../assets/icons/Arrow_up.svg"
+import Arrow from "../assets/icons/Arrow_up.tsx"
 
 import "./Navbar.css"
+import useDragonStore from "../useDragonStore"
 
 export default function Navbar() {
 
-    const dropInfo = {
-        tabTitle: "Info",
-        tabPath: "info",
-        dropContent: [{
-            dropTitle: "About the Game",
-            dropPath: "/"
-        }, {
-            dropTitle: "Where To Find Us",
-            dropPath: "/"
-        }, {
-            dropTitle: "Rules",
-            dropPath: "/"
-        }]
+    type DropDown = {
+        tabTitle: string;
+        tabPath: string;
+        tabFunc?: () => void;
+        dropContent: {
+            dropTitle: string;
+            dropPath: string;
+            dropFunc?: () => void;
+        }[];
     }
 
-    const dropIsland = {
+    const { setMapState } = useDragonStore();
+
+    const dropIsland: DropDown = {
         tabTitle: "The Island of Turbulenta",
         tabPath: "island",
         dropContent: [{
-            dropTitle: "General Lore",
-            dropPath: "/"
+            dropTitle: "Island Map",
+            dropPath: "island",
+            dropFunc: () => setMapState("map")
         }, {
-            dropTitle: "Flora & Fauna",
-            dropPath: "/"
+            dropTitle: "List of Locations",
+            dropPath: "island",
+            dropFunc: () => setMapState("list")
         }, {
-            dropTitle: "Tribes",
-            dropPath: "/"
+            dropTitle: "Rosa Riendo",
+            dropPath: "island/rosa-riendo",
+            dropFunc: () => setMapState("list")
         }, {
-            dropTitle: "Stores",
-            dropPath: "/"
-        }, {
-            dropTitle: "Crafting",
-            dropPath: "/"
-        }, {
-            dropTitle: "Locations",
-            dropPath: "/"
-        }, {
-            dropTitle: "Portal Lake",
-            dropPath: "/"
-        }]
+            dropTitle: "Faro de Luz",
+            dropPath: "island/faro-de-luz",
+            dropFunc: () => setMapState("list")
+        }
+            // {
+            //     dropTitle: "General Lore",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Flora & Fauna",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Tribes",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Stores",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Crafting",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Portal Lake",
+            //     dropPath: "/"
+            // }
+        ]
     }
 
-    const dropCamp = {
+    const dropCamp: DropDown = {
         tabTitle: "Campaigns",
-        tabPath: "/",
-        dropContent: [{
-            dropTitle: "Reports",
-            dropPath: "/"
-        }, {
-            dropTitle: "Season 1",
-            dropPath: "/"
-        }, {
-            dropTitle: "Season 2",
-            dropPath: "/"
-        }, {
-            dropTitle: "Artefacts",
-            dropPath: "artefacts"
-        }]
+        tabPath: "/campaigns",
+        dropContent: [
+            //     {
+            //     dropTitle: "Reports",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Season 1",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Season 2",
+            //     dropPath: "/"
+            {
+                dropTitle: "Artefacts",
+                dropPath: "/campaigns/artefacts"
+            }, {
+                dropTitle: "Characters",
+                dropPath: "/campaigns/characters"
+            }, {
+                dropTitle: "Stories",
+                dropPath: "/campaigns/stories"
+            }]
     }
 
-    const dropArchive = {
-        tabTitle: "Archives",
-        tabPath: "/",
+    // const dropArchive: DropDown = {
+    //     tabTitle: "Archive",
+    //     tabPath: "/art",
+    //     dropContent: [{
+    //         dropTitle: "Stories",
+    //         dropPath: "stories"
+    //     }, {
+    //         dropTitle: "Art",
+    //         dropPath: "/art"
+    //     }]
+    // }
+
+
+    const dropInfo: DropDown = {
+        tabTitle: "Extra Info",
+        tabPath: "info",
         dropContent: [{
-            dropTitle: "Characters",
-            dropPath: "characters"
-        }, {
-            dropTitle: "Roleplays",
-            dropPath: "roleplays"
-        }, {
-            dropTitle: "Recordings",
-            dropPath: "/"
-        }, {
-            dropTitle: "Art",
-            dropPath: "/"
-        }]
+            dropTitle: "Credits",
+            dropPath: "/info/credits"
+        },
+            //     {
+            //     dropTitle: "About the Game",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Where To Find Us",
+            //     dropPath: "/"
+            // }, {
+            //     dropTitle: "Rules",
+            //     dropPath: "/"
+            // }
+        ]
     }
 
-    const openMenu = (blockOpen?: boolean) => {
+    const openMenu = (blockOpen?: boolean, func?: () => void) => {
         const body = document.getElementsByTagName("body")[0];
         const screen = document.getElementById("menuScreen");
         const arrow = document.getElementById("navArrowBtn");
@@ -99,36 +135,35 @@ export default function Navbar() {
                 screen.style.height = "100%";
                 screen.style.backgroundColor = "rgba(0, 72, 120, 1)";
                 screen.style.boxShadow = "inset 0 0 100px 1px rgb(0, 19, 80)";
+                screen.style.pointerEvents = "all";
                 menu.style.display = "flex";
-                arrow.style.transform = "translateY(-35px) rotate(180deg)";
+                arrow.style.transform = "translateY(-20px) rotate(0deg)";
                 arrow.style.zIndex = "1";
             } else if (screen.style.height === "100%") {
                 body.style.overflow = "visible";
                 screen.style.height = "110px";
                 screen.style.backgroundColor = "rgba(0, 72, 120, 0)";
                 screen.style.boxShadow = "inset 0 0 0 0 black";
+                screen.style.pointerEvents = "none";
                 menu.style.display = "none";
-                arrow.style.transform = "translateY(5px) rotate(0deg)";
+                arrow.style.transform = "translateY(-25px) rotate(180deg)";
                 arrow.style.zIndex = "0";
             }
         }
+        if (func) { func() }
     }
 
-    const createDropdown = (content: {
-        tabTitle: string;
-        tabPath: string;
-        dropContent: {
-            dropTitle: string;
-            dropPath: string;
-        }[]
-    }) => {
+    const createDropdown = (content: DropDown) => {
         return (
             <div className="dropBox">
                 <div className="tab">
                     <Link
                         className="tabLink"
                         to={content.tabPath}
-                        onClick={() => openMenu()}>
+                        onClick={() => {
+                            openMenu()
+                            content.tabFunc && content.tabFunc()
+                        }}>
                         {content.tabTitle}
                     </Link>
                     <div className="drop">
@@ -139,7 +174,10 @@ export default function Navbar() {
                                     key={`nav${link.dropTitle.replace(" ", "")}`}>
                                     <Link
                                         to={link.dropPath}
-                                        onClick={() => openMenu()}>
+                                        onClick={() => {
+                                            openMenu()
+                                            link.dropFunc && link.dropFunc()
+                                        }}>
                                         {link.dropTitle}
                                     </Link>
                                     <hr />
@@ -169,22 +207,15 @@ export default function Navbar() {
                     <button
                         id="navArrowBtn"
                         onClick={() => openMenu()}>
-                        <img
-                            id="navArrow"
-                            src={upIcon}
-                            alt="Arrow"
-                        />
+                        <Arrow />
                     </button>
 
                     <span id="menu">
 
-                        {createDropdown(dropInfo)}
-
                         {createDropdown(dropIsland)}
-
                         {createDropdown(dropCamp)}
-
-                        {createDropdown(dropArchive)}
+                        {createDropdown(dropInfo)}
+                        {/* {createDropdown(dropArchive)} */}
 
                         <span id="navbarIcons">
                             <a

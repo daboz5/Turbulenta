@@ -1,10 +1,10 @@
-import { Outlet } from 'react-router'
+import { useEffect } from 'react'
 import { Toaster } from 'react-hot-toast'
+import { Outlet } from 'react-router'
 import useDragonStore from './useDragonStore'
 import Navbar from './nav-ban-foot/Navbar'
 import Footer from './nav-ban-foot/Footer'
 import Banner from './nav-ban-foot/Banner'
-import { useEffect } from 'react'
 import "./App.css"
 import "./media-size.css"
 
@@ -40,10 +40,9 @@ export default function App() {
           <Outlet></Outlet>
         </main>
 
-        <Footer />
-
       </span>
 
+      <Footer />
 
     </>
   )

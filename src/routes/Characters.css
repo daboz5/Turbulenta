@@ -1,0 +1,167 @@
+#charactersBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#charactersBox span {
+    max-width: 500px;
+}
+
+#charactersBox button {
+    font-size: 25px;
+    font-weight: 600;
+    border: 3px solid var(--darkerPastel);
+    box-shadow: inset 0 0 5px 1px var(--deepPastel),
+        0 0 0 3px var(--darkerPastel);
+    padding: 12px 30px;
+    background-color: var(--darkPastel);
+    transition: 0.3s;
+}
+
+#charactersBox button:first-of-type {
+    border-radius: 20px 20px 0 0;
+}
+
+#charactersBox button:last-of-type {
+    border-radius: 0 0 20px 20px;
+    border-bottom: 5px solid var(--darkerPastel);
+}
+
+#charactersBox button:hover {
+    box-shadow: inset 0 0 7px 1px var(--deepPastel),
+        0 0 0 3px var(--darkerPastel);
+    ;
+    background-color: var(--darkerPastel);
+}
+
+/*SHOW CHARACTER'S INFO*/
+
+#charInfoBoxContainer {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    max-width: 90%;
+    padding-bottom: 20px;
+    z-index: 1;
+    transition: 0.3s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+#charInfoBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "nameplate"
+        "classplate"
+        "backplate"
+        "imageplate"
+        "descplate"
+        "exitplate";
+    justify-items: center;
+    border-radius: 20px;
+    background-color: var(--darkerPastel);
+}
+
+#charInfoBox h3,
+#charInfoClass,
+#charInfoBackground,
+#charInfoImg,
+#charInfoDescription,
+#charExitBtn {
+    width: 100%;
+    border: 3px solid var(--darkerPastel);
+    box-shadow: inset 0 0 5px 1px var(--deepPastel), 0 0 0 3px var(--darkerPastel);
+    padding: 13px 0;
+    background-color: var(--darkPastel);
+}
+
+#charInfoClass,
+#charInfoBackground,
+#charInfoDescription,
+#charExitBtn {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#charInfoBox h3 {
+    grid-area: nameplate;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 0 13px;
+}
+
+#charInfoClass {
+    grid-area: classplate;
+    gap: 20px;
+}
+
+#charInfoBackground {
+    grid-area: backplate;
+    text-align: center;
+}
+
+#charInfoImg {
+    grid-area: imageplate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#charImgBox {
+    height: calc(100% - 14px);
+    padding: 10px 0;
+}
+
+.charImgHandle {
+    height: 100%;
+    width: 40px;
+    font-size: 35px;
+    margin: 0 2px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    box-shadow: inset 0 0 5px 3px rgba(0, 0, 0, 0.5);
+    padding-left: 7px;
+    background-color: var(--mediumPastel);
+    transition: 0.2s;
+}
+
+.charImgHandle:hover {
+    background-color: var(--darkerPastel);
+    box-shadow: inset 0 0 5px 3px rgba(0, 0, 0, 0.6);
+}
+
+.charImgHandle:first-of-type {
+    transform: scaleX(-1);
+}
+
+.charImg {
+    display: none;
+    width: 100%;
+    max-width: 70%;
+    max-height: 500px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
+}
+
+#charInfoDescription {
+    grid-area: descplate;
+    text-align: center;
+}
+
+/*EXIT*/
+
+#charExitBtn {
+    grid-area: exitplate;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#charExitBtn:hover {
+    box-shadow: inset 0 0 7px 1px var(--deepPastel),
+        0 0 0 3px var(--darkerPastel);
+    background-color: var(--darkerPastel);
+}

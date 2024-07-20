@@ -1,8 +1,74 @@
+/*MODE SWITCH*/
+
+#islandModeBox {
+    margin: 15px 0 20px;
+}
+
+#islandModeBox button {
+    font-size: 23px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px var(--lighterPastel);
+    border: 5px solid var(--darkerPastel);
+    padding: 11px 23px 10px;
+    background-color: var(--darkPastel);
+    transition: 0.5s;
+}
+
+#islandModeBox button:first-of-type {
+    border-radius: 30px 0 0 15px;
+}
+
+#islandModeBox button:last-of-type {
+    border-radius: 0 30px 15px 0;
+    border-left: none;
+}
+
+#islandModeBox button:hover {
+    box-shadow: inset 0 0 7px 1px var(--deepPastel);
+    background-color: var(--darkerPastel);
+}
+
+/*LIST*/
+
+#islandLocationsBox {
+    width: 100%;
+}
+
+#islandLocationsBox span {
+    max-width: 500px;
+}
+
+#islandLocationsBox button {
+    font-size: 25px;
+    font-weight: 600;
+    border: 3px solid var(--darkerPastel);
+    box-shadow: inset 0 0 5px 1px var(--deepPastel),
+        0 0 0 3px var(--darkerPastel);
+    padding: 12px 30px;
+    background-color: var(--darkPastel);
+    transition: 0.3s;
+}
+
+#islandLocationsBox button:first-of-type {
+    border-radius: 15px 15px 0 0;
+}
+
+#islandLocationsBox button:last-of-type {
+    border-radius: 0 0 15px 15px;
+}
+
+#islandLocationsBox button:hover {
+    box-shadow: inset 0 0 7px 1px var(--deepPastel),
+        0 0 0 3px var(--darkerPastel);
+    ;
+    background-color: var(--darkerPastel);
+}
+
+/*MAP*/
+
 #islandMapBox {
     position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    align-items: center;
 }
 
 #islandMap {
@@ -15,6 +81,7 @@
 
 #islandMapGrid {
     position: absolute;
+    top: 0;
     display: grid;
     grid-template-columns: repeat(100, 1fr);
     grid-template-rows: repeat(100, 1fr);
@@ -24,24 +91,15 @@
 
 .poi {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgba(0, 0, 0, 0.9);
     font-weight: 700;
 }
 
 .islandMapPOIShield {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
 }
 
 .islandMapPOIDot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 35px;
     width: 35px;
     border: 3px solid black;
@@ -69,6 +127,7 @@
 
 #poiDescBox h4 {
     color: black;
+    font-size: 24px;
     text-align: center;
     padding: 0 10px;
     background-color: var(--lighterPastel);
@@ -78,8 +137,19 @@
 #poiDescBox hr {
     position: absolute;
     width: 80%;
-    top: 33px;
+    top: 35px;
     border: 1px solid black;
+}
+
+#poiDesc {
+    flex-grow: 1;
+}
+
+#poiDescBox img {
+    flex-shrink: 1;
+    height: 100%;
+    max-height: 80%;
+    max-width: 95%;
 }
 
 #poiDescBox button {
@@ -96,8 +166,4 @@
 
 #poiDescBox button:hover {
     background-color: var(--lightPastel);
-}
-
-#poiDesc {
-    flex-grow: 1;
 }

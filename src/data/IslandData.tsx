@@ -5,7 +5,7 @@ import { POI } from "../types"
 export default function IslandData() {
 
     const pointsOfInterestArr: POI[] = [{
-        x: 68,
+        x: 67,
         y: 61,
         content: {
             name: "Rosa Riendo",
@@ -15,7 +15,7 @@ export default function IslandData() {
             desc: <>{``}</>,
         }
     }, {
-        x: 33,
+        x: 32,
         y: 71,
         content: {
             name: "Faro de Luz",
