@@ -100,56 +100,56 @@ export default function ArtefactData() {
             artefacts: [
                 {
                     id: "S2A1",
-                    name: "",
+                    name: "Torment Dagger",
                     story: "",
                     shortDesc: "",
                     src: imgS2A1
                 },
                 {
                     id: "S2A2",
-                    name: "",
+                    name: "Hugfish",
                     story: "",
                     shortDesc: "",
                     src: imgS2A2
                 },
                 {
                     id: "S2A3",
-                    name: "",
+                    name: "Dreadlord's Cleaver",
                     story: "",
                     shortDesc: "",
                     src: imgS2A3
                 },
                 {
                     id: "S2A4",
-                    name: "",
+                    name: "Veil of Midnight",
                     story: "",
                     shortDesc: "",
                     src: imgS2A4
                 },
                 {
                     id: "S2A5",
-                    name: "",
+                    name: "Demodand Triangle of Ancestral Memory",
                     story: "",
                     shortDesc: "",
                     src: imgS2A5
                 },
                 {
                     id: "S2A6",
-                    name: "",
+                    name: "Crystal of Bedlam",
                     story: "",
                     shortDesc: "",
                     src: imgS2A6
                 },
                 {
                     id: "S2A7",
-                    name: "",
+                    name: "Shield of Slaad",
                     story: "",
                     shortDesc: "",
                     src: imgS2A7
                 },
                 {
                     id: "S2A8",
-                    name: "",
+                    name: "Clockwork Crossbow",
                     story: "",
                     shortDesc: "",
                     src: imgS2A8
