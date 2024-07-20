@@ -1,12 +1,16 @@
 import { Char } from "../types";
 
-import remember1 from "../assets/chars/Remember-Me-1.jpg"
-import remember2 from "../assets/chars/Remember-Me-2.jpg"
-import remember3 from "../assets/chars/Remember-Me-3.jpg"
-import remember4 from "../assets/chars/Remember-Me-4.jpg"
-import remember5 from "../assets/chars/Remember-Me-5.jpg"
-import remember6 from "../assets/chars/Remember-Me-6.jpg"
-
+import remember1 from "../assets/chars/rememberme/Remember-Me-1.jpg"
+import remember2 from "../assets/chars/rememberme/Remember-Me-2.jpg"
+import remember3 from "../assets/chars/rememberme/Remember-Me-3.jpg"
+import remember4 from "../assets/chars/rememberme/Remember-Me-4.jpg"
+import remember5 from "../assets/chars/rememberme/Remember-Me-5.jpg"
+import remember6 from "../assets/chars/rememberme/Remember-Me-6.jpg"
+import remember3token from "../assets/chars/rememberme/Remember-Me-Token-3.png"
+import remember4token from "../assets/chars/rememberme/Remember-Me-Token-4.png"
+import remember5token from "../assets/chars/rememberme/Remember-Me-Token-5.png"
+import remember6token from "../assets/chars/rememberme/Remember-Me-Token-6.png"
+import repko from "../assets/chars/rememberme/Repko-Token.png"
 
 export default function CharData() {
 
@@ -23,6 +27,12 @@ export default function CharData() {
             background: "Acolyte",
             img: {
                 imgDef: 2,
+                tokenArr: [
+                    remember3token,
+                    remember4token,
+                    remember5token,
+                    remember6token
+                ],
                 imgArr: [
                     remember1,
                     remember2,
@@ -31,9 +41,20 @@ export default function CharData() {
                     remember5,
                     remember6]
             },
-            companions: <>{`Repko`}</>,
-            possessions: <>{`Nobody's Respite`}</>,
-            descript: <>
+            companions: [
+                {
+                    name: "Repko",
+                    token: repko,
+                    desc: "A traveling companiond and Remember Me's best friend."
+                }
+            ],
+            possessions: [
+                {
+                    name: "Nobody's Respite",
+                    desc: "",
+                }
+            ],
+            desc: <>
                 {`Nobody is unknown and misterious`}<br />
                 {`It is unknown how misterious it is.`}
             </>,
@@ -45,7 +66,7 @@ export default function CharData() {
                 lvl: 0
             }],
             background: "",
-            descript: <>{``}</>
+            desc: <>{``}</>
         },
     ]
 

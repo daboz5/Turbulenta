@@ -32,12 +32,19 @@ type Char = {
     background: string;
     img?: {
         imgDef: number,
-        token: string,
+        tokenArr: string[],
         imgArr: string[]
     };
-    companions?: JSX.Element;
-    possessions?: JSX.Element;
-    descript: JSX.Element;
+    companions?: {
+        name: string,
+        token: string,
+        desc: string
+    }[];
+    possessions?: {
+        name: string,
+        desc: string
+    }[];
+    desc: JSX.Element;
 }
 
 type RPGroup = {
