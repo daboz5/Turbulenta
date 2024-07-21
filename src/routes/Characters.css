@@ -10,7 +10,6 @@
 
 #charactersBox button {
     font-size: 25px;
-    font-weight: 600;
     border: 3px solid var(--darkerPastel);
     box-shadow: inset 0 0 5px 1px var(--deepPastel),
         0 0 0 3px var(--darkerPastel);
@@ -37,16 +36,17 @@
 
 /*SHOW CHARACTER'S INFO*/
 
+#charInfoBoxScreen {
+    opacity: 0;
+    transition: 0.2s;
+}
+
 #charInfoBoxContainer {
     position: absolute;
     top: 20px;
     width: 100%;
     max-width: 90%;
     padding-bottom: 20px;
-    z-index: 1;
-    transition: 0.3s;
-    pointer-events: none;
-    opacity: 0;
 }
 
 #charInfoBox {
@@ -79,11 +79,12 @@
 
 #charInfoClass,
 #charInfoBackground,
-#charInfoDescription,
-#charExitBtn {
+#charInfoDescription {
     color: rgba(0, 0, 0, 0.9);
-    font-size: 20px;
-    font-weight: 600;
+}
+
+.charInfoPad {
+    padding: 0 25px;
 }
 
 #charInfoBox h3 {
@@ -93,13 +94,27 @@
     padding: 10px 0 13px;
 }
 
+#charInfoBox h4 {
+    font-weight: 800;
+}
+
+#charInfoBox h5 {
+    font-size: 21px;
+    font-weight: 800;
+    margin: 10px auto -8px;
+}
+
 #charInfoClass {
     grid-area: classplate;
-    gap: 20px;
+    font-size: 19px;
+    font-weight: 800;
+    gap: 15px;
 }
 
 #charInfoBackground {
     grid-area: backplate;
+    font-size: 19px;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -147,6 +162,7 @@
 
 #charInfoDescription {
     grid-area: descplate;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -154,6 +170,9 @@
 
 #charExitBtn {
     grid-area: exitplate;
+    color: black;
+    font-weight: 800;
+    font-size: 22px;
     text-align: center;
     border-radius: 0 0 20px 20px;
     transition: 0.2s;

@@ -37,12 +37,12 @@ type Char = {
     };
     desc: string | JSX.Element;
     companions?: {
-        name: string;
+        name: string | JSX.Element;
         token: string;
         desc: string | JSX.Element;
     }[];
     possessions?: {
-        name: string;
+        name: string | JSX.Element;
         desc: string | JSX.Element;
     }[];
     backstory?: string | JSX.Element;

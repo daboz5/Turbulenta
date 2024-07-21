@@ -1,11 +1,15 @@
-:root {
-  font-family: Noto Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 500;
+html {
+  scroll-behavior: smooth;
+}
 
+:root {
   box-sizing: border-box;
 
+
   color: rgba(255, 255, 255, 0.9);
+  font-family: Noto Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -80,15 +84,19 @@ hr {
 
 button {
   cursor: pointer;
+  font-weight: 700;
+}
+
+b {
+  font-weight: 800;
 }
 
 a {
-  color: #9f7cff;
-  font-weight: 500;
+  color: #0b9dff;
   text-decoration: inherit;
   transition: 0.3s;
 }
 
 a:hover {
-  color: #643ce7;
+  color: #7be0ff;
 }

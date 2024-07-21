@@ -64,15 +64,18 @@ export default function Characters() {
         }
     }
 
-    const setCharacterDisplay = (char?: Char) => {
-        const infoBox = document.getElementById("charInfoBoxContainer");
-        if (infoBox && char) {
-            infoBox.style.opacity = "1";
-            infoBox.style.pointerEvents = "all";
-            setCharInfo(char);
-        } else if (infoBox) {
-            infoBox.style.opacity = "0";
-            infoBox.style.pointerEvents = "none";
+    const setCharacterDisplay = (char: Char | false, target?: EventTarget) => {
+        if (!target || target instanceof Element) {
+            const screen = document.getElementById("charInfoBoxScreen");
+            const tId = target?.id;
+            if (char && screen) {
+                screen.style.opacity = "1";
+                screen.style.pointerEvents = "all";
+                setCharInfo(char);
+            } else if (screen && (tId === "charInfoBoxScreen" || tId === "charExitBtn")) {
+                screen.style.opacity = "0";
+                screen.style.pointerEvents = "none";
+            }
         }
     }
 
@@ -94,71 +97,136 @@ export default function Characters() {
                 </span>
             </span>
 
-            <div
-                id="charInfoBoxContainer"
-                className="flexCen">
-                <span id="charInfoBox">
+            <span
+                id="charInfoBoxScreen"
+                className="screen flexCen"
+                onClick={(e) => setCharacterDisplay(false, e.target)}>
+                <span
+                    id="charInfoBoxContainer"
+                    className="flexCen">
+                    <span id="charInfoBox">
 
-                    <h3>{charInfo?.name}</h3>
+                        <h3>{charInfo?.name}</h3>
 
-                    <div id="charInfoClass" className="flexCen">
-                        {charInfo?.class.map((classInfo) => {
-                            return <span key={`${charInfo.name + classInfo.title + classInfo.lvl}`}>
-                                {classInfo.title} {classInfo.lvl}
-                            </span>
-                        })}
-                    </div>
+                        <div id="charInfoClass" className="flexCen">
+                            {charInfo?.class.map((classInfo) => {
+                                return <span key={`${charInfo.name + classInfo.title + classInfo.lvl}`}>
+                                    {classInfo.title} {classInfo.lvl}
+                                </span>
+                            })}
+                        </div>
 
-                    <div id="charInfoBackground">
-                        {charInfo?.background}
-                    </div>
+                        <div id="charInfoBackground">
+                            {charInfo?.background}
+                        </div>
 
-                    <div id="charInfoImg" className="flexCen">
-                        {charInfo?.img && charInfo.img.imgArr.length > 0 ?
-                            <>
-                                <div
-                                    id="charImgBox"
-                                    className="flexCen">
-                                    <button
-                                        className="charImgHandle"
-                                        onClick={() => setNextImg("back")}>
-                                        ➧
-                                    </button>
-                                    {charInfo.img.imgArr.map((charImg, inx) => {
-                                        return (
-                                            <img
-                                                id={`charImg${inx}`}
-                                                className="charImg"
-                                                src={charImg}
-                                                alt={`${charInfo.name} Image`}
-                                                key={`charImg${inx}`} />
-                                        )
-                                    })}
-                                    <button
-                                        className="charImgHandle"
-                                        onClick={() => setNextImg("forw")}>
-                                        ➧
-                                    </button>
-                                </div>
-                            </> :
-                            <img
-                                className="charImg"
-                                src={emptyFrame}
-                                alt={`No Character Image`} />}
-                    </div>
+                        <div id="charInfoImg" className="flexCen">
+                            {charInfo?.img && charInfo.img.imgArr.length > 0 ?
+                                <>
+                                    <div
+                                        id="charImgBox"
+                                        className="flexCen">
+                                        <button
+                                            className="charImgHandle"
+                                            onClick={() => setNextImg("back")}>
+                                            ➧
+                                        </button>
+                                        {charInfo.img.imgArr.map((charImg, inx) => {
+                                            return (
+                                                <img
+                                                    id={`charImg${inx}`}
+                                                    className="charImg"
+                                                    src={charImg}
+                                                    alt={`${charInfo.name} Image`}
+                                                    key={`charImg${inx}`} />
+                                            )
+                                        })}
+                                        <button
+                                            className="charImgHandle"
+                                            onClick={() => setNextImg("forw")}>
+                                            ➧
+                                        </button>
+                                    </div>
+                                </> :
+                                <img
+                                    className="charImg"
+                                    src={emptyFrame}
+                                    alt={`No Character Image`} />}
+                        </div>
 
-                    <div id="charInfoDescription">
-                        {charInfo?.desc}
-                    </div>
+                        <div id="charInfoDescription">
+                            <div className="charInfoPad">
+                                <h4>Description</h4>
+                                <span>
+                                    {typeof charInfo?.backstory === "string" ?
+                                        <p>{charInfo?.backstory}</p> :
+                                        charInfo?.backstory
+                                    }
+                                </span>
+                            </div>
+                            {charInfo?.companions &&
+                                <div className="charInfoPad">
+                                    <h4>NPCs of Note</h4>
+                                    {charInfo?.companions?.map(
+                                        (comp, cInx) => {
+                                            return (
+                                                <span key={`keyCharComp${cInx}`}>
+                                                    <h5>{comp.name}</h5>
+                                                    <span>
+                                                        {typeof comp.desc === "string" ?
+                                                            <p>{comp.desc}</p> :
+                                                            comp.desc
+                                                        }
+                                                    </span>
+                                                </span>
+                                            )
+                                        }
+                                    )}
+                                </div>}
+                            {charInfo?.possessions &&
+                                <div className="charInfoPad">
+                                    <h4>Possessions</h4>
+                                    {charInfo?.possessions?.map(
+                                        (item, iInx) => {
+                                            return (
+                                                <span key={`keyCharItem${iInx}`}>
+                                                    <h5>{item.name}</h5>
+                                                    <span>
+                                                        {typeof item.desc === "string" ?
+                                                            <p>{item.desc}</p> :
+                                                            item.desc
+                                                        }
+                                                    </span>
+                                                </span>
+                                            )
+                                        }
+                                    )}
+                                </div>}
+                            {charInfo?.backstory &&
+                                <div className="charInfoPad">
+                                    <h4>Backstory</h4>
+                                    <span>
+                                        {typeof charInfo.backstory === "string" ?
+                                            <p>{charInfo.backstory}</p> :
+                                            charInfo.backstory
+                                        }
+                                    </span>
+                                </div>}
+                        </div>
 
-                    <div
-                        id="charExitBtn"
-                        onClick={() => setCharacterDisplay()}>
-                        Close
-                    </div>
+                        <div
+                            id="charExitBtn"
+                            onClick={() => {
+                                setCharacterDisplay(false)
+                                document.body.scrollTop = 0
+                                document.documentElement.scrollTop = 0
+                            }}>
+                            Close
+                        </div>
 
+                    </span>
                 </span>
-            </div>
+            </span>
         </>
     )
 }

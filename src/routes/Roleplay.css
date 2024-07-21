@@ -24,7 +24,6 @@
 .tagExample {
     color: var(--darkMarine);
     font-size: 1em;
-    font-weight: 600;
     border-radius: 5px;
     padding: 2px 8px;
     background-color: rgb(179, 181, 215);
@@ -63,7 +62,6 @@
 .rpGroupBtn {
     border: none;
     font-size: 25px;
-    font-weight: 600;
     background-color: transparent;
 }
 
@@ -76,7 +74,6 @@
 .rpPlayBtn {
     width: 100%;
     font-size: 23px;
-    font-weight: 600;
     border: none;
     box-shadow: 0 0 10px 5px var(--mediumPastel);
     padding: 3px 30px 0;
@@ -122,7 +119,6 @@
 
 #seasonRP {
     font-size: 20px;
-    font-weight: 600;
 }
 
 #shortDescRP {
@@ -149,7 +145,6 @@
     width: 100%;
     color: white;
     font-size: 20px;
-    font-weight: 600;
     border: 0;
     padding: 5px 0;
     background-color: transparent;
