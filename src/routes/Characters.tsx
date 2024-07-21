@@ -79,6 +79,30 @@ export default function Characters() {
         }
     }
 
+    const switchText = (targetId: string) => {
+        const text = document.getElementById(targetId);
+        const textStyle = text?.style.display;
+        if (text && (textStyle === "" || textStyle === "none")) {
+            text.style.display = "block";
+        } else if (text) {
+            text.style.display = "none";
+        }
+    }
+
+    const closeCharInfoDisplay = () => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        const el1 = document.getElementById("charInfoDescription");
+        const el2 = document.getElementById("charInfoCompanions");
+        const el3 = document.getElementById("charInfoPossessions");
+        const el4 = document.getElementById("charInfoBackstory");
+        el1 ? el1.style.display = "none" : {};
+        el2 ? el2.style.display = "none" : {};
+        el3 ? el3.style.display = "none" : {};
+        el4 ? el4.style.display = "none" : {};
+        setCharInfo(null);
+    }
+
     return (
         <>
             <span
@@ -100,7 +124,10 @@ export default function Characters() {
             <span
                 id="charInfoBoxScreen"
                 className="screen flexCen"
-                onClick={(e) => setCharacterDisplay(false, e.target)}>
+                onClick={(e) => {
+                    setCharacterDisplay(false, e.target)
+                    closeCharInfoDisplay()
+                }}>
                 <span
                     id="charInfoBoxContainer"
                     className="flexCen">
@@ -154,73 +181,127 @@ export default function Characters() {
                                     alt={`No Character Image`} />}
                         </div>
 
-                        <div id="charInfoDescription">
-                            <div className="charInfoPad">
-                                <h4>Description</h4>
-                                <span>
-                                    {typeof charInfo?.backstory === "string" ?
-                                        <p>{charInfo?.backstory}</p> :
-                                        charInfo?.backstory
-                                    }
-                                </span>
-                            </div>
+                        <div
+                            id="charInfoDescriptionBox"
+                            className="charInfoTextBox">
+                            <span
+                                className="charExpandBtn flexCen"
+                                onClick={() => switchText("charInfoDescription")}>
+                                <div>
+                                    <h4>Description</h4>
+                                    <hr className="charExpandBtnLine" />
+                                </div>
+                            </span>
+                            <span
+                                id="charInfoDescription"
+                                className="charInfoText">
+                                {typeof charInfo?.backstory === "string" ?
+                                    <p>{charInfo?.backstory}</p> :
+                                    charInfo?.desc
+                                }
+                            </span>
+                        </div>
+
+                        <div
+                            id="charInfoCompanionsBox"
+                            className="charInfoTextBox">
                             {charInfo?.companions &&
-                                <div className="charInfoPad">
-                                    <h4>NPCs of Note</h4>
-                                    {charInfo?.companions?.map(
-                                        (comp, cInx) => {
-                                            return (
-                                                <span key={`keyCharComp${cInx}`}>
-                                                    <h5>{comp.name}</h5>
-                                                    {comp.token && <img src={comp.token} alt="NPC Image" />}
-                                                    <span>
-                                                        {typeof comp.desc === "string" ?
-                                                            <p>{comp.desc}</p> :
-                                                            comp.desc
-                                                        }
+                                <>
+                                    <span
+                                        className="charExpandBtn flexCen"
+                                        onClick={() => switchText("charInfoCompanions")}>
+                                        <div>
+                                            <h4>NPCs of Note</h4>
+                                            <hr className="charExpandBtnLine" />
+                                        </div>
+                                    </span>
+                                    <span
+                                        id="charInfoCompanions"
+                                        className="charInfoText">
+                                        {charInfo?.companions?.map(
+                                            (comp, cInx) => {
+                                                return (
+                                                    <span key={`keyCharComp${cInx}`}>
+                                                        <h5>{comp.name}</h5>
+                                                        {comp.token && <img src={comp.token} alt="NPC Image" />}
+                                                        <span>
+                                                            {typeof comp.desc === "string" ?
+                                                                <p>{comp.desc}</p> :
+                                                                comp.desc
+                                                            }
+                                                        </span>
                                                     </span>
-                                                </span>
-                                            )
-                                        }
-                                    )}
-                                </div>}
+                                                )
+                                            }
+                                        )}
+                                    </span>
+                                </>}
+                        </div>
+
+                        <div
+                            id="charInfoPossessionsBox"
+                            className="charInfoTextBox">
                             {charInfo?.possessions &&
-                                <div className="charInfoPad">
-                                    <h4>Possessions</h4>
-                                    {charInfo?.possessions?.map(
-                                        (item, iInx) => {
-                                            return (
-                                                <span key={`keyCharItem${iInx}`}>
-                                                    <h5>{item.name}</h5>
-                                                    <span>
-                                                        {typeof item.desc === "string" ?
-                                                            <p>{item.desc}</p> :
-                                                            item.desc
-                                                        }
+                                <>
+                                    <span
+                                        className="charExpandBtn flexCen"
+                                        onClick={() => switchText("charInfoPossessions")}>
+                                        <div>
+                                            <h4>Possessions</h4>
+                                            <hr className="charExpandBtnLine" />
+                                        </div>
+                                    </span>
+                                    <span
+                                        id="charInfoPossessions"
+                                        className="charInfoText">
+                                        {charInfo?.possessions?.map(
+                                            (item, iInx) => {
+                                                return (
+                                                    <span key={`keyCharItem${iInx}`}>
+                                                        <h5>{item.name}</h5>
+                                                        <span>
+                                                            {typeof item.desc === "string" ?
+                                                                <p>{item.desc}</p> :
+                                                                item.desc
+                                                            }
+                                                        </span>
                                                     </span>
-                                                </span>
-                                            )
-                                        }
-                                    )}
-                                </div>}
+                                                )
+                                            }
+                                        )}
+                                    </span>
+                                </>}
+                        </div>
+
+                        <div
+                            id="charInfoBackstoryBox"
+                            className="charInfoTextBox">
                             {charInfo?.backstory &&
-                                <div className="charInfoPad">
-                                    <h4>Backstory</h4>
-                                    <span>
+                                <>
+                                    <span
+                                        className="charExpandBtn flexCen"
+                                        onClick={() => switchText("charInfoBackstory")}>
+                                        <div>
+                                            <h4>Backstory</h4>
+                                            <hr className="charExpandBtnLine" />
+                                        </div>
+                                    </span>
+                                    <span
+                                        id="charInfoBackstory"
+                                        className="charInfoText">
                                         {typeof charInfo.backstory === "string" ?
                                             <p>{charInfo.backstory}</p> :
                                             charInfo.backstory
                                         }
                                     </span>
-                                </div>}
+                                </>}
                         </div>
 
                         <div
                             id="charExitBtn"
                             onClick={() => {
                                 setCharacterDisplay(false)
-                                document.body.scrollTop = 0
-                                document.documentElement.scrollTop = 0
+                                closeCharInfoDisplay()
                             }}>
                             Close
                         </div>

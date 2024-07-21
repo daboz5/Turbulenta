@@ -30,7 +30,6 @@
 #charactersBox button:hover {
     box-shadow: inset 0 0 7px 1px var(--deepPastel),
         0 0 0 3px var(--darkerPastel);
-    ;
     background-color: var(--darkerPastel);
 }
 
@@ -45,7 +44,7 @@
     position: absolute;
     top: 20px;
     width: 100%;
-    max-width: 90%;
+    max-width: 85%;
     padding-bottom: 20px;
 }
 
@@ -58,8 +57,12 @@
         "backplate"
         "imageplate"
         "descplate"
+        "npcplate"
+        "itemplate"
+        "storyplate"
         "exitplate";
     justify-items: center;
+    width: 100%;
     border-radius: 20px;
     background-color: var(--darkerPastel);
 }
@@ -68,26 +71,15 @@
 #charInfoClass,
 #charInfoBackground,
 #charInfoImg,
-#charInfoDescription,
+.charInfoTextBox,
 #charExitBtn {
     width: 100%;
     border: 3px solid var(--darkerPastel);
     box-shadow: inset 0 0 5px 1px var(--deepPastel), 0 0 0 3px var(--darkerPastel);
-    padding: 13px 0;
     background-color: var(--darkPastel);
 }
 
-#charInfoClass,
-#charInfoBackground,
-#charInfoDescription {
-    color: rgba(0, 0, 0, 0.9);
-}
-
-.charInfoPad {
-    padding: 0 25px;
-}
-
-.charInfoPad img {
+.charInfoTextBox img {
     width: 90%;
     max-height: 300px;
     max-width: 300px;
@@ -101,35 +93,27 @@
     padding: 10px 0 13px;
 }
 
-#charInfoBox h4 {
+#charInfoClass,
+#charInfoBackground,
+#charInfoImg {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
     font-weight: 800;
-}
-
-#charInfoBox h5 {
-    font-size: 21px;
-    font-weight: 800;
-    margin: 10px auto -8px;
+    padding: 13px 0;
 }
 
 #charInfoClass {
     grid-area: classplate;
-    font-size: 19px;
-    font-weight: 800;
     gap: 15px;
 }
 
 #charInfoBackground {
     grid-area: backplate;
-    font-size: 19px;
-    font-weight: 800;
     text-align: center;
 }
 
 #charInfoImg {
     grid-area: imageplate;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #charImgBox {
@@ -167,10 +151,80 @@
     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
 }
 
-#charInfoDescription {
-    grid-area: descplate;
+#charInfoDescriptionBox,
+#charInfoCompanionsBox,
+#charInfoPossessionsBox,
+#charInfoBackstoryBox {
+    color: rgba(0, 0, 0, 0.9);
     font-size: 18px;
     text-align: center;
+    padding: 0 0 10px;
+}
+
+#charInfoDescriptionBox {
+    grid-area: descplate;
+}
+
+#charInfoCompanionsBox {
+    grid-area: npcplate;
+}
+
+#charInfoPossessionsBox {
+    grid-area: itemplate;
+}
+
+#charInfoBackstoryBox {
+    grid-area: storyplate;
+}
+
+/*EXPAND BTNS*/
+
+.charExpandBtn {
+    cursor: pointer;
+}
+
+.charExpandBtn,
+.charInfoText {
+    padding: 0 25px;
+}
+
+.charInfoText p:first-of-type {
+    margin-top: 5px;
+}
+
+.charInfoText p {
+    margin: 13px 0;
+}
+
+.charInfoText p:last-of-type {
+    margin-bottom: 8px;
+}
+
+.charExpandBtnLine {
+    border: 1px solid black;
+    margin: -5px auto 5px;
+    width: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.charExpandBtn:hover .charExpandBtnLine {
+    width: 75%;
+    opacity: 1;
+}
+
+#charInfoBox h4 {
+    font-weight: 800;
+}
+
+#charInfoBox h5 {
+    font-size: 21px;
+    font-weight: 800;
+    margin: 10px auto -8px;
+}
+
+.charInfoText {
+    display: none;
 }
 
 /*EXIT*/
@@ -181,6 +235,7 @@
     font-weight: 800;
     font-size: 22px;
     text-align: center;
+    padding: 10px 0;
     border-radius: 0 0 20px 20px;
     transition: 0.2s;
     cursor: pointer;
