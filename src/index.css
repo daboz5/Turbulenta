@@ -1,7 +1,7 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Noto Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 500;
 
   box-sizing: border-box;
 
@@ -42,7 +42,7 @@ body {
 /*COMMON ELEMENTS*/
 
 h1 {
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   text-shadow: 3px 3px 5px black;
   margin: 0;
@@ -52,7 +52,7 @@ h1 {
 
 h2 {
   position: relative;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   text-shadow: 3px 3px 5px black;
   margin: 0;
