@@ -172,6 +172,7 @@ export default function Characters() {
                                             return (
                                                 <span key={`keyCharComp${cInx}`}>
                                                     <h5>{comp.name}</h5>
+                                                    {comp.token && <img src={comp.token} alt="NPC Image" />}
                                                     <span>
                                                         {typeof comp.desc === "string" ?
                                                             <p>{comp.desc}</p> :

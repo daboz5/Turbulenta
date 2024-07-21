@@ -87,6 +87,13 @@
     padding: 0 25px;
 }
 
+.charInfoPad img {
+    width: 90%;
+    max-height: 300px;
+    max-width: 300px;
+    margin-top: 29px;
+}
+
 #charInfoBox h3 {
     grid-area: nameplate;
     margin: 0;
