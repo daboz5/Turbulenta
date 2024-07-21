@@ -75,6 +75,7 @@ export default function Characters() {
             } else if (screen && (tId === "charInfoBoxScreen" || tId === "charExitBtn")) {
                 screen.style.opacity = "0";
                 screen.style.pointerEvents = "none";
+                closeCharInfoDisplay();
             }
         }
     }
@@ -124,10 +125,7 @@ export default function Characters() {
             <span
                 id="charInfoBoxScreen"
                 className="screen flexCen"
-                onClick={(e) => {
-                    setCharacterDisplay(false, e.target)
-                    closeCharInfoDisplay()
-                }}>
+                onClick={(e) => setCharacterDisplay(false, e.target)}>
                 <span
                     id="charInfoBoxContainer"
                     className="flexCen">
