@@ -1,3 +1,7 @@
+nav {
+    --deepBlue: rgb(0, 15, 66)
+}
+
 header {
     width: 100%;
 }
@@ -134,12 +138,19 @@ nav {
     display: flex;
 }
 
+.dropBox:hover .tab {
+    border-left: 8px dotted var(--deepBlue);
+    border-right: 8px dotted var(--deepBlue);
+}
+
 .tab {
     width: 100%;
     text-align: center;
-    text-shadow: 0 0 3px rgb(0, 15, 66),
+    text-shadow: 0 0 3px var(--deepBlue),
         0 0 5px rgb(0, 19, 80);
-    transition: 0.1s;
+    border-left: 8px dotted transparent;
+    border-right: 8px dotted transparent;
+    transition: 0.3s;
 }
 
 .tab:hover .drop {
@@ -148,13 +159,14 @@ nav {
 
 .tab:hover .tabLink {
     color: rgba(255, 255, 255, 1);
-    text-shadow: 0 0 2px rgb(0, 15, 66),
-        0 0 4px rgb(0, 15, 66),
-        0 0 6px rgb(0, 15, 66),
-        0 0 8px rgb(0, 15, 66);
+    text-shadow: 0 0 2px var(--deepBlue),
+        0 0 4px var(--deepBlue),
+        0 0 6px var(--deepBlue),
+        0 0 8px var(--deepBlue);
 }
 
 .tabLink {
+    width: 100%;
     color: rgba(255, 255, 255, 0.85);
     font-size: 30px;
     font-weight: 700;
@@ -194,10 +206,10 @@ nav {
 
 .linkBox:hover a {
     color: rgba(255, 255, 255, 1);
-    text-shadow: 0 0 2px rgb(0, 15, 66),
-        0 0 4px rgb(0, 15, 66),
-        0 0 6px rgb(0, 15, 66),
-        0 0 8px rgb(0, 15, 66);
+    text-shadow: 0 0 2px var(--deepBlue),
+        0 0 4px var(--deepBlue),
+        0 0 6px var(--deepBlue),
+        0 0 8px var(--deepBlue);
 }
 
 .linkBox a {
