@@ -26,12 +26,8 @@ export default function Homepage() {
     }
 
     return (
-        <>
-            <div className="homepage">
-
-                {createDataPoint(infoPointsArr)}
-
-            </div>
-        </>
+        <div className="homepage">
+            {createDataPoint(infoPointsArr)}
+        </div>
     )
 }

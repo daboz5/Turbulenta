@@ -10,13 +10,13 @@ export default function RoleplayData() {
             tags: ["blood"],
             chars: ["Remember Me", "Minamoto"],
             contents: [{
-                char: "Remember Me",
+                char: { name: "Remember Me", token: 0 },
                 content: <>{`Remember Me says something funny, something that would make old sailor blush.`}</>
             }, {
-                char: "Minamoto",
+                char: { name: "Minamoto" },
                 content: <>{`Minamoto laughs, it says something else.`}</>
             }, {
-                char: "Remember Me",
+                char: { name: "Remember Me", token: 0 },
                 content: <>{`Remember Me doesn't get it`}</>
             }]
         }]
@@ -30,13 +30,13 @@ export default function RoleplayData() {
             tags: ["blood"],
             chars: ["Remember Me", "Minamoto"],
             contents: [{
-                char: "Remember Me",
+                char: { name: "Remember Me", token: 0 },
                 content: <>{`Remember Me says something funny, something that would make old sailor blush.`}</>
             }, {
-                char: "Minamoto",
+                char: { name: "Minamoto" },
                 content: <>{`Minamoto laughs, it says something else.`}</>
             }, {
-                char: "Remember Me",
+                char: { name: "Remember Me", token: 0 },
                 content: <>{`Remember Me doesn't get it`}</>
             }]
         }]

@@ -28,6 +28,10 @@ type Artefacts = {
 
 type Char = {
     name: (CharNamesS1 | CharNamesS2 | "");
+    gender: {
+        pronoun: string,
+        defToken: string
+    };
     class: { title: string, lvl: number }[];
     background: string;
     img?: {
@@ -57,9 +61,9 @@ type RPPlay = {
     title: string;
     shortDesc: string;
     tags: RPTags[];
-    chars: (CharNamesS1 | CharNamesS2 | "")[];
+    chars: (CharNamesS1 | CharNamesS2 | NPCNamesS1 | NPCNamesS2 | "")[];
     contents: {
-        char: string;
+        char: { name: string, token?: number };
         content: JSX.Element;
     }[];
 }
@@ -67,8 +71,9 @@ type RPPlay = {
 type RPTags = "sex" | "blood";
 
 type CharNamesS1 = "Remember Me" | "Minamoto" | "Morwyn";
-
 type CharNamesS2 = "Remember Me" | "Minamoto" | "Morwyn" | "Ceres" | "Thian" | "Caraxes" | "Jožef" | "Anderson" | "Alvida" | "Bob" | "Parateretes" | "Catalan" | "Janez" | "Davric" | "Rua" | "Coco";
+type NPCNamesS1 = "";
+type NPCNamesS2 = "";
 
 type Seasons = "Season 1" | "Season 2";
 
@@ -77,6 +82,8 @@ export {
     Artefacts,
     CharNamesS1,
     CharNamesS2,
+    NPCNamesS1,
+    NPCNamesS2,
     POI,
     POICont,
     RPTags,

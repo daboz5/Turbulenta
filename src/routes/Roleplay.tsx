@@ -1,11 +1,15 @@
 import { useState } from "react";
 import { RPPlay } from "../types";
 import RoleplayData from "../data/RoleplayData"
+import CharData from "../data/CharData";
 import "./Roleplay.css"
+
+import defGenToken from "../assets/chars/defTokens/anime-away-face-svgrepo-com.svg"
 
 export default function Roleplay() {
 
     const { rpS1, rpS2 } = RoleplayData();
+    const { chars } = CharData();
     const rpSArr = [rpS1, rpS2];
 
     const tagArr = [{
@@ -18,6 +22,17 @@ export default function Roleplay() {
         id: "18+",
         desc: "may include: heavy violence or sexual intercourse",
     }]
+
+    const colArr = [
+        "rgb(220, 220, 50)",
+        "rgb(220, 50, 220)",
+        "rgb(50, 220, 220)",
+        "rgb(50, 220, 50)",
+        "rgb(220, 50, 50)",
+        "rgb(220, 110, 50)",
+        "rgb(220, 50, 110)",
+        "rgb(50, 110, 220)",
+    ];
 
     const [groupId, setGroupId] = useState("");
     const [play, setPlay] = useState<RPPlay | null>(null);
@@ -52,6 +67,58 @@ export default function Roleplay() {
         }
     }
 
+    const createRoleplay = () => {
+        if (play) {
+            const pickedColorArr: { id: string, color: string }[] = [];
+            play.chars.forEach((char) => {
+                for (let i = 0; i < 25; i++) {
+                    const num = Math.floor(Math.random() * colArr.length);
+                    if (!pickedColorArr.find((chaCol) => chaCol.color === colArr[num])) {
+                        pickedColorArr.push({ id: char, color: colArr[num] });
+                        i = 25;
+                    }
+                }
+            });
+
+            return play.contents.map((talk, talkInx) => {
+                const charInfo = chars.find((char) => char.name === talk.char.name);
+                let token = "";
+                if (typeof talk.char.token === "number" && charInfo && charInfo.img) {
+                    token = charInfo.img.tokenArr[0];
+                }
+                if ((token === "" || token === undefined) && charInfo) {
+                    token = charInfo.gender.defToken;
+                }
+                const charColor = pickedColorArr.find((col) => col.id === charInfo?.name)?.color;
+                return (
+                    <div
+                        className="talkRP flex"
+                        key={`talkLine${talkInx}`}>
+                        <img
+                            className="talkRPToken"
+                            src={token ? token : defGenToken}
+                            alt="Avatar token" />
+                        <span>
+                            <span id="talkRPNameBox" className="flex">
+                                <h5
+                                    style={{ color: charColor ? charColor : "white" }}
+                                >
+                                    {talk.char.name}
+                                </h5>
+                                {charInfo &&
+                                    <span>
+                                        ({charInfo.gender.pronoun})
+                                    </span>
+                                }
+                            </span>
+                            <p>{talk.content}</p>
+                        </span>
+                    </div>
+                )
+            })
+        }
+    }
+
     return (
         <>
             <div id="tagsBox" className="flexCen">
@@ -66,7 +133,7 @@ export default function Roleplay() {
                 </div>
             </div>
 
-            <h3>List of Roleplays</h3>
+            <h3>List of Stories</h3>
             <span
                 id="rpListBox"
                 className="flexCol flexCen">
@@ -106,9 +173,11 @@ export default function Roleplay() {
                 <div
                     id="roleplayBox"
                     className="flexCol">
+
                     <h4>{play.title}</h4>
                     <p id="seasonRP">{groupId}</p>
                     <p id="shortDescRP">{play.shortDesc}</p>
+
                     {(play.chars.length + play.tags.length) > 0 &&
                         <>
                             <hr />
@@ -136,22 +205,16 @@ export default function Roleplay() {
                             </div>
                             <hr />
                         </>}
+
                     <div id="roleplay">
-                        {play.contents.map((talk, talkInx) => {
-                            return (
-                                <div
-                                    className="talkRP"
-                                    key={`talkLine${talkInx}`}>
-                                    <h5>{talk.char}</h5>
-                                    <p>{talk.content}</p>
-                                </div>
-                            )
-                        })}
+                        {createRoleplay()}
                     </div>
+
                     <hr />
                     <button onClick={() => setPlay(null)}>
                         Close
                     </button>
+
                 </div>
             </>}
         </>

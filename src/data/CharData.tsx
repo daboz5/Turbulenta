@@ -13,10 +13,18 @@ import remember6token from "../assets/chars/rememberme/Remember-Me-Token-6.png"
 import repko from "../assets/chars/rememberme/Repko-Token.png"
 import huggerfish from "../assets/chars/rememberme/Hugger-Fish-Token.png"
 
+import defGenToken1 from "../assets/chars/defTokens/avatar-man-person-svgrepo-com.svg"
+// import defGenToken2 from "../assets/chars/defTokens/avatar-joker-squad-svgrepo-com.svg"
+import defGenToken3 from "../assets/chars/defTokens/avatar-cacti-cactus-svgrepo-com.svg"
+// import defGenToken4 from "../assets/chars/defTokens/beard-hipster-male-svgrepo-com.svg"
+// import defGenToken5 from "../assets/chars/defTokens/artist-avatar-marilyn-svgrepo-com.svg"
+// import defGenToken6 from "../assets/chars/defTokens/anime-away-face-svgrepo-com.svg"
+
 export default function CharData() {
 
     const chars: Char[] = [{
         name: "Remember Me",
+        gender: { pronoun: "he / it", defToken: defGenToken3 },
         class: [{
             title: "Druid",
             lvl: 5
@@ -159,6 +167,7 @@ export default function CharData() {
         </>
     }, {
         name: "Minamoto",
+        gender: { pronoun: "he", defToken: defGenToken1 },
         class: [{
             title: "",
             lvl: 0
