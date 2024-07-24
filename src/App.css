@@ -1,16 +1,6 @@
-:root {
-    --lighterPastel: rgb(255, 228, 210);
-    --lightPastel: rgb(255, 204, 171);
-    --mediumPastel: rgb(232, 199, 167);
-    --darkPastel: rgb(255, 158, 94);
-    --darkerPastel: rgb(255, 139, 62);
-    --deepPastel: rgb(109, 44, 0);
-    --darkMarine: rgb(38, 42, 64);
-}
-
 #mainBox {
     align-items: center;
-    padding: 0 25px 65px 25px;
+    padding: 0 25px 30px;
 }
 
 main {

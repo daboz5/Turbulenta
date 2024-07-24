@@ -1,12 +1,20 @@
-html {
-  scroll-behavior: smooth;
+:root {
+  --lighterPastel: rgb(255, 228, 210);
+  --lightPastel: rgb(255, 204, 171);
+  --mediumPastel: rgb(232, 199, 167);
+  --darkPastel: rgb(255, 158, 94);
+  --darkerPastel: rgb(255, 139, 62);
+  --deepPastel: rgb(109, 44, 0);
+  --darkMarine: rgb(38, 42, 64);
+  --shadeWhite: rgba(255, 255, 255, 0.9);
+  --shadeBlack: rgba(0, 0, 0, 0.9);
 }
 
 :root {
   box-sizing: border-box;
 
 
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--shadeWhite);
   font-family: Noto Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.5;
@@ -16,6 +24,10 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scrollbar-gutter: stable both-edges;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -46,9 +58,9 @@ body {
 /*COMMON ELEMENTS*/
 
 h1 {
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
-  text-shadow: 3px 3px 5px black;
+  text-shadow: 3px 3px 5px var(--shadeBlack);
   margin: 0;
   padding: 30px 0 0;
   cursor: default;
@@ -58,7 +70,7 @@ h2 {
   position: relative;
   font-size: 28px;
   text-align: center;
-  text-shadow: 3px 3px 5px black;
+  text-shadow: 3px 3px 5px var(--shadeBlack);
   margin: 0;
   cursor: default;
 }
@@ -66,23 +78,25 @@ h2 {
 h3 {
   font-size: 25px;
   text-align: center;
-  text-shadow: 3px 3px 5px black;
+  text-shadow: 3px 3px 5px var(--shadeBlack);
   cursor: default;
 }
 
 h4 {
   font-size: 22px;
   margin: 15px 20px 5px;
+  cursor: default;
 }
 
 hr {
-  width: 98%;
+  width: 99%;
   padding: 0;
   margin: 0;
-  border-color: rgba(255, 255, 255, 0.9);
+  border-color: var(--shadeWhite);
 }
 
 button {
+  font-family: "Noto Sans";
   cursor: pointer;
   font-weight: 700;
 }

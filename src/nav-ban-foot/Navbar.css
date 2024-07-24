@@ -123,6 +123,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px;
     height: 100%;
 }
 
@@ -131,10 +132,11 @@ nav {
 .dropBox {
     display: flex;
     width: 100%;
-    padding: 10px 20px;
+    padding: 5px;
 }
 
-.dropBox:hover .drop {
+.dropBox:hover .drop,
+.drop:hover {
     display: flex;
 }
 
@@ -144,7 +146,8 @@ nav {
 }
 
 .tab {
-    width: 100%;
+    position: relative;
+    width: 85%;
     text-align: center;
     text-shadow: 0 0 3px var(--deepBlue),
         0 0 5px rgb(0, 19, 80);
@@ -153,7 +156,8 @@ nav {
     transition: 0.3s;
 }
 
-.tab:hover .drop {
+.tab:hover .drop,
+.drop:hover {
     opacity: 1;
 }
 
@@ -182,6 +186,7 @@ nav {
     opacity: 0;
     transition: 0.3s;
     pointer-events: none;
+    z-index: 3;
 }
 
 .linkBox {
@@ -190,6 +195,7 @@ nav {
     align-items: center;
     width: 70%;
     text-align: center;
+    padding: 0 10px;
     background-color: rgba(0, 31, 77, 0.9);
     transition: 0.2s;
     pointer-events: all;
@@ -243,8 +249,8 @@ nav {
 }
 
 .navbarIcon {
-    max-height: 65px;
-    max-width: 65px;
+    max-height: 55px;
+    max-width: 55px;
     transition: 0.2s;
 }
 

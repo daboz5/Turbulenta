@@ -8,6 +8,7 @@ import Arrow from "../assets/icons/Arrow_up.tsx"
 
 import "./Navbar.css"
 import useDragonStore from "../useDragonStore"
+import { useState } from "react"
 
 export default function Navbar() {
 
@@ -23,6 +24,11 @@ export default function Navbar() {
     }
 
     const { setMapState } = useDragonStore();
+
+    const [dropIslandHeight, setDropIslandHeight] = useState(0);
+    const [dropCampHeight, setDropCampHeight] = useState(0);
+    // const [dropArchiveHeight, setDropArchiveHeight] = useState(0);
+    const [dropInfoHeight, setDropInfoHeight] = useState(0);
 
     const dropIsland: DropDown = {
         tabTitle: "The Island of Turbulenta",
@@ -153,10 +159,15 @@ export default function Navbar() {
         if (func) { func() }
     }
 
-    const createDropdown = (content: DropDown) => {
+    const createDropdown = (
+        content: DropDown,
+        func: (num: number) => void,
+        funcRes: number
+    ) => {
         return (
-            <div className="dropBox">
-                <div className="tab">
+            <div className="dropBox flexCen"
+                onMouseEnter={(e) => func(e.currentTarget.clientHeight - 10)}>
+                <div className="tab flexCol">
                     <Link
                         className="tabLink"
                         to={content.tabPath}
@@ -166,7 +177,8 @@ export default function Navbar() {
                         }}>
                         {content.tabTitle}
                     </Link>
-                    <div className="drop">
+                    <div className="drop"
+                        style={{ top: funcRes }}>
                         {content.dropContent.map((link) => {
                             return (
                                 <span
@@ -212,9 +224,9 @@ export default function Navbar() {
 
                     <span id="menu">
 
-                        {createDropdown(dropIsland)}
-                        {createDropdown(dropCamp)}
-                        {createDropdown(dropInfo)}
+                        {createDropdown(dropIsland, setDropIslandHeight, dropIslandHeight)}
+                        {createDropdown(dropCamp, setDropCampHeight, dropCampHeight)}
+                        {createDropdown(dropInfo, setDropInfoHeight, dropInfoHeight)}
                         {/* {createDropdown(dropArchive)} */}
 
                         <span id="navbarIcons">

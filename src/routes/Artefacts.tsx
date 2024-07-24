@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import type { Artefact, Artefacts } from "../types";
 import ArtefactData from "../data/ArtefactData";
 import infoBtn from "../assets/icons/info-large-svgrepo-com.svg"
@@ -9,73 +9,27 @@ export default function Artefacts() {
 
     const { artefacts } = ArtefactData();
 
-    const emptyPic = {
-        sIndex: -1,
-        selectArt: {
-            id: "",
-            name: "",
-            story: "",
-            shortDesc: "",
-            src: ""
-        }
-    }
+    const [pic, setPic] = useState<Artefact | null>(null);
+    const [group, setGroup] = useState<Artefact[] | null>(null);
 
-    const [pic, setPic] = useState<{ sIndex: number, selectArt: Artefact }>(emptyPic);
-    const scrollBtnWidth = 35;
-
-    useEffect(() => {
-        const scrollBox = document.getElementById("popArtScrollBox");
-        const scroll = document.getElementById("popArtScroll");
-        const leftBtn = document.getElementById("popArtScrollLeft");
-        const rightBtn = document.getElementById("popArtScrollRight");
-        if (scroll && scrollBox && leftBtn && rightBtn && pic.sIndex >= 0) {
-            const scrollBoxWidth = scrollBox.clientWidth;
-            const scrollWidth = scroll.clientWidth;
-            if (scrollWidth + (2 * scrollBtnWidth) < scrollBoxWidth) {
-                scrollBox.style.justifyContent = "center";
-                leftBtn.style.display = "none";
-                rightBtn.style.display = "none";
-            } else if (!pic.selectArt.id) {
-                scroll.style.left = `${scrollBtnWidth}px`;
-                scrollBox.style.display = "block";
-                leftBtn.style.display = "block";
-                rightBtn.style.display = "block";
-            }
-        }
-    }, [pic])
-
-    const openPic = (sIndex: number, art: Artefact) => {
+    const openPic = (art: Artefact, artGroup: Artefact[]) => {
         const picBoxEl = document.getElementById("popArtExitScreen");
-        const picEl = document.getElementById("popArt" + art.id);
-        if (picBoxEl && picEl) {
+        if (picBoxEl) {
             picBoxEl.style.opacity = "1";
             picBoxEl.style.pointerEvents = "all";
-            picEl.style.display = "block";
+            setPic(art);
+            setGroup(artGroup);
         }
-        setPic({
-            sIndex: sIndex,
-            selectArt: art
-        });
     }
 
-    const closePic = (target: EventTarget, artId?: string) => {
+    const closePic = (target: EventTarget) => {
         if (target instanceof Element) {
-            const picElArr = artefacts[pic.sIndex].artefacts.map(
-                (art) => { return document.getElementById("popArt" + art.id) }
-            );
             if (target.id === "popArtExitScreen" || target.id === "popArtExitBtn") {
                 const picBoxEl = document.getElementById("popArtExitScreen");
-                if (picBoxEl && picElArr) {
+                if (picBoxEl) {
                     picBoxEl.style.opacity = "0";
                     picBoxEl.style.pointerEvents = "none";
-                    picElArr.forEach((pic) => { if (pic) { pic.style.display = "none" } });
-                    setPic(emptyPic);
                     switchInfoBox(false);
-                }
-            }
-            else if (target.className === "popArtScrollImg" && artId) {
-                if (picElArr && artId !== pic.selectArt.id) {
-                    picElArr.forEach((pic) => { if (pic) { pic.style.display = "none" } });
                 }
             }
         }
@@ -95,42 +49,10 @@ export default function Artefacts() {
         }
     }
 
-    const scrollPopup = (right: boolean) => {
-        const scrollBox = document.getElementById("popArtScrollBox");
-        const scroll = document.getElementById("popArtScroll");
-        if (scrollBox && scroll) {
-            const scrollBoxWidth = scrollBox.clientWidth;
-            const scrollWidth = scroll.clientWidth
-            const scrollConstant = 70;
-            const left = scroll.style.left;
-            const leftNum = Number(left.slice(0, left.length - 2))
-
-            if (right) {
-                if (
-                    scrollBoxWidth - leftNum < scrollWidth &&
-                    scrollWidth + leftNum - scrollConstant - scrollBoxWidth <= 0
-                ) {
-                    scroll.style.left = `${scrollBoxWidth - scrollWidth - scrollBtnWidth}px`;
-                }
-                else if (scrollBoxWidth - leftNum < scrollWidth - scrollBtnWidth) {
-                    scroll.style.left = `${leftNum - scrollConstant}px`;
-                }
-            }
-
-            else {
-                if (leftNum < scrollBtnWidth && leftNum > 0) {
-                    scroll.style.left = `${scrollBtnWidth}px`;
-                } else if (leftNum < scrollBtnWidth) {
-                    scroll.style.left = `${leftNum + scrollConstant}px`;
-                }
-            }
-        }
-    }
-
     return (
         <span id="artPageBox" className="flexCol">
 
-            {artefacts.map((season, sIndex) => {
+            {artefacts.map((season) => {
                 return (
                     <span key={`${season.title}Artefacts`}>
                         <h2>{season.title}</h2>
@@ -140,7 +62,7 @@ export default function Artefacts() {
                                     <button
                                         id={`art${artefact.id}`}
                                         className="flexCen"
-                                        onClick={() => openPic(sIndex, artefact)}
+                                        onClick={() => openPic(artefact, season.artefacts)}
                                         key={`art${artefact.id}`}>
                                         <img id={`image${artefact.id}`} src={artefact.src} alt="Artefact" />
                                     </button>
@@ -151,92 +73,71 @@ export default function Artefacts() {
                 )
             })}
 
-            {<span
+            <span
                 id="popArtExitScreen"
                 className="screenBlock flexCol flexCen"
                 onClick={(e) => closePic(e.target)}>
 
-                <span id="popArtEnlarge" className="flexCol flexCen">
-                    {artefacts.map((season) => {
-                        return season.artefacts.map((artefact) => {
-                            return (
-                                <img
-                                    id={`popArt${artefact.id}`}
-                                    className="popArt"
-                                    src={artefact.src}
-                                    alt="Full Artefact Image"
-                                    key={`art${artefact.id}`} />
-                            )
-                        })
-                    })}
+                {(pic && group) &&
+                    <span
+                        id="popArtEnlarge"
+                        className="flexCol flexCen">
+                        <img
+                            className="popArt"
+                            src={pic.src}
+                            alt="Artefact Image" />
 
-                    <button
-                        id="popArtInfoBtn"
-                        onClick={() => switchInfoBox(true)}>
-                        <img src={infoBtn} alt="More Info" />
-                    </button>
+                        <button
+                            id="popArtInfoBtn"
+                            onClick={() => switchInfoBox(true)}>
+                            <img src={infoBtn} alt="More Info" />
+                        </button>
 
-                    <span id="artInfoBox">
-                        <span id="artInfo" className="flexCol">
-                            <span id="artInfoTitle" className="flexCol">
-                                <hr />
-                                <h4>{pic.selectArt.name}</h4>
+                        <span id="artInfoBox">
+                            <span id="artInfo" className="flexCol">
+                                <span id="artInfoTitle" className="flexCen">
+                                    <hr />
+                                    <h4>{pic.name}</h4>
+                                    <hr />
+                                </span>
+                                <p id="artInfoStory">
+                                    <b>How did we get it:</b><br />
+                                    {pic.story}
+                                </p>
+                                <p id="artInfoDesc">
+                                    <b>How does it feel:</b><br />
+                                    {pic.shortDesc}
+                                </p>
                             </span>
-                            <p id="artInfoStory">
-                                <b>How did we get it:</b><br />
-                                {pic.selectArt.story}
-                            </p>
-                            <p id="artInfoDesc">
-                                <b>How does it feel:</b><br />
-                                {pic.selectArt.shortDesc}
-                            </p>
+                            <div
+                                id="artInfoExit"
+                                onClick={() => switchInfoBox(false)}>
+                                <img
+                                    src={exitBtn}
+                                    onClick={() => switchInfoBox(false)}
+                                    alt="Exit Info" />
+                            </div>
                         </span>
-                        <div
-                            id="artInfoExit"
-                            onClick={() => switchInfoBox(false)}>
-                            <img
-                                src={exitBtn}
-                                onClick={() => switchInfoBox(false)}
-                                alt="Exit Info" />
-                        </div>
-                    </span>
 
-                    <span id="popArtScrollBox">
-                        <span id="popArtScroll">
-                            {pic.sIndex >= 0 &&
-                                artefacts[pic.sIndex].artefacts.map(
+                        <span id="popArtScrollBox">
+                            <span id="popArtScroll" className="flex">
+                                {group.map(
                                     (art) => {
                                         return <img
                                             className="popArtScrollImg"
                                             src={art.src}
-                                            onClick={(e) => {
-                                                closePic(e.target, art.id);
-                                                openPic(pic.sIndex, art);
-                                            }}
+                                            onClick={() => openPic(art, group)}
                                             key={`popArtScroll${art.id}`} />
                                     })}
+                            </span>
                         </span>
 
-                        <button
-                            id="popArtScrollLeft"
-                            onClick={() => scrollPopup(false)}>
-                            ➧
-                        </button>
-                        <button
-                            id="popArtScrollRight"
-                            onClick={() => scrollPopup(true)}>
-                            ➧
+                        <button id="popArtExitBtn">
+                            Close
                         </button>
 
-                    </span>
-                    <button
-                        id="popArtExitBtn"
-                        className="popArtExitIcon">
-                        Close
-                    </button>
-
-                </span>
-            </span>}
+                    </span>}
+            </span>
 
         </span>
     )

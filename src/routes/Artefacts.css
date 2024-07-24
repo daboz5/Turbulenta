@@ -11,7 +11,7 @@
 .artsBox {
   position: relative;
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr;
   gap: 8px 0;
   padding: 0 20px;
 }
@@ -28,7 +28,7 @@
 }
 
 .artsBox img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /*POPUP SCREEN*/
@@ -41,11 +41,10 @@
 }
 
 #popArtEnlarge {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .popArt {
-  display: none;
   max-height: 70%;
   max-width: 90%;
   border-bottom: 3px solid var(--mediumPastel);
@@ -54,49 +53,30 @@
 /*POPUP SCROLL*/
 
 #popArtScrollBox {
-  position: relative;
-  align-items: center;
-  height: 90px;
-  width: 90%;
-  background-color: var(--lighterPastel);
-  overflow-x: hidden;
-}
-
-#popArtScrollBox img {
-  height: 90px;
+  max-width: 90%;
 }
 
 #popArtScroll {
-  position: absolute;
-  display: flex;
+  border-left: 3px solid var(--mediumPastel);
+  border-right: 3px solid var(--mediumPastel);
+  background-color: var(--lightPastel);
+  overflow-x: auto;
 }
 
-#popArtScrollLeft,
-#popArtScrollRight {
-  position: absolute;
-  height: 100%;
-  width: 40px;
-  font-size: 35px;
-  border: 3px solid var(--mediumPastel);
-  border-top: none;
-  border-bottom: none;
-  padding-left: 8px;
+#popArtScroll::-webkit-scrollbar {
+  height: 15px;
+}
+
+#popArtScroll::-webkit-scrollbar-thumb {
+  box-shadow: inset 1px 2px 3px 1px var(--lighterPastel);
+  border-radius: 10px;
   background-color: var(--darkPastel);
-  transition: 0.2s;
 }
 
-#popArtScrollLeft {
-  left: 0;
-  transform: scaleX(-1);
-}
-
-#popArtScrollRight {
-  right: 0;
-}
-
-#popArtScrollLeft:hover,
-#popArtScrollRight:hover {
-  background-color: var(--darkerPastel);
+#popArtScroll img {
+  max-height: 70px;
+  border-left: 2px solid var(--mediumPastel);
+  border-right: 2px solid var(--mediumPastel);
 }
 
 /*POPUP BTNS*/
@@ -106,7 +86,7 @@
   width: 90%;
   color: #2e2e2e;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
   border: 3px solid var(--mediumPastel);
   background-color: var(--lighterPastel);
   transition: 0.2s;
@@ -139,13 +119,14 @@
 
 #artInfoBox {
   position: absolute;
-  width: 70%;
+  width: 90%;
   max-width: 600px;
   border: 5px solid var(--mediumPastel);
   border-radius: 20px;
   background-color: var(--lighterPastel);
   opacity: 0;
   pointer-events: none;
+  transition: 0.2s;
   z-index: 1;
 }
 
@@ -161,19 +142,14 @@
 }
 
 #artInfoTitle hr {
-  position: absolute;
-  width: 75%;
-  top: 36px;
-  border: 1px solid black;
-  z-index: -1;
+  border: 2px solid var(--shadeBlack);
 }
 
 #artInfoTitle h4 {
   font-size: 24px;
+  font-weight: 800;
   text-align: center;
-  text-shadow: 1px 1px 1px var(--mediumPastel);
-  padding: 0 10px;
-  background-color: var(--lighterPastel);
+  padding: 0 7px;
 }
 
 #artInfoStory,

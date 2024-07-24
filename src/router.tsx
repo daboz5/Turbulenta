@@ -7,7 +7,7 @@ import Homepage from './routes/Homepage.tsx';
 import Island from './routes/Island.tsx';
 import Artefacts from './routes/Artefacts.tsx';
 import Characters from './routes/Characters.tsx';
-import Roleplay from './routes/Roleplay.tsx';
+import Stories from './routes/Stories.tsx';
 import Campaigns from './routes/Campaigns.tsx';
 import Info from './routes/Info.tsx';
 import Credits from './routes/Credits.tsx';
@@ -38,8 +38,8 @@ const router = createBrowserRouter([{
     path: PathConstants.CAMPAIGNS.CHARACTERS,
     element: <Characters />
   }, {
-    path: PathConstants.CAMPAIGNS.ROLEPLAYS,
-    element: <Roleplay />
+    path: PathConstants.CAMPAIGNS.STORIES,
+    element: <Stories />
   }, {
     path: PathConstants.INFO.DEF,
     element: <Info />

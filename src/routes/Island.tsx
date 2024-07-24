@@ -11,13 +11,7 @@ export default function Island() {
     const { pointsOfInterestArr } = IslandData();
     const { pageWidth, mapState, setMapState } = useDragonStore();
 
-    const [openPoi, setOpenPoi] = useState<POICont>({
-        name: "",
-        type: "poi",
-        img: "",
-        alt: "poi",
-        desc: <>{``}</>,
-    });
+    const [openPoi, setOpenPoi] = useState<{ cont: POICont, open: boolean } | null>(null);
 
     const sortPoi = (poiArr: POI[]) => {
         const sorted = poiArr.sort((a, b) => {
@@ -62,10 +56,11 @@ export default function Island() {
         const poiDesc = document.getElementById("poiDescBox");
         if (poiDesc) {
             if (state) {
-                setOpenPoi(poi);
+                setOpenPoi({ cont: poi, open: true });
                 poiDesc.style.opacity = "1";
                 poiDesc.style.pointerEvents = "all";
             } else {
+                setOpenPoi({ cont: poi, open: false });
                 poiDesc.style.opacity = "0";
                 poiDesc.style.pointerEvents = "none";
             }
@@ -108,6 +103,13 @@ export default function Island() {
                             (poi) => {
                                 return <button
                                     onClick={() => openPOI(poi.content, true)}
+                                    style={
+                                        {
+                                            backgroundColor: (openPoi?.cont.name === poi.content.name && openPoi.open) ?
+                                                "rgb(255, 139, 62)" :
+                                                "rgb(255, 158, 94)"
+                                        }
+                                    }
                                     key={`listPOI${poi.x}-${poi.y}`}>
                                     {poi.content.name}
                                 </button>
@@ -149,21 +151,22 @@ export default function Island() {
                 </span>}
             </span>}
 
-            <span className="screen flexCol flexCen">
-                <div id="poiDescBox" className="flexCol">
-                    <h4>{openPoi.name}</h4>
+            <div id="poiDescBox" className="flexCol">
+                {openPoi && <>
+                    <h4>{openPoi.cont.name}</h4>
                     <hr />
-                    {openPoi.desc && <div id="poiDesc">{openPoi.desc}</div>}
-                    {openPoi.img && <img src={openPoi.img} alt={openPoi.alt} />}
-                    {openPoi.link &&
-                        <Link to={openPoi.link}>
+                    {openPoi.cont.desc && <div id="poiDesc">{openPoi.cont.desc}</div>}
+                    {openPoi.cont.img && <img src={openPoi.cont.img} alt={openPoi.cont.alt} />}
+                    {openPoi.cont.link &&
+                        <Link to={openPoi.cont.link}>
                             More info
                         </Link>}
-                    <button onClick={() => openPOI(openPoi, false)}>
+                    <button onClick={() => openPOI(openPoi.cont, false)}>
                         Close
                     </button>
-                </div>
-            </span>
+                </>
+                }
+            </div>
 
         </span>
     </>)

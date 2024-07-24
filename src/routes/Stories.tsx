@@ -2,11 +2,11 @@ import { useState } from "react";
 import { RPPlay } from "../types";
 import RoleplayData from "../data/RoleplayData"
 import CharData from "../data/CharData";
-import "./Roleplay.css"
+import "./Stories.css"
 
 import defGenToken from "../assets/chars/defTokens/anime-away-face-svgrepo-com.svg"
 
-export default function Roleplay() {
+export default function Stories() {
 
     const { rpS1, rpS2 } = RoleplayData();
     const { chars } = CharData();
@@ -99,10 +99,9 @@ export default function Roleplay() {
                             src={token ? token : defGenToken}
                             alt="Avatar token" />
                         <span>
-                            <span id="talkRPNameBox" className="flex">
+                            <span id="talkRPNameBox" className="flexCol">
                                 <h5
-                                    style={{ color: charColor ? charColor : "white" }}
-                                >
+                                    style={{ color: charColor ? charColor : "white" }}>
                                     {talk.char.name}
                                 </h5>
                                 {charInfo &&
@@ -149,7 +148,7 @@ export default function Roleplay() {
                             </button>
                             <span
                                 id={`rpPlayBtnBox${grInx}`}
-                                className="rpPlayBtnBox">
+                                className="rpPlayBtnBox flexCol">
                                 {sortPlays(group.roleplays).map((play, inx) => {
                                     return (
                                         <button

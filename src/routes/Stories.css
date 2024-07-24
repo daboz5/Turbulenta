@@ -27,6 +27,7 @@
     border-radius: 5px;
     padding: 2px 8px;
     background-color: rgb(179, 181, 215);
+    cursor: default;
     transition: 0.2s;
 }
 
@@ -60,30 +61,32 @@
 }
 
 .rpGroupBtn {
-    border: none;
     font-size: 25px;
+    border: none;
     background-color: transparent;
 }
 
 .rpPlayBtnBox {
     display: none;
+    gap: 10px;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 8px;
+    border-top: 3px solid rgba(0, 0, 0, 0.3);
+    padding: 10px 0 4px;
 }
 
 .rpPlayBtn {
     width: 100%;
     font-size: 23px;
     border: none;
-    box-shadow: 0 0 10px 5px var(--mediumPastel);
-    padding: 3px 30px 0;
-    background-color: var(--mediumPastel);
+    padding: 8px 30px 5px;
+    background-color: transparent;
     transition: 0.3s;
 }
 
 .rpPlayBtn:hover {
     background-color: var(--lightPastel);
-    box-shadow: 0 0 5px 5px var(--lightPastel);
+    box-shadow: 0 0 5px 1px var(--lightPastel);
 }
 
 /*ROLEPLAY*/
@@ -101,6 +104,10 @@
     margin: 15px 20px 0;
 }
 
+#roleplayBox hr {
+    margin: 0 auto;
+}
+
 #seasonRP,
 #shortDescRP,
 #charsRP {
@@ -110,14 +117,16 @@
 #charsRP,
 #tagsRP {
     gap: 12px;
-    cursor: pointer;
+    cursor: default;
 }
 
-.tag:hover {
-    background-color: rgb(228, 228, 238);
+.tag {
+    font-size: 0.9em;
+    height: min-content;
 }
 
 #seasonRP {
+    text-align: center;
     font-size: 20px;
 }
 
@@ -134,13 +143,14 @@
     position: relative;
     top: -4px;
     left: 7px;
+    display: none;
     height: 50px;
     max-width: 50px;
 }
 
 #talkRPNameBox {
     align-items: baseline;
-    gap: 10px;
+    gap: 0;
     margin: 7px 0 0;
 }
 
@@ -151,11 +161,12 @@
 }
 
 #talkRPNameBox span {
+    text-indent: 7px;
     opacity: 0.7;
 }
 
 .talkRP p {
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 3px 0 12px;
 }
 
@@ -165,14 +176,18 @@
 
 #roleplayBox button {
     width: 100%;
-    color: white;
+    color: var(--shadeWhite);
     font-size: 20px;
-    border: 0;
+    border: none;
+    border-right: 7px dotted transparent;
+    border-left: 7px dotted transparent;
     padding: 5px 0;
     background-color: transparent;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 #roleplayBox button:hover {
     color: var(--darkerPastel);
+    border-right: 7px dotted rgba(0, 0, 0, 0.8);
+    border-left: 7px dotted rgba(0, 0, 0, 0.8);
 }

@@ -9,7 +9,7 @@ const PathConstants = {
         DEF: "campaigns",
         ARTEFACTS: "campaigns/artefacts",
         CHARACTERS: "campaigns/characters",
-        ROLEPLAYS: "campaigns/stories",
+        STORIES: "campaigns/stories",
     },
     INFO: {
         DEF: "info",
