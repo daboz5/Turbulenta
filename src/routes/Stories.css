@@ -182,7 +182,7 @@
 
 #seasonRP {
     text-align: center;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
 #shortDescRP {
@@ -211,12 +211,10 @@
 
 .talkRP h5 {
     font-size: 1.2em;
-    /* text-indent: 11px; */
     margin: 0;
 }
 
 #talkRPNameBox span {
-    /* text-indent: 7px; */
     opacity: 0.7;
 }
 
@@ -232,7 +230,8 @@
 #roleplayBox button {
     width: 100%;
     color: var(--shadeWhite);
-    font-size: 20px;
+    font-size: 1.3em;
+    margin-top: -4px;
     border: none;
     border-right: 7px dotted transparent;
     border-left: 7px dotted transparent;

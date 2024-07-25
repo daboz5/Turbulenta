@@ -174,7 +174,7 @@ export default function Stories() {
                             </span>
                             <span
                                 id={`rpPlayBtnBox${grInx}`}
-                                className="rpPlayBtnBox flexCol">
+                                className="rpPlayBtnBox">
                                 <span className="rpListFilterBox flexCol flexCen">
                                     <span className="filterTagCheckBox flexCen">
                                         Is a tag:<div

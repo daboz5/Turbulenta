@@ -170,8 +170,9 @@ nav {
     color: rgba(255, 255, 255, 0.85);
     font-size: 1.8em;
     font-weight: 700;
+    line-height: 1.4;
     transition: 0.3s;
-    cursor: pointer;
+    cursor: default;
 }
 
 .drop {
@@ -239,7 +240,7 @@ nav {
 #navbarIcons {
     display: flex;
     gap: 20px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .navbarIconBox {

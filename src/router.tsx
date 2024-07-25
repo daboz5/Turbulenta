@@ -11,7 +11,10 @@ import Stories from './routes/Stories.tsx';
 import Campaigns from './routes/Campaigns.tsx';
 import Info from './routes/Info.tsx';
 import Credits from './routes/Credits.tsx';
+
 import './index.css'
+import "./App.css"
+import "./media-size.css"
 
 const router = createBrowserRouter([{
   path: "/",

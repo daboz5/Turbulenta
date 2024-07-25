@@ -1,0 +1,97 @@
+/* xs */
+@media only screen and (min-width: 475px) {
+    .navbarIcon {
+        max-height: 65px;
+        max-width: 65px;
+    }
+
+    h1 {
+        font-size: 2.6em;
+    }
+
+    #bannerText,
+    .homeInfoBox a {
+        font-size: 1.35em;
+    }
+
+    .homeInfoBox h2 {
+        font-size: 1.8em;
+    }
+
+    .homeInfoBox p {
+        font-size: 1.25em;
+    }
+
+    #islandModeBox button {
+        font-size: 1.4em;
+        padding: 11px 25px;
+    }
+
+    #islandLocationsBox button {
+        font-size: 1.5em
+    }
+
+    .artsBox {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 5px;
+    }
+
+    #artInfoTitle h4 {
+        font-size: 1.5em;
+        margin: 5px 15px;
+    }
+
+    #artInfoTitle hr {
+        min-width: 15%;
+    }
+
+    #artInfoStory {
+        font-size: 1.2em;
+    }
+
+    h4,
+    #seasonRP {
+        font-size: 1.4em;
+    }
+
+    .talkRPToken {
+        display: block;
+    }
+
+    .talkRP h5 {
+        text-indent: 11px;
+    }
+
+    #talkRPNameBox span {
+        text-indent: 7px;
+    }
+
+    .tag {
+        font-size: 1em;
+    }
+
+    #charInfoClass,
+    #charInfoBackground {
+        font-size: 1.3em;
+    }
+
+    .charInfoText p {
+        font-size: 1.1em;
+        margin: 13px 5px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {}
+
+/* lg */
+@media (min-width: 1024px) {}
+
+/* xl */
+@media (min-width: 1280px) {}
+
+/* 2xl */
+@media (min-width: 1536px) {}

@@ -159,7 +159,7 @@
 
 #artInfoStory,
 #artInfoDesc {
-  font-size: 18px;
+  font-size: 1.1em;
   font-weight: 500;
   width: 85%;
   margin: 10px 0;
@@ -173,11 +173,12 @@
   justify-content: center;
   width: 100%;
   font-size: 1.3em;
+  font-weight: 800;
   margin-top: 10px;
   border: none;
   border-top: 3px solid var(--mediumPastel);
   border-radius: 0 0 20px 20px;
-  padding: 4px 0;
+  padding: 7px 0;
   background-color: var(--lighterPastel);
   transition: 0.2s;
 }

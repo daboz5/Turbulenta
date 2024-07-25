@@ -147,6 +147,10 @@
     background-color: var(--darkPastel);
 }
 
+#poiDescBox div {
+    flex-grow: 1;
+}
+
 #poiDescBox img {
     flex-shrink: 1;
     height: 100%;

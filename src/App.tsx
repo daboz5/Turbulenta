@@ -5,8 +5,6 @@ import useDragonStore from './useDragonStore'
 import Navbar from './nav-ban-foot/Navbar'
 import Footer from './nav-ban-foot/Footer'
 import Banner from './nav-ban-foot/Banner'
-import "./App.css"
-import "./media-size.css"
 
 export default function App() {
 
