@@ -1,7 +1,3 @@
-nav {
-    --deepBlue: rgb(0, 15, 66)
-}
-
 header {
     width: 100%;
 }
@@ -172,8 +168,10 @@ nav {
 .tabLink {
     width: 100%;
     color: rgba(255, 255, 255, 0.85);
-    font-size: 30px;
+    font-size: 1.8em;
     font-weight: 700;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .drop {
@@ -182,7 +180,7 @@ nav {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    font-size: 24px;
+    font-size: 1.5em;
     opacity: 0;
     transition: 0.3s;
     pointer-events: none;
@@ -211,7 +209,7 @@ nav {
 }
 
 .linkBox:hover a {
-    color: rgba(255, 255, 255, 1);
+    color: var(--shadeWhite);
     text-shadow: 0 0 2px var(--deepBlue),
         0 0 4px var(--deepBlue),
         0 0 6px var(--deepBlue),
@@ -220,13 +218,13 @@ nav {
 
 .linkBox a {
     width: 100%;
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--shadeWhite);
     padding: 5px 15px;
 }
 
 .linkBox hr {
     width: 0;
-    border: 1px solid white;
+    border: 1px solid var(--shadeWhite);
     opacity: 0;
     transition: 0.5s;
 }

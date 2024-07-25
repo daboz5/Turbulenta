@@ -75,7 +75,9 @@ export default function Characters() {
             } else if (screen && (tId === "charInfoBoxScreen" || tId === "charExitBtn")) {
                 screen.style.opacity = "0";
                 screen.style.pointerEvents = "none";
-                closeCharInfoDisplay();
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+                resetCharInfoDisplay();
             }
         }
     }
@@ -90,9 +92,7 @@ export default function Characters() {
         }
     }
 
-    const closeCharInfoDisplay = () => {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
+    const resetCharInfoDisplay = () => {
         const el1 = document.getElementById("charInfoDescription");
         const el2 = document.getElementById("charInfoCompanions");
         const el3 = document.getElementById("charInfoPossessions");
@@ -101,7 +101,6 @@ export default function Characters() {
         el2 ? el2.style.display = "none" : {};
         el3 ? el3.style.display = "none" : {};
         el4 ? el4.style.display = "none" : {};
-        setCharInfo(null);
     }
 
     return (
@@ -221,7 +220,8 @@ export default function Characters() {
                                                 return (
                                                     <span key={`keyCharComp${cInx}`}>
                                                         <h5>{comp.name}</h5>
-                                                        {comp.token && <img src={comp.token} alt="NPC Image" />}
+                                                        {comp.token &&
+                                                            <img src={comp.token} alt="NPC Image" />}
                                                         <span>
                                                             {typeof comp.desc === "string" ?
                                                                 <p>{comp.desc}</p> :
@@ -297,10 +297,7 @@ export default function Characters() {
 
                         <div
                             id="charExitBtn"
-                            onClick={() => {
-                                setCharacterDisplay(false)
-                                closeCharInfoDisplay()
-                            }}>
+                            onClick={() => setCharacterDisplay(false)}>
                             Close
                         </div>
 

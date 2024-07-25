@@ -8,7 +8,7 @@
 }
 
 .homeInfoBox h2 {
-    font-size: 25px;
+    font-size: 1.5em;
     margin: 25px 30px 13px;
 }
 
@@ -23,13 +23,13 @@
 }
 
 .homeInfoBox p {
-    font-size: 18px;
+    font-size: 1.1em;
     text-align: center;
     margin: 0 30px 12px;
 }
 
 .homeInfoBox a {
-    font-size: 21px;
+    font-size: 1.3em;
     text-align: center;
     margin: 0 30px 25px;
 }

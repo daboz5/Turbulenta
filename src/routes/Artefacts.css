@@ -48,6 +48,7 @@
   max-height: 70%;
   max-width: 90%;
   border-bottom: 3px solid var(--mediumPastel);
+  border-radius: 5px 5px 0 0;
 }
 
 /*POPUP SCROLL*/
@@ -64,7 +65,7 @@
 }
 
 #popArtScroll::-webkit-scrollbar {
-  height: 15px;
+  height: 1.2rem;
 }
 
 #popArtScroll::-webkit-scrollbar-thumb {
@@ -85,7 +86,7 @@
 #popArtExitBtn {
   width: 90%;
   color: #2e2e2e;
-  font-size: 20px;
+  font-size: 1.35em;
   font-weight: 800;
   border: 3px solid var(--mediumPastel);
   background-color: var(--lighterPastel);
@@ -106,13 +107,12 @@
 #popArtExitBtn {
   display: flex;
   justify-content: center;
-  font-size: 22px;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 10px 10px;
   padding: 7px 0;
 }
 
 #popArtInfoBtn img {
-  max-height: 35px;
+  max-height: 33px;
 }
 
 /*INFO SCREEN*/
@@ -139,17 +139,22 @@
 #artInfoTitle {
   align-items: center;
   width: 100%;
+  margin-top: 10px;
 }
 
 #artInfoTitle hr {
+  min-width: 10%;
+  width: 0;
+  flex-grow: 1;
   border: 2px solid var(--shadeBlack);
 }
 
 #artInfoTitle h4 {
-  font-size: 24px;
+  font-size: 1.4em;
   font-weight: 800;
   text-align: center;
-  padding: 0 7px;
+  margin: 5px 10px;
+  padding: 0;
 }
 
 #artInfoStory,
@@ -167,7 +172,9 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  font-size: 1.3em;
   margin-top: 10px;
+  border: none;
   border-top: 3px solid var(--mediumPastel);
   border-radius: 0 0 20px 20px;
   padding: 4px 0;
@@ -177,8 +184,4 @@
 
 #artInfoExit:hover {
   background-color: var(--lightPastel);
-}
-
-#artInfoExit img {
-  height: 35px;
 }

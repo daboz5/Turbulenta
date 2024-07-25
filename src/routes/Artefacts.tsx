@@ -2,7 +2,6 @@ import { useState } from "react";
 import type { Artefact, Artefacts } from "../types";
 import ArtefactData from "../data/ArtefactData";
 import infoBtn from "../assets/icons/info-large-svgrepo-com.svg"
-import exitBtn from "../assets/icons/close-bold-svgrepo-com.svg"
 import "./Artefacts.css"
 
 export default function Artefacts() {
@@ -109,14 +108,11 @@ export default function Artefacts() {
                                     {pic.shortDesc}
                                 </p>
                             </span>
-                            <div
+                            <button
                                 id="artInfoExit"
                                 onClick={() => switchInfoBox(false)}>
-                                <img
-                                    src={exitBtn}
-                                    onClick={() => switchInfoBox(false)}
-                                    alt="Exit Info" />
-                            </div>
+                                Close
+                            </button>
                         </span>
 
                         <span id="popArtScrollBox">

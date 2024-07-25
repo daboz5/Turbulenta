@@ -9,7 +9,7 @@
 }
 
 #charactersBox button {
-    font-size: 25px;
+    font-size: 1.5em;
     border: 3px solid var(--darkerPastel);
     box-shadow: inset 0 0 5px 1px var(--deepPastel),
         0 0 0 3px var(--darkerPastel);
@@ -75,7 +75,8 @@
 #charExitBtn {
     width: 100%;
     border: 3px solid var(--darkerPastel);
-    box-shadow: inset 0 0 5px 1px var(--deepPastel), 0 0 0 3px var(--darkerPastel);
+    box-shadow: inset 0 0 5px 1px var(--deepPastel),
+        0 0 0 3px var(--darkerPastel);
     background-color: var(--darkPastel);
 }
 
@@ -83,7 +84,7 @@
     width: 90%;
     max-height: 300px;
     max-width: 300px;
-    margin-top: 29px;
+    margin-top: 23px;
 }
 
 #charInfoBox h3 {
@@ -96,8 +97,8 @@
 #charInfoClass,
 #charInfoBackground,
 #charInfoImg {
-    color: rgba(0, 0, 0, 0.9);
-    font-size: 20px;
+    color: var(--shadeBlack);
+    font-size: 1.2em;
     font-weight: 800;
     padding: 13px 0;
 }
@@ -148,15 +149,15 @@
     width: 100%;
     max-width: 70%;
     max-height: 500px;
-    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 5px 3px var(--shadeBlack);
 }
 
 #charInfoDescriptionBox,
 #charInfoCompanionsBox,
 #charInfoPossessionsBox,
 #charInfoBackstoryBox {
-    color: rgba(0, 0, 0, 0.9);
-    font-size: 18px;
+    color: var(--shadeBlack);
+    font-size: 1.1em;
     text-align: center;
     padding: 0 0 10px;
 }
@@ -201,7 +202,7 @@
 }
 
 .charExpandBtnLine {
-    border: 1px solid black;
+    border: 1px solid var(--shadeBlack);
     margin: -5px auto 5px;
     width: 0;
     opacity: 0;
@@ -218,7 +219,7 @@
 }
 
 #charInfoBox h5 {
-    font-size: 21px;
+    font-size: 1.4rem;
     font-weight: 800;
     margin: 10px auto -8px;
 }
@@ -231,9 +232,9 @@
 
 #charExitBtn {
     grid-area: exitplate;
-    color: black;
+    color: var(--shadeBlack);
     font-weight: 800;
-    font-size: 22px;
+    font-size: 1.4em;
     text-align: center;
     padding: 10px 0;
     border-radius: 0 0 20px 20px;

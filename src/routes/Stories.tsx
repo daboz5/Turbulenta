@@ -142,10 +142,13 @@ export default function Stories() {
                             className="rpGroupBtnBox flexCol flexCen"
                             onClick={(el) => openListGroup(el.target, grInx)}
                             key={`rpBtnGroup${grInx}`}>
-                            <button
-                                className="rpGroupBtn">
-                                {group.id}
-                            </button>
+                            <span className="rpGroupBtn flexCen">
+                                <hr />
+                                <button>
+                                    {group.id}
+                                </button>
+                                <hr />
+                            </span>
                             <span
                                 id={`rpPlayBtnBox${grInx}`}
                                 className="rpPlayBtnBox flexCol">

@@ -168,15 +168,10 @@ export default function Navbar() {
             <div className="dropBox flexCen"
                 onMouseEnter={(e) => func(e.currentTarget.clientHeight - 10)}>
                 <div className="tab flexCol">
-                    <Link
-                        className="tabLink"
-                        to={content.tabPath}
-                        onClick={() => {
-                            openMenu()
-                            content.tabFunc && content.tabFunc()
-                        }}>
+                    <span
+                        className="tabLink">
                         {content.tabTitle}
-                    </Link>
+                    </span>
                     <div className="drop"
                         style={{ top: funcRes }}>
                         {content.dropContent.map((link) => {

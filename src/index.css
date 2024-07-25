@@ -6,6 +6,7 @@
   --darkerPastel: rgb(255, 139, 62);
   --deepPastel: rgb(109, 44, 0);
   --darkMarine: rgb(38, 42, 64);
+  --deepBlue: rgb(0, 15, 66);
   --shadeWhite: rgba(255, 255, 255, 0.9);
   --shadeBlack: rgba(0, 0, 0, 0.9);
 }
@@ -58,7 +59,7 @@ body {
 /*COMMON ELEMENTS*/
 
 h1 {
-  font-size: 40px;
+  font-size: 2.4em;
   text-align: center;
   text-shadow: 3px 3px 5px var(--shadeBlack);
   margin: 0;
@@ -68,7 +69,7 @@ h1 {
 
 h2 {
   position: relative;
-  font-size: 28px;
+  font-size: 1.8em;
   text-align: center;
   text-shadow: 3px 3px 5px var(--shadeBlack);
   margin: 0;
@@ -76,14 +77,14 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 1.6em;
   text-align: center;
   text-shadow: 3px 3px 5px var(--shadeBlack);
   cursor: default;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 1.25em;
   margin: 15px 20px 5px;
   cursor: default;
 }
