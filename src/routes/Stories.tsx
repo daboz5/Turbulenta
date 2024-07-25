@@ -52,17 +52,40 @@ export default function Stories() {
         return sorted;
     }
 
-    const openListGroup = (target: EventTarget, grNum: number) => {
+    const switchListGroup = (target: EventTarget, grNum: number) => {
         const btns = document.getElementById(`rpPlayBtnBox${grNum}`);
         if (target instanceof Element && btns) {
             const btnsStyle = btns.style.display;
             const tClass = target.className;
-            if (tClass !== "rpPlayBtn") {
+            if (
+                tClass !== "rpPlayBtn" &&
+                target.className !== "rpListFilter" &&
+                target.className !== "filterTagCheck" &&
+                target.className !== "filterTagCheckBox flexCen" &&
+                target.className !== "rpListFilterBox flexCol flexCen"
+            ) {
                 if (btnsStyle === "none" || btnsStyle === "") {
                     btns.style.display = "block";
                 } else {
                     btns.style.display = "none";
                 }
+            }
+        }
+    }
+
+    const setTag = (id: string) => {
+        const tag = document.getElementById(id);
+        if (tag instanceof Element) {
+            const tagStyle = tag.style;
+            const lightCol = "rgb(255, 204, 171)";
+            const darkCol = "rgb(80, 200, 80)";
+            const shadCol = "rgb(109, 44, 0)";
+            if (tagStyle.backgroundColor === "" || tagStyle.backgroundColor === lightCol) {
+                tagStyle.backgroundColor = darkCol;
+                tagStyle.boxShadow = `inset 0 -1px 2px 4px ${shadCol}`;
+            } else if (tagStyle.backgroundColor === darkCol) {
+                tagStyle.backgroundColor = lightCol;
+                tagStyle.boxShadow = `inset 0 -2px 3px 3px ${shadCol}`;
             }
         }
     }
@@ -140,7 +163,7 @@ export default function Stories() {
                     return (
                         <div
                             className="rpGroupBtnBox flexCol flexCen"
-                            onClick={(el) => openListGroup(el.target, grInx)}
+                            onClick={(el) => switchListGroup(el.target, grInx)}
                             key={`rpBtnGroup${grInx}`}>
                             <span className="rpGroupBtn flexCen">
                                 <hr />
@@ -152,6 +175,15 @@ export default function Stories() {
                             <span
                                 id={`rpPlayBtnBox${grInx}`}
                                 className="rpPlayBtnBox flexCol">
+                                <span className="rpListFilterBox flexCol flexCen">
+                                    <span className="filterTagCheckBox flexCen">
+                                        Is a tag:<div
+                                            id={`filterTag${grInx}`}
+                                            className="filterTagCheck"
+                                            onClick={() => setTag(`filterTag${grInx}`)} />
+                                    </span>
+                                    <input className="rpListFilter" />
+                                </span>
                                 {sortPlays(group.roleplays).map((play, inx) => {
                                     return (
                                         <button

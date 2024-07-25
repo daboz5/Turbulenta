@@ -83,7 +83,7 @@
     width: 100%;
     margin-top: 8px;
     border-top: 3px solid rgba(0, 0, 0, 0.3);
-    padding: 10px 0 4px;
+    padding: 3px 0 4px;
 }
 
 .rpPlayBtn {
@@ -98,6 +98,45 @@
 .rpPlayBtn:hover {
     background-color: var(--lightPastel);
     box-shadow: 0 0 5px 1px var(--lightPastel);
+}
+
+/*FILTER*/
+
+.rpListFilterBox {
+    padding-bottom: 10px;
+    background-color: var(--darkPastel);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+    cursor: default;
+}
+
+.rpListFilter {
+    width: calc(100% - 20px);
+    font-family: "Noto Sans";
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+    border: none;
+    padding: 3px 10px 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.filterTagCheckBox {
+    color: var(--shadeBlack);
+    font-size: 1.3em;
+    gap: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.filterTagCheck {
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    border-radius: 5px;
+    box-shadow: inset 0 -2px 3px 3px rgb(109, 44, 0);
+    background-color: var(--lightPastel);
+    transition: 0.2s;
 }
 
 /*ROLEPLAY*/
