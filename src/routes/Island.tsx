@@ -117,39 +117,40 @@ export default function Island() {
                     </span>
                 </span>}
 
-            {mapState === "map" && <span id="islandMapBox">
-                <img id="islandMap" src={mapTurbulenta} alt="Island Map" />
-                {<span id="islandMapGrid">
-                    {pointsOfInterestArr.map(
-                        (poi, inx) => {
-                            const smallScreen = {
-                                gridRow: `${poi.y - 4} / ${poi.y + 4}`,
-                                gridColumn: `${poi.x - 9} / ${poi.x + 9}`
-                            };
-                            const mediumScreen = {
-                                gridRow: `${poi.y - 3} / ${poi.y + 3}`,
-                                gridColumn: `${poi.x - 5} / ${poi.x + 5}`
-                            };
-                            const wideScreen = {
-                                gridRow: `${poi.y - 2} / ${poi.y + 2}`,
-                                gridColumn: `${poi.x - 3} / ${poi.x + 3}`
-                            };
-                            return (
-                                <span
-                                    className="poi flex flexCen"
-                                    style={
-                                        pageWidth > 1000 ?
-                                            wideScreen : pageWidth > 700 ?
-                                                mediumScreen : smallScreen
-                                    }
-                                    onClick={() => openPOI(poi.content, true)}
-                                    key={`poi${inx}`}>
-                                    {createPOI(poi.content)}
-                                </span>
-                            )
-                        })}
+            {mapState === "map" &&
+                <span id="islandMapBox" className="flexCen">
+                    <img id="islandMap" src={mapTurbulenta} alt="Island Map" />
+                    {<span id="islandMapGrid">
+                        {pointsOfInterestArr.map(
+                            (poi, inx) => {
+                                const smallScreen = {
+                                    gridRow: `${poi.y - 4} / ${poi.y + 4}`,
+                                    gridColumn: `${poi.x - 9} / ${poi.x + 9}`
+                                };
+                                const mediumScreen = {
+                                    gridRow: `${poi.y - 3} / ${poi.y + 3}`,
+                                    gridColumn: `${poi.x - 5} / ${poi.x + 5}`
+                                };
+                                const wideScreen = {
+                                    gridRow: `${poi.y - 2} / ${poi.y + 2}`,
+                                    gridColumn: `${poi.x - 3} / ${poi.x + 3}`
+                                };
+                                return (
+                                    <span
+                                        className="poi flex flexCen"
+                                        style={
+                                            pageWidth > 1000 ?
+                                                wideScreen : pageWidth > 700 ?
+                                                    mediumScreen : smallScreen
+                                        }
+                                        onClick={() => openPOI(poi.content, true)}
+                                        key={`poi${inx}`}>
+                                        {createPOI(poi.content)}
+                                    </span>
+                                )
+                            })}
+                    </span>}
                 </span>}
-            </span>}
 
             <div id="poiDescBox" className="flexCol">
                 {openPoi && <>

@@ -45,6 +45,8 @@
 }
 
 .popArt {
+  height: auto;
+  width: 100%;
   max-height: 70%;
   max-width: 90%;
   border-bottom: 3px solid var(--mediumPastel);

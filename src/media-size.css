@@ -1,15 +1,22 @@
 /* xs */
 @media only screen and (min-width: 475px) {
+
+    /*NAVIGACIJA*/
     .navbarIcon {
         max-height: 65px;
         max-width: 65px;
     }
 
+    /*BANNER*/
     h1 {
         font-size: 2.6em;
     }
 
-    #bannerText,
+    #bannerText {
+        font-size: 1.35em;
+    }
+
+    /*HOMEPAGE*/
     .homeInfoBox a {
         font-size: 1.35em;
     }
@@ -22,6 +29,7 @@
         font-size: 1.25em;
     }
 
+    /*ISLAND*/
     #islandModeBox button {
         font-size: 1.4em;
         padding: 11px 25px;
@@ -31,6 +39,11 @@
         font-size: 1.5em
     }
 
+    #poiDesc h4 {
+        font-size: 1.65em;
+    }
+
+    /*ARTIFACTS*/
     .artsBox {
         grid-template-columns: 1fr 1fr;
         gap: 10px 5px;
@@ -50,6 +63,7 @@
         font-size: 1.2em;
     }
 
+    /*CHARACTERS*/
     #charInfoClass,
     #charInfoBackground {
         font-size: 1.3em;
@@ -60,6 +74,7 @@
         margin: 13px 5px;
     }
 
+    /*ROLEPLAY*/
     h4,
     #seasonRP {
         font-size: 1.4em;
@@ -88,6 +103,8 @@
 
 /* sm */
 @media only screen and (min-width: 640px) {
+
+    /*NAVIGACIJA*/
     .navbarIcon {
         max-height: 70px;
         max-width: 70px;
@@ -101,9 +118,14 @@
         font-size: 1.6em;
     }
 
-    #bannerText,
-    .homeInfoBox a {
+    /*BANNER*/
+    #bannerText {
         font-size: 1.5em;
+    }
+
+    /*HOMEPAGE*/
+    .homeInfoBox a {
+        font-size: 1.45em;
     }
 
     .homeInfoBox h2 {
@@ -120,6 +142,7 @@
         margin-right: 30px;
     }
 
+    /*ISLAND*/
     #islandModeBox button {
         font-size: 1.5em;
     }
@@ -128,6 +151,21 @@
         font-size: 1.6em
     }
 
+    #poiDescBox {
+        max-width: 450px;
+    }
+
+    #poiDesc h4 {
+        font-size: 1.8em;
+    }
+
+    #poiDescBox button {
+        font-size: 1.55em;
+        font-weight: 800;
+        padding: 7px 20px;
+    }
+
+    /*ARTIFACTS*/
     .artsBox {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 12px 6px;
@@ -147,6 +185,7 @@
         font-size: 1.3em;
     }
 
+    /*CHARACTERS*/
     #charactersBox button {
         font-size: 1.6em;
     }
@@ -173,7 +212,13 @@
         padding: 0 35px;
     }
 
-    #tags {
+    #charExitBtn {
+        font-size: 1.5em;
+    }
+
+    /*ROLEPLAY*/
+    #tags,
+    .tag {
         font-size: 1.1em;
     }
 
@@ -189,10 +234,6 @@
         font-size: 1.2em;
     }
 
-    .tag {
-        font-size: 1.1em;
-    }
-
     .talkRPToken {
         margin-left: 8px;
         transform: scale(1.1);
@@ -202,25 +243,106 @@
         gap: 12px;
     }
 
-    #talkRPCharBox h5 {
-        font-size: 1.15em;
-    }
-
-    #talkRPNameBox {
+    #talkRPCharBox h5,
+    #talkRPNameBox,
+    .talkRP p {
         font-size: 1.15em;
     }
 
     .talkRP p {
-        font-size: 1.15em;
         margin: 3px 0 20px;
     }
 }
 
 /* md */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+    /*BANNER*/
+    #bannerBox {
+        padding: 100px 10% 0;
+    }
+
+    /*HOMEPAGE*/
+    .homeInfoBox a {
+        font-size: 1.5em;
+    }
+
+    /*ARTIFACTS*/
+    .artsBox {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .popArtScrollImg {
+        max-height: 85px
+    }
+
+    /*CHARACTERS*/
+    h3 {
+        font-size: 1.9em;
+    }
+
+    #charInfoClass,
+    #charInfoBackground {
+        font-size: 1.5em;
+    }
+
+    .charImgHandle {
+        font-size: 45px;
+        width: 50px;
+    }
+
+    .charExpandBtn,
+    .charInfoText {
+        padding: 0 45px;
+    }
+
+    #charInfoBox h5 {
+        font-size: 1.6rem;
+    }
+
+    .charInfoText p {
+        font-size: 1.25em;
+    }
+
+    /*ROLEPLAY*/
+    #roleplayBox {
+        padding: 0px 50px 10px;
+    }
+
+    #shortDescRP {
+        text-align: center;
+    }
+}
 
 /* lg */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+
+    /*BANNER*/
+    h1 {
+        font-size: 2.8em;
+    }
+
+    /*CHARACTER*/
+    .charImg {
+        max-height: 350px;
+    }
+
+    .charImgHandle {
+        font-size: 45px;
+        width: 45px;
+    }
+
+    #charInfoBox {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "nameplate nameplate nameplate nameplate"
+            "imageplate imageplate classplate classplate"
+            "imageplate imageplate backplate backplate"
+            "descplate descplate npcplate npcplate"
+            "itemplate itemplate storyplate storyplate"
+            "exitplate exitplate exitplate exitplate";
+    }
+}
 
 /* xl */
 @media only screen and (min-width: 1280px) {}
