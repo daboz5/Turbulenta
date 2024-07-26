@@ -166,7 +166,7 @@ export default function Navbar() {
     ) => {
         return (
             <div className="dropBox flexCen"
-                onMouseEnter={(e) => func(e.currentTarget.clientHeight - 10)}>
+                onMouseEnter={(e) => func(e.currentTarget.clientHeight - 5)}>
                 <div className="tab flexCol">
                     <span
                         className="tabLink">
@@ -217,7 +217,7 @@ export default function Navbar() {
                         <Arrow />
                     </button>
 
-                    <span id="menu">
+                    <span id="menu" className="flexCol flexCen">
 
                         {createDropdown(dropIsland, setDropIslandHeight, dropIslandHeight)}
                         {createDropdown(dropCamp, setDropCampHeight, dropCampHeight)}

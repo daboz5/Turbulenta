@@ -4,9 +4,11 @@ import CharData from "../data/CharData";
 import "./Characters.css"
 
 import emptyFrame from "../assets/icons/dragon-svgrepo-com.svg"
+import useDragonStore from "../useDragonStore";
 
 export default function Characters() {
 
+    const { preselectChar, setPreselectChar } = useDragonStore();
     const { chars } = CharData();
 
     const sortChars = () => {
@@ -28,6 +30,13 @@ export default function Characters() {
     const [charImgNum, setCharImgNum] = useState(1);
 
     useEffect(() => {
+        if (preselectChar) {
+            setCharacterDisplay(preselectChar);
+            setPreselectChar(undefined);
+        }
+    }, []);
+
+    useEffect(() => {
         if (charInfo) {
             charInfo.img?.imgArr.forEach((img, imgInx) => {
                 const imgEl = document.getElementById("charImg" + (imgInx));
@@ -39,7 +48,7 @@ export default function Characters() {
             pickedImg ? pickedImg.style.display = "block" : {};
             charInfo.img?.imgDef ? setCharImgNum(charInfo.img.imgDef) : setCharImgNum(0);
         }
-    }, [charInfo])
+    }, [charInfo]);
 
     const setNextImg = (dir: "back" | "forw") => {
         let newImg: HTMLElement | null = null;
@@ -62,7 +71,7 @@ export default function Characters() {
                 setCharImgNum(charImgNum + 1);
             }
         }
-    }
+    };
 
     const setCharacterDisplay = (char: Char | false, target?: EventTarget) => {
         if (!target || target instanceof Element) {
@@ -80,7 +89,7 @@ export default function Characters() {
                 resetCharInfoDisplay();
             }
         }
-    }
+    };
 
     const switchText = (targetId: string) => {
         const text = document.getElementById(targetId);
@@ -90,7 +99,7 @@ export default function Characters() {
         } else if (text) {
             text.style.display = "none";
         }
-    }
+    };
 
     const resetCharInfoDisplay = () => {
         const el1 = document.getElementById("charInfoDescription");
@@ -101,7 +110,7 @@ export default function Characters() {
         el2 ? el2.style.display = "none" : {};
         el3 ? el3.style.display = "none" : {};
         el4 ? el4.style.display = "none" : {};
-    }
+    };
 
     return (
         <>
@@ -218,16 +227,16 @@ export default function Characters() {
                                         {charInfo?.companions?.map(
                                             (comp, cInx) => {
                                                 return (
-                                                    <span key={`keyCharComp${cInx}`}>
+                                                    <span
+                                                        className="charInfoTextSpan"
+                                                        key={`keyCharComp${cInx}`}>
                                                         <h5>{comp.name}</h5>
                                                         {comp.token &&
                                                             <img src={comp.token} alt="NPC Image" />}
-                                                        <span>
-                                                            {typeof comp.desc === "string" ?
-                                                                <p>{comp.desc}</p> :
-                                                                comp.desc
-                                                            }
-                                                        </span>
+                                                        {typeof comp.desc === "string" ?
+                                                            <p>{comp.desc}</p> :
+                                                            comp.desc
+                                                        }
                                                     </span>
                                                 )
                                             }
@@ -255,14 +264,14 @@ export default function Characters() {
                                         {charInfo?.possessions?.map(
                                             (item, iInx) => {
                                                 return (
-                                                    <span key={`keyCharItem${iInx}`}>
+                                                    <span
+                                                        className="charInfoTextSpan"
+                                                        key={`keyCharItem${iInx}`}>
                                                         <h5>{item.name}</h5>
-                                                        <span>
-                                                            {typeof item.desc === "string" ?
-                                                                <p>{item.desc}</p> :
-                                                                item.desc
-                                                            }
-                                                        </span>
+                                                        {typeof item.desc === "string" ?
+                                                            <p>{item.desc}</p> :
+                                                            item.desc
+                                                        }
                                                     </span>
                                                 )
                                             }

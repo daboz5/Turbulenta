@@ -1,13 +1,15 @@
 import { useState } from "react";
 import { RPPlay } from "../types";
+import { Link } from "react-router-dom";
 import RoleplayData from "../data/RoleplayData"
 import CharData from "../data/CharData";
-import "./Stories.css"
-
 import defGenToken from "../assets/chars/defTokens/anime-away-face-svgrepo-com.svg"
+import "./Stories.css"
+import useDragonStore from "../useDragonStore";
 
 export default function Stories() {
 
+    const { setPreselectChar } = useDragonStore();
     const { rpS1, rpS2 } = RoleplayData();
     const { chars } = CharData();
     const rpSArr = [rpS1, rpS2];
@@ -115,27 +117,38 @@ export default function Stories() {
                 const charColor = pickedColorArr.find((col) => col.id === charInfo?.name)?.color;
                 return (
                     <div
-                        className="talkRP flex"
+                        className="talkRP"
                         key={`talkLine${talkInx}`}>
-                        <img
-                            className="talkRPToken"
-                            src={token ? token : defGenToken}
-                            alt="Avatar token" />
-                        <span>
-                            <span id="talkRPNameBox" className="flexCol">
-                                <h5
-                                    style={{ color: charColor ? charColor : "white" }}>
-                                    {talk.char.name}
-                                </h5>
-                                {charInfo &&
-                                    <span>
-                                        ({charInfo.gender.pronoun})
-                                    </span>
-                                }
+                        <span className="talkRPStory">
+                            <span id="talkRPCharBox" className="flex">
+                                <img
+                                    className="talkRPToken"
+                                    src={token ? token : defGenToken}
+                                    alt="Avatar token" />
+                                <span id="talkRPNameBox">
+                                    {charInfo ?
+                                        <Link
+                                            to="/campaigns/characters"
+                                            onClick={() => setPreselectChar(charInfo)}>
+                                            <h5
+                                                style={{ color: charColor ? charColor : "white" }}>
+                                                {talk.char.name}
+                                            </h5>
+                                        </Link> :
+                                        <h5
+                                            style={{ color: charColor ? charColor : "white" }}>
+                                            {talk.char.name}
+                                        </h5>}
+                                    {charInfo &&
+                                        <span>
+                                            ({charInfo.gender.pronoun})
+                                        </span>
+                                    }
+                                </span>
                             </span>
-                            <p>{talk.content}</p>
                         </span>
-                    </div>
+                        <p>{talk.content}</p>
+                    </div >
                 )
             })
         }
@@ -209,7 +222,7 @@ export default function Stories() {
                     className="flexCol">
 
                     <h4>{play.title}</h4>
-                    <p id="seasonRP">{groupId}</p>
+                    <p id="seasonRP">/˘\ <b>{groupId}</b> /ˇ\</p>
                     <p id="shortDescRP">{play.shortDesc}</p>
 
                     {(play.chars.length + play.tags.length) > 0 &&

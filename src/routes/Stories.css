@@ -151,7 +151,9 @@
 }
 
 #roleplayBox h4 {
-    margin: 15px 20px 0;
+    font-size: 1.35em;
+    text-align: center;
+    margin: 20px 20px -3px;
 }
 
 #roleplayBox hr {
@@ -182,7 +184,7 @@
 
 #seasonRP {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.25em;
 }
 
 #shortDescRP {
@@ -190,28 +192,27 @@
     margin-bottom: 5px;
 }
 
-.talkRP {
-    gap: 15px;
-}
-
 .talkRPToken {
     position: relative;
-    top: -4px;
-    left: 7px;
-    display: none;
     height: 50px;
     max-width: 50px;
+    margin-left: 5px;
 }
 
-#talkRPNameBox {
-    align-items: baseline;
-    gap: 0;
+#talkRPCharBox {
+    align-items: center;
+    gap: 10px;
     margin: 7px 0 0;
 }
 
-.talkRP h5 {
+#talkRPCharBox h5 {
     font-size: 1.2em;
     margin: 0;
+    transition: 0.2s;
+}
+
+#talkRPCharBox h5:hover {
+    transform: scale(1.05);
 }
 
 #talkRPNameBox span {
@@ -219,7 +220,6 @@
 }
 
 .talkRP p {
-    font-size: 1em;
     margin: 3px 0 12px;
 }
 

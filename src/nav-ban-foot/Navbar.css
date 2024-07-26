@@ -116,9 +116,7 @@ nav {
     position: absolute;
     top: 0;
     display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
     gap: 5px;
     height: 100%;
 }
@@ -128,17 +126,12 @@ nav {
 .dropBox {
     display: flex;
     width: 100%;
-    padding: 5px;
+    padding: 3px;
 }
 
 .dropBox:hover .drop,
 .drop:hover {
     display: flex;
-}
-
-.dropBox:hover .tab {
-    border-left: 8px dotted var(--deepBlue);
-    border-right: 8px dotted var(--deepBlue);
 }
 
 .tab {
@@ -147,9 +140,8 @@ nav {
     text-align: center;
     text-shadow: 0 0 3px var(--deepBlue),
         0 0 5px rgb(0, 19, 80);
-    border-left: 8px dotted transparent;
-    border-right: 8px dotted transparent;
-    transition: 0.3s;
+    padding: 5px 0;
+    transition: 0.2s;
 }
 
 .tab:hover .drop,
@@ -166,13 +158,20 @@ nav {
 }
 
 .tabLink {
-    width: 100%;
+    width: calc(100% - 18px);
     color: rgba(255, 255, 255, 0.85);
     font-size: 1.8em;
     font-weight: 700;
     line-height: 1.4;
+    border-left: 9px dotted transparent;
+    border-right: 9px dotted transparent;
     transition: 0.3s;
     cursor: default;
+}
+
+.dropBox:hover .tabLink {
+    border-left: 9px dotted var(--deepBlue);
+    border-right: 9px dotted var(--deepBlue);
 }
 
 .drop {

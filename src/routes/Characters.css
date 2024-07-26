@@ -82,9 +82,9 @@
 
 .charInfoTextBox img {
     width: 90%;
-    max-height: 300px;
-    max-width: 300px;
-    margin-top: 23px;
+    max-height: 275px;
+    max-width: 275px;
+    margin-top: 3px;
 }
 
 #charInfoBox h3 {
@@ -159,7 +159,7 @@
     color: var(--shadeBlack);
     font-size: 1.1em;
     text-align: center;
-    padding: 0 0 10px;
+    padding: 0 0 8px;
 }
 
 #charInfoDescriptionBox {
@@ -198,7 +198,7 @@
 }
 
 .charInfoText p:last-of-type {
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 
 .charExpandBtnLine {
@@ -221,7 +221,7 @@
 #charInfoBox h5 {
     font-size: 1.4rem;
     font-weight: 800;
-    margin: 10px auto -8px;
+    margin: 5px auto 8px;
 }
 
 .charInfoText {

@@ -45,29 +45,9 @@
         min-width: 15%;
     }
 
-    #artInfoStory {
+    #artInfoStory,
+    #artInfoDesc {
         font-size: 1.2em;
-    }
-
-    h4,
-    #seasonRP {
-        font-size: 1.4em;
-    }
-
-    .talkRPToken {
-        display: block;
-    }
-
-    .talkRP h5 {
-        text-indent: 11px;
-    }
-
-    #talkRPNameBox span {
-        text-indent: 7px;
-    }
-
-    .tag {
-        font-size: 1em;
     }
 
     #charInfoClass,
@@ -79,19 +59,171 @@
         font-size: 1.1em;
         margin: 13px 5px;
     }
+
+    h4,
+    #seasonRP {
+        font-size: 1.4em;
+    }
+
+    #shortDescRP {
+        font-size: 1.15em;
+    }
+
+    .talkRP p {
+        font-size: 1.1em;
+    }
+
+    .tag {
+        font-size: 1em;
+    }
+
+    #talkRPNameBox {
+        font-size: 1.05em;
+    }
+
+    .talkRP p {
+        margin: 3px 0 15px;
+    }
 }
 
 /* sm */
-@media (min-width: 640px) {}
+@media only screen and (min-width: 640px) {
+    .navbarIcon {
+        max-height: 70px;
+        max-width: 70px;
+    }
+
+    .tabLink {
+        font-size: 1.9em;
+    }
+
+    .drop {
+        font-size: 1.6em;
+    }
+
+    #bannerText,
+    .homeInfoBox a {
+        font-size: 1.5em;
+    }
+
+    .homeInfoBox h2 {
+        font-size: 1.9em;
+    }
+
+    .homeInfoBox p {
+        font-size: 1.4em;
+    }
+
+    .homeInfoBox p,
+    .homeInfoBox a {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #islandModeBox button {
+        font-size: 1.5em;
+    }
+
+    #islandLocationsBox button {
+        font-size: 1.6em
+    }
+
+    .artsBox {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px 6px;
+    }
+
+    #artInfoTitle h4 {
+        font-size: 1.6em;
+        margin: 5px 25px;
+    }
+
+    #artInfoTitle hr {
+        min-width: 23%;
+    }
+
+    #artInfoStory,
+    #artInfoDesc {
+        font-size: 1.3em;
+    }
+
+    #charactersBox button {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    #charInfoClass,
+    #charInfoBackground {
+        font-size: 1.4em;
+    }
+
+    .charInfoText p {
+        font-size: 1.2em;
+    }
+
+    #charInfoBox h5 {
+        font-size: 1.5rem;
+    }
+
+    .charExpandBtn,
+    .charInfoText {
+        padding: 0 35px;
+    }
+
+    #tags {
+        font-size: 1.1em;
+    }
+
+    #roleplayBox h4 {
+        font-size: 1.6em;
+    }
+
+    #seasonRP {
+        font-size: 1.4em;
+    }
+
+    #shortDescRP {
+        font-size: 1.2em;
+    }
+
+    .tag {
+        font-size: 1.1em;
+    }
+
+    .talkRPToken {
+        margin-left: 8px;
+        transform: scale(1.1);
+    }
+
+    #talkRPCharBox {
+        gap: 12px;
+    }
+
+    #talkRPCharBox h5 {
+        font-size: 1.15em;
+    }
+
+    #talkRPNameBox {
+        font-size: 1.15em;
+    }
+
+    .talkRP p {
+        font-size: 1.15em;
+        margin: 3px 0 20px;
+    }
+}
 
 /* md */
-@media (min-width: 768px) {}
+@media only screen and (min-width: 768px) {}
 
 /* lg */
-@media (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {}
 
 /* xl */
-@media (min-width: 1280px) {}
+@media only screen and (min-width: 1280px) {}
 
 /* 2xl */
-@media (min-width: 1536px) {}
+@media only screen and (min-width: 1536px) {}
