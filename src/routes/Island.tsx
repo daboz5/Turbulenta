@@ -28,24 +28,18 @@ export default function Island() {
         return sorted
     }
 
-    const switchMapState = (state: "list" | "map") => {
-        if (state !== mapState) {
-            setMapState(state);
-        }
-    }
-
     const createPOI = (content: POICont) => {
         if (content.type === "shield") {
             return (
                 <img
-                    className="islandMapPOIShield flex flexCen"
+                    className="islandMapPOIShield flexCen"
                     src={content.img}
                     alt={content.alt}
                 />
             )
         } else if (content.type === "poi") {
             return (
-                <span className="islandMapPOIDot flex flexCen">
+                <span className="islandMapPOIDot flexCen">
                     X
                 </span>
             )
@@ -83,7 +77,7 @@ export default function Island() {
                                 backgroundColor: "rgb(255, 139, 62)"
                             } : {}
                         }
-                        onClick={() => switchMapState("list")}>
+                        onClick={() => mapState === "list" ? {} : setMapState("list")}>
                         Locations
                     </button>
                     <button
@@ -93,7 +87,7 @@ export default function Island() {
                                 backgroundColor: "rgb(255, 139, 62)"
                             } : {}
                         }
-                        onClick={() => switchMapState("map")}>
+                        onClick={() => mapState === "map" ? {} : setMapState("map")}>
                         Island Map
                     </button>
                 </span>
@@ -135,18 +129,15 @@ export default function Island() {
                                         gridRow: `${poi.y - 3} / ${poi.y + 3}`,
                                         gridColumn: `${poi.x - 5} / ${poi.x + 5}`
                                     };
-                                    const wideScreen = {
-                                        gridRow: `${poi.y - 2} / ${poi.y + 2}`,
-                                        gridColumn: `${poi.x - 3} / ${poi.x + 3}`
-                                    };
+                                    const poiStyle = (
+                                        pageWidth < 1024 ||
+                                        pageWidth > 700) ?
+                                        mediumScreen :
+                                        smallScreen
                                     return (
                                         <span
-                                            className="poi flex flexCen"
-                                            style={
-                                                pageWidth > 1000 ?
-                                                    wideScreen : pageWidth > 700 ?
-                                                        mediumScreen : smallScreen
-                                            }
+                                            className="poi flexCen"
+                                            style={poiStyle}
                                             onClick={() => openPOI(poi.content, true)}
                                             key={`poi${inx}`}>
                                             {createPOI(poi.content)}
