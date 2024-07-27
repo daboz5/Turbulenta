@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { RPPlay } from "../types";
 import { Link } from "react-router-dom";
+import useDragonStore from "../useDragonStore";
 import RoleplayData from "../data/RoleplayData"
 import CharData from "../data/CharData";
 import defGenToken from "../assets/chars/defTokens/anime-away-face-svgrepo-com.svg"
 import "./Stories.css"
-import useDragonStore from "../useDragonStore";
 
 export default function Stories() {
 
@@ -92,6 +92,22 @@ export default function Stories() {
         }
     }
 
+    const switchPlay = (play?: RPPlay) => {
+        const el = document.getElementById("roleplayContainer");
+        const tag = document.getElementById("tags");
+        if (play && el) {
+            el.style.opacity = "1";
+            el.style.pointerEvents = "all";
+            setPlay(play);
+        } else if (el && tag) {
+            const scrollNum = tag.offsetTop - 20;
+            document.body.scrollTop = scrollNum;
+            document.documentElement.scrollTop = scrollNum;
+            el.style.opacity = "0";
+            el.style.pointerEvents = "none";
+        }
+    };
+
     const createRoleplay = () => {
         if (play) {
             const pickedColorArr: { id: string, color: string }[] = [];
@@ -168,102 +184,106 @@ export default function Stories() {
                 </div>
             </div>
 
-            <h3>List of Stories</h3>
-            <span
-                id="rpListBox"
-                className="flexCol flexCen">
-                {rpSArr.map((group, grInx) => {
-                    return (
-                        <div
-                            className="rpGroupBtnBox flexCol flexCen"
-                            onClick={(el) => switchListGroup(el.target, grInx)}
-                            key={`rpBtnGroup${grInx}`}>
-                            <span className="rpGroupBtn flexCen">
-                                <hr />
-                                <button>
-                                    {group.id}
-                                </button>
-                                <hr />
-                            </span>
-                            <span
-                                id={`rpPlayBtnBox${grInx}`}
-                                className="rpPlayBtnBox">
-                                <span className="rpListFilterBox flexCol flexCen">
-                                    <span className="filterTagCheckBox flexCen">
-                                        Is a tag:<div
-                                            id={`filterTag${grInx}`}
-                                            className="filterTagCheck"
-                                            onClick={() => setTag(`filterTag${grInx}`)} />
-                                    </span>
-                                    <input className="rpListFilter" />
+            <span id="storiesWrapper">
+
+                <span className="flexCol">
+                    <h3>List of Stories</h3>
+                    {rpSArr.map((group, grInx) => {
+                        return (
+                            <div
+                                className="rpGroupBtnBox flexCol flexCen"
+                                onClick={(el) => switchListGroup(el.target, grInx)}
+                                key={`rpBtnGroup${grInx}`}>
+                                <span className="rpGroupBtn flexCen">
+                                    <hr />
+                                    <button>
+                                        {group.id}
+                                    </button>
+                                    <hr />
                                 </span>
-                                {sortPlays(group.roleplays).map((play, inx) => {
-                                    return (
-                                        <button
-                                            className="rpPlayBtn"
-                                            onClick={() => {
-                                                setGroupId(group.id)
-                                                setPlay(play)
-                                            }}
-                                            key={`char${grInx}.${inx}`}>
-                                            {play.title}
-                                        </button>
-                                    )
-                                })}
-                            </span>
+                                <span
+                                    id={`rpPlayBtnBox${grInx}`}
+                                    className="rpPlayBtnBox">
+                                    <span className="rpListFilterBox flexCol flexCen">
+                                        <span className="filterTagCheckBox flexCen">
+                                            Is a tag:<div
+                                                id={`filterTag${grInx}`}
+                                                className="filterTagCheck"
+                                                onClick={() => setTag(`filterTag${grInx}`)} />
+                                        </span>
+                                        <input className="rpListFilter" />
+                                    </span>
+                                    {sortPlays(group.roleplays).map((play, inx) => {
+                                        return (
+                                            <button
+                                                className="rpPlayBtn"
+                                                onClick={() => {
+                                                    setGroupId(group.id)
+                                                    switchPlay(play)
+                                                }}
+                                                key={`char${grInx}.${inx}`}>
+                                                {play.title}
+                                            </button>
+                                        )
+                                    })}
+                                </span>
+                            </div>
+                        )
+                    })}
+                </span>
+
+                <span id="roleplayContainer">
+                    {play &&
+                        <div
+                            id="roleplayBox"
+                            className="flexCol">
+
+                            <h4>{play.title}</h4>
+                            <p id="seasonRP">/˘\ <b>{groupId}</b> /ˇ\</p>
+                            <p id="shortDescRP">{play.shortDesc}</p>
+
+                            {(play.chars.length + play.tags.length) > 0 &&
+                                <>
+                                    <hr />
+                                    <div id="charsRP" className="flex">
+                                        {play.chars.map((char, charInx) => {
+                                            return (
+                                                <span
+                                                    className="tag"
+                                                    key={`char${charInx}`}>
+                                                    {char}
+                                                </span>
+                                            )
+                                        })}
+                                    </div>
+                                    <div id="tagsRP" className="flex">
+                                        {play.tags.map((tag, tagInx) => {
+                                            return (
+                                                <span
+                                                    className="tag"
+                                                    key={`tag${tagInx}`}>
+                                                    {tag}
+                                                </span>
+                                            )
+                                        })}
+                                    </div>
+                                    <hr />
+                                </>}
+
+                            <div id="roleplay">
+                                {createRoleplay()}
+                            </div>
+
+                            <hr />
+                            <button onClick={() => switchPlay()}>
+                                Close
+                            </button>
+
                         </div>
-                    )
-                })}
+                    }
+                </span>
+
             </span>
-
-            {play && <>
-                <div
-                    id="roleplayBox"
-                    className="flexCol">
-
-                    <h4>{play.title}</h4>
-                    <p id="seasonRP">/˘\ <b>{groupId}</b> /ˇ\</p>
-                    <p id="shortDescRP">{play.shortDesc}</p>
-
-                    {(play.chars.length + play.tags.length) > 0 &&
-                        <>
-                            <hr />
-                            <div id="charsRP" className="flex">
-                                {play.chars.map((char, charInx) => {
-                                    return (
-                                        <span
-                                            className="tag"
-                                            key={`char${charInx}`}>
-                                            {char}
-                                        </span>
-                                    )
-                                })}
-                            </div>
-                            <div id="tagsRP" className="flex">
-                                {play.tags.map((tag, tagInx) => {
-                                    return (
-                                        <span
-                                            className="tag"
-                                            key={`tag${tagInx}`}>
-                                            {tag}
-                                        </span>
-                                    )
-                                })}
-                            </div>
-                            <hr />
-                        </>}
-
-                    <div id="roleplay">
-                        {createRoleplay()}
-                    </div>
-
-                    <hr />
-                    <button onClick={() => setPlay(null)}>
-                        Close
-                    </button>
-
-                </div>
-            </>}
         </>
     )
 }

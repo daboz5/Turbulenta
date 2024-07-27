@@ -1,14 +1,11 @@
-#charactersBox {
-    display: flex;
-    flex-direction: column;
+#charListBox {
     width: 100%;
+    margin-top: 20px;
 }
 
-#charactersBox span {
-    max-width: 500px;
-}
-
-#charactersBox button {
+#charListBox button {
+    width: 95%;
+    max-width: 450px;
     font-size: 1.5em;
     border: 3px solid var(--darkerPastel);
     box-shadow: inset 0 0 5px 1px var(--deepPastel),
@@ -18,16 +15,16 @@
     transition: 0.3s;
 }
 
-#charactersBox button:first-of-type {
+#charListBox button:first-of-type {
     border-radius: 20px 20px 0 0;
 }
 
-#charactersBox button:last-of-type {
+#charListBox button:last-of-type {
     border-radius: 0 0 20px 20px;
     border-bottom: 5px solid var(--darkerPastel);
 }
 
-#charactersBox button:hover {
+#charListBox button:hover {
     box-shadow: inset 0 0 7px 1px var(--deepPastel),
         0 0 0 3px var(--darkerPastel);
     background-color: var(--darkerPastel);
@@ -37,18 +34,13 @@
 
 #charInfoBoxScreen {
     opacity: 0;
+    pointer-events: none;
     transition: 0.2s;
 }
 
-#charInfoBoxContainer {
+#charInfoBox {
     position: absolute;
     top: 20px;
-    width: 100%;
-    max-width: 85%;
-    padding-bottom: 20px;
-}
-
-#charInfoBox {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -62,41 +54,42 @@
         "storyplate"
         "exitplate";
     justify-items: center;
-    width: 100%;
+    width: 85%;
     border-radius: 20px;
-    background-color: var(--darkerPastel);
+    padding-bottom: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s;
 }
 
-#charInfoBox h3,
+#charInfoName,
 #charInfoClass,
 #charInfoBackground,
+#charInfoCore,
 #charInfoImg,
 .charInfoTextBox,
 #charExitBtn {
     width: 100%;
     border: 3px solid var(--darkerPastel);
-    box-shadow: inset 0 0 5px 1px var(--deepPastel),
+    box-shadow: inset 0 0 3px 3px var(--deepPastel),
         0 0 0 3px var(--darkerPastel);
-    background-color: var(--darkPastel);
+    background-color: var(--lightPastel);
 }
 
-.charInfoTextBox img {
-    width: 90%;
-    max-height: 275px;
-    max-width: 275px;
-    margin-top: 3px;
-}
-
-#charInfoBox h3 {
+#charInfoName {
     grid-area: nameplate;
-    margin: 0;
     border-radius: 20px 20px 0 0;
-    padding: 10px 0 13px;
+}
+
+#charInfoName h3 {
+    color: var(--shadeBlack);
+    text-shadow: 0px 0px 1px var(--shadeBlack);
+    margin: 0;
+    padding: 10px 20px 12px;
 }
 
 #charInfoClass,
-#charInfoBackground,
-#charInfoImg {
+#charInfoBackground {
     color: var(--shadeBlack);
     font-size: 1.2em;
     font-weight: 800;
@@ -115,22 +108,23 @@
 
 #charInfoImg {
     grid-area: imageplate;
+    padding: 5px 0;
 }
 
 #charImgBox {
     height: calc(100% - 14px);
-    padding: 10px 0;
+    margin: 10px;
 }
 
 .charImgHandle {
     height: 100%;
-    width: 40px;
+    width: 37px;
     font-size: 35px;
     margin: 0 2px;
     border: none;
     border-radius: 0 10px 10px 0;
     box-shadow: inset 0 0 5px 3px rgba(0, 0, 0, 0.5);
-    padding-left: 7px;
+    padding-left: 6px;
     background-color: var(--mediumPastel);
     transition: 0.2s;
 }
@@ -148,8 +142,15 @@
     display: none;
     width: 100%;
     max-width: 70%;
-    max-height: 500px;
+    max-height: 450px;
     box-shadow: 0 0 5px 3px var(--shadeBlack);
+}
+
+.charInfoTextBox img {
+    width: 90%;
+    max-height: 275px;
+    max-width: 275px;
+    margin-top: 3px;
 }
 
 #charInfoDescriptionBox,
@@ -216,6 +217,7 @@
 
 #charInfoBox h4 {
     font-weight: 800;
+    cursor: pointer;
 }
 
 #charInfoBox h5 {
@@ -243,7 +245,7 @@
 }
 
 #charExitBtn:hover {
-    box-shadow: inset 0 0 7px 1px var(--deepPastel),
+    box-shadow: inset 0 0 3px 3px var(--deepPastel),
         0 0 0 3px var(--darkerPastel);
     background-color: var(--darkerPastel);
 }

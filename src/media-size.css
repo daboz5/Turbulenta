@@ -322,25 +322,82 @@
         font-size: 2.8em;
     }
 
-    /*CHARACTER*/
-    .charImg {
-        max-height: 350px;
+    /*ISLAND*/
+    #island {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        align-items: start;
     }
 
-    .charImgHandle {
-        font-size: 45px;
-        width: 45px;
+    #islandMode {
+        margin: 0 0 25px;
+    }
+
+    #poiDescBox {
+        justify-self: center;
+    }
+
+    /*CHARACTER*/
+
+    #charWrapper {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        align-items: start;
     }
 
     #charInfoBox {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-            "nameplate nameplate nameplate nameplate"
-            "imageplate imageplate classplate classplate"
-            "imageplate imageplate backplate backplate"
-            "descplate descplate npcplate npcplate"
-            "itemplate itemplate storyplate storyplate"
-            "exitplate exitplate exitplate exitplate";
+        position: relative;
+        justify-self: center;
+    }
+
+    .charImgHandle {
+        font-size: 40px;
+        width: 45px;
+    }
+
+    /*ROLEPLAY*/
+    #storiesWrapper {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .rpGroupBtnBox,
+    #roleplayBox {
+        width: 75%;
+    }
+
+    #roleplayContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    #roleplayBox h4 {
+        font-size: 1.8em;
+    }
+
+    #seasonRP {
+        font-size: 1.5em;
+    }
+
+    #shortDescRP {
+        font-size: 1.3em;
+    }
+
+    .talkRPToken {
+        margin-left: 10px;
+        transform: scale(1.2);
+    }
+
+    #talkRPCharBox {
+        gap: 13px;
+    }
+
+    #talkRPNameBox {
+        font-size: 1.2em;
+    }
+
+    .talkRP p {
+        font-size: 1.25em;
     }
 }
 
