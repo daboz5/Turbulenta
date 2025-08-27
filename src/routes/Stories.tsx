@@ -125,7 +125,7 @@ export default function Stories() {
                 const charInfo = chars.find((char) => char.name === talk.char.name);
                 let token = "";
                 if (typeof talk.char.token === "number" && charInfo && charInfo.img) {
-                    token = charInfo.img.tokenArr[0];
+                    token = charInfo.img.tokenArr[talk.char.token];
                 }
                 if ((token === "" || token === undefined) && charInfo) {
                     token = charInfo.gender.defToken;
