@@ -1,5 +1,7 @@
 import "./Credits.css"
 
 export default function Credits() {
-    return (<></>)
+    return (<>
+        <span>Aljaž Božičko</span>
+    </>)
 }
