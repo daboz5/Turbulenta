@@ -25,11 +25,14 @@ export default function RoleplayData() {
     const rpS2: RPGroup = {
         id: "Season 2",
         roleplays: [{
-            title: "Inner Self",
-            shortDesc: <>{`For the last 2 months Remember Me was a bit problematic. He was training to help guard the underground fortress, but was quickly designated as a `}<i>{`chaos bomb`}</i>{` or `}<i>{`berserker`}</i>{` type of an asset, it displayed power and violence, not towards anyone in particular, but it still made other soldiers– very uncomfortable and it did cause a lot of training dummies losses. Now, it is continuing to train, soon after it destroyed giant elemental dummy creature, more powerful than ever, more violent than ever, not doing anything wrong, but SOMETHING was clearly wrong, given the reports they had on it from before.`}</>,
-            tags: ["blood"],
+            title: "Inner Self 2",
+            shortDesc: "Minamoto tries to help Remember Me understand what is wrong with him.",
+            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Minamoto"],
             contents: [{
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`For the last 2 months Remember Me was a bit problematic. He was training to help guard the underground fortress, but was quickly designated as a `}<i>{`chaos bomb`}</i>{` or `}<i>{`berserker`}</i>{` type of an asset, it displayed power and violence, not towards anyone in particular, but it still made other soldiers– very uncomfortable and it did cause a lot of training dummies losses. Now, it is continuing to train, soon after it destroyed giant elemental dummy creature, more powerful than ever, more violent than ever, not doing anything wrong, but SOMETHING was clearly wrong, given the reports they had on it from before.`}</p></>
+            }, {
                 char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Another afternoon of bashing and raging passes by. While the soldiers stationed at the base have gotten a bit used to it, Remember me's rampage still causes a bit of a disturbance in the training area. Enough for commander Minamoto to finally take notice and investigate. As the tall elven warrior enters the sandy area, he is a witness to yet another dummy smashed to splinters by the raging feygol. Seeing as this little creature might need some guidance he walks over.`}</p>
                     <p>{`"You posses a lot of strength Ishi no reikon. Demo, I sense much rage and wrath behind your blows. Bushido, a warrior's path is not just one of mindless violence. Tell what troubles you."`}</p></>
@@ -45,7 +48,7 @@ export default function RoleplayData() {
                 content: <><p>{`Remember Me stops. Soldier does not want to go away? Strange. It would even dare to step on its way. Stranger. But it liked his conviction. The one Oaksplit seems to lack. It thought to itself ... What is wrong with me? It scratched its head, looked away, and quietly mumbled.`}</p>
                     <p>{`"I don't know."`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`"Naruhodo, I see. If you do not know, then why are you smashing those dummies in such anger."`}</p>
                     <p>{`Minamoto replies, a small smile on his face, seeing that the little golem replied.`}</p></>
             }, {
@@ -62,7 +65,7 @@ export default function RoleplayData() {
                     <p>{`"I am not sure what that means thou, but ... people say it a lot."`}</p>
                     <p>{`"So ... I don't know."`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto kneels down into the sand.`}</p>
                     <p>{`"Whoever said that was wrong. And partially right. Come sit, lets us speak."`}</p>
                     <p>{`He invites the feygol to sit in front of him.`}</p>
@@ -78,14 +81,14 @@ export default function RoleplayData() {
                     <p>{`It thinks about breathing. What should it do? It knew some creatures to breathe, it was when they ventilated their air-sacks inside of their bodies. Maybe ...`}</p>
                     <p>{`It stands up. And sits. And stands up. And sits. And stands up. And sits. And stands up ... this does feel breezy, maybe this is why creatures like to do it so much?`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto looks over the little golem, standing and sitting, in a bit of a confusion.`}</p>
                     <p>{`"Hmmm, why are doing that?"`}</p></>
             }, {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`"I am trying to breathe, Sir, I think it is working!"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto laughs, a sound of joy escaping his lips, truly amused by the feygol.`}</p>
                     <p>{`"Naruhodo, you are breathing, I see. I forgot to ask if you even need to breath. Hmmmm, truly amusing. You are a joy Remember me."`}</p>
                     <p>{`With a smile on his lips Minamoto stops him.`}</p>
@@ -96,7 +99,7 @@ export default function RoleplayData() {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`Remember Me stops. It doesn't exactly mind where or how its limbs are located and it is still on eye-to-eye level with the sitting soldier.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`They sit in quiet for a second, before Minamoto continues.`}</p>
                     <p>{`"Why do you want to kill, Remember me?"`}</p></>
             }, {
@@ -105,7 +108,7 @@ export default function RoleplayData() {
                     <p>{`"I don't. I don't even know what it means. But they do say problems go away when you do, so it is probably useful for getting rid of your problems."`}</p>
                     <p>{`"Do you kill often, Sir?"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto thinks, a good solid minute passes. Then he looks feygol in his eyes, saying quietly.`}</p>
                     <p>{`"Killing is not just getting rid of your problems, Remember me. It is the taking of life. Bringing death to others. It is not something one should do lightly or with no conviction in his heart."`}</p>
                     <p>{`He looks towards the small grains of sand on the ground, taking some and letting them slowly trickle between his fingers.`}</p>
@@ -117,7 +120,7 @@ export default function RoleplayData() {
                     <p>{`It stops, switches topic`}</p>
                     <p>{`"How does it feel to kill?"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`"Death means the end. Sleep with no dreams."`}</p>
                     <p>{`Minamoto curiously looks at Remember me.`}</p>
                     <p>{`"It is as you said, things become different things. But they rarely return. Almost never. Events like that, we call miracles. Waking up from death slumber... Its not something that is done."`}</p>
@@ -131,7 +134,7 @@ export default function RoleplayData() {
                     <p>{`Remember Me freezes, light in its eyes for a moment fades, then resets and with a proper smile for the first time till now it says ...`}</p>
                     <p>{`Do you want to hear about Emily? Emily Nightsong. She is an elf, just like you.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto remains quiet, noticing the sudden change, interested, but does not press it.`}</p>
                     <p>{`"Emily Nightsong. Never heard of her before. Demo if you want to tell me about it, I would like to hear it."`}</p></>
             }, {
@@ -140,7 +143,7 @@ export default function RoleplayData() {
                     <p>{`"Gladly! Emily Nightsong was born blind, sickly and weak into a druid clan of Leshisel to the mother Natalija Nightsong. She was one of the top druids, so she expected a lot from her, but Emily wasn't exactly able to perform up to her expectations and her clan was very big on "everyone gets what is able to earn with its work", so /.../ but even so many other kids and clan servants hated her, so much attention was placed on her, even if she was failing at her best, while others were better from her /.../ especially Penelope, because she was better at druidcraft than her, so she /.../ and similarly less capable Turtil, who was envious of attention she was getting, or Orhida, who was mostly doing it for drama /.../ but she also had a friend, very capable girl Heliana, who sometimes defended her but she was older and very bussy with her studies, so /.../ and there was Timberly, who was always nice to her and Emily had a crush on him, but he was older and /.../ so she was most of the time left to herself. But she tried, even if she was blind she if need be went to the forest herself and often returned a few days later ... or was found, ragged and sickly, and then she went again, till she finished her task, for her family, that expected so much from her, she /.../ but many servants envied her, how she tried, how they had to worry about her getting sick, or hurt, how they had to take care of her, like she is better than them, because she doesn't give up /.../ everyone in clan had to make a feygol to grow up and become a proper adult or they had to serve, better druids they were, more valuable servant they were, but only a servant and not the adult, because feygols were valuable, they protected clan, the forest ... or were sold to the island court ... so it was very important for them to make them /.../ so she became mature, but not an adult, but she could if only she could make a feygol, any servant could at any time become an adult, valuable, so she kept trying and others hated her even more, she was not good at being a servant, but even worse when she was constantly trying and getting sick /…/ so she run away. Not to be a burden, to learn on her own, to learn from other people, people outside her clan, people outside her island, she explored, she learned, she traveled to elementals /…/ and she learned from gnome technicians on how to make /…/ or from wizards how to make a golem where she /…/ or from necromancers, that one was a scary one, because /…/ or when she was trying to learn from ghosts, it was really hard to get their attention, so she /…/ until she finally did it! Sort of. She made the first me. I can still remember me. Moving, speaking, even casting very simple spells, but something missing, so she started taking that something that was missing from her and giving it to me. And that is the last thing I remember from her, before I wake up and she goes to sleep, giving me final directions, to remember her, to remember Emily. I at first stayed with her, hoping she wakes up, but she didn't, so after some time I went on, to make sure people remember Emily. She is my mother, my creator, my model and my hero. And I want everyone to have someone like her. To remember someone like her. To keep them going. Like me. She keeps me going. And I remember her."`}</p>
                     <p>{`"I also have druidic clothes that are just like hers, they don't fit me, but I remember. I also have her favorite incense, and everything that I remember, I record in my book of Emily, so I never forget. And even if I am not together anymore, world can still remember Emily. This is why I tried to create a place up in the city where I could tell people about Emily. Place about her. It could still be there even if I am not, telling a story of Emily. That funny guy with a boomstick taught me that."`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto listens to everything Remember me says, patiently and carefully, not missing any detail. After the little feygol finishes, he waits in silence, thinking.`}</p>
                     <p>{`"Emily is a very important person to you. I understand. She is the reason you have come to train here, your reason to fight and remember. That is very noble and honorable"`}</p>
                     <p>{`He once again falls silent, his hands folded, his chest moving slowly.`}</p>
@@ -172,7 +175,7 @@ export default function RoleplayData() {
                     <p>{`"I tried to found a new place for Emily, somewhere safe. With people to tell about her."`}</p>
                     <p>{`"... haven't found it yet."`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`"Hmmm, naruhodo. Common people can sometimes be harsh, too harsh to things they do not know or understand. I can see now, why your rage and anger came to the surface. It was a very cruel thing that happened to you and for what its worth, I apologise, sumimasen. The guards afterall are in mine domain, but some in the city are harder to guide than others."`}</p>
                     <p>{`He politely bows, an apology apparent. Then he smiles, a sad smile: "Demo it is true, others will have their own special persons, just like you have your Emily. They worship and remember different things, others. Me for example, my special person is an elven woman called Morwyn. I worship the platinum dragon Bahamut. These two have shaped who I am and who I must be, to be a better person. I could not just remember Emily Nightsong, for her story was not one connected to mine." He exhales, a warm smile now playing on his lips.`}</p>
                     <p>{`"Everybody has their own special someone, their own memories. You cannot force those upon others. Demo, nobody should stop you from making a shrine in Emily's honour. That is wrong. If you want, I can speak to Oaksplit for you."`}</p>
@@ -186,7 +189,7 @@ export default function RoleplayData() {
                     <p>{`It shows its hand, encased with magical, acidic thorns.`}</p>
                     <p>{`"Would you be able to teach someone like me, when our bodies and a way we fight to me seems to be so different?"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto laughs.`}</p>
                     <p>{`"Indeed we are different. But the same life energy flows through both of us. In Yamato we call it ki. When we fight, we release, channel, it flows in our bodies. When you fight you release you ki, without even knowing it. I will teach you how to channel it. How to properly focus."`}</p>
                     <p>{`Minamoto thinks a little.`}</p>
@@ -196,7 +199,7 @@ export default function RoleplayData() {
                 content: <><p>{`Remember Me thinks. It wasn't really thinking much, it did  not need to, it was way too easy to smash them, but ...`}</p>
                     <p>{`"Anger? Frustration? Relief? Disappointment?"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto nods.`}</p>
                     <p>{`"It was tension, it was turmoil. It was your ki, violently spinning around your body. You just did not know it yet."`}</p>
                     <p>{`He stands up before the feygol.`}</p>
@@ -214,14 +217,14 @@ export default function RoleplayData() {
                     <p>{`Disgust`}</p>
                     <p>{`"Ok, I think I got it!"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`"Very good, feel the energy build up. Then when you can take no more, release it. But slowly. Controlled."`}</p>
                     <p>{`Minamoto nods, instructing Remember me.`}</p></>
             }, {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`"Without moving?"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`"Correct, just the energy. No movement."`}</p></>
             }, {
                 char: { name: "Remember Me", token: 1 },
@@ -231,7 +234,7 @@ export default function RoleplayData() {
                     <p>{`It imagines a very long stick and starts poking it. It does not seem amused. In fact, it starts growing, gnarling, growling, it is not happy, not happy at all.`}</p>
                     <p>{`"Ok, I think something is happening. What should I do now?"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`"Slowly release, bit  by bit. Let it go."`}</p>
                     <p>{`Minamoto quietly instructs.`}</p>
                     <p>{`"Focus and release it into your surroundings."`}</p></>
@@ -246,7 +249,7 @@ export default function RoleplayData() {
                     <p>{`"I think it is not going so well. I think releasing works, but my control might be on the week side."`}</p>
                     <p>{`Another step, Remember Me starts to panic.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto notices the struggle.`}</p>
                     <p>{`"Focus Remember me. Focus on something important. Focus on Emily. Her voice, her image. Let her guide the tension out."`}</p></>
             }, {
@@ -268,14 +271,14 @@ export default function RoleplayData() {
                     <p>{`It falls apart, losing consciousness. Its last thought ...`}</p>
                     <p>{`Fuck.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto sees this, immediately kneeling down`}</p>
                     <p>{`"Remember me. Remember me! Are you alright?!"`}</p></>
             }, {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`Rocks move a bit, but no proper answer.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto calls out in a strong voice, commander's voice.`}</p>
                     <p>{`"CLERIC! I need a cleric here now! Or a medic. Move it men."`}</p>
                     <p>{`Suddenly the entire field is buzzing with activity, soldiers running for the cleric or a medic. Very quickly a person in white robes sits down besides the fallen feygol, looking him over.`}</p></>
@@ -283,7 +286,7 @@ export default function RoleplayData() {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`Alive, but in not so good state. Probably had better days.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`The cleric immediately starts casting, a couple of healing spells. In the process, Minamoto interject.`}</p>
                     <p>{`"Calm him down as well. There are raging energies inside his body. His ki needs to stabilize."`}</p>
                     <p>{`The cleric nods, casting another Calm emotions on the feygol, trying to subside the dangerous torrent of energies and emotions.`}</p></>
@@ -297,7 +300,7 @@ export default function RoleplayData() {
                     <p>{`"I remember you. What were we talking about? Something about breathing, right?`}</p>
                     <p>{`It starts to breathe. In its own way.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`As life returns to Remember me's eyes, Minamoto looks him over breathing out a sigh of relief.`}</p>
                     <p>{`"Ahhh, you are back. The violent energies drove you apart. You exploded."`}</p>
                     <p>{`With a wave he dismisses the rest of the soldiers and the cleric before kneeling down in front of the feygol, quiet and deep in thought. Silence strains for a good solid minute, before he continues.`}</p>
@@ -311,28 +314,28 @@ export default function RoleplayData() {
                     <p>{`"It does feel quite breezy."`}</p>
                     <p>{`"Relaxing even."`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`"You are very interesting, ishi no reikon. You know what. Practice the new breathing. Feel it. Try controling it, make it faster, slow it down. Then find me after, when you discover all the secrets. And we shall continue with your training. Is that alright?"`}</p></>
             }, {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`"If you say so!"`}</p>
                     <p>{`It salutes as it saw soldiers doing.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto smiles, salutes back and returns back to his duties, his head still shaking from all the wonders he had seen and heard today.`}</p></>
             }, {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`Before he goes, question pops up in Remember Me's head.`}</p>
                     <p>{`"Sir Soldier? May I ask you something, before you go?"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto stops and turns, deep in though.`}</p>
                     <p>{`"Hmmm, hai, yes of course. What is it?"`}</p></>
             }, {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`"I just remembered ... Morwyn, you mentioned. Would you ... stop things for her?"`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`"I would yes, without hesitation."`}</p>
                     <p>{`There is no doubt in his eyes, just conviction and absolution.`}</p></>
             }, {
@@ -340,7 +343,7 @@ export default function RoleplayData() {
                 content: <><p>{`"Ok, thank you!"`}</p>
                     <p>{`It waves the soldier goodbye.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto nods and leaves.`}</p></>
             }, {
                 char: { name: "Remember Me", token: 1 },
@@ -353,6 +356,51 @@ export default function RoleplayData() {
                 char: { name: "Remember Me", token: 2 },
                 content: <><iframe width="252" height="189" src="https://www.youtube.com/embed/81c9yXJlzmg"></iframe>
                     <p>{`After Remember Me wakes up again ... he starts to change. Its posture is starting to become less animalistic and more humane, little less heavy as before, but it is almost as tall as an average elf now. Remember Me appears driven and at times almost ... playful? What is maybe even more striking is that ... it breathes. It is just an imitation of life, but its chest area does seem to mimic breathing. What is driving those changes? What is Remember Me becoming?`}</p></>
+            }]
+        }, {
+            title: "Inner Self 1",
+            shortDesc: "Remember Me tries to train his problems away. He gains power, but becomes even less stable.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me"],
+            contents: [{
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember me was furious. How could have Oaksplit claimed he cared about his friend and try to honor his memory, while sitting in his big chamber, crafting chairs and inking paper. How could it have trusted such a self-serving person. He was just like one of the council druids from Emily's village. The village that eventually killed her. She was trying so hard and all she got in return was ridicule. Maybe this is why she run away. Maybe this is the only way. Be alone. Do what you can with what you have. This is how it was created after all. Away from the village. Away from everyone else.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me came to the magic lake. Lake under the world above. Lake to the unknown. Lake where it found its new family. I mean, that exact place was a day away from here, but details weren't that important right now.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`No, that ork was worse. Council member were at least capable. Everyone knew it. They were the most capable members of the entire village. No one could denied it. They each had to create a feygolem and even then, only the best of them ruled above everyone else. It made sense. But that ork ... as he said, woodwhisperer, seedwhisperer, but not a ... what was his role again? Representative of the People. That People person must have had a bad taste in people that represent it.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It finally found what it was looking for. A fortress at the lake side. A place that needed people. People who could fight. And at the moment, Remember Me was very willing to rip a head or two off any monster that would dare to cross its path. Maybe it was only an imagination, but cave's plants and fungi trembled and moved away as it made its way towards the fortress. This has to be the place. Place that will tell it who to kill.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`To its surprise, this was not "exactly" what happened. First, they sounded an alarm. Monster approaching. Great, it was more than ready to fight one. But it soon found out the monster was Remember Me. Not the best time to humor it, but Remember Me tried its best to be civil and explain their misunderstanding. They didn't seem sure what to do, so they assigned it to some more training. Well, sure, it could probably use some of that, in its 33 years of wandering, there were only few occasions where it actually needed to fight, so its fighting stile relied more on ... instincts of its creation than any real fighting style, unlike most people around it. So ... training it is.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`He became part of 30 men group that slowly started to shrink. Something about how it dispatches training dummies. Tearing them to pieces. One after another. Magic acidic thorns enveloping its arms, teeth of the beasts, claws, fangs ... everything had the same motive. It was primal, bestial, brutal. One of the soldiers vomited just from looking at the process of turning a training dummy into ... whatever remained. In time its "style" was recognized as "chaos bomb". Remember Me didn't know what it means, but as long as it could tear his enemies apart, it did not care. Some day, it will grow. And it will destroy enemies of Emily. It will return. And it will make them pay. Just as Emily would have wanted.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Back to its business, Remember Me was again at its job off smashing training dummies. It was not "meant" to smash them, but little overperformance never killed anyone ... and it was not its fault they were too weak to properly train on.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Oaksplit sent it a letter. He wants to meet. Why? They have nothing to talk about. His picture was cute thou. But he wrote they are sorry. Who is sorry? Remember Me couldn't remember anyone else that wanted to say sorry to it. And sorry about what? It did not seek apology, words, it sought action!`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Primal Savagery and a wild swing with its thorny arm.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Oops. Another dummy, smashed.`}</p></>
+            }]
+        }, {
+            title: "Title",
+            shortDesc: "",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me"],
+            contents: [{
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
             }]
         }]
     }

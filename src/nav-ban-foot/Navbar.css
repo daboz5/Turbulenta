@@ -28,10 +28,17 @@ nav {
 
 /*OPEN-CLOSE MENU*/
 
+#homeBtnBox {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 25px;
+}
+
 #homeBtn {
     position: relative;
     z-index: 1;
-    width: 75px;
+    width: 65px;
     pointer-events: all;
     transition: 0.3s;
 }
@@ -45,13 +52,13 @@ nav {
 #navArrowBtn {
     border: none;
     background-color: rgba(0, 0, 0, 0);
-    transform: rotate(180deg) translateY(25px);
+    transform: rotate(180deg) translateY(21px);
     pointer-events: all;
 }
 
 #navArrow {
     position: sticky;
-    width: 55px;
+    width: 50px;
     transition: 0.3s;
     overflow: visible;
     z-index: 0;
@@ -63,7 +70,8 @@ nav {
 
 .cls-1 {
     fill: none;
-    stroke: rgb(7, 13, 49);
+    /* stroke: rgb(7, 13, 49); */
+    stroke: rgb(141, 221, 255);
     stroke-linecap: round;
     stroke-miterlimit: 10;
     stroke-width: 30px
@@ -79,7 +87,7 @@ nav {
     animation: 3s arrowOuter ease infinite;
 }
 
-@keyframes arrowInner {
+/* @keyframes arrowInner {
     0% {
         stroke: rgb(0, 21, 47);
     }
@@ -108,7 +116,7 @@ nav {
         stroke: rgb(39, 114, 255);
         transform: translateY(40px);
     }
-}
+} */
 
 /*MENU*/
 

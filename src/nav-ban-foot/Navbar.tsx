@@ -202,20 +202,22 @@ export default function Navbar() {
             <nav>
 
                 <span id="menuScreen">
-                    <Link
-                        to="/"
-                        onClick={() => openMenu(true)}>
-                        <img
-                            id="homeBtn"
-                            src={homeIcon}
-                            alt="Home Button"
-                        />
-                    </Link>
-                    <button
-                        id="navArrowBtn"
-                        onClick={() => openMenu()}>
-                        <Arrow />
-                    </button>
+                    <span id="homeBtnBox">
+                        <Link
+                            to="/"
+                            onClick={() => openMenu(true)}>
+                            <img
+                                id="homeBtn"
+                                src={homeIcon}
+                                alt="Home Button"
+                            />
+                        </Link>
+                        <button
+                            id="navArrowBtn"
+                            onClick={() => openMenu()}>
+                            <Arrow />
+                        </button>
+                    </span>
 
                     <span id="menu" className="flexCol flexCen">
 

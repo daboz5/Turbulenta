@@ -92,19 +92,20 @@ export default function Stories() {
         }
     }
 
-    const switchPlay = (play?: RPPlay) => {
+    const switchPlay = (story?: RPPlay) => {
         const el = document.getElementById("roleplayContainer");
         const tag = document.getElementById("tags");
-        if (play && el) {
+        if (story && el) {
             el.style.opacity = "1";
             el.style.pointerEvents = "all";
-            setPlay(play);
-        } else if (el && tag) {
+            setPlay(story);
+        } else if ((el && tag)) {
             const scrollNum = tag.offsetTop - 20;
             document.body.scrollTop = scrollNum;
             document.documentElement.scrollTop = scrollNum;
             el.style.opacity = "0";
             el.style.pointerEvents = "none";
+            setPlay(null);
         }
     };
 
@@ -213,16 +214,20 @@ export default function Stories() {
                                         </span>
                                         <input className="rpListFilter" />
                                     </span>
-                                    {sortPlays(group.roleplays).map((play, inx) => {
+                                    {sortPlays(group.roleplays).map((playing, inx) => {
                                         return (
                                             <button
                                                 className="rpPlayBtn"
                                                 onClick={() => {
-                                                    setGroupId(group.id)
-                                                    switchPlay(play)
+                                                    if (play?.title !== playing.title) {
+                                                        setGroupId(group.id)
+                                                        switchPlay(playing)
+                                                    } else {
+                                                        switchPlay();
+                                                    }
                                                 }}
                                                 key={`char${grInx}.${inx}`}>
-                                                {play.title}
+                                                {playing.title}
                                             </button>
                                         )
                                     })}
