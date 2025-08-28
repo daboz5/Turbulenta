@@ -30,14 +30,14 @@ export default function RoleplayData() {
             tags: ["blood"],
             chars: ["Remember Me", "Minamoto"],
             contents: [{
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Another afternoon of bashing and raging passes by. While the soldiers stationed at the base have gotten a bit used to it, Remember me's rampage still causes a bit of a disturbance in the training area. Enough for commander Minamoto to finally take notice and investigate. As the tall elven warrior enters the sandy area, he is a witness to yet another dummy smashed to splinters by the raging feygol. Seeing as this little creature might need some guidance he walks over.`}</p>
                     <p>{`"You posses a lot of strength Ishi no reikon. Demo, I sense much rage and wrath behind your blows. Bushido, a warrior's path is not just one of mindless violence. Tell what troubles you."`}</p></>
             }, {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`Remember Me stops, somewhat disturbed. It saw the man before, but where? Another soldier? Maybe a foreigner? It understood maybe half of what soldier was saying. Maybe if it ignores him, he will go away, like the rest of them? Honestly, it was kind of getting used to it. It slowly walked to another dummy, grabbed it, brought it back and fixed it on its place. There, perfect! It started growing thorns all over its arms again.`}</p></>
             }, {
-                char: { name: "Minamoto" },
+                char: { name: "Minamoto", token: 0 },
                 content: <><p>{`Minamoto sighs, but does not shy away. Seeing how Remember me steps towards another dummy, he just steps in front of it blocking the way.`}</p>
                     <p>{`"Enough, Ishi no reikon. No more mindless destruction on my training grounds. Tell me what is wrong so I can help. Or leave."`}</p></>
             }, {

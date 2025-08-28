@@ -163,7 +163,7 @@ export default function Stories() {
                                 </span>
                             </span>
                         </span>
-                        <p>{talk.content}</p>
+                        <div id="talkContent">{talk.content}</div>
                     </div >
                 )
             })

@@ -13,6 +13,8 @@ import remember6token from "../assets/chars/rememberme/Remember-Me-Token-6.png"
 import repko from "../assets/chars/rememberme/Repko-Token.png"
 import huggerfish from "../assets/chars/rememberme/Hugger-Fish-Token.png"
 
+import minamoto from "../assets/chars/minamoto/Minamoto-1.jpg"
+import minamotoToken from "../assets/chars/minamoto/Minamoto-Token-1.png"
 import defGenToken1 from "../assets/chars/defTokens/avatar-man-person-svgrepo-com.svg"
 // import defGenToken2 from "../assets/chars/defTokens/avatar-joker-squad-svgrepo-com.svg"
 import defGenToken3 from "../assets/chars/defTokens/avatar-cacti-cactus-svgrepo-com.svg"
@@ -173,6 +175,11 @@ export default function CharData() {
             lvl: 0
         }],
         background: "",
+        img: {
+            imgDef: 0,
+            tokenArr: [minamotoToken],
+            imgArr: [minamoto]
+        },
         desc: <>{``}</>
     }]
 
