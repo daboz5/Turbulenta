@@ -394,6 +394,124 @@ export default function RoleplayData() {
                 content: <><p>{`Oops. Another dummy, smashed.`}</p></>
             }]
         }, {
+            title: "First Friend",
+            shortDesc: "Ko Remember Me v Emily's Respite zgradi prvi bazen, ima končno nekaj časa, da se na samem pogovori s svojim novim prijateljem.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me", "Mezolček"],
+            contents: [{
+                char: { name: "Remember Me", token: 0 },
+                content: <><p>{`"Torej ... Gospod Riba. Kako naj te kličem? Imaš ime? Naziv? Družino?"`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"..ime?"`}</p>
+                    <p>{`Riba te gleda iz gladine začasnega bazena, ki si ji ga našel.`}</p>
+                    <p>{`Ko nadaljuje govoriti ji ponovno prične brbotati voda skozi škrge.`}</p>
+                    <p>{`"Imam družino, če kaj pomaga odgovoriti. Ne vem kje je, sicer. Ko sem bila dovolj velika, da se spomnim, sem najverjetneje odplavala že daleč stran od njih."`}</p>
+                    <p>{`"Mogoče kdaj koga srečam, me zanima kako so."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 0 },
+                content: <><p>{`"Mar nimaš imena? Kako so te klicali ostali? Kako te je klical Gospod Lenivec, s katerim si potovala? Hmm..."`}</p>
+                    <p>{`Remember Me se zroč v nebo globoko zamisli in za trenutek ali dva se že zdi, da je pozabil na pogovor z Ribo.`}</p>
+                    <p>{`Nato nenadoma ploskne z rokami in se od vznemirjenja prekucne v vodo in razlije polovico bazena. Medtem ko hiti vodo vračati nazaj v bazen, razloži svojo veliko zamisel.`}</p>
+                    <p>{`"V kolikor nimaš imena, ti ga bomo pa naredili! Tako kot ga je meni naredila moja stvarnica, Emily!"`}</p>
+                    <p>{`"Hm ... zelo si asertiven, grd in mezoljav ... mislim da je idealno ime zate Mezolček! Kako ti je všeč ime Mezolček? Gospod Mezolček ... zelo lep prizvok ima, mar se ti ne zdi?"`}</p>
+                    <p>{`"In glede družine nič ne skrbi ... tudi jaz sem zelo daleč od družine ... od najinega plemena, od Emily ... še vedno spi v daljni deželi ... dokler ne najdeva družine, morda bi bil moja družina? Najdena družina? Vsaj dokler ne najdeva svoje izgubljene družine?"`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"Ti si prvo bitje, s katerim se pogovarjam. Nisem niti vedela, da se moje misli prenašajo po zvokih, ki jih spuščam. Lahko me kličeš kakor si želiš, dokler lahko potujem z vami v vedno večje vode."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 0 },
+                content: <><p>{`"Oh, ja, predstavljaj si šele, kako začudena so bila drevesa ko sem jim povedal vse o Emily ... o, ja, drevesa ... veš tiste reči ki so rastle iz stropa v jami? No, običajno rastejo v narobe smer in so zelene barve, vem čudno, vendar nikoli se nisem spomnil, da bi jih vprašal zakaj to počnejo, mislim da je zelena med drevesi dokaj v modi. Saj bi jim povedal da imajo kot kaže izbiro, samo se ne morejo več pogovarjati z menoj, zadnje mi je pojasnilo, da ima hudo vnetje grla in da je zelo nalezljivo, naj se ne približujem. Boga. Pa še grla nimajo, si lahko predstavljaš kako hudo bolan moraš biti, da se ti celo potem grlo vname? Res groza."`}</p>
+                    <p>{`"... lahko te dam v morje, vendar nazadnje ko sem to naredil, ribi ni bilo preveč všeč. Veliko "Aaaaaaaaa, gori, celo telo mi gori, boli, boli, aaaaaaaa, škrge mi gorijo, umiram, umiram, umiram!!!", nakar me ni želela več obiskati ... bi te morje zanimalo? Predstavljaj si toliko vode kolikor si je lahko zamisliš, samo je takšnega okusa, kot da je nekdo vse življenje lulal vanjo. Je daleč največja voda kar jih poznam ..."`}</p>
+                    <p>{`Zamisli se.`}</p>
+                    <p>{`"... ... ... Gospod ali Gospa Mezoljček? Meni se zdiš dokaj Gospod, vendar nikoli se nisem spomnil pogledati."`}</p>
+                    <p>{`Dvigne ribo za rep.`}</p>
+                    <p>{`"Jaaaaa, še vedno ne vem kaj gledam. Mi morda poveš kaj naj bi bilo za videti? Kako ti veš s kom delaš male ribice? Ali je to bolj 50% 50%, včasih zadaneš, včasih zadaneš pravilneje?"`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`Riba zafrustrirano opleta po zraku, ko jo dvigneš`}</p>
+                    <p>{`"Ne vem o čem govoriš!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 0 },
+                content: <><p>{`"... hm, slišal sem za živali, ki lahko spremenijo spol, morda si ena od teh? Zgledaš zelo zmedeno ..."`}</p>
+                    <p>{`Previdno položi ribo nazaj v vodo.`}</p>
+                    <p>{`"Nič, Gospod Mezolček, od sedaj sva kot kaže družina."`}</p>
+                    <p>{`"Veseli me, da sva se spoznala in upam, da se razumeva še naprej. Zanašam se nate in na tvoje nasvete!"`}</p></>
+            }]
+        }, {
+            title: "Polite Inquiry",
+            shortDesc: "Remember Me se poskuša izpogajati za ceno gradu.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me"],
+            contents: [{
+                char: { name: "Remember Me", token: 0 },
+                content: <><p>{`"Hello. Hello? Sir? Yes, you, sir. I have a question. It this yours?"`}</p>
+                    <p>{`Points at the Rosa Castle behind the soldier guarding the gate.`}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }, {
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }]
+        }, {
+            title: "Title",
+            shortDesc: "",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me"],
+            contents: [{
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }]
+        }, {
+            title: "Title",
+            shortDesc: "",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me"],
+            contents: [{
+                char: { name: "", token: 0 },
+                content: <><p>{``}</p></>
+            }]
+        }, {
             title: "Title",
             shortDesc: "",
             tags: ["depression", "guilt"],
