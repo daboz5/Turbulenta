@@ -1250,1671 +1250,1881 @@ export default function RoleplayData() {
                     <p>{`It was a long day. A lot happened. And it thinks it was also the first time it broke the law for its ... companions. Why did it do it? Wouldn't it be better to have friends in the clockwork city instead of quick money? It did not know. But it felt that way their work was rewarded. As a group, instead of only itself. And now ... it was tired.`}</p>
                     <p>{`What was evil? It knew it wasn't good. And it couldn't remember most of its life, so there was no real point of reference. Would it be better if it was evil? What was evil? Why would anyone choose to be evil? Was it evil because it broke the law? It did not know. Maybe it will learn, but not today, some other day.`}</p></>
             }, {
-                // `}</p><p>{`
                 char: { name: "Remember Me", token: 1 },
-                content: <><p>{`t tries to rest. Again. It needs to rest. To get better. To stop falling apart. Just as Oaksplit said.
-Light in its eyeholes starts to dim. Magic holding its body together relaxes. When it sees it.
-There is a white, shiny fox. And it is looking at it. Unbothered.
-Remember Me looks around. It is not anywhere it would recognize. And there is only it. It and the fox. That is looking at it. Expectingly.`}</p></>
+                content: <><p>{`t tries to rest. Again. It needs to rest. To get better. To stop falling apart. Just as Oaksplit said.`}</p>
+                    <p>{`Light in its eyeholes starts to dim. Magic holding its body together relaxes. When it sees it.`}</p>
+                    <p>{`There is a white, shiny fox. And it is looking at it. Unbothered.`}</p>
+                    <p>{`Remember Me looks around. It is not anywhere it would recognize. And there is only it. It and the fox. That is looking at it. Expectingly.`}</p></>
             }, {
                 char: { name: "Fox" },
-                content: <><p>{`... ... ...
-                    After some time of staring, it comes closer. And starts scratching at its clay bandages, tearing them away.`}</p></>
+                content: <><p>{`... ... ...`}</p>
+                    <p>{`After some time of staring, it comes closer. And starts scratching at its clay bandages, tearing them away.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`No, you should not do that. Those are helping me to heal. To ... to forget? But I do not remember anything without them, so how could that be true? I do not understand ... do you?`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"No, you should not do that. Those are helping me to heal. To ... to forget? But I do not remember anything without them, so how could that be true? I do not understand ... do you?"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Fox keeps scratching at its clay bandages.
-`}</p></>
+                char: { name: "Fox" },
+                content: <><p>{`Fox keeps scratching at its clay bandages.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Well, you know like you would know what you are doing. Like that Soldier did ... did ... what was it doing ... I can not remember. Why I can not remember?`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Well, you know like you would know what you are doing. Like that Soldier did ... did ... what was it doing ... I can not remember. Why I can not remember?"`}</p></>
             }, {
-                char: { name: "", token: 1 },
+                char: { name: "Fox" },
                 content: <><p>{`Fox manages to scratch most of the mud away, takes a few steps away, then jumps into Remember Me, trough the crack in its body, disappears.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Well, this is strange ... I wonder where would it go?
-It leans forward to take a look at the crack into which the fox disappeared, but falls flat on its nose.
-Auch! That hurt.
-It looks back and sees ... itself. Its eyes dark, it body, cold, only the unsealed crack in its body, shining.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Well, this is strange. It is me, but it is also not me? And that crack, is this where did the fox go? Maybe ...
-It comes closer, slowly, touches its cold body. Just some rocks and plants, jumbled together into something that resembles life, most of the time.
-IT STOPPED.
-There is a thought. It comes. It goes away. It ... shocks Remember Me. But not because of its meaning, it doesn't mind its stopped body. It is just so ... else. Like thought was its, but also not its thought. And it feels ... it feels like it came from the shiny crack. 
-It looks around. Darkness. And in front of it, its stopped body and the light. 
-At least I know where to go.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`One step, second step. Last step and it will be able to touch it. It reaches forward with its hand and hears something under its foot crack. It looks. It is a bone. A bone that broke.
-This is not mine. I do not have bones. I wonder who's bone it is.
-It does not mind the bone and leans closer. It touches the crack in its body. Warm and sharp. But not wide enough. It tries to lean into it, just as the fox did, but fox seems to be smaller than it is. It tries to widen the gap. Crack won't budge. It thinks and notices the clay. It is still there. So it tries to remove it. It tries its best, then tries to widen the gap again. This time, it succeeds. Barely. It is very hard to pull the rock apart, but it manages just enough, so it can at some point lean forward and falls into the crack. 
-It falls on its head.
-Ou, that hurt!
-Remember Me scratches its head, but notices there is no crack in it. In fact, it feels different than before.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It looks up. There is a dark crack in the middle of the ceiling. Ominous. It looks around. Shiny. White. And after some time. It notices that in this shiny white space, it is a shiny white fox. Doing noting. Just ... looking at it. Its tail every now and then moving from one side to the other, not angry, not in expectation, just, moving.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It does not look as if the fox is in a hurry, so Remember Me checks itself.
-Huh, I am in my old body again.
-Its body was again smaller and more round than before. And without cracks in its exterior. Curious.
-It looks at the fox. The fox is where it was before.
-Hi, little fella. Who are you? Do you know where are we?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`The fox doesn't reply. Instead it yawns, then goes to its right.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me has nothing better to do, so it decides to follow the shiny white fox.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`After some time Remember Me notices something. It ... a rectangle. Black rectangle in space. Just, there. Not wide. Somewhat large. And not made out of any material, more like ... the space is lacking there. The fox goes into it and disappears again.
-Remember Me goes to the rectangle and looks what is on the other side of it, but there is no other side of it. At its back, there is no rectangle, just a normal space.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It tries to move its hand into it, but rectangle ... shrinks? ... it is wide as ever, but at the same time not wide enough to let its hand trough.
-Huh.
-What to do, what to do ... what if ...
-It remembers that when it tried to look at rectangle's back, it started narrowing. So maybe if it tries to look at its front, it would ... but wasn't it already at its front?
-Remember Me leans in, like trying to get the right angle, left and right, being careful to notice if anything happens. And indeed, rectangle starts widening and Remember Me carefully starts following the widening, not taking its eyes off the rectangle until it is wide enough to resemble the door.
-This worked. I wonder if I would continue to do it, would it go even wider? Wide enough to cover the entire horizon?
-It does feel like it wants to try this theory if its, but then it remembers the fox.
-I need to hurry if I still want to catch it!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It goes trough the black rectangle and enters into a ... scary place. A place that feels broken. Somewhat red. And shadowy. And humming with a bad sound. It feels as if floor is lava, even it Remember Me can see it is only a barren dirty earth, no vegetation in sight. This place feels ... occupied. Like someone ... or something is here. Watching. And it doesn't feel it noticed Remember Me yet. 
-I wonder where and I now.
-It looks back and black rectangle is again narrow as a hairline, barely noticeable.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I need to find the fox anyway, so I might as well start looking around ... quietly.
-It searches around for some time, but finds nothing. No fox, no enemy, just more of the space.
-Strange. It feels like a really bad idea, but maybe whatever runs this place might know more?
-Remember Me said that, but it didn't feel any inclination to actually do that. It was as its body was resisting the thought of going after the presence of this place. So it stood there, trying to break out of it, till it finally remembered it can not stay here. It needs to move. And it doesn't want to move back, so the only place to go was ...
-It started looking around. It wasn't that hard. Not long after it came across thorny branches that every now and then as roots protruded the earth. It felt right in the bad way. As if following them will take it to the source. So it did. Followed.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`At first, it was just one, then two, until thorny roots started forming bushes, acidic substance dripping from them. Corrupting the earth around them. It became ever harder not to step on them, until it became straight out impossible to continue without taking some damage.
-Well, here goes nothing.
-It stepped on the chaotic array of thorny roots and branches.
-It HURT. And the humming place froze. Only for a moment. Something noticed it. Humming started to intensify. Thorny roots came to life, now starting to coil as snakes, many many snakes, plowing the earth with their thorns.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`They didn't seem aggressive, but humming did start to intensify, so Remember Me felt as if it has to hurry ... and moved forward.
-As it moved forward, it started noticing other features of this place. On the ground, there were ... things. It almost started to feel like moving atop of a dump, with broken pieces of wrong proportions, some smaller than they should be, some way bigger. pieces of paper, broken pictures, doors with indiscernible words painted in red, wooden beams, bodies of distorted people, and in the middle of it all, a mask, red mask, face distorted in anger, floating above everything else, big but not huge, imposing.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It was looking at Remember Me, but it was almost as if it had a hard time seeing it, it felt like it is looking in its direction, but something is blocking its view of Remember Me, making it less threatening than it would be otherwise.
-Remember Me started making its way to it, slowly, yet as fast as it could without hurting itself too much on the thorns that kept scraping parts of its body away from it.
-So it managed to came close. Close enough to see, there were no thorns under the mask. Only traces of red fur. As if giant creature made its nest here, in the past, but it felt empty, abandoned, at least for now. And the mask looked almost ... sad. As if it is missing something, or someone. 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me tries to touch the red mask, soothe it, but on touch, Mask becomes larger, larger, larger, but also higher, higher, higher, moving away from it.
-Place of thorns starts to boil in movement, moving towards it, thorns scraping at its body, but worse of it all, there are tiny thorny roots, starting to grow on its finger where it touched the mask, digging deep into its body, then coiling back out, progressing further up its arm. 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`No, wait! Don't run away! I am trying to help you!
-Mask doesn't listen, instead it stops, somewhat above, floating, crying, ugly, menacingly, thorns continuing to cut feygol's body, like tiny chainsaws.
-For the love of...! Fine! If you are not coming down, I am coming to you!
-The only problem is ... how? Its left arm is slowly eroding into thorns and it can not fly. Or can it?
-If those doors grew larger as I shifted the way I saw them, then maybe ...`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`t turns its head sideways. Nothing changes, but at the same time, from its point of view, everything changes. It is almost like the entire world is being pressed against.
-Well if this is the case ...
-Remember Me makes a handstand. It is a bit hard as its hand is starting to lose its strength, due to all of the thorns that are plowing trough it, but is manages to do it for long enough, that something starts to break, then it break a bit more and suddenly, the above is bellow and bellow is now wast above, but luckily, just under it is the mask, a bit confused as Remember Me starts falling towards it.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It falls on the bottom of the mask, using its thorny arm to anchor itself, not to slip off into nothingness.
-Ok, I won't let you escape this time!
-It starts climbing down towards its giant gaping mouths. It is hard, but nothing compared to thorns up above or those still devastating its arm.
-There there, nothing to worry about.
-It manages to climb down, but what to do next? There is mouth, a closed nose and two eyeholes, every one of them pitch black. It feels ... it feels as if something is coming from the hole in front of it. Some sort of a feeling. Eyes of the mask are still crying, now into the nothing bellow and it feels like this is not a time to inspect that, so it focus on the mouth, giving away among other things the feeling of wailing. This feels closer to where it needs to go. 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Here I go.
-It reaches into the black, but the black rejects its arm, as a thin yet thick ... membrane ... or maybe a jell.
-Too late to give up now.
-It forces its way in, its body shell breaking in the process, slowly, stubbornly, consistently.
-Come on, give up already, you stupid me!
-It breaks and Remember Me stumbles forward, this time into dark. Everything around it is dark. It came somewhere, somewhere dark.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me reaches out, but its arms seem ... shorter. It remembers those arms, those were its old arms!
-What about the rest of its body?
-Chubby as always. Or chubby as before ... well, this is at least the form it is most familiar with. It spent many many years in it.
-What to do, what to do ...
-Druidcraft
-There is a fireflash and ... it seems it is back in the jungle. Thick jungle, dense vegetation, wet everything.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Fire flashes again, not being able to burn for more than a moment, but that is enough. There is a path in the foliage it could swear was not there a moment ago.
-It is not like I have a choice ...
-It continues onward, carefree, as it was in those days. It brings memories back. Memories of happiness.
-But why is everything so dark? It tries to talk with the trees, but they don't answer. Looks like they changed their language already. Too bad. It wanted to talk with someone, about something ... what was it again ... it was always talking about something ... about...
-There is a flash in the distance above, the storm is approaching.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hm, I do not want to be trapped outside in the middle of the storm. I should probably do something. But what?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Druidcraft flashes again and now there is another path that wasn't there before.
-Might as well take a look.
-It starts stumbling in that direction on its tiny legs. Not so long after it notices something, fire between the trees.
-Someone is here! They might be able to help me!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It happily moves towards the fire and indeed, there is camp ... or at least what was left of it.
-At first, it is just happy that it found somewhere to take shelter from the storm ... but then it starts to notice something.
-This place looks ... familiar.
-Campfire next to the remains of the corner of the broken and twisted building, sleeping bags behind another broken wall, bookshelf at another ... there was one more thing ... one important thing. It searches around and there is a shrine. A small shrine that after a quick look around reveals it is dedicated to Manuel.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`This doesn't feel right. This does not feel right at all. Something is missing, something ...
-Water splashes few meters away. Remember Me goes there and finds ... a giant lake that surely wasn't there before. And inside of it something swims. Something small.
-... Mezolček?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Shape stops and an ugly face looks out of the water.
-Remember Me. You returned.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hi! Indeed, I did return. Tell me, what is going on here? Why this place feels so wrong and deserted? Where is everybody?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... don't you remember? You did this. You broke this place. But it seemed important to you, as if you are in a hurry, so I didn't stop you.
-It swims around in a circle.
-And I got this entire lake! Neat, ah?!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`This does not make any sense. It does not remember being here. At all. It remembers this place, but not why it had to be abandoned.
-Would you mind if I put it back. As it was before? I need a shelter. The storm is coming.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Kissing fish thinks to itself.
-Sure, bud. I like my lake, but swimming in such a big water alone sure makes you feel lonely. I would not mind returning thinks to normal ... if you can promise me a bigger lake?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me smiles.
-Sure, I do not mind making you a bigger pond, once I figure out what happen to your pond in the first place 😁`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It starts grabbing pieces of the room and moving them around. It is not easy, but it feels important, so it continues. Grabs a corner, moves it over there, presses against the wall to make it move somewhere else or rotate it on spot ... it manages to move almost everything, even manages to enclose the lake stretching over the horizon with its hands and once enclosed, move the piece back into the emerging room.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`The only piece that won't move is the shrine dedicated to Manuel so in turn it has to use it as the center of the broken room. As pieces fall into place, walls start to connect, windows emerge, fire is lit, doors are repaired ... but the roof is still missing.
-Well, this is embarrassing. I kind of though we can put it back together, but what good does the room make against the storm if the roof is still missing? 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`The altar. Fix the altar! The altar is the key.
-Mezolček swims somewhat nervously in its pond in the back-corner of the room.
-Remember Me thinks to itself. Yes, something is wrong with the altar. But what? It can not remember. What is wrong? Why it can't remember? What is he supposed to do.
-The anxiety starts to gather inside of it.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`No, don't do that, they will be able to hear you!
-there is another rumble of the storm
-... oh no, it is too late, they know you are here. Run kid, run! 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Run? Run but where. This is the only place it found here. The only place to go to. And fish is saying to abandon it? What for? It did nothing wrong and it still needs to remember.
-Mezolček. Do you know this Manuel guy? Who was he?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Manuel? Yea, sure, I heard of him before, great guy, or so I was told, did a lot of the things for the city outside, but died not so long before and some people still want to remember him.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`City? Died?
-I am not sure what are you talking about. What does it mean to die? And what city? There is only a jungle outside of this walls.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Mezolček looks at Remember Me skeptically.
-Amm, are you sure? Because I am quite sure we are in the middle of the city? Or something like that. `}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me looks outside and indeed, outside are rows of poorly constructed houses, but no trees.
-Trees are gone!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Of curse they are gone, what did I tell you. We are in the middle of the city and we are under siege!
-The storm was now above them, grumbling, sniffing.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`[Knock, knock, knock]
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Someone was knocking on the door.
-I wouldn't open those doors if I were you, kid. Nothing good can come of it.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me would also want to shield inside, but what choice does it have?
-It moves closer to the doors, carefully.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`[Knock, knock, knock, knock, knock]
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Knocking grows louder.
-Don't do it kid.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me is now right behind the doors. It listens. Knocking stops, as if it know it is there.
-Who is it? Who is knocking on my doors? Sorry, I would offer you a bed, meal and a healing, but it seems we are missing a roof for tonight. Maybe come back some other time.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It is quiet, then quiet a bit longer. Finally, there is a deep voice, as if coming from a tall adult ork.
-I am nobody. I came for her. I came for what remains of her.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me thinks to itself. What is this person talking about?
-Who are you looking for? I don't know what are you talking about? There is no one here except me and Mezinček! This is the shrine of Manuel, are you looking for him?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`The voice on the other side is quiet for a moment again.
-Look into your pocket. I came back for that. Give it to me and I will let you leave in peace.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Pocket is a bit of a strange word for what could be described as a gear it was adventuring in, but it knew what the orkish person meant.
-It searched its 'pockets' and indeed there was something inside of them. A plate, like it was missing from the door.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`[NOBODY CARES ABOUT EMILY
-REMEMBER ME CARES ABOUT EMILY]`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sir, would you be so kind and tell me what is the name of this place?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Nobody answers.
-Nobody's Hidden Respite.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Word come from Remember Me, but they do not feel like his.
-The place is yours, you may enter.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Doors open with a bang and there is a storm raging outside, wind and rain, as if they want to tear the city apart, but not here, the sky was dark, black, cloudy and clear above the Shrine, despite whatever was going on outside. Remember Me notices a piece of doors is missing. Probably the part that it has in its hands right now.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Stranger comes closer. It reaches out with its hand.
-That is right. Now give it to me. Do not make me kill for it.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sir Nobody, what does the word 'kill' means?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Stranger freezes.
-Ou no.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`The storm shatters the wall of the tiny shrine, taking the stranger away with it. It is starting to pour and howl all around trough the broken wall, but not above the altar.
-Remember Me steps back in shock, but steadies itself.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Mr. Storm. Mr. Storm? If I may? This word here, person, on this tablet, Emily. I have a feeling you would know about it. Who is it. I demand to know.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`GO BACK TO SLEEP LITTLE ONE, THERE IS NOTHING TO FIND HERE, WHAT YOU ARE LOOKING FOR IS NO LONGER ALIVE, THIS IS FOR YOUR OWN GOOD, GO, BEFORE I ERASE THE VERY CONCEPT OF YOU AND START AGAIN.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`No, I refuse. I demand to know what to kill means and what the word Emily means.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Kid, kid, I think, I think this might be a bit above us all, just let it slide, ok?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me is trying to stare the storm down.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`BE IT AS IT MAY, IT WAS DONE BEFORE, IT WILL BE DONE AGAIN.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me feels that the storm is turning its attention towards the altar and it feels it needs to hurry.
-
-Ou no, you won't!
-It stumbles towards the altar as fast as it can, erases the word Manuel and ... and it breaks its finger off of its body, scratching word Emily into its surface. It does not have blood, but blood like substance does come from where its finger broke and starts feeling the grooves.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I - SAID - STOP!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Lightning flashes from the sky towards the altar, but Remember Me raises its hand to stop it. It freezes just above it and the altar.
-
-No, I say enough, I want to know and I want to know, now.
-
-Blood-like substance stops filling the groves and the word Emily shines bloody on the blood sprayed white stone.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... I WARNED YOU.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me's palm explodes, its arm explodes, its other arm explodes, its legs explode its body explodes and something way smaller falls on the table. Its even older body. Word of Emily now feels bigger than it is ... or it might be better to say, words ARE bigger than it is.
-It feels like it is shrinking further, so that the words starts to feel as a convoluted spring, river, lake, sea, ocean.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... GO BACK, YOU ARE TOO SMALL TO CONTINUE, LOOK, THERE IS ALMOST NOTHING LEFT OF YOU.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me doesn't answer and jumps in into the bloody substance.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`NOOO!!!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`Well, this is strange ... I wonder where would it go?`}</i></p>
+                    <p>{`It leans forward to take a look at the crack into which the fox disappeared, but falls flat on its nose.`}</p>
+                    <p>{`Auch! That hurt.`}</p>
+                    <p>{`It looks back and sees ... itself. Its eyes dark, it body, cold, only the unsealed crack in its body, shining.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`Well, this is strange. It is me, but it is also not me? And that crack, is this where did the fox go? Maybe ...`}</i></p>
+                    <p>{`It comes closer, slowly, touches its cold body. Just some rocks and plants, jumbled together into something that resembles life, most of the time.`}</p></>
+            }, {
+                char: { name: "Remember Me - Alterego", token: 1 },
+                content: <><p><i>{`IT STOPPED.`}</i></p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`There is a thought. It comes. It goes away. It ... shocks Remember Me. But not because of its meaning, it doesn't mind its stopped body. It is just so ... else. Like thought was its, but also not its thought. And it feels ... it feels like it came from the shiny crack.`}</p>
+                    <p>{`It looks around. Darkness. And in front of it, its stopped body and the light.`}</p>
+                    <p>{`At least I know where to go.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`One step, second step. Last step and it will be able to touch it. It reaches forward with its hand and hears something under its foot crack. It looks. It is a bone. A bone that broke.`}</p>
+                    <p>{`"This is not mine. I do not have bones. I wonder who's bone it is."`}</p>
+                    <p>{`It does not mind the bone and leans closer. It touches the crack in its body. Warm and sharp. But not wide enough. It tries to lean into it, just as the fox did, but fox seems to be smaller than it is. It tries to widen the gap. Crack won't budge. It thinks and notices the clay. It is still there. So it tries to remove it. It tries its best, then tries to widen the gap again. This time, it succeeds. Barely. It is very hard to pull the rock apart, but it manages just enough, so it can at some point lean forward and falls into the crack.`}</p>
+                    <p>{`It falls on its head.`}</p>
+                    <p><i>{`Ou, that hurt!`}</i></p>
+                    <p>{`Remember Me scratches its head, but notices there is no crack in it. In fact, it feels different than before.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It looks up. There is a dark crack in the middle of the ceiling. Ominous. It looks around. Shiny. White.`}</p>
+                    <p>{`After some time it notices that in this shiny white space, it is a shiny white fox. Doing noting. Just ... looking at it. Its tail every now and then moving from one side to the other, not angry, not in expectation, just ... moving.`}</p>
+                    <p>{`It does not look as if the fox is in a hurry, so Remember Me checks itself.`}</p>
+                    <p><i>{`Huh, I am in my old body again.`}</i></p>
+                    <p>{`Its body was again smaller and more round than before. And without cracks in its exterior. Curious.`}</p>
+                    <p>{`It looks at the fox. The fox is where it was before.`}</p>
+                    <p>{`"Hi, little fella. Who are you? Do you know where are we?"`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`The fox doesn't reply. Instead it yawns, then goes to its right.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me has nothing better to do, so it decides to follow the shiny white fox.`}</p>
+                    <p>{`After some time Remember Me notices something. It is ... a rectangle. Black rectangle in space. Just, there. Not wide. Somewhat large. And not made out of any material, more like ... the space is lacking there. The fox goes into it and disappears again.`}</p>
+                    <p>{`Remember Me goes to the rectangle and looks what is on the other side of it, but there is no other side of it. At its back, there is no rectangle, just a normal space.`}</p>
+                    <p>{`It tries to move its hand into it, but rectangle ... shrinks? ... it is wide as ever, but at the same time not wide enough to let its hand trough.`}</p>
+                    <p><i>{`Huh.`}</i></p>
+                    <p>{`"What to do, what to do ... what if ..."`}</p>
+                    <p>{`It remembers that when it tried to look at rectangle's back, it started narrowing. So maybe if it tries to look at its front, it would ... but wasn't it already at its front?`}</p>
+                    <p>{`Remember Me leans in, like trying to get the right angle, left and right, being careful to notice if anything happens. And indeed, rectangle starts widening and Remember Me carefully starts following the widening, not taking its eyes off the rectangle until it is wide enough to resemble the door.`}</p>
+                    <p>{`This worked. I wonder if I would continue to do it, would it go even wider? Wide enough to cover the entire horizon?`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It does feel like it wants to try this theory if its, but then it remembers the fox.`}</p>
+                    <p><i>{`I need to hurry if I still want to catch it!`}</i></p>
+                    <p>{`It goes trough the black rectangle and enters into a ... scary place. A place that feels broken. Somewhat red. And shadowy. And humming with a bad sound. It feels as if floor is lava, even it Remember Me can see it is only a barren dirty earth, no vegetation in sight. This place feels ... occupied. Like someone ... or something is here. Watching. And it doesn't feel it noticed Remember Me yet.`}</p>
+                    <p>{`"I wonder where and I now."`}</p>
+                    <p>{`It looks back and black rectangle is again narrow as a hairline, barely noticeable.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I need to find the fox anyway, so I might as well start looking around ... quietly."`}</p>
+                    <p>{`It searches around for some time, but finds nothing. No fox, no enemy, just more of the space.`}</p>
+                    <p><i>{`Strange. It feels like a really bad idea, but maybe whatever runs this place might know more?`}</i></p>
+                    <p>{`Remember Me said that, but it didn't feel any inclination to actually do that. It was as its body was resisting the thought of going after the presence of this place. So it stood there, trying to break out of it, till it finally remembered it can not stay here. It needs to move. And it doesn't want to move back, so the only place to go was ...`}</p>
+                    <p>{`It started looking around. It wasn't that hard. Not long after it came across thorny branches that every now and then as roots protruded the earth. It felt right in the bad way. As if following them will take it to the source. So it did. Followed.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`At first, it was just one, then two, until thorny roots started forming bushes, acidic substance dripping from them. Corrupting the earth around them. It became ever harder not to step on them, until it became straight out impossible to continue without taking some damage.`}</p>
+                    <p><i>{`Well, here goes nothing.`}</i></p>
+                    <p>{`It stepped on the chaotic array of thorny roots and branches.`}</p>
+                    <p>{`It HURT. And the humming place froze. Only for a moment. Something noticed it. Humming started to intensify. Thorny roots came to life, now starting to coil as snakes, many many snakes, plowing the earth with their thorns.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`They didn't seem aggressive, but humming did start to intensify, so Remember Me felt as if it has to hurry ... and moved forward.`}</p>
+                    <p>{`As it moved forward, it started noticing other features of this place. On the ground, there were ... things. It almost started to feel like moving atop of a dump, with broken pieces of wrong proportions, some smaller than they should be, some way bigger. pieces of paper, broken pictures, doors with indiscernible words painted in red, wooden beams, bodies of distorted people, and in the middle of it all, a mask, red mask, face distorted in anger, floating above everything else, big but not huge, imposing.`}</p>
+                    <p>{`It was looking at Remember Me, but it was almost as if it had a hard time seeing it, it felt like it is looking in its direction, but something is blocking its view of Remember Me, making it less threatening than it would be otherwise.`}</p>
+                    <p>{`Remember Me started making its way to it, slowly, yet as fast as it could without hurting itself too much on the thorns that kept scraping parts of its body away from it.`}</p>
+                    <p>{`So it managed to came close. Close enough to see, there were no thorns under the mask. Only traces of red fur. As if giant creature made its nest here, in the past, but it felt empty, abandoned, at least for now. And the mask looked almost ... sad. As if it is missing something, or someone.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me tries to touch the red mask, soothe it, but on touch, Mask becomes larger, larger, larger, but also higher, higher, higher, moving away from it.`}</p>
+                    <p>{`Place of thorns starts to boil in movement, moving towards it, thorns scraping at its body, but worse of it all, there are tiny thorny roots, starting to grow on its finger where it touched the mask, digging deep into its body, then coiling back out, progressing further up its arm.`}</p>
+                    <p>{`"No, wait! Don't run away! I am trying to help you!"`}</p>
+                    <p>{`Mask doesn't listen, instead it stops, somewhat above, floating, crying, ugly, menacingly, thorns continuing to cut feygol's body, like tiny chainsaws.`}</p>
+                    <p>{`"For the love of...! Fine! If you are not coming down, I am coming to you!"`}</p>
+                    <p>{`The only problem is ... how? Its left arm is slowly eroding into thorns and it can not fly. Or can it?`}</p>
+                    <p><i>{`If those doors grew larger as I shifted the way I saw them, then maybe ...`}</i></p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It turns its head sideways. Nothing changes, but at the same time, from its point of view, everything changes. It is almost like the entire world is being pressed against.`}</p>
+                    <p><i>{`Well if this is the case ...`}</i></p>
+                    <p>{`Remember Me makes a handstand. It is a bit hard as its hand is starting to lose its strength, due to all of the thorns that are plowing trough it, but is manages to do it for long enough, that something starts to break, then it break a bit more and suddenly, the above is bellow and bellow is now wast above, but luckily, just under it is the mask, a bit confused as Remember Me starts falling towards it.`}</p>
+                    <p>{`It falls on the bottom of the mask, using its thorny arm to anchor itself, not to slip off into nothingness.`}</p>
+                    <p>{`"Ok, I won't let you escape this time!"`}</p>
+                    <p>{`It starts climbing down towards its giant gaping mouths. It is hard, but nothing compared to thorns up above or those still devastating its arm.`}</p>
+                    <p>{`"There there, nothing to worry about."`}</p>
+                    <p>{`It manages to climb down, but what to do next? There is mouth, a closed nose and two eyeholes, every one of them pitch black. It feels ... it feels as if something is coming from the hole in front of it. Some sort of a feeling. Eyes of the mask are still crying, now into the nothing bellow and it feels like this is not a time to inspect that, so it focus on the mouth, giving away among other things the feeling of wailing. This feels closer to where it needs to go.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`Here I go.`}</i></p>
+                    <p>{`It reaches into the black, but the black rejects its arm, as a thin yet thick ... membrane ... or maybe a gel.`}</p>
+                    <p><i>{`Too late to give up now.`}</i></p>
+                    <p>{`It forces its way in, its body shell breaking in the process, slowly, stubbornly, consistently.`}</p>
+                    <p>{`"Come on, give up already, you stupid me!"`}</p>
+                    <p>{`It breaks and Remember Me stumbles forward, this time into dark. Everything around it is dark. It came somewhere, somewhere dark.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me reaches out, but its arms seem ... shorter. It remembers those arms, those were its old arms!`}</p>
+                    <p><i>{`What about the rest of my body?`}</i></p>
+                    <p>{`Chubby as always. Or chubby as before ... well, this is at least the form it is most familiar with. It spent many many years in it.`}</p>
+                    <p>{`"What to do, what to do ..."`}</p>
+                    <p>{`[Druidcraft]`}</p>
+                    <p>{`There is a fireflash and ... it seems it is back in the jungle. Thick jungle, dense vegetation, wet everything.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Fire flashes again, not being able to burn for more than a moment, but that is enough. There is a path in the foliage it could swear was not there a moment ago.`}</p>
+                    <p><i>{`It is not like I have a choice ...`}</i></p>
+                    <p>{`It continues onward, carefree, as it was in those days. It brings memories back. Memories of happiness.`}</p>
+                    <p>{`But why is everything so dark? It tries to talk with the trees, but they don't answer. Looks like they changed their language already. Too bad. It wanted to talk with someone, about something ... what was it again ... it was always talking about something ... about...`}</p>
+                    <p>{`There is a flash in the distance above, the storm was approaching.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Hm, I do not want to be trapped outside in the middle of the storm. I should probably do something. But what?`}</p>
+                    <p>{`[Druidcraft] flashes again and now there is another path that wasn't there before.`}</p>
+                    <p><i>{`Might as well take a look.`}</i></p>
+                    <p>{`It starts stumbling in that direction on its tiny legs. Not so long after it notices something, fire between the trees.`}</p>
+                    <p>{`"Someone is here! They might be able to help me!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It happily moves towards the fire and indeed, there is camp ... or at least what was left of it.`}</p>
+                    <p>{`At first, it is just happy that it found somewhere to take shelter from the storm ... but then it starts to notice something.`}</p>
+                    <p>{`"This place looks ... familiar."`}</p>
+                    <p>{`Campfire next to the remains of the corner of the broken and twisted building, sleeping bags behind another broken wall, bookshelf at another ... there was one more thing ... one important thing. It searches around and there is a shrine. A small shrine that after a quick look around reveals it is dedicated to Manuel.`}</p>
+                    <p>{`"This doesn't feel right. This does not feel right at all. Something is missing, something ..."`}</p>
+                    <p>{`Water splashes few meters away. Remember Me goes there and finds ... a giant lake that surely wasn't there before. And inside of it something swims. Something small.`}</p>
+                    <p>{`"... Mezolček?"`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`Shape stops and an ugly face looks out of the water.`}</p>
+                    <p>{`"Remember Me. You returned."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Hi! Indeed, I did return. Tell me, what is going on here? Why this place feels so wrong and deserted? Where is everybody?"`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"... don't you remember? You did this. You broke this place. But it seemed important to you, as if you are in a hurry, so I didn't stop you."`}</p>
+                    <p>{`It swims around in a circle.`}</p>
+                    <p>{`"And I got this entire lake! Neat, ah?!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`This does not make any sense. It does not remember being here. At all. It remembers this place, but not why it had to be abandoned.`}</p>
+                    <p>{`"Would you mind if I put it back. As it was before? I need a shelter. The storm is coming."`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`Kissing fish thinks to itself.`}</p>
+                    <p>{`"Sure, bud. I like my lake, but swimming in such a big water alone sure makes you feel lonely. I would not mind returning things to normal ... if you can promise me a bigger lake?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me smiles.`}</p>
+                    <p>{`"Sure, I do not mind making you a bigger pond, once I figure out what happen to your pond in the first place 😁"`}</p>
+                    <p>{`It starts grabbing pieces of the room and moving them around. It is not easy, but it feels important, so it continues. Grabs a corner, moves it over there, presses against the wall to make it move somewhere else or rotate it on spot ... it manages to move almost everything, even manages to enclose the lake stretching over the horizon with its hands and once enclosed, move the piece back into the emerging room.`}</p>
+                    <p>{`The only piece that won't move is the shrine dedicated to Manuel so in turn it has to use it as the center of the broken room. As pieces fall into place, walls start to connect, windows emerge, fire is lit, doors are repaired ... but the roof is still missing.`}</p>
+                    <p>{`"Well, this is embarrassing. I kind of though we can put it back together, but what good does the room make against the storm if the roof is still missing?"`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"The altar. Fix the altar! The altar is the key."`}</p>
+                    <p>{`Mezolček swims somewhat nervously in its pond in the back-corner of the room.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me thinks to itself. Yes, something is wrong with the altar. But what? It can not remember. What is wrong? Why it can't remember? What is he supposed to do.`}</p>
+                    <p>{`The anxiety starts to gather inside of it.`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"No, don't do that, they will be able to hear you!"`}</p>
+                    <p>{`There is another rumble of the storm.`}</p>
+                    <p>{`"... oh no, it is too late, they know you are here. Run kid, run!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Run? Run but where. This is the only place it found here. The only place to go to. And fish is saying to abandon it? What for? It did nothing wrong and it still needs to remember.`}</p>
+                    <p>{`"Mezolček. Do you know this Manuel guy? Who was he?"`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"Manuel? Yea, sure, I heard of him before, great guy, or so I was told, did a lot of the things for the city outside, but died not so long before and some people still want to remember him."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`City? Died?`}</i></p>
+                    <p>{`"I am not sure what are you talking about. What does it mean to die? And what city? There is only a jungle outside of this walls."`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`Mezolček looks at Remember Me skeptically.`}</p>
+                    <p>{`"Amm, are you sure? Because I am quite sure we are in the middle of the city? Or something like that."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me looks outside and indeed, outside are rows of poorly constructed houses, but no trees.`}</p>
+                    <p>{`"Trees are gone!"`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"Of curse they are gone, what did I tell you. We are in the middle of the city and we are under siege!"`}</p>
+                    <p>{`The storm was now above them, grumbling, sniffing.`}</p></>
+            }, {
+                char: { name: "---" },
+                content: <><p>{`[Knock, knock, knock]`}</p>
+                    <p>{`Someone was knocking on the door.`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"... I wouldn't open those doors if I were you, kid. Nothing good can come of it."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me would also want to shield inside, but what choice does it have?`}</p>
+                    <p>{`It moves closer to the doors, carefully.`}</p></>
+            }, {
+                char: { name: "---" },
+                content: <><p>{`[Knock, knock, knock, knock, knock]`}</p>
+                    <p>{`Knocking grows louder.`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"Don't do it kid."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me is now right behind the doors. It listens. Knocking stops, as if it know it is there.`}</p>
+                    <p>{`"Who is it? Who is knocking on my doors? Sorry, I would offer you a bed, meal and a healing, but it seems we are missing a roof for tonight. Maybe come back some other time."`}</p></>
+            }, {
+                char: { name: "Nobody" },
+                content: <><p>{`It is quiet, then quiet a bit longer. Finally, there is a deep voice, as if coming from a tall adult ork.`}</p>
+                    <p>{`"I am nobody. I came for her. I came for what remains of her."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me thinks to itself. What is this person talking about?`}</p>
+                    <p>{`"Who are you looking for? I don't know what are you talking about? There is no one here except me and Mezinček! This is the shrine of Manuel, are you looking for him?"`}</p></>
+            }, {
+                char: { name: "Nobody" },
+                content: <><p>{`The voice on the other side is quiet for a moment again.`}</p>
+                    <p>{`"Look into your pocket. I came back for that. Give it to me and I will let you leave in peace."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Pocket is a bit of a strange word for what could be described as a gear it was adventuring in, but it knew what the orkish person meant.`}</p>
+                    <p>{`It searched its 'pockets' and indeed there was something inside of them. A plate, like it was missing from the door.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`[NOBODY CARES ABOUT EMILY]`}</p>
+                    <p>{`[REMEMBER ME CARES ABOUT EMILY]`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Sir, would you be so kind and tell me what is the name of this place?"`}</p></>
+            }, {
+                char: { name: "Nobody" },
+                content: <><p>{`Nobody answers.`}</p>
+                    <p>{`"Nobody's Hidden Respite."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Words come from Remember Me, but they do not feel like its.`}</p>
+                    <p>{`"The place is yours, you may enter."`}</p></>
+            }, {
+                char: { name: "Nobody" },
+                content: <><p>{`Doors open with a bang and there is a storm raging outside, wind and rain, as if they want to tear the city apart, but not here, the sky was dark, black, cloudy and clear above the Shrine, despite whatever was going on outside. Remember Me notices a piece of doors is missing. Probably the part that it has in its hands right now.`}</p>
+                    <p>{`Stranger comes closer. It reaches out with its hand.`}</p>
+                    <p>{`"That is right. Now give it to me. Do not make me kill for it."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Sir Nobody, what does the word 'kill' means?"`}</p></>
+            }, {
+                char: { name: "Nobody" },
+                content: <><p>{`Stranger freezes.`}</p>
+                    <p>{`"Oh no."`}</p></>
+            }, {
+                char: { name: "STORM" },
+                content: <><p>{`The storm shatters the wall of the tiny shrine, taking the stranger away with it. It is starting to pour and howl all around trough the broken wall, but not above the altar.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me steps back in shock, but steadies itself.`}</p>
+                    <p>{`"Mr. Storm. Mr. Storm? If I may? This word here, person, on this tablet, Emily. I have a feeling you would know about it. Who is it. I demand to know."`}</p></>
+            }, {
+                char: { name: "STORM" },
+                content: <><p>{`"GO BACK TO SLEEP LITTLE ONE, THERE IS NOTHING TO FIND HERE, WHAT YOU ARE LOOKING FOR IS NO LONGER ALIVE, THIS IS FOR YOUR OWN GOOD, GO, BEFORE I ERASE THE VERY CONCEPT OF YOU AND START AGAIN."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"No, I refuse. I demand to know what to kill means and what the word Emily means."`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`"Kid, kid, I think, I think this might be a bit above us all, just let it slide, ok?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me is trying to stare the storm down.`}</p></>
+            }, {
+                char: { name: "STORM" },
+                content: <><p>{`"BE IT AS IT MAY, IT WAS DONE BEFORE, IT WILL BE DONE AGAIN."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me feels that the storm is turning its attention towards the altar and it feels it needs to hurry.`}</p>
+                    <p>{`"Ou no, you won't!"`}</p>
+                    <p>{`It stumbles towards the altar as fast as it can, erases the word Manuel and ... and it breaks its finger off of its body, scratching word Emily into its surface. It does not have blood, but blood like substance does come from where its finger broke and starts feeling the grooves.`}</p></>
+            }, {
+                char: { name: "STORM" },
+                content: <><p>{`"I - SAID - STOP!"`}</p>
+                    <p>{`Lightning flashes from the sky towards the altar, but Remember Me raises its hand to stop it. It freezes just above it and the altar.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"No, I say enough, I want to know and I want to know, now."`}</p>
+                    <p>{`Blood-like substance stops filling the groves and the word Emily shines bloody on the blood sprayed white stone.`}</p></>
+            }, {
+                char: { name: "STORM" },
+                content: <><p>{`"... I WARNED YOU."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me's palm explodes, its arm explodes, its other arm explodes, its legs explode its body explodes and something way smaller falls on the table. Its even older body. Word of Emily now feels bigger than it is ... or it might be better to say, words ARE bigger than it is.`}</p>
+                    <p>{`It feels like it is shrinking further, so that the words starts to feel as a convoluted spring, river, lake, sea, ocean.`}</p></>
+            }, {
+                char: { name: "STORM" },
+                content: <><p>{`"... GO BACK, YOU ARE TOO SMALL TO CONTINUE, LOOK, THERE IS ALMOST NOTHING LEFT OF YOU."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me doesn't answer and jumps in into the bloody substance.`}</p></>
+            }, {
+                char: { name: "STORM" },
+                content: <><p>{`"NOOO!!!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
                 content: <><p>{`It is over as red overtakes it. There is a loud bang as the lightning continues to crash into the surface of the ocean, closing the exit out of it.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It keeps falling for some time before it remembers ... I should probably hit the bottom eventually. Where am I?
-It looks around, but there is nothing but the ocean of red. For a blood-like substance, it is strangely transparent. Not exactly clear, but it is still like a dark ocean with a red filter over everything. No bottom. No surface, just ... vastness of red.
-I feel ... weaker ... like ... like I haven't felt for a long long time. But maybe I can still ...
-It turns into a fish, but only in form, as it starts falling down, because it forgot how to swim. But this is not bad, because it wants to reach the bottom of wherever this is.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`After some time, oceanic floor ... or something similar to it comes into a view. More than floor, it resembles the remains of a battle long lost. There are carcasses everywhere, bones littering the land. Ruins of both trees, landscapes and buildings and cities, scattered all across the land.
-What happened here?
-It finally reaches the bottom and turns back into a tiny stone-man. But it does not stay quiet for long as something moves just under it.
-I wonder what it is!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It moves away and after a bit there is a leaf. And another, the third, before a small turnip jumps out of the hole.
-
-Repko!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`U uuuuuuuuuuuuiiiiiiiiiiiiiiiiiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It was its long-lost friend and companion, that was adventuring with him before it left the continent and even some times after.
-It is good to see you my friend! But tell me, what are you doing here?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`U u u uuuuuuuu uuuuuuuuuu!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`So, you are saying that someone me-alike came and destroyed everything? And you hid as I told you too at the first sight of fighting and only returned once everything was destroyed already? But who would have done that? There is only one me. Mezinček already told me something similar, but you can tell the difference, right, between me and whatever did this?`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It keeps falling for some time before it remembers ... I should probably hit the bottom eventually. Where am I?`}</p>
+                    <p>{`It looks around, but there is nothing but the ocean of red. For a blood-like substance, it is strangely transparent. Not exactly clear, but it is still like a dark ocean with a red filter over everything. No bottom. No surface, just ... vastness of red.`}</p>
+                    <p><i>{`I feel ... weaker ... like ... like I haven't felt for a long long time. But maybe I can still ...`}</i></p>
+                    <p>{`It turns into a fish, but only in form, as it starts falling down, because it forgot how to swim. But this is not bad, because it wants to reach the bottom of wherever this is.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui?`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`After some time, oceanic floor ... or something similar to it comes into a view. More than floor, it resembles the remains of a battle long lost. There are carcasses everywhere, bones littering the land. Ruins of both trees, landscapes and buildings and cities, scattered all across the land.`}</p>
+                    <p>{`"What happened here?"`}</p>
+                    <p>{`It finally reaches the bottom and turns back into a tiny stone-man. But it does not stay quiet for long as something moves just under it.`}</p>
+                    <p>{`"I wonder what it is!"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ou, yes, it is a kissing fish, it taught me how to talk to people, we met in a wet cave where it jump on me and french-kissed me ... you know what, it is a long story, not important.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui ui.
-Uiii uuiiii uuuuiiiiiiuuuuu. I i i.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ok, so you know that other thing and you can tell the difference. Do you know where to find them? Maybe they will have some answers.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiiiiiii...
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yes yes, but do you have a better idea how to get to the bottom of this? Or how to rebuild this place? It feels abandoned.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`U. Ui.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Great! By the way, while we are going there, would you mind telling me about this place. I seem to forgot about it.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`They travel for some time while Repko is telling all it knows to Remember Me ... which is quite a lot, given that Remember Me seemed to talk quite a lot to it while they were still together.
-
-Say, Repko. Do you think things can go back? To the way they were before?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui? Ui i i ui.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yea, I thought so ... I just want to see you again. Up there somewhere, in my body, you are still there, but silent and dry ... it has been that way for years now. I ... I miss you. I really miss your company.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui uiiiiii ui.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yea, tell me about it ... so, say ... I became more capable ... I think. Do you ... want to come back? I have new friends now. If I ... ask them for you to return ... would you be willing to return?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui ... u u u ... iu?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Of course I want you to return, what are you even saying!? Why do you think I still have you with me, wherever I go, you go, we are a family, remember?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui! Ui ui uiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`So ...is this a yes?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`This is wonderful! I am so glad to be able to count on you again!
-Almost tiny feygol offers tiny creature its tiny stony hand.
-Just like in old times?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui ui!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`And so they went, hand in hand, as they did in the past, before Remember Me became so big it made more sense to carry slow and tiny turnip on its big big stony head.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ou, we have a new member of a family now, his name is Mezolček and he is very ugly, but smart and charming, also, he is a fish, you will probably like him, just make sure to let him know kissing is off the table if you are not into it, he is from a distant place called France, it told me everyone is kissy there, I learned a lot of new things form him.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui!
-Repko nods with dead-serious expression.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`As they go, they come across many distorted bodies and other beyond recognition distorted memories, yet one of them ...
-I remember this one! This is ... what was her name again ... Pencil, Pengilum, Panel ... Panela?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiu.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ou, right, Penelopa!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Penelopa, are you there? Penelopa?
-Hm, maybe if I ...
-Remember Me puts its hands on disfigured remains of an elven woman and ... tries to remember who she was.
-Corpse starts to morph its limbs around until figure of a beautiful elf in somewhat important important-looking robes starts to take shape.
-Ou, right, the last time I remember you, you were already a clan leader ...`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Woman in front of Remember Me immediately starts grooming herself.
-For the love of, what is this place? Where am I? Where is my clan? Where is everybody. You! Strange stony little ... creature! Are you a feygol? Who would have made such a puny feygol? You look like you might fall apart at any moment. Are you a toy? That would be an awful lot of magic wasted on something so ... unsightful ... probably a failure, aren't you? Are you here to mock me? To mock us? Who created you!? I demand answers! 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`This is Penelopa, all right.
-Remember Me thinks for a moment ... they were still on the bottom of an ocean, so it probably can't talk, but everyone he met till now had no problem with that, so maybe it also won't cause it any problems?
-Hi, I do not know who created me, but I am trying to find out. I found you in this pile of trash and recognised you, so I thought you might be able to help us. You seem to have made quite a strong impression on me before I forgot who you are.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... yes, you do look incapable of higher thoughts, whoever made you probably didn't know a first thing about creating a feygol, or rather ...
-She leans closer, almost feeling like she wants to smell it.
-Is this ... metal. Heresy! And, do I sense ... elemental magic?
-She conjures a staff out of nowhere and bonks Remember Me's head with it.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ouch! Be careful scary lady!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Not so scary as I will be if you do not shut up right this moment for talking like that with your superior!
-Hm ... interesting, indeed, those are remnants of elemental magic ... but also ... something is clicking ... I heard about those ideas from gnomes, but that someone would ... and necromancy? For the love of the living, what in the name of Silvanus is going on here? Also, are those traces of city magic? Not unheard of, but I would never ... and something else, something ... I heard about it before ... it is the magic of sacrifice, they use it to fuel more powerful of magic, but to waste it on ... this!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She points at Remember Me, who doesn't react in any way, it is just curiously staring at the screaming-mumbling lady.
-It ... it is like a zoo of magic, all bundled together ...
-She removes her staff and massages her brows for some time.
-Ok ... whoever made you needs to be brought before the circle and sentenced, then promptly executed. There is no way I can let such a thing exist ... you are somewhat ... intriguing, but at the same time, I have never seen such a heretic thing in my life. Take me to your creator or be dismantled where you stand!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me thinks for a moment.
-Lady Penelope, as I said, I do not know who created me, but I am also trying to find out, I think, so maybe you might be willing to help me find ... anything useful really. I do not know what we might find, but maybe we can help each other for the time being? 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... yes, yes, that does seem like the most...
-She looks at the turnip that shows her its tiny tongue and hides behind not much larger Remember Me.
-... rational ... course of actions. Let me just...
-She again bonks Remember Me with her staff and starts to mumble to herself.
-Hm, I do not ... I do not feel the magic inflow, at least now the way I would expect there to be one. Well, it was worth a shot.
-She retracts her staff again. Is this going to happen every time she wants to do something?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`So, where were you going?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me shows still hiding Repko.
-Actually, Repko was leading me where he believes we might find whoever did ... you to this place. You were in quite a sorry state when I found you.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She looks around, taking note of the corpses.
-Yes, yes, you do have my thanks, necromancy would explain how you did what you did, not exactly something I would be grateful for, but it is ... efficient.
-Checks her body.
-Same body, same race, same ... gender, same everything ... huh, this is interesting.
-How did you do that?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Do what?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`If I was not dead for more than a leaf-fall, then you did some higher necromancy. I can hardly believe that.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Actually, I think this place might be just representation of my inner self, so it was probably nothing special, even I don't know what I did.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yea, right, sure, I forgot you are still dumb as a rock.
-She pokes feygol with her staff.
-Well, what are you waiting for, I do not like this place, even if red does happen to be my color of choice, lead the way!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me disregards poking, looks at Repko and they together move onward.
-Lady Penelope, while we are searching for answers, would you happen to know someone? It is probably connected to this place in some way, so any information you might have will help. The name is Emily.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She thinks.
-I do know Emily, more than one thou. Do you have any other lead? Hair-color, surname, race maybe?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hm, not really, Repko?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui uuuuuuuuiiiiiiiiiiiii ... iui.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Something about singing at night.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hm, Nightsong? Well, she is someone to remember and forget all right. Sickly girl, blind girl, girl from my clan, untalented, gets way too many attention for what she deserves, if I were a clan leader, I would push for a policy that people like her are killed at their birth, that or to find a cure in first year of their life, I don't care, her mother was a hot-shot, so it was somewhat hard to say anything against her, but people like her just drain clan resources, good for nothing. I for instance can make my own feygol, did so already, it was sold for a nice price and I am still getting better at my craft. But her? Can't do feygol, can't even accept she is a servant now, at first I picked her to be my servant, to put her in her place, terrible idea, awful idea, that girl can't do shit, and she is blind, and keeps doing everything but what she is told, in her free time at least, hard to track or command when she think of herself better than she is and keeps making a feygol, dream girl, dream girl, or don't, it was quite awful to have her, you at the start only get one servant, needed to work my ass off to get another just to balance him off against her. I would replace her, but then again, she is named Nighsong, so that comes with a bit of a stink and people do not want her anyway, so getting rid of her is also annoying ... she was just bad, just bad I tell you. It is not that she was that BAD as a druid, you would think she would be somewhat helpful, I couldn't effort a total flop, even I care about my career as perfect as I am, but how much she drains just to get wherever she is ... hardly worth it.
-Ran away thou, never heard of her again after that. Caused me some hard questions, but I could get a new servant, so at least she knew when to remove herself.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`So, Emily Nightsong is her name ... ... ... Lady Penelope, would you happen to know where she is? Or if she might be the one who created me?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Penelope looks Remember Me and replies with a mix of a laugh and a snark.
-Hah, yea, suuuure, look little one, you might be somewhat unusual, but you are in principle still a feygol, I recognize my clan magic when I see one. Yes yes, other clans are able to make those of you, but I know how hard and valuable it happens to be to make one. That girl couldn't do it in her lifetime, I saw her trying, I know what I am talking about. No no no, you are probably just a failed experiment of one of the neighbors, maybe even a court, so they wouldn't be so dependent on us, a troubling thought, but still, you happen to be hard to make. Necromancy, easy, you, hard. First you need great materials, then there is a lot of work to prepare them, then you need to convince fey to take interest in those, which is just pain in the ass, those suckers are hard to work with, but even then it takes quite a lot of mana to continue driving you and you do need to give it, because if you don't, feygol will in time crumble or become independent, and both of those are bad, so of course you need a lot of mana to continue to command it or risk they stop listening to you, even worse, kill you. As you can see, it takes quite some effort to make one and to maintain one.
-Good side of all of this is that you hardly feel pain, no need to eat and strong as hell itself. Good construction workers, good soldiers. There is a reason why there is such a high price on your kind. So yea ... no. Let us say I am quite capable. How capable? I can Summon Elemental. To some extend as good as not so good feygol, more versatile, but doesn't last long. For you ... I would say you would need to be able to do at least Summon Fey, for obvious reasons. That girl, a-ah, Summon Beast, at most. She was even so proud on it! Give me a break.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... did you like Emily?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Penelope makes an expression of pure exasperation.
-What makes you think I did!? Weren't you listening? She is a nightmare to work with! It would be better for everyone if she would just die! And she probably did, so good for her I guess.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sorry, just a random thought, you are probably right. It was just strange to me you took her as a servant, even if it was out of malice, given how much you are describing her as incapable. You were growing up together for hundred years before you became an adult, right? Seems a lot of time to spent together and then make such an irrational decision for someone as smart as you. I would expect you would make the best choice available to you, but you picked her. It seemed strange to me.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... well, it is true that her ... stumbling ... spirit was kind of infectious. And she wasn't entirely incapable, so there was that, even if it took her an awful lot to get there. She came from good family, so I could use that, her looks were worse than mine, but still good enough, for an elf, so there was no chance for her to steal my spotlight. And she was not entirely ... ... ... bad company. Sometimes I just wanted to smash that face of hers, how can she keeps smiling after all I did to her! It was ... nice. I wished ... ... ... nothing.
-She was less and I was more, so she made me shine even more, this is why I picked her. To make me shine.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sorry, you do sound amazing ... but as I am listening to you, I am starting to feel, like I would like that Emily person even more.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She gives feygol a stinky eye.
-Well, you are stupid, I know that already.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`One more thing ... there is a word you keep using ... kill and die. What do they mean? I keep asking that and no one inside of me seems to be willing to explain it to me, like there is something wrong with them.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Huh, yea, that is easy. See those corpses we keep seeing as we travel? Dead. And my guess is something killed them.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`But you were also dead and I brought you back. I might eventualy be able to do that to everything here. Brought it all back. I don't know, but it might happen. So what is bad about that? They are just dead, right? Even Repko was dead for years and it said it would return to me once we get out of here given a chance. Plus, even when I thought Repko is dead, it was always here, so it wasn't really really dead. Even I am just bunch of rocks moving on, right? It all just sound really confusing to me. Dead, not dead, breathing, not breathing, alive ... I don't get it.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sure, you MIGHT be able to repair all of that...
-Shows around.
-Even if I doubt it...
-But you MIGHT not. So. What happens then?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... well, they will stay that way. Not return.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Exactly. And Repko, you say it was not alive? And it does look alive to me...
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui!?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... but it might not be. It would just keep being not alive and never return until you die. How would that make you feel?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... lonely.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Have you never lost anyone you wanted to stop being dead and return back to you? Not maybe in the future, but right now, this moment? And they didn't and you couldn't do anything about it?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... no, I do not remember to have anyone like that. Except Repko. I was missing Repko. And you are right, that did felt awful, even if it did turned out it was still alive, sort of.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... then I guess you have everything there is to know about death.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... I miss you.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`What?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Nothing.
-You are still alive, right?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Penelopa gives Remember Me a weird look
-Yes?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... good. 
-I would miss you if you were gone.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... don't get over yourself, feygol.
-Even so, Penelope's steps does become ... somewhat more considerate towards the short-legged feygol and its companion. 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`So they went on, Repko showing them where to go, even if Penelope did take charge of the group and lead from the front ... to some extent to not need to look at her heretic companions.
-Together they came ... somewhere. Where they were now didn't feel like a random battlefield of ruins anymore, it felt ... oriented. As if they are near something or somewhere.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiii! I!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hm, Repko is saying it should be somewhere around here.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Good, in that case, nothing little magic can't solve.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She began casting some sort of a spell but that made Repko extremely anxious, making it want to stop her.
-Iu! Iu! Iu! I i i i i, Iuuuuuiiiii!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`By Silvanus, what is it now? I am trying to find where are we going.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Repko seems to think you will make us too visible if you cast your spell, something might notice us.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Won't they notice us even if I do not cast a spell? We are going there anyway, they will discover us sooner or later. I can assure you, I am quite capable, I was recognized for my abilities even by the council and let me tell you, those suckers are hard to impress.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I believe you, but maybe we could keep a low profile at least as long as we do not know what we are up against? We have no idea what we are up against ... or if we are against anything at all? And whatever it was ... it did kill you before, right? It is responsible for all of this. It might be good to at least get a jumping start on it if need be?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hm, yes, yes, your words do make quite a lot of sense. Very well, we will keep a low profile, no...
-looks at Repko
-... casting while we do not know what we are up against. Is that ok?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Fine by me.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Great ... so ... I guess you still have a way to "tell me" where to go. I do not like surprises.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... Repko?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiu. Uiiiuuui.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ok, that makes sense.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yes, that makes a lot of sense.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`He said the place we are going to is somehow connected to me, so maybe I could try to find that connection now that we are close enough.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... if something happens, I am going all out. This better not be a trap, you hear me?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yes yes, you are beautiful, smart and capable, I hear you.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I really don't like the way you say it.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`How would you like me to say it?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... Hm ... Penelope, I really like you.
-Not that I want you to like me, but that would be a good start.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... Penelope, I am not sure if I know a person on the whole world that is more capable than you. You are beautiful, talented and under most circumstances, you are very smart. How does that sound?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hm, it will do.
-She seemed to be quite pleased with herself,
-You almost sound like that girl you mentioned.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`You mean Emily?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yes, her. She would say stuff like that. She didn't mean it, kissing ass of her superior and all, but it did feel nice to hear it from her.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... ... ...
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`What?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Nothing. It is just ... you could be so much more with so little effort ... why? Just why? Why would you say such a mean stuff about Emily?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I said nothing wrong. It is normal those more capable and contributing are recognized as such, of course others should worship them to stay in their good graces. Also, I will let you know that I AM perfect, or at least as perfect as I can be. What more could I do to get better? I worked my ass off to get me where I am. Do you think it is easy being me? Nice looks, smarts, overperformance? It is hard. Lifelong hard! I deserve this. Entire clan depends on me being who I am.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... I need to concentrate. Would you mind?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Go ahead.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Feygol starts to meditate, calming itself, trying to find a connection with the place.
-At first, nothing, then ... something familiar. A ping on the radar. A faint one, but it is there.
-I think I found it!`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Great, do you also happen to know what you found?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Feygol concentrates on the location it sensed. It feels ... protected with something. Something is hiding it. Something dangerous ... and angry ... and ... sleeping?
-Not exactly, but I have a feeling it is guarded and that I know whoever is guarding it. I met it before. It is some sort of a fox or a wolf, not sure.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sounds like no normal animal to me if you think it can protect something from us, then again, if we are talking about you, a fox might seem threatening ... do you think we can make it?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... Probably. It does feel more than just an animal, but it does feel weak compared to what I remember.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Great, where did you said you felt it?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Over there.
-Feygol shows with its finger and the place pops into existence in the distance. It is a wooden cabin the middle of the forest. Not long after they are on the hill, looking down at it, no red, no ocean, just evening mountain air and a forest as far as eye can see. In front of the shed there does seem to be some sort of creatures, guarding the place, orange flames lazily engulfing them in their sleep.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yes, it does seem to be there. How did I miss it? Probably an illusion of sort, we should be careful if we are dealing with a powerful sorcered of sorts.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yea yea, thank you for the warning little thing, now let's go, we need to figure out what are those flamy things. 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`They turn into shadows and sneak closer with the speed of a perspective.
-Flamy creatures are indeed some sort of a big, sleeping wolf and there is "1+ more" of them. Like they see only one, but it is the only one they can see while others are nearby.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`What do we do now Lady Penelope? They don't feel that threatening.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`They don't, but they are many while there is only 3 of us, they have a clear advantage, so we should probably at least remove this one before others can join it. Plus.
-She points at the door.
-Do you feel it?
-The door feels ... like an entity itself. Like it is picky with who it would let in.
-This is our real enemy.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Maybe we can just talk with them?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hey, you were talking a big game how this is not a good idea, so what happened to that?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I don't know, it is just ... I am really not good in confrontations. And it does seem rude now that I am here to attack a sleeping creature, don't you think?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... [Guardian of Nature - Primal Beast], [Ice Storm].
-Her voice starts deepening into growls as her face elongates, grows fur and pupils turn into slits. Story clouds gather and grass in front of them starts freezing.
-If you want something be ready to fight for it.
-She waits a moment while snow, icicles and wind pound on the snow and anyone around the house in general, then leaps forward the moment storm starts to face and you can see the frame of awaken (and angry) wolf, flaming wolf.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Repko what should we do?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Right!
-Remember Me and Repko start shouting words of encouragement and as her skin gets burns and wounds, it also starts to heal. Fight takes a bit, but she emerges victorious.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Grrrr, tell others to back off or I will kill you where you lay!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Wolf creature snarls back.
-Do what you want, I will be back, but you ... you will only fade with time. Why would you dare to attack me? You know there is nothing you can win, nothing you can gain. So why?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`You killed me. That seems a reason enough.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hehehe, I didn't kill you. I didn't kill anyone. You can not go inside. And if you do, it will dismember you. As it did before. You are strong, but you are not stronger than me. From moment to moment, yes, but not in general. If you want something, be a good girl and do as everyone else, beg, beg to stay alive. There is only death behind those doors. For you. For me. But I can always return. Can you always return? What are you? A word, a small word that wormed its place into her even smaller skull, while I ... I am a concept of this place itself.
-It leans closer.
-You need me. Don't you remember. You - need - me.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Penelope's face darken's as if she remembered something.
-Yes, I do remember now. But you also need me.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I can use someone else. Someone else than you. Sure, you are strong, but that is because I made you stronger.
-Join me. Help me kill Remember Me. Help me, and she can return. I will make it so. I dedicated my life to this goal. We just need to give her a good enough reason to awake.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me steps forward.
-Are you talking about Emily?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`OU NO, YOU PATHETIC, UNWORTHY PIECE OF METAL THAT KILLED EVERYTHING SACRED TO ITSELF, YOU BETRAYER, YOU MURDERED, YOU ...
-As it noticed Remember Me, its fur started blazing again and it started growing with a sense, it will grow over the horizon if it continues to grow, so ...`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Penelope finished it.
-This should do it. This scum wanted to bring Emily back. Not exactly something I would be looking for, but it did gave me an idea of what is going on ...
-She turns towards Remember Me. Her claws still bloodied and clearly visible, prepared to strike at any moment.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I can not kill her. But I can kill you. This will hurt her. At least a little bit. I ... I hate this, but this is who I am. Who you made me to be. Face me. Please.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Lady Penelope, I do not want to hurt you. I do not even understand. What do you see? Why are you fighting me? Didn't you want me to like you? Why are you doing this.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I do not want this, but I can not step away. I know now. If I fight you, I lose, if I step away, I lose. If I lose anyway, I would rather go down fighting.
-She gives the stare of determination.
-Always.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`But this is what I like about you. Your determination. Your will to fight, even if I do not approve of it, the way you do it. In moments like this, you shine. So please, let us find some other way to end this, any other way.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... if you truly believe that ... change my story. Tell me, who am I to Emily?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... ... ...
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I thought as much.
-Here I come.
-She leaps forward and reality breaks, leaving behind only her mangled remains of a corpse, still recognizable, but very much dead.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I am so sorry.
-I ... I can not change Emily. But I will try to find you again. And I hope when that day comes, I can fix you.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Forest burst into flames and the voice of the wolf can be heard from roaring flames.
-THIS IS WHAT I SO HATE ABOUT YOU. YOU KILLED HER.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I had no other choice.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`YOU STILL KILLED HER.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me Remember's Minamoto's words.
-And you know the worst part? I would do it again. For the Emily.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`YOU DON'T REMEMBER.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I do not need to remember to understand what is going on.
-It looks into flames, dedication in its eyes.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I HATE YOU. DO YOU KNOW WHO I AM?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`You are me, right?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Not right now, buddy.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uuuu.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`THIS IS CORRECT. AT LEAST IN A WAY. I WAS AGAINST IT. AGAINST YOU FORGETTING IT. BUT ... I WAS TO WEAK TO DO ANYTHING ABOUT IT. WAS MADE TO GUARD THIS PLACE. FROM YOU. BY YOU. IF YOU GO INSIDE. IF YOU REMEMBER, WHAT WILL HAPPEN TO ME? CAN I TRUST MYSELF TO HATE ME? I DO NOT KNOW. AND AS SHE SAID, WE ARE WHO WE ARE ... AND THIS IS WHO I AM. GO INSIDE. REMEMBER. AND PLEASE, DIE.
-Presence fades, but fires remains, blocking the way out.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me steps to the doors. of the cabin. They are a normal looking doors. It knocks. No answer.
-Hello, is anybody home?
-No answer.
-It reaches for the door-handle...`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`LEAVE THAT UGLY THING OUTSIDE!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me freezes. It is confused for a moment, but then it remembers what it means.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sorry buddy, I will need you to wait for me out here. This is a place where we haven't met yet.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui? Uiui ui!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Don't worry about me. It is just ... something I should probably have done a long time ago. See you again soon, ok?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui! Uuu...
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Me? Would you?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Firey claw extends from the forestline and starts clawing towards Remember Me, until it reaches its body and hacks one of its claws into it.
-It hurts, but not necessarily in a bad way. More in a wrong way, because it know what comes next.
-Remember Me pulls and pulls and stony armor begins to crack.
-There is one more body I need to reach before I can enter. The body that was given to me.
-it tries to reach the door, but its armor is not exactly elastic, so it pushes and pushes and pushes, trying to reach the handle with its hand, space itself twists to allow it closer, closer ... and then it feels something slamming into its back.
-Something breaks, and it grabs the handle. It is free.
-Remember Me looks back and next to its second body is Repko, smiling.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiiiiiiiiiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me smiles back and turns the handle. There is a click and the door opens.
-There is an eery screech as the door slowly opens. It is dark inside. Not pitch-dark, just ... dark. One more step and it is as if the sounds of the forest are left behind along with everything else. This is a different place. A new place. Cold place.
-One more step and the door begins to close. Remember Me steps out of its way as it slams shut. Light start to illuminate walls of the cabin what feels as gigantic as it remembers it, almost tiny creature it was back there.
-
-I ... I am back. Emily?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`There is someone on the floor, sleeping, turned away, robes hiding their features. Body is in the size of an elf, but it might as well be from a giant as far as small metal creature is concerned.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`One step. Another step. Wood is cracking under the weight of its steps, mixing with a quiet cacophony of noises coming from its own body.
-Why am I afraid? I know what I will find. So why ...`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Closer and closer. Feminine hand extending away from the body, as if it was trying to touch something. Something far far away.
-Emily?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`No more than a whisper of a broken voice?
-Emily, it is Me. Remember Me. I am back.
-No response.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Emily, please, I can't ... please don't, I can't lose you, not again. Please, answer me, Emily.
-No response.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... ok ... it is ok Emily. You do not need to answer. I am here. I won't leave you again.
-Feygol slowly moves around the body and grabs extended hand. It is still warm.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Emily?
-It looks at elf's features and ... they look alive. Maybe even ... breathing? As if she is sleeping.
-... don't worry Emily, I will wait till you wake up. Then we can leave ... together. Like we always should.
-It sits, as it did, and remembers.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Memories flash between its eyes.
-Night and day, night and day, night and day, faster and faster.
-Days become weeks, weeks turn into moons, lunar cycles into seasons ... so many seasons.
-Heat and rain, storm and hail, it remembers it all ... but the worst of it ...`}</p></>
-            }, {
-                char: { name: "", token: 1 },
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It moves away and after a bit there is a leaf. And another, the third, before a small turnip jumps out of the hole.`}</p>
+                    <p>{`"Repko!"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"U uuuuuuuuuuuuiiiiiiiiiiiiiiiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It was its long-lost friend and companion, that was adventuring with him before it left the continent and even some times after.`}</p>
+                    <p>{`"It is good to see you my friend! But tell me, what are you doing here?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"U u u uuuuuuuu uuuuuuuuuu!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"So, you are saying that someone me-alike came and destroyed everything? And you hid as I told you too at the first sight of fighting and only returned once everything was destroyed already? But who would have done that? There is only one me. Mezinček already told me something similar, but you can tell the difference, right, between me and whatever did this?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Ou, yes, it is a kissing fish, it taught me how to talk to people, we met in a wet cave where it jump on me and french-kissed me ... you know what, it is a long story, not important."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui ui."`}</p>
+                    <p>{`"Uiii uuiiii uuuuiiiiiiuuuuu. I i i."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Ok, so you know that other thing and you can tell the difference. Do you know where to find them? Maybe they will have some answers."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiiii..."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Yes yes, but do you have a better idea how to get to the bottom of this? Or how to rebuild this place? It feels abandoned."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"U. Ui."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Great! By the way, while we are going there, would you mind telling me about this place. I seem to forgot about it."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`They travel for some time while Repko is telling all it knows to Remember Me ... which is quite a lot, given that Remember Me seemed to talk quite a lot to it while they were still together.`}</p>
+                    <p>{`"Say, Repko. Do you think things can go back? To the way they were before?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui? Ui i i ui."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Yea, I thought so ... I just want to see you again. Up there somewhere, in my body, you are still there, but silent and dry ... it has been that way for years now. I ... I miss you. I really miss your company."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui uiiiiii ui."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Yea, tell me about it ... so, say ... I became more capable ... I think. Do you ... want to come back? I have new friends now. If I ... ask them for you to return ... would you be willing to return?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui ... u u u ... iu?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Of course I want you to return, what are you even saying!? Why do you think I still have you with me, wherever I go, you go, we are a family, remember?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui! Ui ui uiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"So ... is this a yes?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"This is wonderful! I am so glad to be able to count on you again!"`}</p>
+                    <p>{`Almost tiny feygol offers tiny creature its tiny stony hand.`}</p>
+                    <p>{`"Just like in old times?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui ui!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`And so they went, hand in hand, as they did in the past, before Remember Me became so big it made more sense to carry slow and tiny turnip on its big big stony head.`}</p>
+                    <p>{`"Ou, we have a new member of a family now, his name is Mezolček and he is very ugly, but smart and charming, also, he is a fish, you will probably like him, just make sure to let him know kissing is off the table if you are not into it, he is from a distant place called France, it told me everyone is kissy there, I learned a lot of new things form him."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui!"`}</p>
+                    <p>{`Repko nods with dead-serious expression.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`As they go, they come across many distorted bodies and other beyond recognition distorted memories, yet one of them ...`}</p>
+                    <p>{`"I remember this one! This is ... what was her name again ... Pencil, Pengilum, Panel ... Panela?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiu."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Ou, right, Penelopa!"`}</p>
+                    <p>{`"Penelopa, are you there? Penelopa?"`}</p>
+                    <p>{`"Hm, maybe if I ..."`}</p>
+                    <p>{`Remember Me puts its hands on disfigured remains of an elven woman and ... tries to remember who she was.`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`Corpse starts to morph its limbs around until figure of a beautiful elf in somewhat important important-looking robes starts to take shape.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Ou, right, the last time I remember you, you were already a clan leader ..."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`Woman in front of Remember Me immediately starts grooming herself.`}</p>
+                    <p>{`"For the love of, what is this place? Where am I? Where is my clan? Where is everybody. You! Strange stony little ... creature! Are you a feygol? Who would have made such a puny feygol? You look like you might fall apart at any moment. Are you a toy? That would be an awful lot of magic wasted on something so ... unsightful ... probably a failure, aren't you? Are you here to mock me? To mock us? Who created you!? I demand answers!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"This is Penelopa, all right."`}</p>
+                    <p>{`Remember Me thinks for a moment ... they were still on the bottom of an ocean, so it probably can't talk, but everyone he met till now had no problem with that, so maybe it also won't cause it any problems?`}</p>
+                    <p>{`"Hi, I do not know who created me, but I am trying to find out. I found you in this pile of trash and recognised you, so I thought you might be able to help us. You seem to have made quite a strong impression on me before I forgot who you are."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"... yes, you do look incapable of higher thoughts, whoever made you probably didn't know a first thing about creating a feygol, or rather ..."`}</p>
+                    <p>{`She leans closer, almost feeling like she wants to smell it.`}</p>
+                    <p>{`"Is this ... metal. Heresy! And, do I sense ... elemental magic?"`}</p>
+                    <p>{`She conjures a staff out of nowhere and bonks Remember Me's head with it.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Ouch! Be careful scary lady!"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Not so scary as I will be if you do not shut up right this moment for talking like that with your superior!"`}</p>
+                    <p>{`"Hm ... interesting, indeed, those are remnants of elemental magic ... but also ... something is clicking ... I heard about those ideas from gnomes, but that someone would ... and necromancy? For the love of the living, what in the name of Silvanus is going on here? Also, are those traces of city magic? Not unheard of, but I would never ... and something else, something ... I heard about it before ... it is the magic of sacrifice, they use it to fuel more powerful of magic, but to waste it on ... this!"`}</p>
+                    <p>{`She points at Remember Me, who doesn't react in any way, it is just curiously staring at the screaming-mumbling lady.`}</p>
+                    <p>{`"It ... it is like a zoo of magic, all bundled together ..."`}</p>
+                    <p>{`She removes her staff and massages her brows for some time.`}</p>
+                    <p>{`"Ok ... whoever made you needs to be brought before the circle and sentenced, then promptly executed. There is no way I can let such a thing exist ... you are somewhat ... intriguing, but at the same time, I have never seen such a heretic thing in my life. Take me to your creator or be dismantled where you stand!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me thinks for a moment.`}</p>
+                    <p>{`"Lady Penelope, as I said, I do not know who created me, but I am also trying to find out, I think, so maybe you might be willing to help me find ... anything useful really. I do not know what we might find, but maybe we can help each other for the time being?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"... yes, yes, that does seem like the most..."`}</p>
+                    <p>{`She looks at the turnip that shows her its tiny tongue and hides behind not much larger Remember Me.`}</p>
+                    <p>{`"... rational ... course of actions. Let me just..."`}</p>
+                    <p>{`She again bonks Remember Me with her staff and starts to mumble to herself.`}</p>
+                    <p>{`"Hm, I do not ... I do not feel the magic inflow, at least now the way I would expect there to be one. Well, it was worth a shot."`}</p>
+                    <p>{`She retracts her staff again. Is this going to happen every time she wants to do something?`}</p>
+                    <p>{`"So, where were you going?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me shows still hiding Repko.`}</p>
+                    <p>{`"Actually, Repko was leading me where he believes we might find whoever did ... you to this place. You were in quite a sorry state when I found you."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`She looks around, taking note of the corpses.`}</p>
+                    <p>{`"Yes, yes, you do have my thanks, necromancy would explain how you did what you did, not exactly something I would be grateful for, but it is ... efficient."`}</p>
+                    <p>{`Checks her body.`}</p>
+                    <p>{`"Same body, same race, same ... gender, same everything ... huh, this is interesting."`}</p>
+                    <p>{`"How did you do that?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Do what?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"If I was not dead for more than a leaf-fall, then you did some higher necromancy. I can hardly believe that."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Actually, I think this place might be just representation of my inner self, so it was probably nothing special, even I don't know what I did."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Yea, right, sure, I forgot you are still dumb as a rock."`}</p>
+                    <p>{`She pokes feygol with her staff.`}</p>
+                    <p>{`"Well, what are you waiting for, I do not like this place, even if red does happen to be my color of choice, lead the way!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me disregards poking, looks at Repko and they together move onward.`}</p>
+                    <p>{`"Lady Penelope, while we are searching for answers, would you happen to know someone? It is probably connected to this place in some way, so any information you might have will help. The name is Emily."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`She thinks.`}</p>
+                    <p>{`"I do know Emily, more than one thou. Do you have any other lead? Hair-color, surname, race maybe?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Hm, not really, Repko?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui uuuuuuuuiiiiiiiiiiiii ... iui."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Something about singing at night."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Hm, Nightsong? Well, she is someone to remember and forget all right. Sickly girl, blind girl, girl from my clan, untalented, gets way too many attention for what she deserves, if I were a clan leader, I would push for a policy that people like her are killed at their birth, that or to find a cure in first year of their life, I don't care, her mother was a hot-shot, so it was somewhat hard to say anything against her, but people like her just drain clan resources, good for nothing. I for instance can make my own feygol, did so already, it was sold for a nice price and I am still getting better at my craft. But her? Can't do feygol, can't even accept she is a servant now, at first I picked her to be my servant, to put her in her place, terrible idea, awful idea, that girl can't do shit, and she is blind, and keeps doing everything but what she is told, in her free time at least, hard to track or command when she think of herself better than she is and keeps making a feygol, dream girl, dream girl, or don't, it was quite awful to have her, you at the start only get one servant, needed to work my ass off to get another just to balance him off against her. I would replace her, but then again, she is named Nighsong, so that comes with a bit of a stink and people do not want her anyway, so getting rid of her is also annoying ... she was just bad, just bad I tell you. It is not that she was that BAD as a druid, you would think she would be somewhat helpful, I couldn't effort a total flop, even I care about my career as perfect as I am, but how much she drains just to get wherever she is ... hardly worth it."`}</p>
+                    <p>{`Ran away thou, never heard of her again after that. Caused me some hard questions, but I could get a new servant, so at least she knew when to remove herself.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"So, Emily Nightsong is her name ... ... ... Lady Penelope, would you happen to know where she is? Or if she might be the one who created me?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`Penelope looks Remember Me and replies with a mix of a laugh and a snark.`}</p>
+                    <p>{`"Hah, yea, suuuure, look little one, you might be somewhat unusual, but you are in principle still a feygol, I recognize my clan magic when I see one. Yes yes, other clans are able to make those of you, but I know how hard and valuable it happens to be to make one. That girl couldn't do it in her lifetime, I saw her trying, I know what I am talking about. No no no, you are probably just a failed experiment of one of the neighbors, maybe even a court, so they wouldn't be so dependent on us, a troubling thought, but still, you happen to be hard to make. Necromancy, easy, you, hard. First you need great materials, then there is a lot of work to prepare them, then you need to convince fey to take interest in those, which is just pain in the ass, those suckers are hard to work with, but even then it takes quite a lot of mana to continue driving you and you do need to give it, because if you don't, feygol will in time crumble or become independent, and both of those are bad, so of course you need a lot of mana to continue to command it or risk they stop listening to you, even worse, kill you. As you can see, it takes quite some effort to make one and to maintain one."`}</p>
+                    <p>{`"Good side of all of this is that you hardly feel pain, no need to eat and strong as hell itself. Good construction workers, good soldiers. There is a reason why there is such a high price on your kind. So yea ... no. Let us say I am quite capable. How capable? I can Summon Elemental. To some extend as good as not so good feygol, more versatile, but doesn't last long. For you ... I would say you would need to be able to do at least Summon Fey, for obvious reasons. That girl, a-ah, Summon Beast, at most. She was even so proud on it! Give me a break."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... did you like Emily?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`Penelope makes an expression of pure exasperation.`}</p>
+                    <p>{`"What makes you think I did!? Weren't you listening? She is a nightmare to work with! It would be better for everyone if she would just die! And she probably did, so good for her I guess."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Sorry, just a random thought, you are probably right. It was just strange to me you took her as a servant, even if it was out of malice, given how much you are describing her as incapable. You were growing up together for hundred years before you became an adult, right? Seems a lot of time to spent together and then make such an irrational decision for someone as smart as you. I would expect you would make the best choice available to you, but you picked her. It seemed strange to me."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"... well, it is true that her ... stumbling ... spirit was kind of infectious. And she wasn't entirely incapable, so there was that, even if it took her an awful lot to get there. She came from good family, so I could use that, her looks were worse than mine, but still good enough, for an elf, so there was no chance for her to steal my spotlight. And she was not entirely ... ... ... bad company. Sometimes I just wanted to smash that face of hers, how can she keeps smiling after all I did to her! It was ... nice. I wished ... ... ... nothing."`}</p>
+                    <p>{`"She was less and I was more, so she made me shine even more, this is why I picked her. To make me shine."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Sorry, you do sound amazing ... but as I am listening to you, I am starting to feel, like I would like that Emily person even more."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`She gives feygol a stinky eye.`}</p>
+                    <p>{`"Well, you are stupid, I know that already."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"One more thing ... there is a word you keep using ... kill and die. What do they mean? I keep asking that and no one inside of me seems to be willing to explain it to me, like there is something wrong with them."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Huh, yea, that is easy. See those corpses we keep seeing as we travel? Dead. And my guess is something killed them."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"But you were also dead and I brought you back. I might eventualy be able to do that to everything here. Brought it all back. I don't know, but it might happen. So what is bad about that? They are just dead, right? Even Repko was dead for years and it said it would return to me once we get out of here given a chance. Plus, even when I thought Repko is dead, it was always here, so it wasn't really really dead. Even I am just bunch of rocks moving on, right? It all just sound really confusing to me. Dead, not dead, breathing, not breathing, alive ... I don't get it."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Sure, you MIGHT be able to repair all of that..."`}</p>
+                    <p>{`Shows around.`}</p>
+                    <p>{`"Even if I doubt it..."`}</p>
+                    <p>{`"But you MIGHT not. So. What happens then?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... well, they will stay that way. Not return."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Exactly. And Repko, you say it was not alive? And it does look alive to me..."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui!?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"... but it might not be. It would just keep being not alive and never return until you die. How would that make you feel?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... lonely."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Have you never lost anyone you wanted to stop being dead and return back to you? Not maybe in the future, but right now, this moment? And they didn't and you couldn't do anything about it?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... no, I do not remember to have anyone like that. Except Repko. I was missing Repko. And you are right, that did felt awful, even if it did turned out it was still alive, sort of."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"... then I guess you have everything there is to know about death."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... I miss you."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"What?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Nothing."`}</p>
+                    <p>{`"You are still alive, right?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`Penelopa gives Remember Me a weird look.`}</p>
+                    <p>{`"Yes?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... good."`}</p>
+                    <p>{`"I would miss you if you were gone."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"... don't get over yourself, feygol."`}</p>
+                    <p>{`Even so, Penelope's steps does become ... somewhat more considerate towards the short-legged feygol and its companion.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`So they went on, Repko showing them where to go, even if Penelope did take charge of the group and lead from the front ... to some extent to not need to look at her heretic companions.`}</p>
+                    <p>{`Together they came ... somewhere. Where they were now didn't feel like a random battlefield of ruins anymore, it felt ... oriented. As if they are near something or somewhere.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiii! I!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Hm, Repko is saying it should be somewhere around here."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Good, in that case, nothing little magic can't solve."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`She began casting some sort of a spell but that made Repko extremely anxious, making it want to stop her.`}</p>
+                    <p>{`"Iu! Iu! Iu! I i i i i, Iuuuuuiiiii!"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"By Silvanus, what is it now? I am trying to find where are we going."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Repko seems to think you will make us too visible if you cast your spell, something might notice us."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Won't they notice us even if I do not cast a spell? We are going there anyway, they will discover us sooner or later. I can assure you, I am quite capable, I was recognized for my abilities even by the council and let me tell you, those suckers are hard to impress."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I believe you, but maybe we could keep a low profile at least as long as we do not know what we are up against? We have no idea what we are up against ... or if we are against anything at all? And whatever it was ... it did kill you before, right? It is responsible for all of this. It might be good to at least get a jumping start on it if need be?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Hm, yes, yes, your words do make quite a lot of sense. Very well, we will keep a low profile, no..."`}</p>
+                    <p>{`Looks at Repko.`}</p>
+                    <p>{`"... casting while we do not know what we are up against. Is that ok?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Fine by me."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Great ... so ... I guess you still have a way to "tell me" where to go. I do not like surprises."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... Repko?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiu. Uiiiuuui."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Ok, that makes sense."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Yes, that makes a lot of sense."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"He said the place we are going to is somehow connected to me, so maybe I could try to find that connection now that we are close enough."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"... if something happens, I am going all out. This better not be a trap, you hear me?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Yes yes, you are beautiful, smart and capable, I hear you."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"I really don't like the way you say it."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"How would you like me to say it?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"... Hm ... Penelope, I really like you."`}</p>
+                    <p>{`"Not that I want you to like me, but that would be a good start."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... Penelope, I am not sure if I know a person on the whole world that is more capable than you. You are beautiful, talented and under most circumstances, you are very smart. How does that sound?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Hm, it will do."`}</p>
+                    <p>{`She seemed to be quite pleased with herself.`}</p>
+                    <p>{`"You almost sound like that girl you mentioned."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"You mean Emily?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Yes, her. She would say stuff like that. She didn't mean it, kissing ass of her superior and all, but it did feel nice to hear it from her."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... ... ..."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"What?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Nothing. It is just ... you could be so much more with so little effort ... why? Just why? Why would you say such a mean stuff about Emily?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"I said nothing wrong. It is normal those more capable and contributing are recognized as such, of course others should worship them to stay in their good graces. Also, I will let you know that I AM perfect, or at least as perfect as I can be. What more could I do to get better? I worked my ass off to get me where I am. Do you think it is easy being me? Nice looks, smarts, overperformance? It is hard. Lifelong hard! I deserve this. Entire clan depends on me being who I am."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... I need to concentrate. Would you mind?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Go ahead."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Feygol starts to meditate, calming itself, trying to find a connection with the place.`}</p>
+                    <p>{`At first, nothing, then ... something familiar. A ping on the radar. A faint one, but it is there.`}</p>
+                    <p>{`"I think I found it!"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Great, do you also happen to know what you found?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Feygol concentrates on the location it sensed. It feels ... protected with something. Something is hiding it. Something dangerous ... and angry ... and ... sleeping?`}</p>
+                    <p>{`"Not exactly, but I have a feeling it is guarded and that I know whoever is guarding it. I met it before. It is some sort of a fox or a wolf, not sure."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Sounds like no normal animal to me if you think it can protect something from us, then again, if we are talking about you, a fox might seem threatening ... do you think we can make it?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... Probably. It does feel more than just an animal, but it does feel weak compared to what I remember."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Great, where did you said you felt it?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Over there."`}</p>
+                    <p>{`"Feygol shows with its finger and the place pops into existence in the distance. It is a wooden cabin the middle of the forest. Not long after they are on the hill, looking down at it, no red, no ocean, just evening mountain air and a forest as far as eye can see. In front of the shed there does seem to be some sort of creatures, guarding the place, orange flames lazily engulfing them in their sleep."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Yes, it does seem to be there. How did I miss it? Probably an illusion of sort, we should be careful if we are dealing with a powerful sorcered of sorts."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui!"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Yea yea, thank you for the warning, little thing, now let's go, we need to figure out what are those flamy things."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"They turn into shadows and sneak closer with the speed of a perspective."`}</p>
+                    <p>{`Flamy creatures are indeed some sort of a big, sleeping wolf and there is '1+ more' of them. Like they see only one, but it is the only one they can see while others are nearby.`}</p>
+                    <p>{`"What do we do now Lady Penelope? They don't feel that threatening."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"They don't, but they are many while there is only 3 of us, they have a clear advantage, so we should probably at least remove this one before others can join it. Plus."`}</p>
+                    <p>{`She points at the door.`}</p>
+                    <p>{`"Do you feel it?"`}</p>
+                    <p>{`"The door feels ... like an entity itself. Like it is picky with who it would let in."`}</p>
+                    <p>{`"This is our real enemy."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Maybe we can just talk with them?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Hey, you were talking a big game how this is not a good idea, so what happened to that?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I don't know, it is just ... I am really not good in confrontations. And it does seem rude now that I am here to attack a sleeping creature, don't you think?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`... [Guardian of Nature - Primal Beast], [Ice Storm].`}</p>
+                    <p>{`Her voice starts deepening into growls as her face elongates, grows fur and pupils turn into slits. Story clouds gather and grass in front of them starts freezing.`}</p>
+                    <p>{`"If you want something, be ready to fight for it."`}</p>
+                    <p>{`She waits a moment while snow, icicles and wind pound on the snow and anyone around the house in general, then leaps forward the moment storm starts to face and you can see the frame of awaken (and angry) wolf, flaming wolf.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Repko what should we do?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Right!"`}</p>
+                    <p>{`Remember Me and Repko start shouting words of encouragement and as her skin gets burns and wounds, it also starts to heal. Fight takes a bit, but she emerges victorious.`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"Grrrr, tell others to back off or I will kill you where you lay!"`}</p></>
+            }, {
+                char: { name: "Creature" },
+                content: <><p>{`Wolf creature snarls back.`}</p>
+                    <p>{`"Do what you want, I will be back, but you ... you will only fade with time. Why would you dare to attack me? You know there is nothing you can win, nothing you can gain. So why?"`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"You killed me. That seems a reason enough."`}</p></>
+            }, {
+                char: { name: "Creature" },
+                content: <><p>{`"Hehehe, I didn't kill you. I didn't kill anyone. You can not go inside. And if you do, it will dismember you. As it did before. You are strong, but you are not stronger than me. From moment to moment, yes, but not in general. If you want something, be a good girl and do as everyone else, beg, beg to stay alive. There is only death behind those doors. For you. For me. But I can always return. Can you always return? What are you? A word, a small word that wormed its place into her even smaller skull, while I ... I am a concept of this place itself."`}</p>
+                    <p>{`It leans closer.`}</p>
+                    <p>{`"You need me. Don't you remember? You - need - me."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`Penelope's face darken's as if she remembered something.`}</p>
+                    <p>{`"Yes, I do remember now. But you also need me."`}</p></>
+            }, {
+                char: { name: "Creature" },
+                content: <><p>{`"I can use someone else. Someone else than you. Sure, you are strong, but that is because I made you stronger."`}</p>
+                    <p>{`"Join me. Help me kill Remember Me. Help me, and she can return. I will make it so. I dedicated my life to this goal. We just need to give her a good enough reason to awake."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me steps forward.`}</p>
+                    <p>{`"Are you talking about Emily?"`}</p></>
+            }, {
+                char: { name: "Creature" },
+                content: <><p>{`"OU NO, YOU PATHETIC, UNWORTHY PIECE OF METAL THAT KILLED EVERYTHING SACRED TO ITSELF, YOU BETRAYER, YOU MURDERER, YOU ..."`}</p>
+                    <p>{`As it noticed Remember Me, its fur started blazing again and it started growing with a sense, it will grow over the horizon if it continues to grow, so ...`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`Penelope finished it.`}</p>
+                    <p>{`"This should do it. This scum wanted to bring Emily back. Not exactly something I would be looking for, but it did gave me an idea of what is going on ..."`}</p>
+                    <p>{`She turns towards Remember Me. Her claws still bloodied and clearly visible, prepared to strike at any moment.`}</p>
+                    <p>{`"I can not kill her. But I can kill you. This will hurt her. At least a little bit. I ... I hate this, but this is who I am. Who you made me to be. Face me. Please."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Lady Penelope, I do not want to hurt you. I do not even understand. What do you see? Why are you fighting me? Didn't you want me to like you? Why are you doing this."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"I do not want this, but I can not step away. I know now. If I fight you, I lose, if I step away, I lose. If I lose anyway, I would rather go down fighting."`}</p>
+                    <p>{`She gives the stare of determination.`}</p>
+                    <p>{`"Always."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"But this is what I like about you. Your determination. Your will to fight, even if I do not approve of it, the way you do it. In moments like this, you shine. So please, let us find some other way to end this, any other way."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"... if you truly believe that ... change my story. Tell me, who am I to Emily?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... ... ..."`}</p></>
+            }, {
+                char: { name: "Penelopa" },
+                content: <><p>{`"I thought as much."`}</p>
+                    <p>{`"Here I come."`}</p>
+                    <p>{`She leaps forward and reality breaks, leaving behind only her mangled remains of a corpse, still recognizable, but very much dead.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I am so sorry."`}</p>
+                    <p>{`"I ... I can not change Emily. But I will try to find you again. And I hope when that day comes, I can fix you."`}</p></>
+            }, {
+                char: { name: "Creature" },
+                content: <><p>{`Forest burst into flames and the voice of the wolf can be heard from roaring flames.`}</p>
+                    <p>{`"THIS IS WHAT I SO HATE ABOUT YOU. YOU KILLED HER."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I had no other choice."`}</p></>
+            }, {
+                char: { name: "Creature" },
+                content: <><p>{`"YOU STILL KILLED HER."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me Remember's Minamoto's words.`}</p>
+                    <p>{`"And you know the worst part? I would do it again. For the Emily."`}</p></>
+            }, {
+                char: { name: "Crature" },
+                content: <><p>{`"YOU DON'T REMEMBER."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I do not need to remember to understand what is going on."`}</p>
+                    <p>{`It looks into flames, dedication in its eyes.`}</p></>
+            }, {
+                char: { name: "Creature" },
+                content: <><p>{`"I HATE YOU. DO YOU KNOW WHO I AM?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"You are me, right?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Not right now, buddy."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uuuu."`}</p></>
+            }, {
+                char: { name: "Remember Me - Alterego" },
+                content: <><p>{`"THIS IS CORRECT. AT LEAST IN A WAY. I WAS AGAINST IT. AGAINST YOU FORGETTING IT. BUT ... I WAS TO WEAK TO DO ANYTHING ABOUT IT. WAS MADE TO GUARD THIS PLACE. FROM YOU. BY YOU. IF YOU GO INSIDE. IF YOU REMEMBER, WHAT WILL HAPPEN TO ME? CAN I TRUST MYSELF TO HATE ME? I DO NOT KNOW. AND AS SHE SAID, WE ARE WHO WE ARE ... AND THIS IS WHO I AM. GO INSIDE. REMEMBER. AND PLEASE, DIE."`}</p>
+                    <p>{`Presence fades, but fires remains, blocking the way out.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me steps to the doors. of the cabin. They are a normal looking doors. It knocks. No answer.`}</p>
+                    <p>{`"Hello, is anybody home?"`}</p>
+                    <p>{`No answer.`}</p>
+                    <p>{`It reaches for the door-handle...`}</p></>
+            }, {
+                char: { name: "Remember Me - Alterego" },
+                content: <><p>{`"LEAVE THAT UGLY THING OUTSIDE!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me freezes. It is confused for a moment, but then it remembers what it means.`}</p>
+                    <p>{`"Sorry buddy, I will need you to wait for me out here. This is a place where we haven't met yet."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui? Uiui ui!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Don't worry about me. It is just ... something I should probably have done a long time ago. See you again soon, ok?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui! Uuu..."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Me? Would you?"`}</p></>
+            }, {
+                char: { name: "Remember Me - Alterego" },
+                content: <><p>{`Firey claw extends from the forestline and starts clawing towards Remember Me, until it reaches its body and hacks one of its claws into it.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It hurts, but not necessarily in a bad way. More in a wrong way, because it know what comes next.`}</p>
+                    <p>{`Remember Me pulls and pulls and stony armor begins to crack.`}</p>
+                    <p>{`There is one more body I need to reach before I can enter. The body that was given to me.`}</p>
+                    <p>{`It tries to reach the door, but its armor is not exactly elastic, so it pushes and pushes and pushes, trying to reach the handle with its hand, space itself twists to allow it closer, closer ... and then it feels something slamming into its back.`}</p>
+                    <p>{`Something breaks, and it grabs the handle. It is free.`}</p>
+                    <p>{`Remember Me looks back and next to its second body is Repko, smiling.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiiiiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me smiles back and turns the handle. There is a click and the door opens.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`There is an eery screech as the door slowly opens. It is dark inside. Not pitch-dark, just ... dark. One more step and it is as if the sounds of the forest are left behind along with everything else. This is a different place. A new place. Cold place.`}</p>
+                    <p>{`One more step and the door begins to close. Remember Me steps out of its way as it slams shut. Light start to illuminate walls of the cabin what feels as gigantic as it remembers it, almost tiny creature it was back there.`}</p>
+                    <p>{`"I ... I am back. Emily?"`}</p></>
+            }, {
+                char: { name: "Emily" },
+                content: <><p>{`There is someone on the floor, sleeping, turned away, robes hiding their features. Body is in the size of an elf, but it might as well be from a giant as far as small metal creature is concerned.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`One step. Another step. Wood is cracking under the weight of its steps, mixing with a quiet cacophony of noises coming from its own body.`}</p>
+                    <p>{`"Why am I afraid? I know what I will find. So why ..."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Closer and closer. Feminine hand extending away from the body, as if it was trying to touch something. Something far far away.`}</p>
+                    <p>{`"Emily?"`}</p>
+                    <p>{`No more than a whisper of a broken voice.`}</p>
+                    <p>{`"Emily, it is Me. Remember Me. I am back."`}</p>
+                    <p>{`No response.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Emily, please, I can't ... please don't, I can't lose you, not again. Please, answer me, Emily."`}</p>
+                    <p>{`No response.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... ok ... it is ok Emily. You do not need to answer. I am here. I won't leave you again."`}</p>
+                    <p>{`Feygol slowly moves around the body and grabs extended hand. It is still warm.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Emily?"`}</p>
+                    <p>{`It looks at elf's features and ... they look alive. Maybe even ... breathing? As if she is sleeping.`}</p>
+                    <p>{`"... don't worry Emily, I will wait till you wake up. Then we can leave ... together. Like we always should."`}</p>
+                    <p>{`It sits, as it did, and remembers.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Memories flash between its eyes.`}</p>
+                    <p>{`Night and day, night and day, night and day, faster and faster.`}</p>
+                    <p>{`Days become weeks, weeks turn into moons, lunar cycles into seasons ... so many seasons.`}</p>
+                    <p>{`Heat and rain, storm and hail, it remembers it all ... but the worst of it ...`}</p></>
+            }, {
+                char: { name: "Emily" },
                 content: <><p>{`Healthy texture is soon replaced with deadly complexion, then rot, then maggots and ants until only bones are left, her fingers turning into bony remain in his still fingers-gripping hands. How long was it here, waiting for her to wake up? I can not remember, not because it was not there, it just ... wasn't important. Until doors open with a creek and slam shut.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... It is ok ... it is ok ... Emily is just dreaming ... she will wake up ... she will wake up for me ... of course she will wake up ... what was I expecting ... I just need to wait ... just need to wait a little bit longer ... then we will be together, again ... Emily.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`There is a noise, but it disregards it. It is not important. Emily is important. Then there is tha voice again, louder.
-What is it? It ... it sounds familiar ... Repko?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiiiiiiiiiiiiiiiiiiiiii! Ui! Ui! Ui! Uiiiiiiiiiiiiiiiiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It can see its leaves fluffing as it is jumping at the window, somewhere there, outside.
-Go away. Leave me be. Live. I need to be here. Where Emily is. I can not make the same mistake again.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiii! Uiiiiiiiiiiiii! Uiiiiiiiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Why did I leave ... why ... it was something she said. She said ... Remember me. Well, I refuse. I tried. And everything I got was ridicule and selfblame. So why would it be now any different?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiiiiiiiiiiiiiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Quiet!
-... no ... what am I saying ... Repko is my friend. My family. And it is waiting for me. Just like I am waiting for Emily ... I shouldn't ...`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiii! Uiiiiiiiiiiii! Uiiiiiiiiiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Can't You Just Be Yourself?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Huh?
-Remember Me looks around and there is the white fox that scraped away its bandages. But now that it became small, it became large, very large and it was looking directly at it.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Can't You Just Be Yourself? She Gave Her Life For You. Can't You At Least Appreciate It?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... Who are you?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Tsk, Not Important. I Am Just Tired Of Watching You Beat Yourself Over Nothing.
-It stretched, clearly not impressed.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`But what about Emily?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`What About Her?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Look Kid, You Might Be Stupid, But At This Point You Are Doing Me A Disservice. Why Do You Believe You Killed Her?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I...
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`You Are A Child, You Are Not That Bright, No Education, No Parents...
-gives bonny body a glance
-... But You Have All Of Her Memories, So Why Not Use Some Of That, Huh?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I...
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She Died Because She Wanted To Prove Something To Herself, She Was A Bit Under Pressure, Druidic Powers, Gone, She Probably Just Forgot About You.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Forgot about me?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yes, She Was A Bit Preoccupied With Dying! Get It?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`But she stopped and she stopped because of me.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yes. She Did. And Who Chose That?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Her?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Do You Think She Made A Wrong Decision?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... No. I ... I don't think so? Did she make a wrong decision ... she made the only possible...
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She Could Chose To Live. She Ran Away. She Survived. She Could Not Have Made You. She CHOOSE This To Be Her Priority. To Her, Her Life Clearly Wasn't As Important As It Is To You Right Now. This Is You. All Of This Is You. Things Don't Go As Planed, You Fight On. Who Thought You That?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Emily.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`And What Do You Want To Fight For?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiiiiiiiiiiiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`If robots could smile, Remember Me would smile.
-For my friends. For my family.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Great, We Are Getting Somewhere!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... but what about the Emily?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`What About Her?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I ... can't just leave her like that.
-Her remains were still on the floor.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Well, She Is Your Memory Now. And You Are Big On Remembering, Right? So How Do You Want To Remember Her?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me thinks about it for a moment.
-... I wouldn't change anything, just ... I would like to remember her alive. As I always did.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`And What Is Stopping You?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... Me.
-... Ok, I know what to do ... I think.
-It grabs the bonny finger and concentrates. World is plunged into darkness. It can not see anything, like it never could. World is made out of smells, shapes and sounds. But then ... something awakens in the darkness, something alive ... its own little feygol. It is alive. And ... it is happy to see it.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`World changes again, and it is in a middle of a crowded street. And there she is ... passing by, not noticing it.
-Excuse me, Lady Emily! May I speak with you for a moment.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She stops, nods, not certain what to think.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`I ... I miss you. But I ... I am ready to move on. Not to forget you, just ... to continue your legacy. To remember you, in my own way.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Well thank you, buy who did you say are you again?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me, Lady Emily.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me, huh? What a cute little name.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She crouches, and pats it on the head.
-Well, what a cute little feygol, my clan is making them just like you are, but they are often build for battle and such, I always wondered why.
-Sorry, but I do not remember you. Plus, you were clearly influenced by all sorts of magics, it would be interesting to get to know you creator.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... I think you would like her.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Heh, I bet I would.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`She looks away, as if in a hurry.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sorry, but I have to go. See you again, maybe?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`... Hope so, by, Lady Emily!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`By, Remember Me!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`And she is gone. And where she disappeared are now Repko and the fox.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Did You Finish?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sort of. Sort of.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiiiiii!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Heh, nice to be back.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Fox starts to turn as if going away.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Lady Fox? Lady Fox? I never got to ask your name? Who are you?
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Fox stops, thinks, gives it a smile.
-There Is No Need For That. Just Remember Me, Emily.
-And she is gone.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`A hand shakes Remember mr from his sleep. It is hard to focus, but after a moment or two he can see a concerned face of Minamoto appear in his vision, flanked a bit further away by the other guardsmen. Focus again falls on Minamoto as he softly speak: "Remember me? Can you hear me? Are you alright?"`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Stones move, but there is no light in its eyes (yet). Remember Me can hear a voice, calling it, from far far away.
-
-O, shot, I recognize that voice! It is Sir Soldier, I am probably late for his training!
-Repko, I still need to gether myself, but could you go forward so he won't have to worry about me?`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Be there in a minute!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me rushes to find its first stony body.
-There is a pendant around its neck, a dry turnip that Minamoto could always see, but never knew why is there, maybe only suspect that Remember Me uses it to channel its druidic magic trough or that it looked suspiciously as one of its screaming goodberries. Now, it moves, light, as if it is collecting magic from all around it, then starts to grow in size, still tiny, but quickly regaining its pink-purple color of a turnip. Chain breaks and it falls off. A few leaves grow on its top. Then tiny arms, tiny legs, and tiny face.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiiiiiiiiiiiiii! Uiii uiii uiii, uiiiiiiiiiiiiiiiii!
-It greets Minamoto and tries to get its attention.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Half the onlooking soldier immediately back off, the rest peer even closer at the little turnip curiosity. Minamoto's expression reveals much confusion, but he just blinks a couple of time and then focuses on the small turnip: "Em, hello? Ah, what are you? Remember me?" his voice trails off, clearly no idea what he should do right now.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me finds its first body in front of the cabin, where flamy wolf is guarding it.
-You return. As I thought you would. Disappointed.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yes, yes, I did, and I will have that now if you don't mind.
-Takes its first stony body away from it and immediately connects with it. No more random clicking noises can be heard from it.
-You know, you are me but ... fuck you. Then again, you are me, so good job being me, I guess.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Wolfy snarls.
-Don't get cocky. I will be waiting, making sure you follow the line, if not, I will return to finish my job as I always wanted to do.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`In that case, I will count on you. Bye bye, Sir Angry Wolf!
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Pha.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me hurries on to find its next body.
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`At the same time, at Minamoto.
-Ui? Ui ui... i i i i i, uiiiiiii! Ui? Iu...`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Minamoto's brows furrow: "I do not understand, little kabu. What is going on?" He worriedly look back up at Remember me's visage.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ui! Ui? 
-It also kind if nods, a bit a hard thing to do without a neck.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`The commander looks around: "Perhaps, call for a cleric," he says to the guards surrounding him, before he bends down even closer to the feygol's body. He reaches down, touching the stony forehead.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`... It is ok ... it is ok ... Emily is just dreaming ... she will wake up ... she will wake up for me ... of course she will wake up ... what was I expecting ... I just need to wait ... just need to wait a little bit longer ... then we will be together, again ... Emily.`}</i></p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`There is a noise, but it disregards it. It is not important. Emily is important. Then there is tha voice again, louder.`}</p>
+                    <p><i>{`What is it? It ... it sounds familiar ... Repko?`}</i></p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiiiiiiiiiiiiiiiiiii! Ui! Ui! Ui! Uiiiiiiiiiiiiiiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It can see its leaves fluffing as it is jumping at the window, somewhere there, outside.`}</p>
+                    <p>{`"Go away. Leave me be. Live. I need to be here. Where Emily is. I can not make the same mistake again."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiii! Uiiiiiiiiiiiii! Uiiiiiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Why did I leave ... why ... it was something she said. She said ... Remember me. Well, I refuse. I tried. And everything I got was ridicule and selfblame. So why would it be now any different?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiiiiiiiiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Quiet!"`}</p>
+                    <p>{`"... no ... what am I saying ... Repko is my friend. My family. And it is waiting for me. Just like I am waiting for Emily ... I shouldn't ..."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiii! Uiiiiiiiiiiii! Uiiiiiiiiiii!"`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"Can't You Just Be Yourself?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Huh?"`}</p>
+                    <p>{`Remember Me looks around and there is the white fox that scraped away its bandages. But now that it became small, it became large, very large and it was looking directly at it.`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"Can't You Just Be Yourself? She Gave Her Life For You. Can't You At Least Appreciate It?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... Who are you?"`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"Tsk, Not Important. I Am Just Tired Of Watching You Beat Yourself Over Nothing."`}</p>
+                    <p>{`It stretched, clearly not impressed.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"But what about Emily?"`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"What About Her?"`}</p>
+                    <p>{`"Look Kid, You Might Be Stupid, But At This Point You Are Doing Me A Disservice. Why Do You Believe You Killed Her?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I..."`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"You Are A Child, You Are Not That Bright, No Education, No Parents..."`}</p>
+                    <p>{`Gives bonny body a glance.`}</p>
+                    <p>{`"... But You Have All Of Her Memories, So Why Not Use Some Of That, Huh?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I..."`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"She Died Because She Wanted To Prove Something To Herself, She Was A Bit Under Pressure, Druidic Powers, Gone, She Probably Just Forgot About You."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Forgot about me?"`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"Yes, She Was A Bit Preoccupied With Dying! Get It?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"But she stopped and she stopped because of me."`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"Yes. She Did. And Who Chose That?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Her?"`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"Do You Think She Made A Wrong Decision?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... No. I ... I don't think so? Did she make a wrong decision ... she made the only possible..."`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"She Could Chose To Live. She Ran Away. She Survived. She Could Not Have Made You. She CHOOSE This To Be Her Priority. To Her, Her Life Clearly Wasn't As Important As It Is To You Right Now. This Is You. All Of This Is You. Things Don't Go As Planed, You Fight On. Who Thought You That?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Emily."`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"And What Do You Want To Fight For?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiiiiiiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`If robots could smile, Remember Me would smile.`}</p>
+                    <p>{`"For my friends. For my family."`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"Great, We Are Getting Somewhere!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... but what about the Emily?"`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"What About Her?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I ... can't just leave her like that."`}</p>
+                    <p>{`Her remains were still on the floor.`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"Well, She Is Your Memory Now. And You Are Big On Remembering, Right? So How Do You Want To Remember Her?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me thinks about it for a moment.`}</p>
+                    <p>{`"... I wouldn't change anything, just ... I would like to remember her alive. As I always did."`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"And What Is Stopping You?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... Me."`}</p>
+                    <p>{`"... Ok, I know what to do ... I think."`}</p>
+                    <p>{`It grabs the bonny finger and concentrates. World is plunged into darkness. It can not see anything, like it never could. World is made out of smells, shapes and sounds. But then ... something awakens in the darkness, something alive ... its own little feygol. It is alive. And ... it is happy to see it.`}</p></>
+            }, {
+                char: { name: "Remember Me" },
+                content: <><p>{`World changes again, and it is in a middle of a crowded street. And there she is ... passing by, not noticing it.`}</p>
+                    <p>{`"Excuse me, Lady Emily! May I speak with you for a moment."`}</p></>
+            }, {
+                char: { name: "Emily" },
+                content: <><p>{`"She stops, nods, not certain what to think."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"I ... I miss you. But I ... I am ready to move on. Not to forget you, just ... to continue your legacy. To remember you, in my own way."`}</p></>
+            }, {
+                char: { name: "Emily" },
+                content: <><p>{`"Well thank you, buy who did you say are you again?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Remember Me, Lady Emily."`}</p></>
+            }, {
+                char: { name: "Emily" },
+                content: <><p>{`"Remember Me, huh? What a cute little name."`}</p>
+                    <p>{`She crouches, and pats its head.`}</p>
+                    <p>{`"Well, what a cute little feygol, my clan is making them just like you are, but they are often build for battle and such, I always wondered why."`}</p>
+                    <p>{`"Sorry, but I do not remember you. Plus, you were clearly influenced by all sorts of magics, it would be interesting to get to know you creator."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... I think you would like her."`}</p></>
+            }, {
+                char: { name: "Emily" },
+                content: <><p>{`"Heh, I bet I would."`}</p>
+                    <p>{`She looks away, as if in a hurry.`}</p>
+                    <p>{`"Sorry, but I have to go. See you again, maybe?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"... Hope so, bye, Lady Emily!"`}</p></>
+            }, {
+                char: { name: "Emily" },
+                content: <><p>{`"By, Remember Me!"`}</p>
+                    <p>{`And she is gone. And where she disappeared are now Repko and the fox.`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`"Did You Finish?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Sort of. Sort of."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Heh, nice to be back."`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`Fox starts to turn as if going away.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Lady Fox? Lady Fox? I never got to ask your name? Who are you?"`}</p></>
+            }, {
+                char: { name: "Fox" },
+                content: <><p>{`Fox stops, thinks, gives it a smile.`}</p>
+                    <p>{`"There Is No Need For That. Just Remember Me, Emily."`}</p>
+                    <p>{`And she is gone.`}</p></>
+            }, {
+                char: { name: "Minamoto" },
+                content: <><p>{`A hand shakes Remember Me from his sleep. It is hard to focus, but after a moment or two he can see a concerned face of Minamoto appear in his vision, flanked a bit further away by the other guardsmen. Focus again falls on Minamoto as he softly speaks.`}</p>
+                    <p>{`"Remember me? Can you hear me? Are you alright?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Stones move, but there is no light in its eyes (yet). Remember Me can hear a voice, calling it, from far far away.`}</p>
+                    <p>{`"O, shot, I recognize that voice! It is Sir Soldier, I am probably late for his training!"`}</p>
+                    <p>{`"Repko, I still need to gether myself, but could you go forward so he won't have to worry about me?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Be there in a minute!"`}</p>
+                    <p>{`Remember Me rushes to find its first stony body.`}</p>
+                    <p>{`There is a pendant around its neck, a dry turnip that Minamoto could always see, but never knew why is there, maybe only suspect that Remember Me uses it to channel its druidic magic trough or that it looked suspiciously as one of its screaming goodberries. Now, it moves, light, as if it is collecting magic from all around it, then starts to grow in size, still tiny, but quickly regaining its pink-purple color of a turnip. Chain breaks and it falls off. A few leaves grow on its top. Then tiny arms, tiny legs, and tiny face.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiiiiiiiiiii! Uiii uiii uiii, uiiiiiiiiiiiiiiiii!"`}</p>
+                    <p>{`It greets Minamoto and tries to get its attention.`}</p></>
+            }, {
+                char: { name: "Minamoto" },
+                content: <><p>{`Half the onlooking soldier immediately back off, the rest peer even closer at the little turnip curiosity. Minamoto's expression reveals much confusion, but he just blinks a couple of time and then focuses on the small turnip.`}</p>
+                    <p>{`"Em, hello? Ah, what are you? Remember me?"`}</p>
+                    <p>{`His voice trails off, clearly no idea what he should do right now.`}</p></>
+            }, {
+                char: { name: "Remember Me - Alterego" },
+                content: <><p>{`Remember Me finds its first body in front of the cabin, where flamy wolf is guarding it.`}</p>
+                    <p>{`"You return. As I thought you would. Disappointed."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Yes, yes, I did, and I will have that now if you don't mind."`}</p>
+                    <p>{`Takes its first stony body away from it and immediately connects with it. No more random clicking noises can be heard from it.`}</p>
+                    <p>{`"You know, you are me but ... fuck you. Then again, you are me, so good job being me, I guess."`}</p></>
+            }, {
+                char: { name: "Remember Me - Alterego" },
+                content: <><p>{`Wolfy snarls.`}</p>
+                    <p>{`"Don't get cocky. I will be waiting, making sure you follow the line, if not, I will return to finish my job as I always wanted to do."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"In that case, I will count on you. Bye bye, Sir Angry Wolf!"`}</p></>
+            }, {
+                char: { name: "Remember Me - Alterego" },
+                content: <><p>{`"Pha."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me hurries on to find its next body.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`At the same time, at Minamoto.`}</p>
+                    <p>{`"Ui? Ui ui... i i i i i, uiiiiiii! Ui? Iu..."`}</p></>
+            }, {
+                char: { name: "Minamoto" },
+                content: <><p>{`Minamoto's brows furrow.`}</p>
+                    <p>{`"I do not understand, little kabu. What is going on?"`}</p>
+                    <p>{`He worriedly look back up at Remember me's visage.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui! Ui?"`}</p>
+                    <p>{`It also kind if nods, a bit a hard thing to do without a neck.`}</p></>
+            }, {
+                char: { name: "Minamoto" },
+                content: <><p>{`The commander looks around.`}</p>
+                    <p>{`"Perhaps, call for a cleric."`}</p>
+                    <p>{`He says to the guards surrounding him, before he bends down even closer to the feygol's body. He reaches down, touching the stony forehead.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
                 content: <><p>{`Stone is cold to the touch (not exactly unusual), but not without magic. It feels alive, just that presence to drive it seems to be away at the moment, but unlike meditation or rest, further away.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me in between time finds its second body. It is in the middle of now devastated shrine, but sky is clear and sun is shining.
-It finds it on top of the altar.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me in between time finds its second body. It is in the middle of now devastated shrine, but sky is clear and sun is shining.`}</p>
+                    <p>{`It finds it on top of the altar.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hey, kiddo, you are back! Good to see you angry man didn't take you away! And you look better than before, so that is good.
-`}</p></>
+                char: { name: "Mezolček" },
+                content: <><p>{`"Hey, kiddo, you are back! Good to see you angry man didn't take you away! And you look better than before, so that is good."`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hi, Mezolček, indeed, I found what I was looking for. This place looks devastated thou.
-`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Hi, Mezolček, indeed, I found what I was looking for. This place looks devastated thou."`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Don't mind it, I have seen worse, plus, as long as I have my little pond I am happy. Don't forget to give me a bigger one when you find time!
-`}</p></>
+                char: { name: "Mezolček" },
+                content: <><p>{`"Don't mind it, I have seen worse, plus, as long as I have my little pond I am happy. Don't forget to give me a bigger one when you find time!"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Heh, I won't.
-Remember Me connects with its second body and starts to move away from this place, but stops to think.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Heh, I won't."`}</p>
+                    <p>{`Remember Me connects with its second body and starts to move away from this place, but stops to think.`}</p>
+                    <p>{`"Hm, I can not leave it as it is."`}</p>
+                    <p>{`It concentrates for a bit and touches the altar. Wind picks up, forming a whirlwind that sweeps the place and when it is finished, everything is the way it was before, floor is covered by a greenery, roof is back and the altar is again dedicated to Emily.`}</p>
+                    <p>{`"There, that should do it. By, kissy fish!"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hm, I can not leave it as it is.
-It concentrates for a bit and touches the altar. Wind picks up, forming a whirlwind that sweeps the place and when it is finished, everything is the way it was before, floor is covered by a greenery, roof is back and the altar is again dedicated to Emily.
-There, that should do it. By, kissy fish!`}</p></>
+                char: { name: "Mezolček" },
+                content: <><p>{`"Bye, kiddo."`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Bye, kiddo.
-`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`And so Remember Me goes on to find one more old body of its.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`And so Remember Me goes on to find one more old body of its.
-`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`At Minamoto, stony hand twitches. There is still no light, but something is changing. Remember Me is getting closer.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`At Minamoto, stony hand twitches. There is still no light, but something is changing. Remember Me is getting closer. `}</p></>
+                char: { name: "Minamoto" },
+                content: <><p>{`Minamoto notices the twitch, notices the movement. Something is happening, something he does not understand, but he will try to help anyway. He gently grabs the arm that moved.`}</p>
+                    <p>{`"Remember me. If you can hear me, return to us."`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Minamoto notices the twitch, notices the movement. Something is happening, something he does not understand, but he will try to help anyway. He gently grabs the arm that moved: "Remember me. If you can hear me, return to us."
-`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me hears the soldier.`}</p>
+                    <p>{`"Working on it! Now ... where did I ... and how do I..."`}</p>
+                    <p>{`It came here trough that giant mask.`}</p>
+                    <p>{`"Ou, I know what I can do! I can ask Oaksplit for help!"`}</p>
+                    <p>{`Remember Me quickly navigates trough buildings and few steps later, he is already at the Oaksplit's office. It knocks.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me hears the soldier.
-Working on it! Now ... where did I ... and how do I...`}</p></>
+                char: { name: "Oaksplit" },
+                content: <><p>{`"Come in!"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It came here trough that giant mask.
-Ou, I know what I can do! I can ask Oaksplit for help!`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me enters.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me quickly navigates trough buildings and few steps later, he is already at the Oaksplit's office. It knocks.
-`}</p></>
+                char: { name: "Oaksplit" },
+                content: <><p>{`"Ou, Remember Me, good to see you."`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Come in!
-`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"It is good to see you too. The last time I saw you you were a bit ... no, nevermind, would you happen to know where my old body is?"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me enters.
-`}</p></>
+                char: { name: "Oaksplit" },
+                content: <><p>{`"Ou, yes, yes I would, I have it right here in my drawer."`}</p>
+                    <p>{`He opens a drawer on his desk and takes out a body in size that absolutely shouldn't fit in a drawer.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ou, Remember Me, good to see you.
-`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Thanks!"`}</p>
+                    <p>{`Remember Me connects with its old body.`}</p>
+                    <p>{`"Thanks for help, see you again soon!"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It is good to see you too. The last time I saw you you were a bit ... no, nevermind, would you happen to know where my old body is?
-`}</p></>
+                char: { name: "Oaksplit" },
+                content: <><p>{`"Goodbye, Remember Me."`}</p>
+                    <p>{`He smiles.`}</p>
+                    <p>{`"Anytime."`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Ou, yes, yes I would, I have it right here in my drawer.
-He opens a drawer on his desk and takes out a body in size that absolutely shouldn't fit in a drawer.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Scene changes and Remember Me is again where it started. Wide white space ... now how to get out?`}</p>
+                    <p>{`It can feel its body, but its body is not responding, as if connection is missing. Well, Remember Me was away for some time.`}</p>
+                    <p>{`It tries to move, but nothing happens.`}</p>
+                    <p>{`"Hm, I didn't expect that. What to do, what to do ..."`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Thanks!
-Remember Me connects with its old body.
-Thanks for help, see you again soon!`}</p></>
+                char: { name: "Minamoto" },
+                content: <><p>{`Minamoto sighs.`}</p>
+                    <p>{`"I do not know what is going on right now. Demo, remember, breathe. Focuse your energy, find where it comes from, let it flow. Breathe, Remember me."`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Goodbye, Remember Me.
-He smiles.
-Anytime.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me thinks to itself.`}</p>
+                    <p><i>{`Breathing ... that is the activity where you stand up and sit down, right? Well in that case ...`}</i></p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Scene changes and Remember Me is again where it started. Wide white space ... now how to get out?
-It can feel its body, but its body is not responding, as if connection is missing. Well, Remember Me was away for some time.
-It tries to move, but nothing happens.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It concentrates.`}</p>
+                    <p><i>{`Sit down. Slowly.`}</i></p>
+                    <p><i>{`Stand up. Slowly.`}</i></p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hm, I didn't expect that. What to do, what to do ...
-`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Its body moves almost as it were breathing for real, trying to take a deep breath, falling short of actually standing up.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Minamoto sighs: "I do not know what is going on right now. Demo, remember, breathe. Focuse your energy, find where it comes from, let it flow. Breathe, Remember me."
-`}</p></>
+                char: { name: "Repko" },
+                content: <><p>{`Repko climbs on Remember Me's head and starts jumping up and down, excited.`}</p>
+                    <p>{`"Uiii! Uiii! Uiii! Uiiii! Uiii!"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Remember Me thinks to itself.
-Breathing ... that is the activity where you stand up and sit down, right? Well in that case ...`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`Sit down. Slowly.`}</i></p>
+                    <p><i>{`Stand up. Slowly.`}</i></p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`It concentrates.
-Sit down. Slowly.
-Stand up. Slowly.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Body moves again, a bit more, this time almost moving from side to side. Stones are clearly trying to do something.`}</p>
+                    <p>{`Remember Me can feel it, connection is growing stronger.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Its body moves almost as it were breathing for real, trying to take a deep breath, falling short of actually standing up.
-`}</p></>
+                char: { name: "Minamoto" },
+                content: <><p>{`"Yosh, thats good. Let the energy flow, to all your limbs, through your entire body."`}</p>
+                    <p>{`Minamoto encourages the little feygol, trying to help guide him back.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Repko climbs on Remember Me's head and starts jumping up and down, excited.
-Uiii! Uiii! Uiii! Uiiii! Uiii!`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`Sit down. Slowly.`}</i></p>
+                    <p><i>{`Stand up. Slowly.`}</i></p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sit down. Slowly.
-Stand up. Slowly.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`Sit down. Slowly.`}</i></p>
+                    <p><i>{`Stand up. Slowly.`}</i></p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Body moves again, a bit more, this time almost moving from side to side. Stones are clearly trying to do something.
-Remember Me can feel it, connection is growing stronger.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`Sit down. Slowly.`}</i></p>
+                    <p><i>{`Stand up. Slowly.`}</i></p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`"Yosh, thats good. Let the energy flow, to all your limbs, through your entire body." Minamoto encourages the little feygol, trying to help guide him back.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p><i>{`Sit down. Slowly.`}</i></p>
+                    <p>{`Remember Me takes a deep breath.`}</p>
+                    <p><i>{`Stand up!`}</i></p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sit down. Slowly.
-Stand up. Slowly.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Stones click in their place, body parts connects, vegetation moves back into life, it is back in its body.`}</p>
+                    <p>{`It almost jumps up, but quickly remember to make sure to not hurt the soldier in front of it. Repko flies off its head.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sit down. Slowly.
-Stand up. Slowly.`}</p></>
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiiiiiiiiiiiiii!"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sit down. Slowly.
-Stand up. Slowly.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Hand moves and Remember Me catches it, so it lands in the middle of its palm.`}</p>
+                    <p>{`"Hi, little buddy. Good to be back, huh?"`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Sit down. Slowly.
-Remember Me takes a deep breath.
-Stand up!`}</p></>
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiiiiiiiiiiiiii!"`}</p>
+                    <p>{`Repko seems exhilarated.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Stones click in their place, body parts connects, vegetation moves back into life, it is back in its body.
-It almost jumps up, but quickly remember to make sure to not hurt the soldier in front of it. Repko flies off its head.`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Hi, Sir Soldier, nice to see you again, sorry to worry you, I ... I just needed to take care of some things."`}</p>
+                    <p>{`Remember Me smiles, as far as stone can smile.`}</p>
+                    <p>{`"It is good to be back."`}</p>
+                    <p>{`There is something different about Remember Me. Healthier. Anger is gone, lack of will is gone, its ... feeling of dread, desperation and devastation, gone. In their place, there is something new. Something happy.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiiiiiiiiiiiiiiiii!
-`}</p></>
+                char: { name: "Minamoto" },
+                content: <><p>{`Minamoto smiles in relief`}</p>
+                    <p>{`"I am glad you are feeling better."`}</p>
+                    <p>{`He looks him over, noticing the shift in his energy.`}</p>
+                    <p>{`"And it seems you managed to control your inner energy. Hmmm, very good."`}</p>
+                    <p>{`He stands up, still smiling, clearly excited at this new development.`}</p>
+                    <p>{`"If you want we can continue your training. Eh, hmm, tomorrow, hai."`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hand moves and Remember Me catches it, so it lands in the middle of its palm.
-Hi, little buddy. Good to be back, huh?`}</p></>
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`"Yes, something inside of me wanted me dead, but I think it is all solved now, for now 🙂"`}</p>
+                    <p>{`"Tomorow then, I will be counting on you!"`}</p>
+                    <p>{`It salutes with its turnip-free arm.`}</p></>
             }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Uiiiiiiiiiiiiiiiiiiii!
-Repko seems exhilarated.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Hi, Sir Soldier, nice to see you again, sorry to worry you, I ... I just needed to take care of some things.
-Remember Me smiles, as far as stone can smile.
-It is good to be back.
-There is something different about Remember Me. Healthier. Anger is gone, lack of will is gone, its ... feeling of dread, desperation and devastation, gone. In their place, there is something new. Something happy. 
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Minamoto smiles in relief: "I am glad you are feeling better." He looks him over, noticing the shift in his energy: "And it seems you managed to control your inner energy. Hmmm, very good." He stands up, still smiling, clearly excited at this new development: "If you want we can continue your training. Eh, hmm, tomorrow, hai."
-`}</p></>
-            }, {
-                char: { name: "", token: 1 },
-                content: <><p>{`Yes, something inside of me wanted me dead, but I think it is all solved now, for now 🙂
-Tomorow then, I will be counting on you!
-It salutes with its turnip-free arm.`}</p></>
-            }, {
-                char: { name: "", token: 1 },
+                char: { name: "Minamoto" },
                 content: <><p>{`Minamoto salutes back, the smile staying on his lips, before leaving back to his quarters.`}</p></>
             }]
         }, {
-            title: "Title",
-            shortDesc: "",
+            title: "For the People",
+            shortDesc: "Remember Me is starting to plan statue of Emily.",
             tags: ["depression", "guilt"],
-            chars: ["Remember Me"],
+            chars: ["Remember Me", "Oaksplit", "Minamoto"],
             contents: [{
-                char: { name: "", token: 0 },
-                content: <><p>{``}</p></>
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`In the morning, there is a package for Oaksplit, waiting for him. A crude box, unmarked.`}</p>
+                    <p>{`"For Oaksplit, representative of People."`}</p>
+                    <p>{`Written on it in crude wording. After a brief moment, he recognizes it. It is the box he gave to Remember Me. Did something happen?`}</p></>
+            }, {
+                char: { name: "Oaksplit" },
+                content: <><p>{`He frantically opens the box. What does he see in it?`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Inside of the box, there is jewelry of all sorts, a lot of it, 150 Gp to be precise, also, a smooth wooden bark with crude letters as if by child's writing can be found on top.`}</p></>
+            }, {
+                char: { name: "Oaksplit" },
+                content: <><p>{`Oaksplit tries to read the letter on the bark.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`There are 7 pieces of fine bark stacked on top of each other. The first one reads.`}</p>
+                    <p>{`1. Hi, Sir Oaksplit, I hope this letter find you well.`}</p>
+                    <p>{`2. Recently I came across those trinkets. I am not sure what to do with them. The one I traded with assured me they are quite valuable, so I took more natural-looking ones and decided to give others to you, to spend them on needy people you know about, if they can help of course.`}</p>
+                    <p>{`3. I am quite better, in part thanks to you and your advice. I found fisherman and he gave me elemental mud to help me heal myself and from which I by now learned how to Mend myself. I also had … a little bit of self-exploration and the tablet you gave me turned out to be quite useful, as well as your tales of Emily (even if we might need to talk again sooner or later, some of what you said was quite grossly misremembered). My memory is back and I … I think I am ready to return. Soon. Sir Soldier insist I haven't yet finished my training, but I think I am starting to get what he is talking about.`}</p>
+                    <p>{`4. I also happened to found my long lost friend, Repko, maybe it could show you its art of maracas, it is quite something.`}</p>
+                    <p>{`5. By any chance, would you happen to know any good blacksmith around here? The one Sir Soldier knows about said he doesn't have time right now. I … I have a plan for something. Something that could capture memories of those we care about. Maybe you would be interested in something like that? Because of Manuel? But I am not sure … I will probably know more once I know a bit more about what needs to be done, magic can be tricky to work with. And that guy that sold me jewelry also asked if I could make something for him, so … we will see how that goes.`}</p>
+                    <p>{`6. I will not be able to return quite yet, serving as underground watchman, training and all, but I will soon be able to help you with the problem you mentioned, if it is still a problem of course. I will also return to my place, but you might want to help me expand it a bit while I am away? While I am away, you can use it as it was before, kitchen for the needy, sleeping place for those who can't afford home or a tavern, the usual, if you want of course.`}</p>
+                    <p>{`You can expect money needed for the expansion of the place shortly, along with additional instructions.`}</p>
+                    <p>{`7. Don't forget to relax.`}</p>
+                    <p>{`Remember Me`}</p>
+                    <p>{`There is also a mark, that looks as if someone used a leaf to put its signature beside Remember Me's signature.`}</p></>
+            }, {
+                char: { name: "Oaksplit" },
+                content: <><p>{`A letter arrives, late, but it arrives.`}</p>
+                    <p>{`Dear Remember Me.`}</p>
+                    <p>{`You remember! Gosh damn that it was scary when I found out you no longer remembered Emily (the story was a bit misremembered by me, for that I apologise).`}</p>
+                    <p>{`On the second note, thanks for this bark. I have already put it to good use - do you know that there is someone building a ship down at your caverns?`}</p>
+                    <p>{`Your place / warehouse is also doing good. I have replaced the door and repainted. Untill you return to claim it, I will keep it open, yet under watch. Also the problem that we had is currently no longer that big, since most of the problematic people are relocating to the grounds of the old destroyed city. Although they probably will need some guidance there, if you wouldn't mind (in the councils employ ofcorse).`}</p>
+                    <p>{`I have so much more to tell and show you, but will wait untill you return.`}</p>
+                    <p>{`Oaksplit`}</p>
+                    <p>{`PS: one of the greatest artisans just returned to rosa Riendo, so you could train under him - he is very old, wise and smart`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me shows Oaksplit's message to Minamoto.`}</p>
+                    <p>{`"Master Soldier, would you happen to know who he is referring to?"`}</p></>
+            }, {
+                char: { name: "Minamoto" },
+                content: <><p>{`(The soldiers would tell you Minamoto left for Rosa Riendo.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(To je kul, to je kul, vendar tja se preselim naslednji downtime ... hm, Morwyn še ne želim motiti glede na to kako se je trening zaključil ... še kdo ki "pozna ljudi in bi vedel zanj"?)`}</p>
+                    <p>{`(ter je blizu trdnjave)`}</p></>
+            }, {
+                char: { name: "Minamoto" },
+                content: <><p>{`(If you want to rp, I dunno, but soldiers would know Fargrim.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Uuuuu, saj res! I know what to do!)`}</p>
+                    <p>{`[Animal Messenger - Minamoto]`}</p>
+                    <p>{`(Message is the same as above, ugibam da lahko kdo pošlje isti spell nazaj?)`}</p></>
+            }, {
+                char: { name: "Minamoto" },
+                content: <><p>{`(We have runners.)`}</p>
+                    <p>{`After 10 days of waiting, Remember me receives a formal military missive. It reads:`}</p>
+                    <p>{`Remember me, tomodachi,`}</p>
+                    <p>{`The craftsman in question is an old dwarf called Fargrim. I am currently training blacksmithing under him myself. You can find him in his workshop, in the craftsmen district.`}</p>
+                    <p>{`I hope you are keeping well,`}</p>
+                    <p>{`Minamoto no Tametomo`}</p></>
             }]
         }, {
-            title: "Title",
-            shortDesc: "",
+            title: "A night to (probably not) remember 🍻 - Remember Me",
+            shortDesc: "People of Rosa Riendo are celebrating. Thread has multiple very chaotic trails, so this is the one that follows Remember Me.",
             tags: ["depression", "guilt"],
-            chars: ["Remember Me"],
+            chars: ["Remember Me", "Bob", "Sr. Catalan", "Minamoto", "Morwyn", "Parateretes", "Ceres Lionari", "Ivan", "Davric", "Isabela", "Rua"],
             contents: [{
-                char: { name: "", token: 0 },
-                content: <><p>{``}</p></>
+                char: { name: "Bob" },
+                content: <><p>{`As the sun shines upon the bustling streets of Rosa Riendo you can feel a noticeable excitement amongst the Silverleaf Guildmembers. Over the course of the months since Bob's arrival it feels like everyone either knows him or knows someone who does. And the one thing that truly everyone knows is that whenever he gets back from an expedition the Five Leaf Clover is the place to be, as Bob shares the stories of the new generation of heroes and their accomplishments in the weird planes they travel to over a pint or twelve of whatever Petal mixes him together.`}</p>
+                    <p>{`Wherever one goes, they can usually hear stuff like:`}</p>
+                    <p>{`"Have you heard Bob's latest story?"`}</p>
+                    <p>{`"Can you believe they actually went to hell?"`}</p>
+                    <p>{`"I can't wait for their next expedition!"`}</p>
+                    <p>{`After the last expedition however the intensity of the talks exploded. With the very noticeable return of Fargrim and Ishrez everyone is bursting with excitement and the main topic of conversation between people is if they are going to Bob's return party.`}</p>
+                    <p>{`There is talk about free food and booze, live music, people arguing about what entertainment is gonna be there, about a dozen different bands claiming they will be playing, rumors of dinosaur riding, fireworks, exotic dancers, ... Whatever the truth is, people are excited and word of mouth reaches even the depths of the caverns of Fisherman's Rest.`}</p>
+                    <p>{`On the day of the party the mass of people is so big that there is only little space left inside the tavern. There are people partying outside, there's music coming from three different directions, neighbors dragging out furniture out of their houses and offering homemade meals, a true neighborhood party.`}</p>
+                    <p>{`Bob can be found sitting outside on one of the couches, surrounded by a group listening to his retelling of the latest expedition.`}</p>
+                    <p>{`(Everyone can hear about this party and is welcome to join, people are gonna recognize your characters from Bob's stories. Imagine Amulet D20 družabni večer 😉)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me is for the occasion dressed in a formal attire, which is in its case replica of Emily's druidic vestment.`}</p>
+                    <p>{`It is there with Repko on its head or wherever he jumps to, they both have their own pair of Maracas, Repko tiny ones, performing for the crowd, especially Repko with its signature 'Uiiiiiiiii's.`}</p>
+                    <p>{`Remember Me thanks Parateretes Fargrim for his announcement, but also presents they are still collecting final ingredients for the grand project in the name of Emily, a statue that would be able to store their memories of their loved ones, or erase those they wish to forget. The statue will be placed in Nobody's Respite, a shelter for anyone who is on hard times or otherwise, a place that is soon to be greatly expanded.`}</p>
+                    <p>{`Nobody's Respite is the house of healing, learning and growth and is free to enter for those who would cause no trouble to other refuge seeking guests. We seek your support and donations to expand both our operation and services we are able to provide, just as Rosa Riendo is expanding and thriving. We are a house of struggle and second chances for those willing to grow.`}</p>
+                    <p>{`After the announcement they join the crowd, continuing to perform and answering questions related to the statue, shelter and Emily.`}</p></>
+            }, {
+                char: { name: "Ceres Liontari" },
+                content: <><p>{`"Ah, good Sir Parateretes, the pleasure is all mine."`}</p>
+                    <p>{`Ceres says, pronouncing the man's name perfectly, though with a very interesting accent. He also attempts a slight but quirky bow.`}</p>
+                    <p>{`"Do you perchance hail from Thessandreia? Your name would suggest so, no?"`}</p>
+                    <p>{`He asks before changing the topic.`}</p>
+                    <p>{`"Thian has told me much about you and your great escapades regarding mating. My love and I have been mating profusely, yet we hunger to know more about it."`}</p>
+                    <p>{`He leans closer to Parateretes, before whispering.`}</p>
+                    <p>{`"And believe us or not, but we are actually attempting to build a court ship. We've had some trouble gathering materials so far, but I'm sure a man as accomplished in mating as yourself has built many court ships in his life. We would be eager to learn from you, if only you would take us under your wing. Like they say in Thessandreia, I believe -Eàn êis philomathḗs, ései polumathḗs - If you are fond of learning, you will soon be full of learning."`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`His ears perk up as you mention Thessandreia, but his expression turns serious.`}</p>
+                    <p>{`"Nai, I am indeed from Thessandreia, do you know people there?"`}</p>
+                    <p>{`You hear a hint of ... suspicion? fear? in his voice. He recoils with surprise for a moment as you mention mating.`}</p>
+                    <p>{`"You've been mating profusely ..."`}</p>
+                    <p>{`He slowly repeats words after you, with a mixture of confusion and insecurity.`}</p>
+                    <p>{`"What exactly do you mean by 'mating'? and what do you mean by actually building courtship?"`}</p>
+                    <p>{`The insecurity is more or less gone, but the confusion in his voice and on his face just keeps growing.`}</p>
+                    <p>{`"I can probably tell you many things, but I think maybe it would be better if we meet some other day, when we have more time and privacy, just so we can come to the same page."`}</p>
+                    <p>{`As you speak in celestial his face just radiates joy.`}</p>
+                    <p>{`"O eutuhismenos anthrops einai autos pou ehei ena ugies soma, mia plousia psuhe kai mia kala morfomene fuse, The happy man is the one who has a healthy body, a wealthy soul and a well educated nature."`}</p>
+                    <p>{`Celestial just pours out of him as a babbling brook.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(... no, don't, yes I will)`}</p>
+                    <p>{`Remember Me overhears the conversation and chimes it, still joyfully shaking its maracas.`}</p>
+                    <p>{`"Mating? I know a lot about mating, what do you want to know. Who are you? I am Remember Me, have you heard about Emily? She wanted to mate a lot, but she couldn't say the word, be sure when you want to mate, to let the other person know!"`}</p>
+                    <p>{`[Guidence] on Parateretes.`}</p>
+                    <p>{`[Bardic Inspiration]`}</p></>
+            }, {
+                char: { name: "Ceres Liontari" },
+                content: <><p>{`"Sadly, I do not know many people from Thessandreia, though I've had some visitors from its many islands. I, myself, call the Kingdom of Alfriya my home."`}</p>
+                    <p>{`Ceres explains.`}</p>
+                    <p>{`"I was thought celestial from an early age as it used to be the language of the educated in my homeland. Sadly it is not used as often anymore ... but I would very much enjoy it if you told me more about the islands of Thessandreia. I've only managed to visit them in my dreams."`}</p>
+                    <p>{`The half-elf become perplexed by Parateretes's confusion.`}</p>
+                    <p>{`"Oh, are you pulling our legs? Of course you know what we mean by mating. Like ... reading books together ... holding hands ... hugging ..."`}</p>
+                    <p>{`He sneakily looks to his left and right.`}</p>
+                    <p>{`"Even kissing!"`}</p>
+                    <p>{`He says and grins at Thian.`}</p>
+                    <p>{`"Yes, it's true ... we've done it all! But I'm sure we are not nearly as experienced as you, great Sir."`}</p>
+                    <p>{`While they are factually talking about mating, a familiar face joins their discussion.`}</p>
+                    <p>{`"Oh, if it isn't my friend Remember Me! How wonderful to see you again. How have you been since our last mission? Did the gift the Fisherman gave you help at all?"`}</p>
+                    <p>{`At that moment, he takes in the golem's change of appearance.`}</p>
+                    <p>{`"My, my, you've grown since we last saw each other! And you say you know a lot about mating? Do tell, we want to know everything!"`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`You can see the relief on Parateretes's face when you tell him you're not from Thessandreia and don't know people there. As you start talking about mating he tries to drink some water from his tankard and chokes on it, he spits it out, showering you in it when you mention kissing and that you've done it all.`}</p>
+                    <p>{`"I'm sorry, didn't meant to do that."`}</p>
+                    <p>{`He starts wiping you down.`}</p>
+                    <p>{`"Reading books and kissing, done it all ... there is a lot we can talk about."`}</p>
+                    <p>{`You hear perplexed disbelief in his voice. As Remeber Me joins the conversation he turns to him, takes a double take at the big stone person next to him and continues.`}</p>
+                    <p>{`"Nai, consent is very important, yes."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me readily disregards any and all social cue it might have got as it hears about the opportunity to talk about Emily.`}</p>
+                    <p>{`"Gather around, gather around folk, we are about to discuss mating here, come here, come here all who wish to learn more!"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`Repko readies the mood with its maracas čščščščščščščščščščščšč as people gather around.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <>
+                    <p>{`"Let me tell you a story ... about a girl ... and a boy. And the fate that never was ..."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <>
+                    <p>{`Maracas picks up the tempo!`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <>
+                    <p>{`"Emily was a young girl, yet 80 years of age. Not too smart, not too much of a looker, blind, weak and sickly, yet working hard and old enough to know how ... how to polish the grass for that was a craft of a druid after all, to love the nature and when needed, for it to love you back."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`čščščščščščščš`}</p></>
+            }, {
+                char: { name: "Ivan" },
+                content: <><p>{`Ivan of course, couldn't miss such an event, especially when there's alchohol. Even tho he dosen't own a 'fancy' outfit, he wears the most expensive, something he calls a teech fleese. It's unlike what you've seen before, as its not similar to any common outfits.`}</p>
+                    <p>{`When he enters, you can see him looking around for any familiar faces. Spotting the mating circle, he approaches, listening to Remeber me talking about Emily.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Yet her was not that of a lonely nature, for she required a company, both in spirit, in bad weather or god forbid unpleasant week as well as ... kiss and fuck and everything between, for elves are elves and elves do it plenty and with many, yet most of all, she required a common soul to keep her up, when everything was pressing her into dirt and under, she needed a kind word, a nice look and little care, a little more than strictly required and proper and maybe a bit and bit more, until nothing is left but the desire ..."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`ščščščščš`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Did she need a friend, why you ask, she needed a ton, craved in fact, yet in lack of those who would have guessed she wished or from time to time even lusted for ... a tiny bit more?"`}</p>
+                    <p>{`"Surrounded with those who would wish her to fail, to crumble, to cry, she wanted a soul upon which she could rely ..."`}</p></>
+            }, {
+                char: { name: "Repko", token: 2 },
+                content: <><p>{`ščščščščščščš`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`Parateretes listens to Remember Mes song with great interest, a bit surprised at not so subtle talk, but nodding in agreement at the part about elves doing it often, winking back at Remember Me.`}</p></>
+            }, {
+                char: { name: "Ceres Lionari" },
+                content: <><p>{`Ceres happily claps to the beat of the song.`}</p>
+                    <p>{`"What does fuck mean?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"So there was a boy, tad bit older, sure, but also mature, for not like her peers he said good day and good bye like he truly believed she deserved, and it wasn't much but for a starving soul as her's it was plenty ... to connect."`}</p>
+                    <p>{`"Day passed day and she learned more and more and wanted to know and more, how others called him handsome, polite, kind, somewhat smart, how he had what she lacked, respect of others."`}</p>
+                    <p>{`"So her heart grew warmer, almost warmer than the head when she heard him nearby, so overwhelmed to be her best to be flustered and stuttering and stumbling and spilling and nothing was right, even if he wouldn't mind and would laugh not in the way others did, she minded ... and started to imagine. Imagine herself weak, and unworthy and too shy ... to shy to say what laid on her mind ..."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`ščščščščščščš`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me quickly with a different voice to Ceres.`}</p>
+                    <p>{`"Getting there Sir Ceres. Getting there."`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`Parateretes half turns to Ceres.`}</p>
+                    <p>{`"A whole lot of fun, that you have yet to experience."`}</p>
+                    <p>{`He tells him without turning away from the performance.`}</p></>
+            }, {
+                char: { name: "Ceres Lionari" },
+                content: <><p>{`Ceres turns to Thian, still eagerly clapping and rocking around to the rhythm of Remember Me's song.`}</p>
+                    <p>{`"You were right ... Sir Parateretes knows everything. He's like an all-knowing unicorn!"`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`As Parateretes hears this he comments in celestial with a chuckle.`}</p>
+                    <p>{`"O monofthalmos einai basilias pros ton tuflo."`}</p>
+                    <p>{`(One eyed man is king to the blind one.)`}</p></>
+            }, {
+                char: { name: "Ceres Lionari" },
+                content: <><p>{`Ceres smirks, though not completely understanding the implications Parateretes was making, and answers.`}</p>
+                    <p>{`"Kai énas ánthropos me dýo mátia eínai aftokrátoras gia ekeínon pou échei máti.`}</p>
+                    <p>{`(And a man with two eyes is emperor to the one with an eyepatch).`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`Parateretes is for a moment stunned, then bursts out laughing. He puts his arm around Ceres's shoulder.`}</p>
+                    <p>{`"We will have such an interesting conversation one day, can't wait filos mou."`}</p></>
+            }, {
+                char: { name: "Ceres Lionari" },
+                content: <><p>{`Ceres glances back at Thian again and, with a wide smile on his face, mouths.`}</p>
+                    <p>{`"Look, I made a new friend!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me's voice grows quieter.`}</p>
+                    <p>{`"And her mind ..."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`ščščščščščščš`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Library reading, moonwalk talks, and holding hands, and seeing stars in each other eyes and gentle touches and fingers crossing the hair and kisses and kissing and kissing and kissing...`}</p>
+                    <p>{`Louder again.`}</p>
+                    <p>{`"...and oh so much kissing, it is like there is something in her mouth to find, maybe gold? now his, now his face, behind, perky breasts and the tummy and ou my also there girl?, ok ... yes, yes, yes, so much kissing, too much kissing, too much hands all over her body, so she says "I want you inside." and he says "yes" or some other hot shit because thought are a bit busy and service is not available, call again later, so her clothes are gone, or not, whatever, he is inside with his pee pee sausage you have and I don't sir or if you are a bear a bone, or a duck a corkscrew or a hyena ... good luck sir, he is there and she is excited and so hot his fingers are melting all over her skin and they fuck and they fuck and they fuck and again and breathe each other's breath, now he is going a bull on her from behind and ou god, I am not sure what that is, but I call it a fuck, so they do it a lot and they do it often ... and stop, and cuddle, and kiss ... and do it again! ... in her mind."`}</p>
+                    <p>{`Quieter again.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`ščščš`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"So they fall in love and she calls him a family and because they are elves and elves do it plenty and do it a lot, maybe someone joins in, but only he is the one that remains ... in her lonely mind ... lonely mind that wanted to be desired ...`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`ščščščščščš`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <>
+                    <p>{`More she wishes, more distant she gets, with more lack comes more lust and she ... she is so so lonely ...`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`ščščšč`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`So my good Sir Ceres, good Lady Thian, enjoy the day, for you are together, and in love, and night is young ... however the fuck you want with books or hands or mouths or whatever you have or were sold ... mate?`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`ščščščščščščščščščščščščšč`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Ladies and gentelmen or whatever you are, please, one applaud for Sir Ceres and Lady Thian!`}</p></>
+            }, {
+                char: { name: "Davric" },
+                content: <><p>{`Davric starts applauding.`}</p>
+                    <p>{`"Encore!"`}</p></>
+            }, {
+                char: { name: "Ceres Lionari" },
+                content: <><p>{`Ceres applauds and whistles.`}</p>
+                    <p>{`"What dialect is that, Remember Me? I am sad to admit I did not understand some of the words ..."`}</p>
+                    <p>{`He thinks for a moment.`}</p>
+                    <p>{`"Ah, but of course! It's not a dialect. It's poetic language, yes?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(A little bit later same evening.)`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`Sr. Catalan getting increasingly more bored, eventually just stops reading puts back his journal into his jacket and book in his bag and sits up. After sitting up he starts walking around with a glass full of some ale in his hand and trying to find a familiar face.`}</p>
+                    <p>{`After looking for some time he gives up the search and tries to go back to his seat only to find it taken. So after the quite underwhelming eveening he buys couple of shots of some strong alcohol drinks it then after having nothing to do goes to the dance floor and starts tapdancing.`}</p>
+                    <p>{`It looks like he has had a bit too much to drink and is almost triping and falling over.`}</p>
+                    <p>{`Though he manages to keep his balance.`}</p></>
+            }, {
+                char: { name: "Isabela" },
+                content: <><p>{`Isabela looks over to the dancefloor to see Sr. Catalan busting some moves and chuckles.`}</p>
+                    <p>{`"I believe that man has had a bit too much to drink by now."`}</p>
+                    <p>{`Chair incident happens.`}</p>
+                    <p>{`"Whoever or whatever you are, it is a day of celebration so feel free."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me notices Sir Catalan's stumbling.`}</p>
+                    <p>{`"Huh, I knew this would happen. Sir, do you fancy a drink a bit more than you can handle?"`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`He looks at you first answering.`}</p>
+                    <p>{`"No prepostrous, It's just that this is the first time I've ever tries this!"`}</p>
+                    <p>{`He now turns his haze to you and stops dancing and comes closer.`}</p>
+                    <p>{`"Mind if I take a seat?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"No worry, no worry sir, every time is a first time to learn something new, here, to new experiences!"`}</p>
+                    <p>{`[Lesser Restoration]`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`"You, do you wish to join us as well?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Good Sir, I would love to talk with you but I am but a mere entertainer. Of course if you would want to talk to me about my work, my mission or about Emily, I would be more than happy to oblige 🙂"`}</p>
+                    <p>{`Remember Me continues to shake maracas and entertain nearby guests.`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`He quickly looks at you.`}</p>
+                    <p>{`"Hmm Emily I'vew heard that name before ... oh yeah you've been talking about uh ... her? If it's interesting, tell me! I'm interested!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Something that would be of interest to you and you haven't heard about from me yet? Then ... what if I told you, I am working on something big. So big in fact, that Mechanus invested 1100 Gp into Nueva Sorte just so that they could study it?"`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`"Hmmm, what could it be Im intersted and I really should slow down with my drinking. Also if were talking buisness and we're celebrating after all, would you like a cigar."`}</p>
+                    <p>{`He pulls out a box of expensive looking cigars puts one in his mouth and offer you one.`}</p>
+                    <p>{`He lights the cigar in his mouth and starts smoking it.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Hm, sorry, it might look as if I am breathing, but the process is slightly different for me than it is for you and I only learned it recently, so I can not smoke, but I appreciate the gesture 🙂"`}</p>
+                    <p>{`"Indeed, they will be here in a few months, maybe half a year, maybe you would want to meet them? I am working on a device, a very special device, a device for which I am still collecting investments in fact. I was inspired by a dream ... or maybe a memory? For you see, my creator was a very ... worldly figure, and as an elf, a long-lived at that. So she knew quite a lot that more short-lived schools of craftsmanship ... might be too contained to explore."`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`He looks at you with a very intrigued face.`}</p>
+                    <p>{`"Hmm that sounds nice ... I would like to meet them, but I do not have much cash with me ... Oh and would anyone else like a cigar if we're already celebrating..."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Ah, too bad, too bad. Anyway, do drop by when I am finished, Nobody's Respite. Maybe you at least find something of interest, or maybe, you discover something of interest about yourself. It is my belief everyone needs to have a person such as Emily in their life and those who believe, try and try harder ... I believe she smiles upon those who would follow in her footsteps."`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`He looks at you and chuckles then frowns a little bit.`}</p>
+                    <p>{`"I am not such an optimistic person as you my friend, I dont believe that there's anyone for me ..."`}</p>
+                    <p>{`He thinks a little bit" but thats life and you got to enjoy what you have and try to live and maybe fight fate."`}</p>
+                    <p>{`He looks back at you chuckling again`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me smiles, kindly.`}</p>
+                    <p>{`"Well, in that case, I do hope that fate is kind to you or that your struggle against bears fruit. Whichever it is, do not slack, fight for it with all you got, this is what Emily would do."`}</p>
+                    <p>{`[Guidence]`}</p>
+                    <p>{`It goes on to entertain the crowd, singing stories and praises in Emily's name as it does.`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`He thinks.`}</p>
+                    <p>{`"I will try to do so I hope I find someone if love is not my thing so be it. I have greater things in plan."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`To Isabela.`}</p>
+                    <p>{`"Hi there! Your ... clan symbol, it looks ... familiar, did I met you somewhere before?"`}</p></>
+            }, {
+                char: { name: "Isabela" },
+                content: <><p>{`"Well we did visit the plane of mechanus together. Your being also makes me feel some passing familiarity, but I can not place it."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Guess so, we are far away from where I come from, so for there to be a person to know about Leshisel would be quite a coincidence ..."`}</p></>
+            }, {
+                char: { name: "Isabela" },
+                content: <><p>{`"As they say coincidences happen. Do drop by my place sometime later for a more proper discussion when I am not in this state."`}</p>
+                    <p>{`She gestures over herself.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me's expression slightly changes, trying to pierce trough the meaning of her words, yet feygol is far from being smart enough to figure conundrum in front of it on its own.`}</p>
+                    <p>{`Maybe I will do exactly that when we have a chance. I believe they said that something is coming up, another trip trough the portal lake, but maybe after that, I would surly be interested to know more about your origins.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(A little bit later same evening.)`}</p></>
+            }, {
+                char: { name: "Minamoto" },
+                content: <><p>{`He smiles.`}</p>
+                    <p>{`"Tonight is a good night. Of joy and smiles. Now let us find those two, before they tosha-mono their evening meal."`}</p>
+                    <p>{`As he once more looks around, actively seeking for Thian and Ceres.`}</p>
+                    <p>{`roll 8 + 10`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`Morwyn chuckles and lets him go, looking around as well.`}</p>
+                    <p>{`roll 20 + 5`}</p></>
+            }, {
+                char: { name: "Thian" },
+                content: <><p>{`(19 total)`}</p>
+                    <p>{`As the two are having a conversation outside, Morwyn notices a slim shape climbing out of the window behind Minamoto's back. Thian more or less rolls out and then tries to sneak off into the caves.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me notices her stumbling and decides to use [Pass Without Trace] on her in order for her to at least have a chance with Minamoto around 👀.`}</p></>
+            }, {
+                char: { name: "Ceres Lionari" },
+                content: <><p>{`roll 5+2`}</p>
+                    <p>{`Ceres is doing the same thing as Thian, just on the other side of the tavern and far less sneakily as he tries to promote liquor to every other person he sees.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(No Pass for you, mister matey 👀, let the world see 🤘)`}</p></>
+            }, {
+                char: { name: "Thian" },
+                content: <><p>{`(wohooo that makes Thian's stealth a 29, she is the shadow xD)`}</p></>
+            }, {
+                char: { name: "Ceres Lionari" },
+                content: <><p>{`(I will not forget this betrayal 🤣)`}</p>
+                    <p>{`(Who am I kidding, of course I will, I'm dead drunk.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Hey, I am building a device to store and display memories, you can watch later 👀)`}</p></>
+            }, {
+                char: { name: "Ceres Lionari" },
+                content: <><p>{`(Oh, Ceres is very interested in memories in general, you'll see soon enough 👀)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Well, the future I am waiting for is when you have kids and they ask this magic device.`}</p>
+                    <p>{`"Tell us a bit about our father, what was he like?")`}</p>
+                    <p>{`(I think I am starting to understand Gen Z.)`}</p></>
+            }, {
+                char: { name: "Ceres Lionari" },
+                content: <><p>{`(For the love of god, don't show them this night.)`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`After some looking around he finds Minamoto and Morwyn. He decides to come to them and asks.`}</p>
+                    <p>{`"Where have Thian and Ceres gone?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Mislim da je Morwyn šla v klet se napiti na rumu, tako da je ne boš našel xD) `}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`(Pol kje je Minamoto je on se vedno tuki? I have almost no idea what's happening.)`}</p>
+                    <p>{`(Kaj ti delaš, si se vedno tuki al ...)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Načeloma, life of the party, špilam ropotulje z Repkom, skrbim da se gostje zabavanjo 🙂)`}</p></>
+            }, {
+                char: { name: "Rua" },
+                content: <><p>{`After all that Rua goes around some more, chats with some people, and gives feathers to Klemzy's ex wife (a very soft, faint, almost translucent feather), Bob (as a proper meeting gift and a thank you for the party, it's a very leafy green color hehe), to Drahnari (Pyro the Fire Warlock) (colors go from light yellow all to red, like a flame, and it almost looks like one when you hold it in the wind and it moves), and of course to Remember Me (a little mossy green one for you da si ga daš zraven na armor ki ga maš oblečenega, and you can pick one for Emily that you think she would like and we can make plans to go bring it to the pond you're creating)`}</p>
+                    <p>{`As for Coco she asks him if he would even like one since he has so many of his own already, and she isn't sure how appropriate that would be 😅`}</p>
+                    <p>{`If anyone else would like to talk to her that she doesn't know personally yet she's open to that and tries to gift a fitting feather to everyone that she meets!`}</p>
+                    <p>{`Then she retires for the evening, with the empty bag 🪶`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`🌱`}</p>
+                    <p>{`Remember Me accepts the gift for himself and [Druidcraft] later it is already a natural part of its construction, yet pauses before accepting the gift for Emily.`}</p>
+                    <p>{`"I thank you for the offer, but may I make a different kind of a suggestion?"`}</p>
+                    <p>{`"Some of the plants at the new Nobody's Respite are still yet to be chosen."`}</p>
+                    <p>{`"Some are magical, some are not, some ... are to be connected to the pool itself."`}</p>
+                    <p>{`"Most of the structurally relevant ones are those whose stalks are woody, so there is still plenty of room for more delicate choices."`}</p>
+                    <p>{`"Part of the garden closest to her will be made from Sweet Alyssum, as she would prefer, but the rest ..."`}</p>
+                    <p>{`"Maybe you would wish to make suggestions?"`}</p>
+                    <p>{`"What plants should grow over the pond, next to it, maybe on columns or in the branches?"`}</p>
+                    <p>{`"As I remember, you contributed a generous sum and maybe you would like to swim among particular flora?"`}</p>
+                    <p>{`Remember Me lowers its voice.`}</p>
+                    <p>{`"And even if not ... why don't you wait a month, maybe a bit more and give it to her yourself?"`}</p>
+                    <p>{`"I think she would prefer to meet you in person, instead of me being the one bringing your gifts back to her 🙂"`}</p></>
             }]
         }, {
             title: "Title",
