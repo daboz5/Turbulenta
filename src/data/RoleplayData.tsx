@@ -3050,11 +3050,11 @@ export default function RoleplayData() {
                 content: <><p>{`He smiles.`}</p>
                     <p>{`"Tonight is a good night. Of joy and smiles. Now let us find those two, before they tosha-mono their evening meal."`}</p>
                     <p>{`As he once more looks around, actively seeking for Thian and Ceres.`}</p>
-                    <p>{`roll 8 + 10`}</p></>
+                    <p>{`D20 🎲: 8, Total: 18`}</p></>
             }, {
                 char: { name: "Morwyn" },
                 content: <><p>{`Morwyn chuckles and lets him go, looking around as well.`}</p>
-                    <p>{`roll 20 + 5`}</p></>
+                    <p>{`D20 🎲: 20, Total: 25`}</p></>
             }, {
                 char: { name: "Thian" },
                 content: <><p>{`(19 total)`}</p>
@@ -3064,7 +3064,7 @@ export default function RoleplayData() {
                 content: <><p>{`Remember Me notices her stumbling and decides to use [Pass Without Trace] on her in order for her to at least have a chance with Minamoto around 👀.`}</p></>
             }, {
                 char: { name: "Ceres Lionari" },
-                content: <><p>{`roll 5+2`}</p>
+                content: <><p>{`D20 🎲: 5, Total: 7`}</p>
                     <p>{`Ceres is doing the same thing as Thian, just on the other side of the tavern and far less sneakily as he tries to promote liquor to every other person he sees.`}</p></>
             }, {
                 char: { name: "Remember Me", token: 2 },
@@ -3096,7 +3096,7 @@ export default function RoleplayData() {
                     <p>{`"Where have Thian and Ceres gone?"`}</p></>
             }, {
                 char: { name: "Remember Me", token: 2 },
-                content: <><p>{`(Mislim da je Morwyn šla v klet se napiti na rumu, tako da je ne boš našel xD) `}</p></>
+                content: <><p>{`(Mislim da je Morwyn šla v klet se napiti na rumu, tako da je ne boš našel xD)`}</p></>
             }, {
                 char: { name: "Sr. Catalan" },
                 content: <><p>{`(Pol kje je Minamoto je on se vedno tuki? I have almost no idea what's happening.)`}</p>
@@ -3127,31 +3127,1085 @@ export default function RoleplayData() {
                     <p>{`"I think she would prefer to meet you in person, instead of me being the one bringing your gifts back to her 🙂"`}</p></>
             }]
         }, {
-            title: "Title",
-            shortDesc: "",
+            title: "While Metal Is Hot",
+            shortDesc: "Remember Me načrtuje skulpturo od Emily.",
             tags: ["depression", "guilt"],
-            chars: ["Remember Me"],
+            chars: ["Remember Me", "Parateretes"],
             contents: [{
-                char: { name: "", token: 0 },
-                content: <><p>{``}</p></>
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me tries to find Fargrim, legendary blacksmith, or so it was told. It is wondering around craftsmen's district, looking for the telltale signs of a smithy.`}</p></>
+            }, {
+                char: { name: "Pripovedovalec" },
+                content: <><p>{`You find the shop, artisans hole, a workshop. The hammers and heat swirl the air and a strong smell of ironworks tickles what Remember Me would have for smelling.`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`You saunter up to an L shaped building in the old part of Rosa Riendo. The longer part of the building has currently open ... windows? walls? You see inside a a couple of artisans crafting, amongst them a young gnome and youngish redheaded dwarf woman.`}</p>
+                    <p>{`In front of the shorter part on the porch, you see an elderly dwarf with grey hair and beard, interspersed with some darker strands, who just said goodbye to captain Minamoto and sat down to light a pipe. And it is weird, you don't feel any breeze, but windchimes near the old dwarf are gently swinging. You heard Minamoto use the name Fargrim in his goodbye, before he went in the other direction.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`[Message]`}</p>
+                    <p>{`Remember Me points at the dwarf.`}</p>
+                    <p>{`"Hi, would you happen to be a blacksmith Fargrim?"`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`He looks at you with curiosoty and a bit of awe.`}</p>
+                    <p>{`"Haha, yes I am Fargrim, and i can also do blacksmithing. What can I help you with good person?"`}</p>
+                    <p>{`His chuckle sounds like a rolling thunder and the smoke from his pipe twirls around him, yet you still don't feel any wind.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Well, hello then. I am Remember Me, feygol made by Emily, and this is Repko. It shows a happy go lucky turnip on its shoulder.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiiiiiiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"I come here as Oaksplit and Minamoto recommended you as a blacksmith of great renown. I happened upon a great amount of metal and I thought that learning the way of the metalcraft would give me some ideas what to do with it. A stranger also told me he would need something crafted, if I were to be able, as there is a great lack of blacksmiths around here, so now I am trying to learn the way of yours and I was hoping, if Sir Fargrim would be willing to teach me about his craft."`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`"Well well, another pupil. I will gladly teach you smithing, Remember Me. I would also love to meet Emily, the one who created you, for I have a lot of questions for her."`}</p>
+                    <p>{`He speaks to you as he is circling you.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me observes the craftsman and chooses its words carefully.`}</p>
+                    <p>{`"She is not around anymore, for she gave her life in the pursuit of her craft. That said, I do happen to have many memories of her as well and it is my ongoing intent to tell people about her and her work, so maybe we could some time talk about her or maybe you could drop at our humble house of healing, persevering and remembering. I also have works about her, or I will, because I am still student of art, still learning how to paint, dance, write and sing about her. Maybe you would be even willing to donate some of your fortune in the goals myself strives for? Making sure everyone has a chance to grow, somewhere to sleep, something to eat, somewhere to learn, somewhere to heal, someone to talk to, somewhere where someone would lend them a hand, just like Emily would have benefited from, for she was blind, sickly and untalented, yet more than willing to improve at any chance she got. And as you can see, she did managed to create me."`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`"Well I knew she was a great crafter just by seeing you, she had great talent I would say, even more so because she crafted you while being blind and sickly."`}</p>
+                    <p>{`His deep voice boomig as he speaks to you.`}</p>
+                    <p>{`"I will be glad to listen what you have to say about her. But first let us learn some things about forging."`}</p>
+                    <p>{`He gestures you to sit down next to him and starts explaining basic principles of metal crafting. Later he takes you in to the workshop to a forge and shows you the blacksmithing tools. After that he announces that your lession for the day is done and asks you to tell him about Emily on the porch in front of the house. After about an hour or so, he stops you and bids you good night, as he heads inside to rest.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me follows his lead, carefully observing everything he does. It find is intriguing that while great many things are new, for it can not remember how anything looks, he does kind of 'remember' many of the tools, for Emily was using at least some of them as she was crafting its first, at that time mostly mechanical, body. While experience is new, it is still able to remember the feel of the hammer and the swings of the hammer. Remember Me probably won't be creating metalforged anytime soon, but at least it is able to have an idea of what it is trying to do. There is magic in the art of metalcraft and if it could only make the metal sing, sing with it, it remembers that would sound wonderful.`}</p>
+                    <p>{`Remember Me retreats, but outside, outside of the city, for there is still something it has to do before it returns to the warehouse, till then, it awaits the next morning.`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`In following days, as you return to Fargrims workshop, he teaches you how to start a proper forge fire, heat different types of metal and you start working on different smaller projects. After each learning session he sits down with you and with great interest listens to your tale of Emily for about an hour, before retiring to rest.`}</p>
+                    <p>{`(You can tell me if you want anything specific / special roleplayed out.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Hm ... @Samo? Imam en projekt v mislih, samo nisem prepričan če bi ga lahko že tukaj zagnal, glede na to, da načeloma še nisem dobil proficiency, pač pa delam na njej. Bi bilo ok, če se projekt vsaj začne kot del treninga? Pa verjetno bi moral s teboj zglancati podrobnosti, ker bo vplivalo na koliko DT, sredstev itn. gre vanj.)`}</p>
+                    <p>{`(Zelo na kratko, gre se za ribnik-skulpturo iz kovine, ki vase shrani spomine, nato pa presodi (religious object under Emily's influence) komu do tedaj zbrane spomine deli nazaj, ima pa tudi opcijo, da spomine izbriše (vase), recimo začasno, če so za nekoga pretežki. Mental healing item + learning skratka, recimo ljudje bi se verjetno lahko na takšen način tudi učili drug od drugega, karkoli pač že naprava za shranjevanje, izbris in deljenje spominov omogoča. Predstavljam si, da bi bilo veliko povpraševanja po napravi, ki ti pomaga žalovati, ti čez par generacij da vpogled v prejšnje generacije, recimo staršev, ali ti omogoča da se učiš na izkušnjah predhodnikov.)`}</p>
+                    <p>{`(Nekoliko mi deluje kot utelešenje mojega poslanstva, le da manj osredotočeno name, ker ni opredelitve do Emily.)`}</p></>
+            }, {
+                char: { name: "Pripovedovalec" },
+                content: <><p>{`(To bi se čisto dalo! Se pa na to osredotoči bolj za takrat, ko boš že imel proficiency. Razen če bi za template metal že zdaj.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Jup, to je ideja, da se v bistvu skupaj z njim izdela template, glede na to da je že tukaj in mi lahko pomaga, torej učim se od najboljših.)`}</p></>
+            }, {
+                char: { name: "Pripovedovalec" },
+                content: <><p>{`(Well then, that would be a big item - a statue? With a pond? Pomoje bi item sam nosu nek temporary Modify Memory spell with storing properties ... Template DC 20 for something like this. This is not a fighting item, but it is still pretty powerful, tko da je base cena zanj 800gp in 45 checkov.)`}</p></>
+            }, {
+                char: { name: "Parateretes", token: 2 },
+                content: <><p>{`(Can Fargrim assist them with template check and give them advantage / bonus?)`}</p></>
+            }, {
+                char: { name: "Pripovedovalec" },
+                content: <><p>{`(Can, pol je +2)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Mislim da je stvar nekoliko ... posebna, ker običajno, kolikor sem si bral, rollaš predvsem za ceno, ideja je zbiti ceno, vendar jaz sem izhodiščno rekel, da je cena inputa višja od ponujene cene in da sem pripravljen vložiti še več za več efektov, torej 700 (metal) +50 (wood) +100 (pearls) +50 (Potion) +100 (common magic item minimum price) +? = 1000 Gp +?) (torej bi se ne rollalo za ceno, pač pa za efekte?)`}</p></>
+            }, {
+                char: { name: "Parateretese" },
+                content: <><p>{`(We will continue the RP, but I'm sure you'll attain the rank of master blacksmith that's why Fargrim introduced you as such at the party, this is happening before the party.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Kul, bom odgovoril kasneje, trenutno sem se ravno zbudil in sem še motoglav)`}</p>
+                    <p>{`(Ok, torej, kaj mečem? V svoje dobro bi navedel, da imam razen po novem proficiency (or tega da Parateretes pomaga, not sure?) na razpolago še: Neomejen Guidence (anything) Neomejen Mending (metal?) Neomejen DruidCraft (wood))`}</p>
+                    <p>{`(Na dan: 3x Protection From Energy or 3x Plant Growth or 6x Enhance Ability (6h) or 6x Heat Metal (6 min).)`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`(Kakšne maš pa tool proficiencies?)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(S čim se pa meče? Torej, moj prof bonus je ... +3, tako da zelo odvisno od tega s čim mečem.)`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`(Katera orodja znaš uporabljat, če je kakšno ki bi lahko blo primerno za načrtovanje tega kar gradiš, potem dodaš proficiency bonus, drugače pa vržeš d20, dodaš INT / WIS / CHA modifier, si pač sam izbereš in ker ti Fargrim pomaga še +2.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Mmm, imam Herbalist Tools prof ter Smith's Tools prof, če uporabim kot Bard svoj Cha je +4, če dodam tvojo pomoč je +2, je +9.)`}</p>
+                    <p>{`(Zadnjič sem uspel od Samota dobiti, da je vsaj še Guidence, glede na to da je stalno v efektu, pa bil sem še dokaj nizko Druid (max 3 h), mi ni dovolil Enhance Abiliti, sem upal da bi bilo tokrat mogoče narediti ali ali (oboje koncentration), ali Guidence, ali Ability.)`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`(Kar je drugih bonusov moraš res @Samo vprašati, vem da se da neke stvari uporablati, ampak so malo drgač omejitve kot med samo igro / bojem.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Bdw, razmišljal sem, da bi v prihodnosti ko bo čas dobil tudi Painter's Tools prof (slikal portrete). Je kdo na otoku tega vešč?)`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`(Če ne kšn PC ali imenovan NPC, si pa neko osebo izmisliš, vsaj v prvi sezoni je tko delval.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Sure sure, bolj zato če lahko denar vržem v kakšnega igralca, namesto da se izgubi v ekonomijo.)`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`(To je pohvalno in spodbujano, najbolje da vprašaš v player-chat če je kdo od trenutnih igralcev usposobljen v tem.`}</p></>
+            }, {
+                char: { name: "Pripovedovalec" },
+                content: <><p>{`(Kar se tiče vseh teh bonusov mamo 1x na downtime, lahko d4 dodatno za rolat (to je za vse enako - spellcasterje or not).)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Kul ... upajmo da gre bolje kot zadnjič.`}</p>
+                    <p>{`D20 🎲: 19, Total: 19`}</p>
+                    <p>{`(My God!)`}</p>
+                    <p>{`(It is the opposite of the last time.)`}</p>
+                    <p>{`Fiju.`}</p>
+                    <p>{`Ok, še ...`}</p>
+                    <p>{`D4 🎲: 3, Total: 3`}</p>
+                    <p>{`(Emily is smiling upon me.)`}</p>
+                    <p>{`(Torej ... 19 + 3 + 9 = 31?)`}</p>
+                    <p>{`(Jup, 31.)`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`(Ne najdem threada kjer zbiraš donacije, Parateretes donira 50Gp.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Uh, @👻player-chat, kul, si zabeležim Samota ravno prepričujem, da odobri 5. funkcijo (trenutno je odobril 4))`}</p>
+                    <p>{`(Thread bom naredil, ko bo jasno kaj se dogaja, tako da vem kaj opisati, do sedaj je bilo preveč reči v zraku, pa sem bil živčen to storiti.)`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`(Ah, gledov po ostalih vseh.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Ok, torej, sedaj bom zapravil 2 DT meta za izdelavo statue, pa na prvega bom dal še 1d4.)`}</p>
+                    <p>{`(Relevantni stati so +4 od CHA, +3 od prof, +1 od blessing, +1 od refugees, tako da ... +9. Verjetno je to vse kar lahko storim.)`}</p>
+                    <p>{`(Lets go ...)`}</p>
+                    <p>{`D20 🎲: 15 + D4 🎲: 1 + 9, Total: 25`}</p>
+                    <p>{`(Ok, not bad, not bad at all.)`}</p>
+                    <p>{`(In še drugi ...)`}</p>
+                    <p>{`D20 🎲: 17 + 9, Total: 26`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Voa, ... to je že več kot pol.)`}</p>
+                    <p>{`(Nice, nice, nice, to zelo sprosti "the worst case scenario:")`}</p>
+                    <p>{`(Bom posodobil napredek, pa ... ko bom imel več energije bom še nekaj napisal tja ... danes sem popolnoma uničen, cel dan ljubljana, I feel like falling together is the correct decision to make.)`}</p></>
+            }, {
+                char: { name: "Pripovedovalec" },
+                content: <><p>{`(Kk, nice - gradnja gre izredno hitro. Bo tud Oaksplit pršu kej pogledat v naslednjih dneh.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Hoj, bom porabil 2 DT, potrebujem še 2-3 DT, odvisno od kocke.)`}</p>
+                    <p>{`(Če se prav spomnim, 4 CHA + 3 prof + 1 + 1 od island efektov, tako da +9 skupno, pa na prvega dam še 1d4.)`}</p>
+                    <p>{`D20 🎲: 4 + D4 🎲: 1 + 9, Total: 14`}</p>
+                    <p>{`(Hm, precej manj sreče kot zadnjič, to je skupaj ... 65.)`}</p>
+                    <p>{`(Ok, še drugi.)`}</p>
+                    <p>{`D20 🎲: 3 + 9, Total: 12`}</p>
+                    <p>{`(Hm, to je skupaj ... 77.)`}</p></>
+            }, {
+                char: { name: "Parateretes" },
+                content: <><p>{`(Zdej v obeh metih skupaj toliko kot zadnjič v enem.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(True, true, to spremeni, da bosta morda potrebna še 2 DT.)`}</p>
+                    <p>{`(Hm, manjka 23, kar bi pomenilo, da se potrebuje naslednjič če je min od 1d4 1 ter prišteje se 9 ... 10-13 na kocki.)`}</p></>
+            }, {
+                char: { name: "Remember Me" },
+                content: <><p>{`(Zaradi zelo stresnega dogodka med igro, pritiska iz strani službe, izgubi zaupanja v skupino in nesposobnosti udeležbe na naslednjem dogodku sem zapustil skupino (razlog za padec zaupanja je bil ... želel sem si, da bi se zame potrudili zagotoviti mesto v odpravi, kakor sem se večkrat v podobni situaciji potrudil mesto zagotoviti za ostale ... zelo osamljenega sem se počutil in nato nisem mogel sodelovati na ključnem dogodku). Ko sem se odločil da Remember Me umre, mi je zelo odleglo. Končno sem vedel kaj hočem, rešitev proti kateri lahko delam, vendar moral sem končati čim hitreje, ker nisem mogel več razmišljati o ničemer razen bolečini in osami, sedaj nisem mogel več razmišljati o ničemer razen koncu. Zato sem nariral, da Remember Me delo zaključi medtem ko so ostali na misijah. Ni bilo legalno in ne vem če je GM kasneje mojo naracijo odobril, vendar ... nisem mogel več. Uničevalo me je in služba mi je vse bolj pihala za vrat. Edino žal mi je, da nisem prosil GMa za dovoljenje, upal sem da bo razumel, da je zaključek dela na skulpturi v interesu celotne skupine, saj so vsi prispevali vanjo in ker je bila moja poslednja želja. Želel sem si ostati, vendar enostavno nisem mogel. Preveč sem bil investiran. Uničevalo me je. Kot Remember Me je tudi mene razžrlo, preden sem uspel izpolniti svoje poslanstvo, narediti Emily za boginjo. Moral sem končati njegovo zgodbo, da sem bil sposoben ponovno razmišljati o čemerkoli drugem, namesto cele dni načrtovati kaj še lahko naredim za skupino, da izboljšam svoje možnosti za Emily. Upam da živi naprej v zgrajenem artefaktu in najde svojo srečo v skupini, neodvisno od mene. In upam, da sem jo zapustil v dobrih rokah.)`}</p></>
             }]
         }, {
-            title: "Title",
-            shortDesc: "",
+            title: "Pond of Remembrance - Emily's Pond 🫗",
+            shortDesc: "Opis magičnega artefakta, gradnje in njegovih efektov.",
             tags: ["depression", "guilt"],
             chars: ["Remember Me"],
             contents: [{
-                char: { name: "", token: 0 },
-                content: <><p>{``}</p></>
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Donations Plaque (can be found on the shelter's wall behing the pond) (numbers in Gp):`}</p>
+                    <p>{`- 700 Elemetal (Remember Me)`}</p>
+                    <p>{`- 200 Elemetal (Rua)`}</p>
+                    <p>{`- 200 2x Pearl enriched with Healing Potion (Remember Me)`}</p>
+                    <p>{`- 150 Brass Metal (Minamoto)`}</p>
+                    <p>{`- 150 Cold Metal (Minamoto)`}</p>
+                    <p>{`- 100 Bottomless Mud Pouch (Remember Me)`}</p>
+                    <p>{`- 50 Pandemonium Wood (Remember Me)`}</p>
+                    <p>{`- 50 Pandemonium Wood (Ivan)`}</p>
+                    <p>{`- 50 Shadewood (Morwyn)`}</p>
+                    <p>{`- 150 coin (Remember Me)`}</p>
+                    <p>{`- 100 coin (Bob)`}</p>
+                    <p>{`- 100 coin (Isabela)`}</p>
+                    <p>{`- 50 coin (Ivan)`}</p>
+                    <p>{`- 50 coin (Parateretes)`}</p>
+                    <p>{`Effects Permanent:`}</p>
+                    <p>{`•	+1 Proficiency on use of Smith's Tools`}</p>
+                    <p>{`Fargrim, master artisan and wind spirit of Turbulenta is spreading its knowledge to new generations, aided with the blessing of Emily. WARNING - NOT IN EFFECT YET - EFFECTIVE UPON PROJECT COMPLETION!`}</p>
+                    <p>{`•	Magic item can store, share or erase memories.`}</p>
+                    <p>{`•	Limited self-cleaning and regrowth, water termoregulation`}</p>
+                    <p>{`•	Magic item is semi-conscious, it might reply in its own way or refuse to react`}</p>
+                    <p>{`Adventure: WARNING - NOT IN EFFECT YET - EFFECTIVE UPON PROJECT COMPLETION!`}</p>
+                    <p>{`•	1 Advantage on Status Check (Poisoned, Sleep, Prone, Diseased etc.)`}</p>
+                    <p>{`Blessed by the statue, on success one feels a presence, encouraging them to prevail against the odds.`}</p>
+                    <p>{`•	Advantage on History or Survival Checks`}</p>
+                    <p>{`Blessed by the statue, you get a vision of a memory of someone else (if no one in particular, Emily), on success you manage to interpret it to your benefit or memory is relevant enough to your cause to be useful to you.`}</p>
+                    <p>{`•	Advantage on Nature or Medicine Checks`}</p>
+                    <p>{`Blessed by the statue, you get a vision of a memory of someone else (if no one in particular, Emily), on success you manage to interpret it to your benefit or memory is relevant enough to your cause to be useful to you.`}</p>
+                    <p>{`•	Guidance (no concentration, 12 h time after adventure start limit, does not stack)`}</p>
+                    <p>{`Seek the counsel of the statue, it shows you a stored memory that you may or may not understand, but it will guide you when you recall it again. If you happen to have a better exchange of a blessing in mind, you may use that.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Inside of the shelter, still under construction, something more seems to be going on than meets the eye. There is a rumor that Mechanus invested 1000 Gp into construction, only to be able to study a shelter or maybe a shrine? It does not make sense why such a powerful city would be interested in the unfortunate of Nueva Sorte. Something is going on for sure, but nothing is known for certain yet.`}</p></>
+            }, {
+                char: { name: "Rmemeber Me", token: 2 },
+                content: <><p>{`With the city officially open, Remember Me doubles the amount of work it is able to invest into the project.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`First comes the grandest if simplest part of the project, a large circular pond with an elemetal base that traces the edge of the room, only leaving enough space for a line of especially rich earth and yet dead wooden branches, tracing both sides of the pond.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Most of the remaining floor area is covered with a thick carpet or moss. The entire area was not yet covered by a roof, so the sun and the moon can still be observed freely at any cloudless part of the day. The room has 3 layers.`}</p>
+                    <p>{`•	Top one, where quartz pedestal is located, connected to the lower area with a gentle steps, fully overgrown with moss.`}</p>
+                    <p>{`•	On the sides, waterfall is disconnecting the top pool from the rest of the pond.`}</p>
+                    <p>{`•	Middle area is connected to the lower one with steps on both sides and a gentle slope on the middle. It has most of the patches of dirt, inside of which nothing but weeds grow yet.`}</p>
+                    <p>{`•	Middle pond is connected to the lower one with a series of gentle waterfalls, that are along upper waterfalls the reason why the sound of the water is all-present.`}</p>
+                    <p>{`•	Lower area is least interesting and there seems to be no obvious way how you would get to it (yet) without getting yourself wet by crossing 2 m wide and at the deepest part 1,5 m deep metal pool with rough but safe bottom texture.`}</p>
+                    <p>{`Not only the roof, doors are also not installed yet, even stranger, instead of sturdy structure, it seems that dead wood is being planted here the thickest on both sides without yet obvious function it could serve. (Also, pearls have finished soaking in the Healing Potions, just saying to track progression of different parts of a project.) Pool area is through the day already freely accessible for those who would not damage overall "work in progress" and in limited numbers as some structures are not yet sturdy enough to support more than a few people at the time. (you can take a dip or swim) Water is already drinkable, no special properties, but it replenishes itself from elemetal, metal from elemental plane of water, so you will hardly find more waterly water. Water surface is already self-regulating and has limited self-cleaning property. No temperature regulation yet, it is just a metal, magical-ish pool.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Pond bom tako opisal med dt in že tistega bo veliko, tako da verjetno je ok, če že sedaj predstavim kaj je narejeno na kulturni hiši ... želim imeti tole reč za šeranje orkestralne glasbe ipd., stvari ki bi se igrale v njej)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`On in last month or so, finishing touches were made on Emily's House of Culture, that is (for Remember Me) the side building to Pond of Remembrance or Nobody's Faro de Luz Rest it is working on. If you enter from the side facing the west (on the city map), trough a wide main entrance, you enter a wide hallway full of paintings and sculptures of the patrons, many of them not yet dedicated to Emily, even if some are, given that Remember Me is preoccupied with working on the heart of the building at the moment. You can go down to the basement level where you can leave your stuff at dedicated and manned wardrobe or buy snacks and refreshments at for this purpose 2 dedicated stores. Once you return, you can use one of 3 lower entrances leading into the enormous main hall and take one of many dedicated seats or go to the stage, mostly covered by the curtain. Exploring the stage, you notice it is quite big, but among curtains and sets you can go into more crammed backstage, where many useful tools for any occasion can be found. Continue forward left or right trough sound-isolated doors and you will come into the dinning hall of one of 2 dormatories, one of those of more orderly nature and one of those with more chaotic tendencies. Each resident can choose where to live (or if causing troubles will be placed into another dormitory before removal) so residents are least likely to step on each other's nerves given their lifestyle. Each dormitory has their kitchen and main Slime Closets are meant for both patrons and visitors of the House of Culture. Stairs around here lead down, where extensive storage can be found. Dormitories have mostly doubled storage spaces due to their divergent tastes, but they do share storage space for some of the more dedicated equipment as they are in charge of maintaining house as a whole. Going back, if we go past SCs, we can go on the last part of lower level we haven't visited yet.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Here dedicated equipment for the house is stored, sets, props, instruments, everything that might be needed on the stage if need presents itself. Here are also guest rooms, front security that guards the equipment as well as waiting room for performers, where they can take a break, wait for their time, apply makeup or dress themselves in large dedicated theater wardrobe. If we use the same stairs we go up to the 1. floor, where there are common balcony seats as well as some dedicated ones for guests that might require more personal space, as well as another gallery, this one with handpicked selection of art. If the lower one presented work of patrons in general, this one is more curated one. Where the entrance would be on the lower floor, here a giant glass panel is located, making letting guests have a clear view on the coming and going visitors as well as outer wall of the city. Back to the dormitories, we pass manager's office for each dorm-wing and find where most of the patrons rest. There are individual rooms as well as more crammed common ones. There is also the door from each side that leads directly into Nobody's Respite, but it is closed until area around the shrine is more secure. If we go to the highest floor we can find small general storage, as well as many SCs and a place where patrons can bath or clean their tools. Close to here is another gallery, where unfinished-finished works can be presented (or temporary stored), but also where we can access 6 crafting departments, each filled with dedicated tools for creation of works of art. The hope of Remember Me was, that due to high-lvl of production, artists from across the island will come here to perform, work, socialize and share thus their knowledge with less proficient patrons of the shelter, so transfer of know-how can take place. There is also relatively small and more isolated library, segmented into 2 main sections, where knowledge can be stored and and accessed if need be.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Tako, in še razlog zakaj sem pospešil objavo, sedaj lahko naredim tole)`}</p>
+                    <p>{`Opening Play`}</p>
+                    <p>{`https://www.youtube.com/watch?v=mauxvpOFth8`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 0)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=ZneqpcVzOWs`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Progress on the Nobody's Respite after last mission slowed down quite considerably as Remember Me is still troubled by the results of its last mission. Also, its new and expanding responsibilities as a still developing dormitory supervisor as well as main theater sponsor, training new generation of artists of all sorts as well as general job search and inspections took a lot more time than intended. Still, progress is noticeable. Pond is mostly installed and is now engraved with barely visible but delicate shapes that somewhat resemble druidic language, but shaped into pictures and stories. Most of it thou is covered by seemingly forever regenerating mud that covers most of the pool's bottom, giving it more of a feel of a pond. Some smaller species of fish, insects, snakes, lizards, spiders, amphibians and water plants can sometimes be spotted around the pond, swimming, hiding in mud, moss, rocks placed in the shapes of pathways or plants's branches, giving the room alive feeling. Even more, plants all around the place have grow in miraculous time and indeed give a feeling that this place is somehow alive ... and aware. Plants at the door will sometime block or open the path, seemingly at random, needing a druid to correct them. Central area can now be accessed by a thick bridge and railings made out of living plants ... but sometimes too living and wild as they might decide to open under the guest and let them fall into water. Many more branches form a thick arch all around the pool, continuing upwards to form a terrace and many handy stairs, but again, at any time they might decide to simply stop providing support, so the area is still closed for residents of dormitory, even as it is now connected to it by 2 gates where terraces are. Previous patches of dirt have grown into many individual plants, intertwined into pillars, growing into each other and starting to take the shape of the living canopy, even if the roof is still fully opened to the sky.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Area in general is starting to take shape, lower part dedicated to visitors that simply want some water or prayer, terraces for socializing, medium part for healing, even if everything is still limited due to ongoing development and in general "wild" nature of this place. That said, probably most mysterious is highest and now enclosed part of the pond, divided from the rest of the place by the thick layer of wooden living plants, overgrown by a carpet of sweet alyssum, inner space only accessible trough a curtain of softer, green flowery ones on the top of flowery stairs (that can at druid's command turn into a ramp). There, a quartz platform as well as side-stairs into the pond can be found, but ... it feels empty. As if something is still missing. Something important. Place is still growing, details still need to be polished and something is still being worked on, but for now, the pond is fully operational (without thermal regulation) for those that are not afraid to be from time to time surprised by a overly willful bundle of plants by ending more wet or stuck as expected (I decided Remember Me's body will not evolve again until the pond is finished)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 1)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=wVnxsjAIfWg`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Tako, ni ne vem kaj, vendar za par ur dela bo vredu Nobody's Respite - Flowery Arch Over the Pond`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 2)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=TFRhVq4i4bA`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 2)`}</p>
+                    <p>{`Tako, sorry da je vzelo tako dolgo, vendar za kvaliteto je pač potrebno vložiti več časa x) Druga slika kaže kaj je tam, če večine ne zakrijejo vrata xD Tako izgleda torej Nobody's Respite od zunaj pri vhodu. Bela reč je Sladki grobelnik (roža).`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me finishes statue of Emily. She is very detailed, down to the pore, it is clear a lot of work was put into it. She is dressed in druidic clothes Remember Me is from time to time seen wearing, but more properly made. Her arms are from cold metal and brass metal , outstretched down as if channeling something, while she is squatting with one leg lower, destabilizing the whole structure. It is clear it is meant to be placed on some kind of a pedestal, so its leg could hang down from it. The most curious part of the structure are her blind eyes, made out of white pearls, soaked with healing magic. It is almost done. After months and months of work, it is almost over. Just a few more finishing touches and the Pond will be complete. But before that happens ... Remember Me has an appointment.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 3)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=7dbwwu7ydhM`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 4)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=E5g3gixP1bM`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 4)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=P2saF8pHwR4`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 5)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=hqQAEUeGDds`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 5)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=nIZxh_nc64w`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 5)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=nIZxh_nc64w`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 5)`}</p>
+                    <p>{`(Remember Me is gone)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=2a2UABmIzEA`}</p></>
             }]
         }, {
-            title: "Title",
+            title: "Emily",
+            shortDesc: "Remember Me and Sr. Catalan have a little chat about their place in the grand scheme of things and what drives them forward.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me", "Sr. Catalan"],
+            contents: [{
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`After hearing Remember Me talk about Emily, he becomes intigued about who the being? person? is and why is she so important to Remember Me. To find answers he decides to go and try to find the feygolem and ask him about Emily.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(he / it for now, not yet, not yet)`}</p>
+                    <p>{`Remember Me can be found entertaining other guests with Repko as its musical companion. When it notices Sr. Catalan making his way to it, it gives a mental note to Repko, Repko confirms it and it takes the attention of the crowd onto himself, while feygol slips away and asks.`}</p>
+                    <p>{`"Hello, Sir Capitan, enjoying the party!? Do you need another Restoration or is something else the matter?"`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`He laughs.`}</p>
+                    <p>{`"No I'm good ... well, it wouldnt hurt, but I actually came here to ask you about Emily. I still don't understand your obsession with her and what she exactly is. So care to explain. Oh, and I think I drank enough today."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Oh, things of great importance I see! Well, it that case, let me just renew this spell I had on me to let me entertain you for longer."`}</p>
+                    <p>{`His body shines for a bit, there is a pair of spectral eagle's wings on feygol's back and eagle's cry can be heard across the room before it dyes out.`}</p>
+                    <p>{`"Gentleman of your statue might also want a little bit more care, would that not be so?"`}</p>
+                    <p>{`[Unseen servant] moves the chair for Sr. Catalan to sit on.`}</p>
+                    <p>{`"Please, if you would. Long day I presume?"`}</p>
+                    <p>{`(If he would, Unseen servant will start to massage captain's shoulders.)`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`After feeling the massage, he laughs a little bit...`}</p>
+                    <p>{`"How neat!"`}</p>
+                    <p>{`...and sits down on the chair`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me sits next to him, seemingly more aware and present than it usually is.`}</p>
+                    <p>{`"So, what are you interested in? Her in general, something specific? Or is this more about projects we started to run both in this city as well as the one that is still under construction? As it happens, it is my personal hobby or maybe a life-purpose to tell the world about Emily Nightsong, as I believe everyone shound have someone like her in their life. We are trying to make a world a better place by offering her life experiences for everyone to learn from."`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`"Hmmm well first tell me what she is and when did you meet her ... I'm also quite interested in the projects your doing, hopefully they're not dangerous."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Hm, I do not believe them to be dangerous, hopefully they are not, we are trying to run a shelter, it would be bad if folks would hurt themselves in our house of healing and rest by accident. Emily is... my creator. She made me. She made my first form and gave a life to it. Sadly, she didn't survive. She died just after I was given life to magic she was using ... it required a sacrifice, and she sacrificed herself. I ... for a long time I couldn't remember. But now I do remember. Just as I can remember anything from her life. So in some way, she lives on, inside of me, or at least this is what I would like to believe. I left her body behind. On the island where I come from. I ... would some day like to go back. Find her, bury her. Say goodbye in another way. But ... in some way, she is still out there, watching over me. I ... I can feel it. She is like that, I remember her and she is trying her best for her lifelong project to ... well, I am not sure what more she wanted from me, but I am trying my best to live up to her expectations."`}</p>
+                    <p>{`Remember Me looks at Sr. Catalan.`}</p>
+                    <p>{`"Do you also have someone like that. Someone that keeps you going? Master Soldier said for him, his person is Lady Morwyn, for Sir Oaksplit, Sir Manuel. Who is the person you are looking up to? Someone close to your heart, maybe?"`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`You see sir Catalan staring blankly into the distannce. Then all of a sudden he starts speaking.`}</p>
+                    <p>{`"I can't think of anyone. The only people that had a larger impact on my life were Sr. Catalan Sr. and a few of my soldier buddies ... Though I wouldn't say that it was they that that kept me going though ..."`}</p>
+                    <p>{`He takes a pause and thinks.`}</p>
+                    <p>{`"Hmmm I think the main driving force trough my life was my great ambition, which Sr. Catalan Sr. didn't care much for and thought a life as a lonely civil servant suited me more and would've calmed me down, and the want some would say the need to prove myself as competent and deserving of my status and maybe of even a higher one."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me nods.`}</p>
+                    <p>{`"If I am honest Sr. Catalan, what I am hearing makes me kind of relieved, because you are the first person of greater importance, who doesn't already have a special someone. It is somewhat hard to try and help people, when there is no one who needs your help, except our dear shelter patrons of course. At some point I was even told, that people like me or maybe even you deserve to be ridiculed, because following your believes, forging your own path, is to be looked down on. Yet I see, you had your own share of diverging opinions you stumbled upon. I hope you are stronger than me, because for some time ... it broke me. I forgot about Emily to preserve my own sanity. But then I remembered what I believe, more than ever ... and it saved me. Emily was kind of like you, you know. She was ... nothing much. Not talented, or beautiful, blind, sickly ... nothing special, but burdened with great expectations. Everyone in her clan had to be one of the best, or they were kind of nobody. Servants of those who deserved to lead, with their great intellect, beauty, merits, druidcraft, especially druidcraft, mostly their druidcraft. It was the right way. Everyone did their best and the clan would take care for the rest. It was perfect. But ... for some reason, it just made people hate each other. Emily was trying her best, to go beyond her limits, help her clan the best she could, so others despised her. She had no talent, she would constantly get sick from overextending herself, she was nothing much, just ... a burden, because she was trying too hard, was not willing to give in, stay a child, till the rest of her days, be a servant to those better than her, never meet expectations that were placed upon her at her birth. So she run away. To train somewhere else. To not be a burden to those dear to her. And make them proud. Some day I would like to return and tell them ... she did it. She made a feygol. To make them proud. And hopefully also ... sad."`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`He thinks.`}</p>
+                    <p>{`"Such a sad story ... though that is life ... how I see it every living being seeks to fight against the greatest enemy of them all fate and coincidence ... life is not fair a lot of the time to people some people get born ill, poor or just different which leads to them being outcasts, the only thing they have is to try and fight fate ... because I see life as just a string of events full of coincidences and no matter how hard we fight sometimes we just can't win ... so the only sensible thing to do is how I see it is to fight against fate ... so this Emily she sounds like a genuinely kind and nice person ... can't say the same about myself ... I wish you the best."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Same to you, Sr Catalan."`}</p>
+                    <p>{`Remember Me thinks for a bit.`}</p>
+                    <p>{`"While what you said is true, it does not need to be so. There was no castle of Rosa Riendo before people came together and built it ... and here it is now, real as anything else. As I said, I do believe everyone needs someone like Emily. One can go far alone, but we last longer if we are going for someone else. Our path, it hurts, it can hurt so much, maybe enough to give up. If we are doing this for ourselves, why would we want to choose to continue suffering? Something would have to be beyond broken, something worse than out suffering, for us to continue under such conditions. But if we are doing it for someone else ... we can do more. It is not about us, about our path, costs and benefits we experience ... to kill a dragon might be at times an easy task to get an apple for a child of our heart, but more importantly, their smile. We will perform within reason, but for someone else ... sometimes a little bit of insanity doesn't sound so bad."`}</p>
+                    <p>{`Remember Me gestures at the city.`}</p>
+                    <p>{`"Isn't it insane? That Manuel person might have contributed much, someone hard to replace, but I do not think people miss him so much because he was the best self-interest mathematician."`}</p>
+                    <p>{`In quieter voice.`}</p>
+                    <p>{`"Maybe come visit us sometime. Take a look at what we are trying to build, to do, to achieve. Take a look at Emily, her life, her legacy. Who knows, maybe even let her in your heart, just like she found her way into mine. Or if that is not what you wish for, observe others, what makes them tick, what drives them. Maybe there will be a moment, when you would opportune to find someone or something special else ... something for what you would be prepared to die for."`}</p>
+                    <p>{`Remember Me giggles.`}</p>
+                    <p>{`"Silly thing, right? To die for something. But also ... when you would rather die than go on ... something to live for."`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`"Hmmm while yes, this city was built with the will of the people here ... but it can be taken easily away by a meteore ... hm I guess then you'd build it back up ad infinitum. I guess that's the might of human willpower. Hmmmm, why should we choose to suffer, as I see it I choose to go my own path to prove something."`}</p>
+                    <p>{`He stares blankly for a bit."`}</p>
+                    <p>{`"I wish to prove to others and to myself that I do deserve to be standing here ..."`}</p>
+                    <p>{`He stops for a bit.`}</p>
+                    <p>{`"I do not care much for that Manuel fellow and neither do I know much about him, although it seems he means something to Minamoto. Huh there's someone out there for everyone, I have a hard time believing that, I don't think there's anyone out there for me, but is that so bad ... Maybe I will visit you one day and see what your working on ... The human psyche is indeed a fascinating one and people's reasons for living and wanting to live is quite fascinating, almost every person has his own reasons to live and keep going ... I don't know if your remember and stay in peoples hearts and minds are you truly dead, maybe keeping the memory alive is good enough even after their physical form perishes."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me smiles.`}</p>
+                    <p>{`"Who knows. We do live in world of wonder and magic, do we not? I was told that for heroes of our statue, even death might be at some day but an inconvenience we face. I has told after death, both people, plants and animals go somewhere else. Yes, sometimes they get lost, most of the times they never return, but sometimes they do return. If my wish is nothing but a pebble, I only need to gather thousands, millions, if need be billions of them to make my own Rosa Riendo out of them. Remember Me leans closer. Memory is a powerful thing, Sr. Catalan. Never forget who you are ..."`}</p>
+                    <p>{`Feygol leans back.`}</p>
+                    <p>{`"... is what I might say, but sometimes, memories can be like a scar, unwilling to heal. So we have to make new ones, better ones. To grow, and hopefully, heal. Which ones are more real? I do not know. It is on you to pick which ones are the real you at the end ..."`}</p>
+                    <p>{`Remember Me smiles.`}</p>
+                    <p>{`"May the fortune smile upon you and your ambition. And even if it does not ... I DO run a shelter. Even for powerful people like you. We are a house of rest and healing. When you are tired or scared, come, rest and heal.`}</p>
+                    <p>{`[Bardic Inspiration]`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`He smiles.`}</p>
+                    <p>{`"Neat dream, memories can be a burden but they are necessary for us to remain grounded. I also think that the truth musn't be forgotten since if we forget our mistakes and hardships we'll never learn from them."`}</p>
+                    <p>{`He laugh.`}</p>
+                    <p>{`"Powerful people like ME, huh? I wouldn't call myself a powerful man, but thanks for the offer. Goodbye and I'll come to see one day what your making ..."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me smiles as it waves him goodbye. Then it notices the crowd that is going positively berserk over Repko's performance and quickly jumps in to save him friend from the masses, so they can face them, together.`}</p></>
+            }]
+        }, {
+            title: "Message to Paradise",
+            shortDesc: "Remember Me tries to get into contact with his lost tribe by asking for Isabela's help.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me", "Isabela"],
+            contents: [{
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`With the latest mission behind them, Remember Me decides to make good on its word and visit Isabela. It asks around and seemingly quite a lot of people know about her, even if she might tend to move around quite a bit. Where does the trail to find Isabela lead the feygol?`}</p></>
+            }, {
+                char: { name: "Isabela" },
+                content: <><p>{`It finds Isabela in her office space alone, after being directed there by one of her servants along the way. You can see her sitting at a desk, going over piles of paperwork of differing sizes. She is wearing her normal clothes and the feathers Rua gave her in her hair, her sword leaning on the desk, always kept somewhat close. Isabela looks up when you enter the office.`}</p>
+                    <p>{`"Ah, hello. Are we supposed to have a meeting today? I don't remember inviting anyone over recently."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Hello, Lady Isabela. Not today, but you did indeed invite me to come and visit you at your place when you are less self indulgent as you were at the party. Are you still in a 'that kind of a state'? Should I come and visit you later? If it is a problem, may I use a spell that removes the poisoning that occurs when concentration of a fruit, grain or other sufficiently rotten sugary substance is ingested? I noticed you consumed quite a lot of it. Dreadful experience I believe."`}</p></>
+            }, {
+                char: { name: "Isabela" },
+                content: <><p>{`Isabela waves her hand.`}</p>
+                    <p>{`"No need for spells, I am fine now."`}</p>
+                    <p>{`She puts down the papers and gestures to a chair in front of the desk.`}</p>
+                    <p>{`"Make yourself comfortable. Unfortunately I can not offer you any refreshments as Shirin is out currently."`}</p>
+                    <p>{`She says while looking apologetic.`}</p>
+                    <p>{`"Now refresh my memory a bit please. What did you want to talk about."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"At the party you acted as if the village of Leshisel is know to you. While I do speak quite a lot about it, it did not feel like you know about it from merely a tale of someone else? I also find familiarity in some of your clan's identifications, even if I do not recognize most of them. Are you related to the clan I belong to?"`}</p>
+                    <p>{`[Disguise Self]`}</p>
+                    <p>{`Remember Me turns into a somewhat aged elf with regal posture and kind if calculating expression on his face. Tenor Oakborn, the leader of Leshisel, second generation and the one who enacted the policy to start exporting feygols outside of the clan for various benefits from other clans and factions.`}</p></>
+            }, {
+                char: { name: "Isabela" },
+                content: <><p>{`Isabela looks a bit suprised at the elf in front of her.`}</p>
+                    <p>{`"I remember this man from when I was younger. I think it was some kind of a diplomatic visit from my family to your clan. As for the related part, I would have to send a letter to my grandmother. She was far more knowledgeable about those things than me."`}</p>
+                    <p>{`She leans back in her chair.`}</p>
+                    <p>{`"I don't believe I met you before though. I would have remembered a feygol this unique."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Elf smiles.`}</p>
+                    <p>{`"I do not know when your meeting took place, so it is a bit hard to answer, but it is both true that I might be considered somewhat unique of my kind and that I was never actually a part of the aforementioned village. It is my creator's memories upon which I rely for my knowledge of the Leshisel."`}</p>
+                    <p>{`Elf turns back into the humanoid feygol.`}</p>
+                    <p>{`"So your family had a meeting with Tenor Oakborn, the leader of our clan. Interesting. And you are in contact with them? If you do not mind, I would be interested in any news about them as I have not heard about them for decades now. Not a long time for an elf, but I do believe quite a lot of things tend to happen, both with and without younger races roaming the world of more ancient peers. It does not need to be quick, but it would be nice to learn about them at least in this dozen of summers."`}</p></>
+            }, {
+                char: { name: "Isabela" },
+                content: <><p>{`"I believe my family or rather, the kingdom, keeps contact with them yes. We are getting new feygols from somewhere after all. Sadly I have no information about them at the moment, as those kind of matters are pretty far down my priority list. I can ask about it in the next letter I send home however, if that is something you would like."`}</p>
+                    <p>{`Isabela goes back to her paperwork to check something.`}</p>
+                    <p>{`"You are a druid yes? I may have a job for you since you are already here."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Thank you."`}</p>
+                    <p>{`Remember Me thinks for a bit.`}</p>
+                    <p>{`"Sure, ask away, as long as it is within my power, I will do my best to answer."`}</p>
+                    <p>{`Feygol changes tone of its voice for a moment, less contemplative, more cheerful.`}</p>
+                    <p>{`"On an unrelated topic, your servants brought a share of the harvest to our shelter. It warms my stones to know that agreement your servants presented me with holds. But maybe nothing less should be expected from a fellow hero of Rosa Riendo, or so I heard?"`}</p></>
+            }, {
+                char: { name: "Isabela" },
+                content: <><p>{`"I am glad you are satisfied with your portion. And in that vein, there have been talks of opening up another farm in the plane of elysium. As before, I would like a druid's blessings, your share to be alloted as before."`}</p>
+                    <p>{`(Ni še nič dorečeno konkretno bdw.)`}</p>
+                    <p>{`Isabela slightly blushes at the hero part.`}</p>
+                    <p>{`"I wouldn't really call myself a hero. I am just doing my best to help and expand my family name. I am happy to hear the word is spreading around town though. I aspire towards great things here."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me kindly smiles.`}</p>
+                    <p>{`"But of course, it would be rude to spoil our successful cooperation, especially as what you are asking of me benefits us both. It is my wish to let it grow, flourish even. In times of abundance, let us share, in times of need, let us resist misfortune together, mayhaps?"`}</p>
+                    <p>{`Remember Me absentmindedly places a finger on its chest and starts tapping a melody that seems to follow no conventions, yet it manages to stay harmonious nonetheless.`}</p>
+                    <p>{`"It is not a social circle I am moving in, for my place is with those who need me most, but I do from time to time get a patron, a merchant, who praises opportunities you provided or how your investment gave them opportunity to start again. There are heroics that require almost a ... mercenary, but there are those that require more ... patient approach. In fact, me and mine were informed that construction of a new old town is progressing smoothly and as my investment will among other things go into performative arts, I was thinking to encapsulate some of the stories that happened out there ... Stage-plays might do wonders for the morale of those who weren't capable or born to participate. What do you say? Would your servants mayhaps share some of your adventures with me when the time comes? For the common folk."`}</p></>
+            }, {
+                char: { name: "Isabela" },
+                content: <><p>{`"Sharing stories is not a problem at all. After all, it is how we learn, how we grow, how we inspire one another. Do find one of my servants when the time comes, perhaps even myself. And if you ever desire so, I could give you my blessings for your estabilishment. Helping the less fortunate is a noble cause indeed, especially if you have the privilege to be well off yourself."`}</p>
+                    <p>{`Isabela takes a pen and writes some things down on the papers, moves them away and takes out new ones from one of the piles in front of her.`}</p>
+                    <p>{`"After all, there is no nobility, let alone royalty, without the common folk below them for support."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Indeed, if you would find some time to share your stories yourself that would delight me."`}</p>
+                    <p>{`Remember Me stops tapping and thinks deeper.`}</p>
+                    <p>{`"About the privilege ... well, I am not smart enough to really know what is best, but the clan I belong to does believe both that there is no inherent nobility, even if ability to rule is closer to some than others, yet they are given such role in order to be the ones most able to take care for everyone else. Even so, Emily suffered, so surely there could be a better way how to run things? She was of privileged blood, yet I do not believe she would want to claim any privilege she didn't earn herself. Sadly, how would such a clan work is beyond me, but I do hope people appreciate what are you doing for them."`}</p>
+                    <p>{`Feygol looks around and makes a polite bow from its waist.`}</p>
+                    <p>{`"Well, I believe this is what I came to discuss and I got my answers as your grace allowed, so if there is nothing else, I would bid you good day."`}</p></>
+            }]
+        }, {
+            title: "Nobody's Rosa Respite",
+            shortDesc: "Remember Me nadaljuje delo na originalnem zavetišču.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me"],
+            contents: [{
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`As Oaksplit's upgrades to the original Remember Me's Respite are finished, place feels more inviting and accommodating than ever.`}</p>
+                    <p>{`The entire floor is now dedicated to sleeping, so those who might want to spend their times at night doing something else, might do so without disturbing other residents as it was a common problem in the past. The floor also has a bookshelf for reading that was at first located on the ground floor and has mostly titles with entertainment value, a simple fireplace with a polished-stone base and many windows, covered with hanging plants for those who would prefer darkness when sleeping during the day as the place never had enough capacity to house everyone at once, especially after refugees from Yggrasil joined, so a rudimentary sleeping regiment was established.`}</p>
+                    <p>{`Lower floor is connected with a not too steep staircase, under which a small storage was established. Mezolček's pond was enlarged, even if lately he was migrated to the new city into Pond of Rememberence, for his wish to swim in bigger waters. Large bookshelf was brought in, now accommodates many books and scrolls with useful information as well as report's and thoughts about Emily's life. Many crude works of Emily can be found hanging on walls, while in the center of the room is overgrown stone altar, not much different than in the past, even if there are more gifts present even if Remember Me is not around as much those days, working on Pond of Rememberance most of its time.`}</p>
+                    <p>{`Around the altar sweet alyssum took root, its relaxing smell now present in the air.`}</p>
+                    <p>{`Many cushions for reading, relaxations or socializing are placed around an enlarged fireplace for when cooks are not working at their desk, but even more can be found around the place. The entire place is also covered with a carpet of moss and other plants, trying to reclaim it, but as if gardened in a way not to disturb the purpose of the place. Also, a spare Emily's druidic clothes hand-made replica can be found here, not as nice as the original made trough elven years probably was, but the design can still be recognized as if inspired with a somewhat more refined taste than Remember Me was able to demonstrate till now.`}</p>
+                    <p>{`(Picture represents the original design.)`}</p></>
+            }]
+        }, {
+            title: "Remember Me's Inner Music",
+            shortDesc: "Tempo po katerem je Remember Me umiral, kako se je počutil. Sprva so bili naslovi zakriti, šele ko je bila krinka zdravja razkrita, so bili nemudoma predelani v to kar so dejansko bili, odštevanje do smrti. Zelo sem razmišljal kako želim iti. Odločil sem se, da se želim potruditi po najboljših močeh.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me"],
+            contents: [{
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 1)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=5wvTs-1jUFE`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 1)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=yEg02Ui_a8k`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 1)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=tHZqxecCukg`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 2)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=6fEXKtBsjNQ`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 2)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=1EdSGUIaJYQ`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 2)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=5u3RGhznctE`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 3)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=jRFk22ENWNg`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 3)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=zbQRY8KSVbU`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 3)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=E83hl6hDfKQ`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(this one is just so nice that I have to share both xD, Ranking of Kings is amazing)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=dWZAH5w8jkQ`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 4)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=60ItHLz5WEA`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 4)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=ED66vOZg9t4`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 4)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=HrO7ql2ZF6M`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 5)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=xG12ghcBKvw`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 5)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=J-j32A2tTlk`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(day 5, konec)`}</p>
+                    <p>{`https://www.youtube.com/watch?v=Y6ljFaKRTrI`}</p></>
+            }]
+        }, {
+            title: "Invitation - day 1",
+            shortDesc: "Remember Me plans to give to Morwyn the melody that is killing him as a price for when he saved her husband.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me", "Morwyn", "Minamoto"],
+            contents: [{
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`[Disguide Self - Remember Me]`}</p>
+                    <p>{`Remember Me tries to find Master Soldier as it is easier for it to locate him than Morwyn or her familiar and it does know Master Soldier would know where to find her. Where does Remember Me find him?`}</p></>
+            }, {
+                char: { name: "Minamoto" },
+                content: <><p>{`As Remember me asks around the training grounds, the soldiers tell him, commander is gone. That he went to see the Fisherman and did not yet return. Nobody knew to what purpose.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Not being able to find Master Soldier, Remember Me leaves one of the soldiers with a letter and gives him instruction that if Master Soldier is to return after Remember Me manages to talk with Morwyn, to give him the letter. When soldier asks how are they to know if Remember Me talked with Morwyn, Remember Me just scratches its head.`}</p>
+                    <p>{`"Well, you could ask him? Or her? At least one of them would probably know."`}</p>
+                    <p>{`Remember Me then tries to find Caraxes in order to be able to arrange a meeting.`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`While looking for Caraxes, Remember Me wanders to the Misty Portal Inn, he saw the little imp there from time to time so hopefully he's there now. As he opens the door a welcome sight greets him. Morwyn and Caraxes both are trying to groom the cats and other critters, with Morwyn putting down the brush the moment she sees somebody enter the inn.`}</p>
+                    <p>{`"Hello and welcome. How can I help you?"`}</p>
+                    <p>{`She smiles at the strange golem she occasionally saw from afar. A tiny surprised hiss escapes Caraxes and he quickly blurts something to Morwyn, the language harsh and strange, before skulking behind the counter.`}</p>
+                    <p>{`"Ahh... I'm sorry, you must be Remember Me. Caraxes gave me the invitation to your meeting quite late, but I have been following the progress of your establishments and invested as I could."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Not right now, not right now, in a month's time xD)`}</p>
+                    <p>{`Remember Me explains that at the moment it is too busy as he is fully immersed in certain work, but it would be finished in a month or so (in 3 days time), so it would like to arrange a meeting or something like that in a month's time.`}</p>
+                    <p>{`"If it would be of no problem to you, maybe we could meet at our theater? I believe you are a bard, yes? One even more proficient as I am? I was wondering how great of a bard are you. Would you mind showing it to me and others? Maybe patrons of our house could even learn a thing or two from you, if you are willing of course. If you are good enough, I might even have a special task for you."`}</p>
+                    <p>{`"Also, as it will soon be over ... maybe you would want to take a look when I finish? Or maybe even take a swim? I hear that some people were more inthusiastic about the pond than certain features the task I am working on is going to offer."`}</p>
+                    <p>{`"Is tkat ok with you?"`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`(U mean literal month?)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Ingame, 3 days literal.)`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`(Ahhh, yeah I reread, it's fine, gonna reply in character.)`}</p>
+                    <p>{`Morwyn tilts her head at the golem.`}</p>
+                    <p>{`"I am surprised you came to the conclusion I gain some of my power from my song since we never met up close. Well, I can tell you now I carry the blessing of the Raven Queen and she's the source of my magic."`}</p>
+                    <p>{`(Can roll insight check here.)`}</p>
+                    <p>{`She sighs and still smiles.`}</p>
+                    <p>{`"But I do know how, and love, to sing."`}</p>
+                    <p>{`She gestures at the bar in a 'can I get you anything?' way as she continues.`}</p>
+                    <p>{`"I just might show up, I can't promise anything since I'm planning something during this next couple of months. And even then I don't know how I feel about performing in front of an audience. But I will definitely stop by for a swim, so thank you for your invitation."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me smiles.`}</p>
+                    <p>{`"Have you ever performed to Master Soldier? He might have not been entirely lip-sealed with his praises."`}</p>
+                    <p>{`Remember Me thinks deeper.`}</p>
+                    <p>{`"It is not a problem, if you would prefer not to show your abilities, maybe perform just for me, so I might judge if you are a worthy of a task at hand ... you would probably be interested in it, given that it concerns health of your husband ... but enough was said, I would prefer to return back to my work, I have a lot more to do and frankly less time than I would prefer."`}</p>
+                    <p>{`It relaxes.`}</p>
+                    <p>{`"So ... farewell? Till we meet again and ... maybe work on your skills as a musician, you might need them. Do your best, just as Emily would.`}</p>
+                    <p>{`[Bardic Inspiration]`}</p>
+                    <p>{`"Ou, and one last thing ... because I never managed to ask you before ... you did not intend for Master Soldier to die, right? It was not entirely clear what happened that day."`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`Morwyn smirks.`}</p>
+                    <p>{`"I think my skills are sharp enough, but we'll see. I will first want to hear about your task if it's worth wasting my time on."`}</p>
+                    <p>{`She then shakes her head.`}</p>
+                    <p>{`"And no, my first purpose is always Commander's safety. But we all have our own will."`}</p>
+                    <p>{`She looks at the golem.`}</p>
+                    <p>{`"At least I hope so."`}</p>
+                    <p>{`"Then let's meet again. I'll come visit you in your house of culture."`}</p>
+                    <p>{`She waves at it in goodbye.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me nods and goes back to its work. As it said, there is a lot to do and not that much time to do it.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`If Minamoto returns and the soldier gives him the letter as instructed, two words can be found inside, written somewhat poorly, yet with care, as if a child has written them.`}</p>
+                    <p>{`'Thank you.'`}</p></>
+            }]
+        }, {
+            title: "Reassurance - day 2",
+            shortDesc: "Remember Me išče naslednika za svoje svetišče.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me", "Birog"],
+            contents: [{
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`[Disguise Self - Remember Me]`}</p>
+                    <p>{`With the concert day coming as expected, Remember Me starts to look for someone who will be able to take care of things while it is dealing with that. It turns for help to a fellow druid and invites him to its place, Nobody's Faro de Luz Respite. Remember Me does mention it will explain more when they meet.`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`Despite being pleasantly surprised by the invite, Birog nervously agrees to meet. Wondering all the way to the place about the reason behind this and additional information he will eventually get, he tries to remember the route to the best of his abilities, so he doesn't get lost on the way back.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Emily's House of Culture is reasonably close to Birog's Cookery, also, it is almost next to the same river were Cookery is, so he would probably have not that many problems finding his way back? Remember Me is informed by Repko that Birog is getting nearby, so it comes to meet him in front of the Respite.`}</p>
+                    <p>{`"Hi, welcome, I heard you are an able a guardian of nature, just like Emily was? I am glad you managed to find some time to come and visit, but would you mind it I test your abilities for just a bit?"`}</p>
+                    <p>{`Remember Me points at the entrance where path is partially blocked by from time to time moving stalks of a woody plants.`}</p>
+                    <p>{`"Recently I managed to grow them quite a lot, but they became quite unruly once they reached their desired size. Would you be able to open the path without harming them? They are little children, not yet knowing better than to be wild."`}</p>
+                    <p>{`... more quietly ...`}</p>
+                    <p>{`"And just a little bit to frustrating as of late."`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`(I'm sorry, didn't check the map that much.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(well, I was making and remaking it, so I know most locations by heart.)`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`Birog places his staff close to his mouth as the staff gains a faint glow and starts talking through it, as if he is communicating with the plant.`}</p>
+                    <p>{`"Greetings young sapling, I do apologies on this intrusion, would you be so kind and clear a passage for the two of us, i do not like using control spells on any being be it beast, animal or a plant, unless my hand is forced to do so in certain circumstances."`}</p>
+                    <p>{`Followed by silence as he awaits for the plant to reply.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Plants seem confused for a moment, then you hear thousands of voices, some quite near and strong, others more like chiming in from the distance, interested in what is going on.`}</p>
+                    <p>{`"Who are you, to tell us what to do?"`}</p>
+                    <p>{`"This is our place and ours only. Our little kingdom."`}</p>
+                    <p>{`"Present yourself before out might!"`}</p>
+                    <p>{`You can also hear giggling of other plants that find this conversation very amusing. It is like they are roleplaying in front of each other, maybe seeking ways on how entertain themselves. They seem quite lively for plants, almost as if something magical is filling them with more life than it would usually be expected, yet they are still just plants, rooted in place where they were born.`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`"Oh, excuse my rudeness, I am Birog of the an'ar natives what may i call you?"`}</p>
+                    <p>{`Offers up a partial bow showing some decree of respect, but not submission in the slightest.`}</p>
+                    <p>{`"And please not all of you at once, it is hard to understand this many voices, by chance is it possible that you choose among yourselves a few to represent the majority it is straining to expand all this magic all the way to the back of your kingdom, and speaking of your kingdom ... what is it like?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`There is a silence for a bit before first plant speaks.`}</p>
+                    <p>{`•	"I am not sure what to do, what do I do?"`}</p>
+                    <p>{`•	"Pretend it is ok, he won't notice, remember, you are a royalty."`}</p>
+                    <p>{`•	"What is a royalty?"`}</p>
+                    <p>{`•	"How should I know? Just think of something!"`}</p>
+                    <p>{`•	"Khm, yes, nice, nice very nice, Birog of an'ar. We have many names, but mine is ... am, Gorib, of ... Nobody. Gorib of Nobody!"`}</p>
+                    <p>{`•	"Great job."`}</p>
+                    <p>{`•	"Tnx! So, Birog of an'ar, it is nothing much, our kingdom is in fact right there."`}</p>
+                    <p>{`Stalks part just a little so you may see more clearly into the room full of greenery, water and life before they close again.`}</p>
+                    <p>{`•	"It is ... nice. A lot of water, very good water, somewhere to root oneself, bugs are nice most of the time, and frogs, it is fun to watch how snakes eat them, not that much sunlight, but big ones are sharing extra they get, so it is not such a big deal for us down here. And there is that metal thingie, you root yourself into it and it makes you feel more alive. It is a bit boring thou, not a loot of room to grow and visitors keep stepping on us and disregarding us, making dirt hard to grow into, so we do not like visitors. Are you a visitor?"`}</p>
+                    <p>{`It seems like the main stalk on the left side of the door decided to do the talking for now.`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`"My initial plan was to become a visitor of some sort, but it seems to me you need company, entertainment and most of all care to make the dirt softer and nicer, is there anything I can do for you? Would you perhaps want a nother kingdom with lots of sunlight and a big open space? I can do that at least ... sadly its not much, but maybe you could do something for me in return?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Plants think for a moment.`}</p>
+                    <p>{`•	"It is small here, and there could be more sun, but here is my family."`}</p>
+                    <p>{`•	"And water is nice."`}</p>
+                    <p>{`•	"And our father is here."`}</p>
+                    <p>{`•	"But father is sick ... we do not like father, no fun, no time to play."`}</p>
+                    <p>{`•	"But father is nice, we like father."`}</p>
+                    <p>{`•	"He is talking about mother a lot. Mother sounds nice."`}</p>
+                    <p>{`•	"And water is nice."`}</p>
+                    <p>{`•	"And earth is tasty, not soft enough, but tasty."`}</p>
+                    <p>{`•	"Very tasty."`}</p>
+                    <p>{`•	"You want to play?"`}</p>
+                    <p>{`•	"You want to talk?"`}</p>
+                    <p>{`•	"What does it want?"`}</p>
+                    <p>{`•	"Does it want to drink?"`}</p>
+                    <p>{`•	"Water is tasty."`}</p>
+                    <p>{`•	"Does it want to heal? Father can heal."`}</p>
+                    <p>{`•	"What does it want?"`}</p>
+                    <p>{`Plants clear the way somewhat as if they are starting to relax. They are getting suspicious, but also curious.`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`"I can heal your father, yes, that is no problem for me."`}</p>
+                    <p>{`Turns behind him after a long time of what sounded like gibberish to the person standing behind him he distances the staff away from him and the glow fades temporarily."`}</p>
+                    <p>{`"Is there a chance you are trying to take from this place we are trying to enter or is the goal only to open up a path ...?"`}</p>
+                    <p>{`Scratches his head in concern. Repositions the staff as it glows even brighter, making the place more visible.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me scratches its head.`}</p>
+                    <p>{`"This place is still in the making, but I need a month or maybe less to finish it. I am not sure what I would wish to take from a place that is considered mine, but I also do not know what were you talking about, I did not hear or understand your chat, thou little ones seemed pleased. I can open the path myself, but lately my powers have weakened, so I was wondering if you could help me take care for this place. As you know, druids should not handle metal in excessive amounts, yet my task has left me with months working on rather large metal artifact. It is probably only temporary, but due to this place being made in a way to have a will of its own ..."`}</p>
+                    <p>{`Remember Me gives a kind look to plants still partially blocking the passage.`}</p>
+                    <p>{`"... or rather many wills. It is somewhat hard concentrating at the task at hand while they seek amusement or ... identity. Understandable, but I am simply too stressed for time.`}</p>
+                    <p>{`(will add picture of the place, watery part of the building)`}</p>
+                    <p>{`Remember Me comes a little bit closer.`}</p>
+                    <p>{`"So, what do you think? Can you do it? I do believe guardian of nature would be the most capable one to handle such a task."`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`"Ah that is correct, I have been so focused on healing, I forgot on other skills of mine."`}</p>
+                    <p>{`Birog firmly clasps the staff in his hand and whispers something into it. Soon enough his skin begins to harden and crack gaining a dark brownish color, the withered and dried up thorny vines in his hair revitalise now looking nicely green and on the brink of blooming.`}</p>
+                    <p>{`(Ngl, first time druid, so I legit dunno all the spells, so I thought that I would use [Comunicate with plants] or [Plant control] if the situation got worse ... but I dont see how guardian of nature would help, exept for the name the effects have nothing to do with the task?)`}</p>
+                    <p>{`After a short breath Birog looks arround for any cues on what to do next all lost in this situation.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me nods.`}</p>
+                    <p>{`"Yes, we most certainly are meant to be quite versatile, it is nice that you remember your teachings, respect to your master, whoever she or he or they were."`}</p>
+                    <p>{`It then steps all the way to the living doorframe. It places its hand on one of the plants and as if startled, it twitches. You notice that a small stone fall from Remember Me's arm where it hit feygol's arm, yet it didn't seem like it noticed.`}</p>
+                    <p>{`"Shhh, shhh, little one, rest easy ..."`}</p>
+                    <p>{`[Druidcraft]`}</p>
+                    <p>{`The plant freezes, then becomes docile, sorry even, afraid over what it did, passage closing tighter. It takes some time, probably longer than it would take Birog, but Remember Me manages to convince the plant that nothing is wrong, so it fully opens the passage.`}</p>
+                    <p>{`"Come, if you are going to help to take care for this place, let me show you around."`}</p>
+                    <p>{`Remember Me gestures and you can notice his arm where plant hit it isn't even scratched. Healing magic? You might have heard Remember Me heals with words and thoughts alone. Remember Me points at the living bridge in front of you.`}</p>
+                    <p>{`"Also, be careful around those, they also like to ... play with their guests, but most tend to prefer to stay dry even those who come here to swim."`}</p>
+                    <p>{`Then with [Druidcraft] it makes sure the path inside is safe ... or safe enough for the time being.`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`Turns torwards Remember Me.`}</p>
+                    <p>{`"During my conversation with the plants I couldnt help but notice them mention their king being ill, is that one of the plants or by chance you got struck by an ailment? ... I did prommise to heal the individual in question and I intend to keep it."`}</p>
+                    <p>{`Turnes his gaze downward to watch his footing.`}</p>
+                    <p>{`(Plus, looks like I don't have those spells, I checked on my character, even went under the edit option.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Guardian of nature is just another word for a druid ... it is a bit rought to call yourself by class, like bard might not strictly be 'a bard' and rogue might prefer to call itself 'a smuggler', it adds variety 🙂)`}</p>
+                    <p>{`Remember Me chuckles.`}</p>
+                    <p>{`"Well, I would not consider myself a king, but I believe if that is what they were saying, that would be probably me, I would know about any other plant as I planted them myself. They grew from the wood heroes of Turbulenca gathered and donated, but I did add some other for the variety. As I said, I am in fact a bit weak at the moment due to working on metal much more than I should, but it is nothing you could probably do something about."`}</p>
+                    <p>{`Remember Me looks healthy, as you know, working on metal is a taboo for druids, so it should not effect its health, just its ability to connect with energies of nature or wield them, at least for some time. Not a lot is known what happen to those who break the taboo given how hard it is to become a druid, so they tend to stay one. Those who continue to break taboo tend to weaken their connection with nature or anger the nature. It is not believed to be a curse as druid's power is not strictly theirs, like a cleric or warlock would not be cursed if they anger their god, they would just stop getting their favors.`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`(There is actually a Guardian of Nature spell tho.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Lol, didn't know, nice xD)`}</p>
+                    <p>{`(well, I was using it as a title, not as a spell.)`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`"Is there any way I can start helping? I am sadly very task oriented and have a system depending on urgency, it is an old habbit of mine from the battlefield."`}</p>
+                    <p>{`Takes a short pause and looks arround.`}</p>
+                    <p>{`"The plants do have quite the humor tho, I have to admit."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Ou, certainly, try to make sure they do not harm any guest or in general that they do not prank them, maybe play or talk with them from time to time, I am sure they will love having you around, it is probably best to regard them as chindren, they might do something bad, but they usually do not do it out of malice and if they cause you any serious trouble, report back to me. As I said, it shouldn't last for more than a month. Do you require any kind of compensation? I have some yellow pieces on me, as well as some spare metal ..."`}</p>
+                    <p>{`It thinks for a bit.`}</p>
+                    <p>{`"Also, I have a magical whip. How would you prefer to be compensated for your service?"`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`"Well since it is something I would rather enjoy quite a lot how bout this, besides iron ... is there any other crafts you are familiar with? I happen to have opened a shop, but I am in desperate needs of a green house or a herb garden of some sorts for my potion making, I will ask arround for the land and practicality, what I would ask of you would simply be to help me construct it, it is embarrassing to admit but I have nearly no strength at all."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`There is a note of sadness on Remember Me's face, it lingers, then disappears.`}</p>
+                    <p>{`"Sadly, in my current state, I do not believe this would be possible, if I get better, then gladly. In between, you may take plants that grow here. I do believe you would do so in a responsible manner, no? They get energy from the pond, so you will discover they regenerate faster than anywhere else, priority thou was on protection and support of this place, not on cultivation of materials."`}</p>
+                    <p>{`It thinks for a bit.`}</p>
+                    <p>{`"Although, once this place is finishes, were you to come here and offer your prayers and open your mind, you might discover Emily's grace became more present than it was in the past.`}</p>
+                    <p>{`(If you get adv on Medicine, Nature, Survival and History on adventure, it is safe to assume that you can get it closer to the source.)`}</p>
+                    <p>{`"Pond will also offer some expertise that might be of use to you."`}</p>
+                    <p>{`(Any memory stored in the Pond is available as long as the Pond allows it).`}</p>
+                    <p>{`"Would that be considered enough of a reason to keep this place running while I am away?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Here, s temi si se pogovarjal xD)`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`"Aye, I will try to the best of my abilities to take care of the children, and no, I didn't intend it as making a harvest spot, I had an idea to use a small plot of land near my shop for a garden of sorts to lower production costs, but in the end it doesn't really change much so I'm dropping the idea ..."`}</p>
+                    <p>{`(I can see why I looked like I was crazy ...)`}</p>
+                    <p>{`Birog has a stern face of determination to see this through.`}</p>
+                    <p>{`"Do make sure to take enough rest and try to finish up with the metalwork soon, it can be really dangerous."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me chuckles.`}</p>
+                    <p>{`"Will do, tnx."`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`After a while Birog comes back well rested.`}</p>
+                    <p>{`"Greetings dear children how are you doing today? Would you like to hear some stories to pass the time? I'm aware it can get really boring sometimes, especially now since I will be taking care of you for a little while."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Plants are exuberant they have someone to play with."`}</p></>
+            }, {
+                char: { name: "Birog" },
+                content: <><p>{`"Just no throwing in the water okay? These hair is wild enough allready, its really hard to braid these vines ... always get pricked by the thorns."`}</p>
+                    <p>{`Gently pickes one of the slowly wilting vines as [Guardian of the Forest] looses effects and gestures the vine as a leaf falls from it."`}</p>
+                    <p>{`Sadly it only revives when I use magic the duration depends on how strong the magic was.`}</p>
+                    <p>{`(I'll send a story during my brake at work.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Imel sem občutek, da igralec želi igrati dalje, vendar nisem vedel s kakšnim namenom, zato sem da privat kontaktiral in vprašal če želi kaj posebnega ter mu pojasnil, da je bil RP namenjen temu, da mu bo zapuščen po mojem odhodu, iskal sem naslednika.)`}</p></>
+            }]
+        }, {
+            title: "Warning - day 3",
+            shortDesc: "Remember Me poskuša posvariti mesto pred morebitnimi tujimi vplivi ter najti naslednika za preostanek njegovih posesti.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me", "Oaksplit", "Sr. Catalan"],
+            contents: [{
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`[Disguise Self - Remember Me]`}</p>
+                    <p>{`Remember Me is seeking audience with Oaksplit.`}</p></>
+            }, {
+                char: { name: "Oaksplit" },
+                content: <><p>{`Oaksplit has himself holed up in his office, swamped with papers and some kind of blueprints of a huge ship that he is frantically trying to piece together with different artisans in mind. When Remember Me finally gets the audience, he sees the half orc sitting in his large chair, the hands stained with ink droplets and a wet towel behind his neck. He sees Remember Me enter, smiles and says.`}</p>
+                    <p>{`"Remember Me! Has been a time. Sorry I couldn't get to you, been busy as hell. Still managed to see the new theatre and the fountain - incredible work, as usual."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me slowly nods, Oaksplit might discern that Remember Me is also overworked or at least more than usual.`}</p>
+                    <p>{`"May Emily smile upon you, Sir Oaksplit."`}</p>
+                    <p>{`[Bardic Inspiration]`}</p>
+                    <p>{`"I sadly do not have much time to chat as I am quite busy myself. I came here with a warning, information and a request. For a warning ... you may be aware that I landed a deal with Mechanus? Statue of Emily is almost finished, so they will come to study its technology, as the deal says. Yet I fear how such a potent technology might effect them. City might want to protect it. They already know it will finished soon, but they do not know when. Maybe say to them I never managed to finish it, maybe it was a disaster, maybe I died before its completion, direct them somewhere else when they come looking, just do not let them close. You do not need to do that, but at least I was thinking to give you an option. My debt to them is paid in full, but maybe pamper them a little bit more so they forget about it. I can not do it as I am quite a terrible lier."`}</p></>
+            }, {
+                char: { name: "Oaksplit" },
+                content: <><p>{`"Why are you saying such things?"`}</p>
+                    <p>{`Oaksplit frowns his brows.`}</p>
+                    <p>{`"Are you unwell? Do you need a druid? I sure will protect Turbulenta and all their inhabitants, even rerouting Mechanus fellas. But why the sudden urgency now?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Just a percussion. I already informed them of the project's near completion. I do not care if you act on it, I wouldn't, but I would not consider myself smart enough to know better, so ... just an option."`}</p>
+                    <p>{`"Another thing ... I am a bit bussy on said project, so I feel like I am somewhat failing to meet the demands of a theater. Would you be able to find someone to assist me in its operations? I already tried to ask Morwyn, as she seems capable, but sadly, she felt a bit ... off."`}</p></>
+            }, {
+                char: { name: "Oaksplit" },
+                content: <><p>{`"Ah, yes the fountain shall be a bit under wraps. As for theatre, I could spare a few workers, but none of them could be used in the mental capacity (I mostly have the guys who build stages and work lights). You could maybe ask someone like... what about Mayor Catalan? He could tell you what his people like?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`You think he would be capable and willing to run such an operation? I will ask him in that case. Thank you.`}</p>
+                    <p>{`That was more or less all, I will not take more of your time, but before I go ... thank you for your help ... with everything.`}</p></>
+            }, {
+                char: { name: "Oaksplit" },
+                content: <><p>{`"Oh, yes sure! No problem" the hulking half orc smiles and nods.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Hoj, I would just like to ask you if you would be willing to take care for the Emily's House of Culture for a time being? I do not have enough mental energy to RP another thread, so this is just for the logs xD)`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`(What would I even do?)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Supervise, make sure they don't start killing each other n stuff, appoint people you guess are most capable to run the facility on senior positions etc., given that you wouldn't be personally involved into day-to-day matters, find people that are better at doing your job than you are and make sure they continue to do a better job than you would, so that the wheels keep turning, people keep being helped, art keeps being produced and money keeps flowing.)`}</p>
+                    <p>{`(So, the whole building is producing 350 Gp per dt and part of that is Nobody's Respite, but the majority is probably in House of Culture, given that it has shops and thicket sales, library and art studios.)`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`(Sure, I'll try and help.)`}</p>
+                    <p>{`(Ok, so do you get those 350 gp, do I get a share now or do you get it?)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Na naslednjem dt se lahko z Birog dogovorita kako si jih želita razdeliti, verjetno se bom spomnil pogoje specificirati jutri.)`}</p>
+                    <p>{`(Nobody's Respite je več vreden iz vidika vpliva, ker je naravnost nabit z magijo, medtem ko ima preostanek Emily's House of Culture višjo ekonomsko vrednost.)`}</p>
+                    <p>{`(Mape si verjetno že tako videl, vendar če jih še nisi, tukaj je link @Pond of Remembrance - Emily's Pond.)`}</p></>
+            }, {
+                char: { name: "Sr. Catalan" },
+                content: <><p>{`(Pozabil koliko je velika ta stvar.)`}</p></>
+            }]
+        }, {
+            title: "Arrangements - day 4",
+            shortDesc: "Remember Me poskuša Morwyn zapustiti melodijo, ki jo je dobil od drevesa, ki je skoraj ubilo njenega moža kot poslovilno darilo. Prav tako želi preveriti, če ji lahko v varovanje zapusti del svoje dediščine. Morwyn ga razkrinka in darilo zavrne.",
+            tags: ["depression", "guilt"],
+            chars: ["Remember Me", "Morwyn", "Repko"],
+            contents: [{
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`[Disguise Self - Remember Me]`}</p>
+                    <p>{`The day has come. As she requested, Remember Me asked for the theater to be emptied. There will be no one that will bother them and if she asks around, people will direct her towards the stage where Remember Me is already waiting for her, meditating with Repko in its arms.`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`(How does disguised Remember Me look like.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Like Remember Me.)`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`As Morwyn walks into the empty theater, the path to the stage with the feygol is clear. As she enters the large stage hall, the faint smell of wood varnish and freshly worked wood and new fabric still permeate the air. On her shoulder, Caraxes sniffs and jumps into the air, flying ahead of her. Morwyn immediately spots Remember Me and makes her way over to talk to it, her soft white shirt shining in the dim and dark lighting.`}</p>
+                    <p>{`"Hello. I have come to see what you are offering after all."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Hello to you too, Lady Morwyn, as well as to Master Caraxes. Forgive me if I can not offer you my hand, but as of late I am working on quite potent chemicals while working on the project of mine, metalcrafting. They do not effect me as much as I have stone for my hands, but I do not know how they might effect your constitution."`}</p>
+                    <p>{`Saying its greetings, feygol thinks to itself.`}</p>
+                    <p>{`"Of course, of course, I indeed have something that might be of interest to you, but as I said, I mostly heard about your abilities trough Master Soldier's tales, so I do wander how ... embellished they might be. Would you care to show them?"`}</p>
+                    <p>{`Mischievous smile crosses feygol's face as it waves at the stage.`}</p>
+                    <p>{`"What do you say to a little friendly competition?"`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`"As I said. Before I dedicate myself to anything I wish to hear the offer. I've already spent my time coming here so I wish somegood faith dealing in return."`}</p>
+                    <p>{`Morwyn then narrows her eyes at Remember Mes arms trying to pick up the elements.`}</p>
+                    <p>{`"Also I would appreciate it if you didn't share any rumors about my abilities onwards, because that is all you have since I know Commander Minamoto shared nothing of that nature."`}</p>
+                    <p>{`D20 🎲: 11 + 5, Total: 16`}</p>
+                    <p>{`(That's for the Disguise Self since she's taking a closer look.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(You might not want to do that, you also do not know the spell is there, this is just for record keeping.)`}</p>
+                    <p>{`Remember Me makes a sad face.`}</p>
+                    <p>{`"Sadly, I can not show it to you, as it is not a thing and we are not yet at the place where I could share it anyway. It came to me when I saved his life, but I guess, that means less than I hoped to you as you seem quite ... unavailable. I do not particularly care about your abilities beyond that. I thought they might be of more use ..."`}</p>
+                    <p>{`It looks at the ... theater ... building?`}</p>
+                    <p>{`"... it is hard to say."`}</p>
+                    <p>{`It is a long look.`}</p>
+                    <p>{`"... but it saddens me that is not the case. I can not ask you to help me care for those that need help the way you are, so let us limit ourselves at what we have."`}</p>
+                    <p>{`It smiles, softly, weakly.`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`(Don't need to know, I'm investigating and studying him closely so even if i don't know about the spell, I should see if my roll is higher than save.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Well, this is more than 15, so lets see ...)`}</p>
+                    <p>{`You also notice the spell, the way there is a slight delay between words and illusion, how shadow is just slightly different than the frame. But it is also quite clear from both that the difference is not significant. It is more like Remember Me is trying to mask a certain feature or a mark, while the general shape of the body is, as far as you can tell, exactly the same. It is quite a unique body-shape, so it is likely Remember Me.`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`Morwyn steels her back, her lips pressing into a thin, displeased line.`}</p>
+                    <p>{`"Is that so? Unfortunate. To demand of me everything while not revealing anything. Everything on our first meeting."`}</p>
+                    <p>{`Her eyes flit over its form.`}</p>
+                    <p>{`"To my knowledge you are accusing me of being unfeeling and uncaring while not knowing anything about me."`}</p>
+                    <p>{`She smirks.`}</p>
+                    <p>{`"I am somewhat glad than for I have learned a new lesson, because from all that I've heard about you I've expected a wise, open and generous individual. Now I've been proven not all rumors should be believed and not all achievements reflect the truth behind them."`}</p>
+                    <p>{`She briefly looks to Caraxes, the imp immediately making a turn in the air and returning to her shoulders.`}</p>
+                    <p>{`"Well, I am disappointed to find you as stilted, unbending and unfeeling as you look. Farewell."`}</p>
+                    <p>{`She turns to leave.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"I am not accusing you of anything, I am just expressing my concerns that this meeting might have been a mistake ... on my part if you will."`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`(Also, since I passed the check the illusion would break for me, without Remember me knowing.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(No, it doesn't work that way, you just notice the illusion, not break it.)`}</p>
+                    <p>{`(To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.)`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`(Hmmm... No. I fully see through the illusion i think.)`}</p>
+                    <p>{`(Meh, my bad.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`While Morwyn is going away, she might heard Remember Me saying:`}</p>
+                    <p>{`"... Well, I hope some day you notice that all our time is valuable ... and short."`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`Ah he speaks she turns.`}</p>
+                    <p>{`"A mistake, huh. A mistake I would call you approaching me, hidden under an illusion, not knowing who I am while expecting me to go along, and touting assumptions and rumors about my skill."`}</p>
+                    <p>{`She looks at him from a small distance away.`}</p>
+                    <p>{`"I like making friends, but I hate being looked down upon or having my secrets revealed. I wonder how you would like it."`}</p>
+                    <p>{`She palms the amulet around her neck, her eyes briefly flashing as the feathers in her hair move in a phantom wind.`}</p>
+                    <p>{`[Dispel magic on Disguise Self]`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`As the illusion drops ... she sees a thing of horror.`}</p>
+                    <p>{`As she knows Remember Me, he is mostly made out of stone and Remember Me evolved many times before, but ... this one is just wrong.`}</p>
+                    <p>{`It is not like it changed, more like many tiny woody roots are devouring its body, siphoning its life away from it. It is not clear to her what is going on, but one thing is clear. Remember Me is dying and ... it doesn't have much time left from what you can tell.`}</p>
+                    <p>{`Also, it doesn't seem it noticed the illusion being broken.`}</p></>
+            }, {
+                char: { name: "Morwyn" },
+                content: <><p>{`Morwyn's gaze drops to it's body and vines consuming it.`}</p>
+                    <p>{`"While we didn't start out on the best footing, I would hope your time will not run short. Take care of your health and I will come to one of your plays in the future."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me just nods.`}</p>
+                    <p>{`"Goodbye, Lady Morwyn."`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Later that day Remember Me returns back to the Pond of Remembrance, to the most enclosed part of it. Part of its face falls into it, so it fishes it out with its fingers and places it on its face where it belongs.`}</p>
+                    <p>{`[Mending]`}</p>
+                    <p>{`It is a weak link, as a root that dislodged it is still there, but it is back on its place, where it belongs.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`Repko worriedly looks upon its lifelong friend.`}</p>
+                    <p>{`"Ui?"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Do not worry little one. We are almost done."`}</p>
+                    <p>{`Remember Me places its finger into the water. It starts to vibrate. The melody of the world-tree, forever changing, forever evolving, forever harmonious. The melody that started to take root when it saved Minamoto. Melody of Minamoto, Remember Me, how they are connected to the universe, melody it wanted to share. A failure on its part. And now ... life for a life. Its druidic powers managed to keep melody at bay, but while working on its last project, they started to fade due to quantity of metal it was handling.`}</p>
+                    <p>{`"Let us finish her."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Ui!"`}</p>
+                    <p>{`Repko follows Remember Me with a worried face, collecting another piece that falls off the feygon as they go.`}</p></>
+            }]
+        }, {
+            title: "Farewell - day 5",
             shortDesc: "",
             tags: ["depression", "guilt"],
             chars: ["Remember Me"],
             contents: [{
-                char: { name: "", token: 0 },
-                content: <><p>{``}</p></>
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`https://www.youtube.com/watch?v=VBBFDb0hC4Y`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`After months and months of work as others finish their preparations for their next mission, Remember Me was working on, trying to stay ahead of the progression of the roots, taking hold of its body. And now, everything was in place. The only thing left was to combine the pond and the statue together and for course troubleshoot any potential error it made along the way.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Temperature regulation - CHECKED`}</p>
+                    <p>{`Memory storage, removal and dispersal - CHECKED`}</p>
+                    <p>{`Blessings dispersal - CHECKED`}</p>
+                    <p>{`(this does not take hold till next mission, testing is being performed while missions are taking place)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`(Sorry za slabo fotko, vendar sem med delom ugotovil, da bi moral še veliko truda vložiti v raziskave telesa, povrhu vilinskega, sorazmerno daljše noge od človeških, nižja postava ipd., nato še v kako oblačila sodijo gor in se mi enostavno ni dalo, morda če bi imel še teden ... tole je kako približno stvar deluje za občutek kaj se bo dogajalo, na podestu, sede, sproščeno, nagnjeno naprej, oči usmerjene v gladino pred seboj, dlani se dotikajo vode, desna za vroče, leva za hladno, ena noga visi v vodo, nato pa še druidic clothes & long ears.)`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me finished the Pond of Remembrance and ... waited. Observed. Nobody's Faro de Luz Respite opened. Plants were now fully grown, their previously wild and somewhat unpredictable behavior was gone, as they were not following the will of the pond. Everything worked as intended. It was nice. It was harmonious. But more importantly ... it was a failure.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`What was wrong with it, was that it worked exactly as expected. Its actions almost mechanical in their designs. In other words, it was not alive.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me was observing it for a few days. Then when Nobody's Respite cleared once again, it came closer. It knew the air is full of sweet alyssum, but it could not smell anything and due to its waning druidic powers, it could barely turn into an animal to smell it again. The progression of World-tree was severe. It will soon be over, one way or another.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`Ui?`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"I still have one more trick to play before I go back to sleep, right Repko? You remember. You were not there, but you remember, don't you?"`}</p>
+                    <p>{`Remember Me shares some of its memories and the surface of the water displays the image from good 33 years ago. Inside of it is an elf, sitting on the floor, petting its former shell.`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`Repko hurries to its master, grabbing its leg, tightly, not willing to let go.`}</p>
+                    <p>{`"Uiiiiii!"`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"Sorry, but I have one more task left for you. Please, protect this little one when I am gone. Do not let it be alone like I was. Will you?"`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`Repko does not want to look up, but it does give a quiet...`}</p>
+                    <p>{`"Ui."`}</p>
+                    <p>{`...in return.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`"You also, Mezolček, you will protect your pond from intruders, won't you?"`}</p></>
+            }, {
+                char: { name: "Mezolček" },
+                content: <><p>{`Fish's ugly head surfaces, looks at feygol for a moment or two, then dives again.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me understands that that was its way of accepting its task.`}</p>
+                    <p>{`"Come now."`}</p>
+                    <p>{`Remember Me offers a hand to Repko and Repko reluctantly jumps on.`}</p>
+                    <p>{`"Goodbye, old friend."`}</p></>
+            }, {
+                char: { name: "Repko" },
+                content: <><p>{`"Uiii..."`}</p>
+                    <p>{`Repko starts drying out until nothing but an old turnip remains.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`Remember Me takes one of the thinner and woodier vines, then ties it around the dryed turnip into a necklace. [Unseen Servant] ties it around elf's neck.`}</p>
+                    <p>{`Remember Me exhales, which causes another stone to fall painfully from its body.`}</p>
+                    <p>{`"Here we go."`}</p>
+                    <p>{`Step by step it submerges into the center of the pool. There, it stops and looks up. There is a blurry visage of Emily right above it. Concentrating. Smiling. It returns a smile. And thinks to itself.`}</p>
+                    <p><i>{`I hope this works.`}</i></p>
+                    <p>{` It lifts its arms, high, higher, until their fingers are touching each other. She channeling into the pool, it, channeling out of it.`}</p>
+                    <p><i>{`Please, work.`}</i></p>
+                    <p>{`It starts to channel itself into the statue. It requests from a pool to copy all of its memories, every single one of them, but at the same time, it starts to take from its life and giving it to the statue on top of it. Roots starts to spread, greedily wanting too take everything that is left from themselves.`}</p>
+                    <p>{`Remember Me knows, they can not take away from a life that is not there. And if he managed to survive until now and Minamoto is still alive, rules are not as strict as to disallow this little trick it wants to play. And it works. As Remember Me is channeling its life-force into the statue, statue ... well, it is still a statue made out of metal, it does not move, but it can feel it, it can feel it in the whole place around it. Something is going on. The whole place is starts murmuring as if something big is about to happen.`}</p>
+                    <p>{`Remember Me quickens the transfer, its arms growing tired, its memories getting weaker, roots breaking ever-larger chunks off of its body. Remember Me is dying. And something new is starting to awaken in its stead. It knows it is not its Emily, but ... not important. Feygol tries its best to keep its arms up as they are starting to crumble. A little more, just a little more. As much as possible, its life entering the construct above it. A little more. Just a little more. Until there is nothing more to give.`}</p>
+                    <p>{`And at that moment, Remember Me tries its best to make a brave face, one wearing a bright smile, with not a trace of pain.`}</p>
+                    <p>{`"Remember me, Emily."`}</p>
+                    <p>{`With that, it crumbles.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 2 },
+                content: <><p>{`When heroes return, others can find its will. Both Nobody's Respites go to Birog as it proved most capable and willing to preserve them. The rest of Emily's House goes to patrons, but under Sir Catalan's supervision. In the coming years, new one will probably listen to the events all around the world, listening, curious, frustrated it can not go adventuring on its own, just like its father and mother did. After some time, it might decide to dive into the last gift father left with it. A melody. A melody of a World-tree. And with that, its roots would start to spread, trough the city, trough the island, slowly, exploring, learning, searching, until there is nothing new to discover. Then it might decide to follow its creators and just like Emily and Remember Me did, create a living construct that will go on, exploring further. But in between time, it would probably honor its father's wishes and protect Faro de Luz with everything it can, from time to time assisted by Repko, bound to Remember Me's life, used to create new Emily ... or however it decided to name itself. When the day comes, would it have to sacrifice itself like those before it did? Or would it find a way to finally overcome the barrier?`}</p>
+                    <p>{`Only time will tell.`}</p></>
             }]
         }]
     }
