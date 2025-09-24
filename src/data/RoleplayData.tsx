@@ -3371,11 +3371,11 @@ export default function RoleplayData() {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Tako, in še razlog zakaj sem pospešil objavo, sedaj lahko naredim tole)`}</p>
                     <p>{`Opening Play`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=mauxvpOFth8"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/mauxvpOFth8"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 0)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=ZneqpcVzOWs"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/ZneqpcVzOWs"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Progress on the Nobody's Respite after last mission slowed down quite considerably as Remember Me is still troubled by the results of its last mission. Also, its new and expanding responsibilities as a still developing dormitory supervisor as well as main theater sponsor, training new generation of artists of all sorts as well as general job search and inspections took a lot more time than intended. Still, progress is noticeable. Pond is mostly installed and is now engraved with barely visible but delicate shapes that somewhat resemble druidic language, but shaped into pictures and stories. Most of it thou is covered by seemingly forever regenerating mud that covers most of the pool's bottom, giving it more of a feel of a pond. Some smaller species of fish, insects, snakes, lizards, spiders, amphibians and water plants can sometimes be spotted around the pond, swimming, hiding in mud, moss, rocks placed in the shapes of pathways or plants's branches, giving the room alive feeling. Even more, plants all around the place have grow in miraculous time and indeed give a feeling that this place is somehow alive ... and aware. Plants at the door will sometime block or open the path, seemingly at random, needing a druid to correct them. Central area can now be accessed by a thick bridge and railings made out of living plants ... but sometimes too living and wild as they might decide to open under the guest and let them fall into water. Many more branches form a thick arch all around the pool, continuing upwards to form a terrace and many handy stairs, but again, at any time they might decide to simply stop providing support, so the area is still closed for residents of dormitory, even as it is now connected to it by 2 gates where terraces are. Previous patches of dirt have grown into many individual plants, intertwined into pillars, growing into each other and starting to take the shape of the living canopy, even if the roof is still fully opened to the sky.`}</p></>
@@ -3385,14 +3385,14 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=wVnxsjAIfWg"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/wVnxsjAIfWg"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Tako, ni ne vem kaj, vendar za par ur dela bo vredu Nobody's Respite - Flowery Arch Over the Pond`}</p></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=TFRhVq4i4bA"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/TFRhVq4i4bA"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
@@ -3403,28 +3403,28 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=7dbwwu7ydhM"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/7dbwwu7ydhM"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=E5g3gixP1bM"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/E5g3gixP1bM"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=P2saF8pHwR4"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/P2saF8pHwR4"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=hqQAEUeGDds"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/hqQAEUeGDds"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=nIZxh_nc64w"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/nIZxh_nc64w"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
                     <p>{`(Remember Me is gone)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=2a2UABmIzEA"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/2a2UABmIzEA"></iframe></>
             }]
         }, {
             title: "Emily",
@@ -3618,68 +3618,68 @@ export default function RoleplayData() {
             contents: [{
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=5wvTs-1jUFE`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=5wvTs-1jUFE"></iframe></>
+                    <p>{`https://www.youtube.com/embed/5wvTs-1jUFE`}</p>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/5wvTs-1jUFE"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=yEg02Ui_a8k"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/yEg02Ui_a8k"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=tHZqxecCukg"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/tHZqxecCukg"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=6fEXKtBsjNQ"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/6fEXKtBsjNQ"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=1EdSGUIaJYQ"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/1EdSGUIaJYQ"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=5u3RGhznctE"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/5u3RGhznctE"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=jRFk22ENWNg"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/jRFk22ENWNg"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=zbQRY8KSVbU"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/zbQRY8KSVbU"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=E83hl6hDfKQ"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/E83hl6hDfKQ"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(this one is just so nice that I have to share both xD, Ranking of Kings is amazing)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=dWZAH5w8jkQ"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/dWZAH5w8jkQ"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=60ItHLz5WEA"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/60ItHLz5WEA"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=ED66vOZg9t4"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/ED66vOZg9t4"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=2RrkFCw0t90"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/2RrkFCw0t90"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=xG12ghcBKvw"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/xG12ghcBKvw"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=J-j32A2tTlk"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/J-j32A2tTlk"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5, konec)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=Y6ljFaKRTrI"></iframe></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/embed/Y6ljFaKRTrI"></iframe></>
             }]
         }, {
             title: "Invitation - day 1",
@@ -4127,7 +4127,7 @@ export default function RoleplayData() {
             chars: ["Remember Me"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
-                content: <><iframe width="252" height="189" src="https://www.youtube.com/watch?v=VBBFDb0hC4Y"></iframe></>
+                content: <><iframe width="252" height="189" src="https://www.youtube.com/embed/VBBFDb0hC4Y"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`After months and months of work as others finish their preparations for their next mission, Remember Me was working on, trying to stay ahead of the progression of the roots, taking hold of its body. And now, everything was in place. The only thing left was to combine the pond and the statue together and for course troubleshoot any potential error it made along the way.`}</p></>
