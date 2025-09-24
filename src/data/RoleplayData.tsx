@@ -926,14 +926,14 @@ export default function RoleplayData() {
                 content: <><p>{`During the morning training after Remember Me rebuilds, Minamoto calls the little feygol.`}</p>
                     <p>{`"Remember me, leave the excersises for now. Come sit, we shall discuss."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me does so as instructed, Repko resting in its lap.`}</p></>
             }, {
                 char: { name: "Minamoto", token: 2 },
                 content: <><p>{`Minamoto slowly eases himself in a casual lotus position, moving with care. He invites the golem to sit beside him.`}</p>
                     <p>{`"Remember me, you seem to have resolved your problems from last time. I am glad. How do you feel?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me thinks for a moment. How does it feel?`}</p>
                     <p>{`"Rested. Like if I was tired for a long time and I have taken a long nap."`}</p></>
             }, {
@@ -943,7 +943,7 @@ export default function RoleplayData() {
                     <p>{`He smiles.`}</p>
                     <p>{`"Do you feel anything different? Anything new? Do you feel the energy around you, inside of you?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Not sure about that, but I do feel lighter. My body feels easier to move than ever."`}</p>
                     <p>{`"Also, Repko is quite energetic, so I do get to feel quite a lot of energy around me."`}</p>
                     <p>{`Repko widely yawns with a cute little sound and turns around.`}</p>
@@ -956,7 +956,7 @@ export default function RoleplayData() {
                     <p>{`He shakes from laughter, unable to speak. After a shortwhile he composes himself.`}</p>
                     <p>{`"No, I do not play poker. Never tried it even actually."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Oh, I just happened to notice you have a really good poker face, I believe you would do an amazing job at it. Now sorry to interrupt, something about energy, right 🙂?"`}</p></>
             }, {
                 char: { name: "Minamoto", token: 2 },
@@ -964,7 +964,7 @@ export default function RoleplayData() {
                     <p>{`He thinks on it, but quickly continues.`}</p>
                     <p>{`"Hai, energy. When I woke you up last time I felt fluctuations in your ki, your life energy. Signs of circulation. It was what helped you back from the beyond. Since that happened, I think you might have better understanding of ki now. We can begin training your energy flow now."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Ooooo, this is so exciting, I feel smarter already!"`}</p>
                     <p>{`"Yes yes Sir, my ki feels very good today."`}</p></>
             }, {
@@ -973,7 +973,7 @@ export default function RoleplayData() {
                     <p>{`Minamoto brings out an incense holder and lights some jasmine incense.`}</p>
                     <p>{`"We shall begin with some breathing excersises. Just try breathing and relaxing. Feel it circle inside you. Rise up and down with your breaths."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me does as instructed.`}</p></>
             }, {
                 char: { name: "Minamoto", token: 2 },
@@ -981,7 +981,7 @@ export default function RoleplayData() {
                     <p>{`Minamoto instructs, observing the feygol.`}</p>
                     <p>{`"Once it builds up, release it, to the outside. Feel the space around you, life force and energies in the air. Feel for changes, fluctuations, what is around you."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me tries to concentrate.`}</p>
                     <p>{`There is it. Stones, held together by magic, wood and clinging plants, hard inside with even harder stony protective outside.`}</p>
                     <p>{`There is Repko, in its lap, its familiar, family, sleeping.`}</p>
@@ -994,7 +994,7 @@ export default function RoleplayData() {
                 content: <><p>{`As the scent of incense flows, Minamoto's own breathing slows down as well.`}</p>
                     <p>{`"That's it. Ki is life and everything is ki. Remember that."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me would scratch its head, but given that his hands are at the moment attached to its head, he decides against it. Instead, he returns back to its body.`}</p>
                     <p>{`"I think I understand. Would you mind if I test it? In a sparring match that is."`}</p></>
             }, {
@@ -1006,7 +1006,7 @@ export default function RoleplayData() {
                     <p>{`"Hmmm, somebody who can turn invisible would be best. Let me ask Morwyn if her little oni is available. Wait here for a moment."`}</p>
                     <p>{`He leaves towards his quarters.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me has nothing better to do than to train anyway, so it waits, training its ki a bit more.`}</p></>
             }, {
                 char: { name: "Caraxes" },
@@ -1035,14 +1035,14 @@ export default function RoleplayData() {
                     <p>{`He then turns to the feygol.`}</p>
                     <p>{`"You on the other hand, must find him and touch him. Using the ki, your internal energy. This will be a hard excersise, demo I am sure you can manage."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Ok. Nice to meet you, Sir Caraxes!"`}</p>
                     <p>{`"Repko, step to the side for a little bit, you have a very important role to fill. You, are a cheerleader."`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`"Ui?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Yes yes, just make sure to put your everything into it!"`}</p></>
             }, {
                 char: { name: "Repko" },
@@ -1058,7 +1058,7 @@ export default function RoleplayData() {
                     <p>{`"Hellos Rrremembrry. I wills hide now."`}</p>
                     <p>{`Caraxes waves at the feygol before snapping his clawed fingers and going invisible.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me focuses. The creature it is looking for is rather small in size and it will try to evade, so to grapple or punch it is probably out of question. It will need to employ its footwork, something it has quite a little experience with, given that most of its form till this point were short-legged.`}</p>
                     <p>{`Remember Me is looking for any signs of movement. Creature is invisible, but maybe there are footprints, movement of dust, a strange wind, something to let it know where the creature is hiding.`}</p></>
             }, {
@@ -1069,7 +1069,7 @@ export default function RoleplayData() {
                 content: <><p>{`From the side Minamoto instructs.`}</p>
                     <p>{`"Do not look, you will not find him like that. Feel, search with your ki, find his."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me thinks to itself.`}</p>
                     <p><i>{`But what if its invisibility makes its ki invisible? I have no idea what I am up against.`}</i></p>
                     <p>{`It tries to get a feel of its surrounding. Then it kicks at the suspicions part of a training field.`}</p></>
@@ -1077,7 +1077,7 @@ export default function RoleplayData() {
                 char: { name: "Caraxes" },
                 content: <><p>{`Caraxes observes the feygol, looking at it from where he hovers around its head's height. He grins as he sees Remember me kick at the training field opposite him. He concentrates on his invisibility, trying to produce as little movement as possible.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me feels the slight movement of the air and realizes air around it might also be a suspect. It punches in the general direction of where it feel fiend might be, then it punches again somewhere else, then kicks in the opposite direction, not because it knows it is there, but to limit its options.`}</p></>
             }, {
                 char: { name: "Minamoto", token: 2 },
@@ -1112,7 +1112,7 @@ export default function RoleplayData() {
                     <p>{`Minamoto nods, instructing Remember me.`}</p>
                     <p>{`"Remember what we practiced. Breathing, channeling your ki, all that is very important. Try again."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`As Caraxes turns invisible again, Remember Me gets confused, but closes its eyes and focuses. Nothing good can come from simply kicking and Soldier has years if not decades of experience in the ki he is mentioning, so it need something faster, something only it can do. Then it remembers ...`}</p>
                     <p><i>{`I have Emily.`}</i></p>
                     <p><i>{`What would Emily do? She was weak. And she was blind her entire life. But time and time again, she fought opponents better than her. And yes, she almost died most of those encounters, but she survived. How?`}</i></p>
@@ -1122,13 +1122,13 @@ export default function RoleplayData() {
                 content: <><p>{`Repko notices the change and takes out its pair of tiny maracas and starts shaking in the rhythm and chanting.`}</p>
                     <p>{`"Uiiiiiiiiiiiiiiiuiiiiiiiiiiiiiiiiuiiiiiiiiiiiiiiuiiiiiiiiiiiiiiuiiiiiiiiiiiiiuiiiiiiiiiiiii...!"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Like its body, world behind its closed eyes becomes full of sounds and motions. Sound and movement are everywhere, energy is everywhere, maybe this is the ki Soldier was talking about?`}</p></>
             }, {
                 char: { name: "Caraxes" },
                 content: <><p>{`Caraxes observes Remember me doing something akin to meditation. The feygol seems like it is focusing on its surroundings in some way. Time to movess a bit. Caraxes thinks and quietly flaps closer to Minamoto, making sure the commander doesn't notice him.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Something moves, but where? It can not see where the movement is coming from! But at least, it feels like it can react in a new way, not needing to start moving, Remember Me's movement simply follows the flow of the world, moving as if being a part of it.`}</p>
                     <p>{`It also notices something new. Its body is new and it is not used to it, but ... no other body was as Emily-like as this one. It was never able to do so before, but now ... it almost feels like it has hundreds of years of experience using it [Guidance].`}</p>
                     <p>{`Also, it can not disgrace Emily and her memory, it has to try its best, it has to perform beyond its limits, failing or succeeding, good is not good enough! [Bardic Inspiration]`}</p></>
@@ -1136,34 +1136,34 @@ export default function RoleplayData() {
                 char: { name: "Repko" },
                 content: <><p>{`"Uiiiiiiiiiiiiiiuiiiiiiiiiiiiiiiuiiiiiiiiiiiiiiuiiiiiiiiiiiiuiiiiiiiiiii...!"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`With that, one step, another step, kick, kick, [touch?]...`}</p></>
             }, {
                 char: { name: "Caraxes" },
                 content: <><p>{`Caraxes sees the feygol flailing around at first, reaching into multiple directions, until he stills and turns in his direction. Krax! Did he hear me. Caraxes stills, trying to quiet his wingbeats as he floats to the right, checking if Remember me will follow him.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Caraxes tries to evade, but more it moves, easier it is for Remember Me to find it, touching it for the first time ...`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`"Uiiiiiiiiiiiii!"`}</p>
                     <p>{`Repko cheers as it can sense Remember Me's thought's trough their telepathic link.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`... annoying Caraxes, that dodges Remember Me's next move, but it is almost like Remember Me was leading him into position for another touch, step back, spin kick, touch again, spin kick, touch ...`}</p>
                     <p>{`If anyone were to be able to see them, it would almost seem as if they are dancing, feygol and ever more annoyed and confused fiend, one leading, one being led, to the tune of two tiny maracas and chirping of a tiny excited turnip.`}</p></>
             }, {
                 char: { name: "Minamoto", token: 2 },
                 content: <><p>{`Minamoto nods, a satisfied smile on his face. Not wishing to disturb, he leaves quietly, letting Remember me get accustomed to his new movement.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me notices.`}</p>
                     <p>{`"Bye bye, Master Soldier!"`}</p></>
             }, {
                 char: { name: "Caraxes" },
                 content: <><p>{`Annoyed, Caraxes weaves through the air to avoid the feygol, evading his touch at any cost. It is obvious to him that Remember me finally got a hold of the sense Minamoto wished to unlock within him.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me dances for some time, then spins Caraxes around, stops him, making a polite bow as Caraxes's claws swing just over its head.`}</p>
                     <p>{`"I thank you for this lesson, but I noticed you movement was somewhat restrained, as if you are waiting for someone to command it. May I know the name of your master?"`}</p>
                     <p>{`"Or ..."`}</p>
@@ -1175,14 +1175,14 @@ export default function RoleplayData() {
                     <p>{`"I amss not rrrestrricted. I actss frreely. Butss, it iss no ssecrret that Morrwyndell Eldamarrr isss my Misstrress. We havess a contrract, herrr and I."`}</p>
                     <p>{`He flaps his wings, annoyed his invisibility did not work on the feygolem and is now being questioned.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Misstress Morrwyndell Eldamarrr you say? This almost sounds like someone else I heard about not so long ago from Master Soldier. It was ... Morning ... Morrowind ... Morwyn? He said he would be prepared to kill for her. Strange coincidences, don't you agree?"`}</p></>
             }, {
                 char: { name: "Caraxes" },
                 content: <><p>{`Caraxes nods.`}</p>
                     <p>{`"That iss herr."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Ou, in that case, send her my thanks if you will, for talking you away from her for my training 🙂"`}</p>
                     <p>{`"By the way, do you happen to feel the same? Would you also kill for your Mistress?"`}</p></>
             }, {
@@ -1191,13 +1191,13 @@ export default function RoleplayData() {
                     <p>{`Caraxes huffs and nods again.`}</p>
                     <p>{`"Of courrse. If sshe ssaid, I woulds kill."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"What if she doesn't tell you to do it? Would you still do it anyway?"`}</p></>
             }, {
                 char: { name: "Caraxes" },
                 content: <><p>{`"Yesss. It iss in my contrract. And I likess to do it."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Interesting. Well, thank you for you time, here, before you go, have a goodberry, I was told they taste delicious and are quite filling."`}</p>
                     <p>{`Remember Me hands it a tiny turnip, even tinier than Repko, that starts screaming its lungs out the moment it sees the fiend.`}</p></>
             }, {
@@ -2787,7 +2787,7 @@ export default function RoleplayData() {
                     <p>{`"O eutuhismenos anthrops einai autos pou ehei ena ugies soma, mia plousia psuhe kai mia kala morfomene fuse, The happy man is the one who has a healthy body, a wealthy soul and a well educated nature."`}</p>
                     <p>{`Celestial just pours out of him as a babbling brook.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(... no, don't, yes I will)`}</p>
                     <p>{`Remember Me overhears the conversation and chimes it, still joyfully shaking its maracas.`}</p>
                     <p>{`"Mating? I know a lot about mating, what do you want to know. Who are you? I am Remember Me, have you heard about Emily? She wanted to mate a lot, but she couldn't say the word, be sure when you want to mate, to let the other person know!"`}</p>
@@ -2817,14 +2817,14 @@ export default function RoleplayData() {
                     <p>{`You hear perplexed disbelief in his voice. As Remeber Me joins the conversation he turns to him, takes a double take at the big stone person next to him and continues.`}</p>
                     <p>{`"Nai, consent is very important, yes."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me readily disregards any and all social cue it might have got as it hears about the opportunity to talk about Emily.`}</p>
                     <p>{`"Gather around, gather around folk, we are about to discuss mating here, come here, come here all who wish to learn more!"`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`Repko readies the mood with its maracas čščščščščščščščščščščšč as people gather around.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <>
                     <p>{`"Let me tell you a story ... about a girl ... and a boy. And the fate that never was ..."`}</p></>
             }, {
@@ -2832,7 +2832,7 @@ export default function RoleplayData() {
                 content: <>
                     <p>{`Maracas picks up the tempo!`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <>
                     <p>{`"Emily was a young girl, yet 80 years of age. Not too smart, not too much of a looker, blind, weak and sickly, yet working hard and old enough to know how ... how to polish the grass for that was a craft of a druid after all, to love the nature and when needed, for it to love you back."`}</p></>
             }, {
@@ -2843,13 +2843,13 @@ export default function RoleplayData() {
                 content: <><p>{`Ivan of course, couldn't miss such an event, especially when there's alchohol. Even tho he dosen't own a 'fancy' outfit, he wears the most expensive, something he calls a teech fleese. It's unlike what you've seen before, as its not similar to any common outfits.`}</p>
                     <p>{`When he enters, you can see him looking around for any familiar faces. Spotting the mating circle, he approaches, listening to Remeber me talking about Emily.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Yet her was not that of a lonely nature, for she required a company, both in spirit, in bad weather or god forbid unpleasant week as well as ... kiss and fuck and everything between, for elves are elves and elves do it plenty and with many, yet most of all, she required a common soul to keep her up, when everything was pressing her into dirt and under, she needed a kind word, a nice look and little care, a little more than strictly required and proper and maybe a bit and bit more, until nothing is left but the desire ..."`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`ščščščščš`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Did she need a friend, why you ask, she needed a ton, craved in fact, yet in lack of those who would have guessed she wished or from time to time even lusted for ... a tiny bit more?"`}</p>
                     <p>{`"Surrounded with those who would wish her to fail, to crumble, to cry, she wanted a soul upon which she could rely ..."`}</p></>
             }, {
@@ -2863,7 +2863,7 @@ export default function RoleplayData() {
                 content: <><p>{`Ceres happily claps to the beat of the song.`}</p>
                     <p>{`"What does fuck mean?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"So there was a boy, tad bit older, sure, but also mature, for not like her peers he said good day and good bye like he truly believed she deserved, and it wasn't much but for a starving soul as her's it was plenty ... to connect."`}</p>
                     <p>{`"Day passed day and she learned more and more and wanted to know and more, how others called him handsome, polite, kind, somewhat smart, how he had what she lacked, respect of others."`}</p>
                     <p>{`"So her heart grew warmer, almost warmer than the head when she heard him nearby, so overwhelmed to be her best to be flustered and stuttering and stumbling and spilling and nothing was right, even if he wouldn't mind and would laugh not in the way others did, she minded ... and started to imagine. Imagine herself weak, and unworthy and too shy ... to shy to say what laid on her mind ..."`}</p></>
@@ -2871,7 +2871,7 @@ export default function RoleplayData() {
                 char: { name: "Repko" },
                 content: <><p>{`ščščščščščščš`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me quickly with a different voice to Ceres.`}</p>
                     <p>{`"Getting there Sir Ceres. Getting there."`}</p></>
             }, {
@@ -2902,14 +2902,14 @@ export default function RoleplayData() {
                 content: <><p>{`Ceres glances back at Thian again and, with a wide smile on his face, mouths.`}</p>
                     <p>{`"Look, I made a new friend!"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me's voice grows quieter.`}</p>
                     <p>{`"And her mind ..."`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`ščščščščščščš`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Library reading, moonwalk talks, and holding hands, and seeing stars in each other eyes and gentle touches and fingers crossing the hair and kisses and kissing and kissing and kissing...`}</p>
                     <p>{`Louder again.`}</p>
                     <p>{`"...and oh so much kissing, it is like there is something in her mouth to find, maybe gold? now his, now his face, behind, perky breasts and the tummy and ou my also there girl?, ok ... yes, yes, yes, so much kissing, too much kissing, too much hands all over her body, so she says "I want you inside." and he says "yes" or some other hot shit because thought are a bit busy and service is not available, call again later, so her clothes are gone, or not, whatever, he is inside with his pee pee sausage you have and I don't sir or if you are a bear a bone, or a duck a corkscrew or a hyena ... good luck sir, he is there and she is excited and so hot his fingers are melting all over her skin and they fuck and they fuck and they fuck and again and breathe each other's breath, now he is going a bull on her from behind and ou god, I am not sure what that is, but I call it a fuck, so they do it a lot and they do it often ... and stop, and cuddle, and kiss ... and do it again! ... in her mind."`}</p>
@@ -2918,26 +2918,26 @@ export default function RoleplayData() {
                 char: { name: "Repko" },
                 content: <><p>{`ščščš`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"So they fall in love and she calls him a family and because they are elves and elves do it plenty and do it a lot, maybe someone joins in, but only he is the one that remains ... in her lonely mind ... lonely mind that wanted to be desired ...`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`ščščščščščš`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <>
                     <p>{`More she wishes, more distant she gets, with more lack comes more lust and she ... she is so so lonely ...`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`ščščšč`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`So my good Sir Ceres, good Lady Thian, enjoy the day, for you are together, and in love, and night is young ... however the fuck you want with books or hands or mouths or whatever you have or were sold ... mate?`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`ščščščščščščščščščščščščšč`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Ladies and gentelmen or whatever you are, please, one applaud for Sir Ceres and Lady Thian!`}</p></>
             }, {
                 char: { name: "Davric" },
@@ -2950,7 +2950,7 @@ export default function RoleplayData() {
                     <p>{`He thinks for a moment.`}</p>
                     <p>{`"Ah, but of course! It's not a dialect. It's poetic language, yes?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(A little bit later same evening.)`}</p></>
             }, {
                 char: { name: "Sr. Catalan" },
@@ -2965,7 +2965,7 @@ export default function RoleplayData() {
                     <p>{`Chair incident happens.`}</p>
                     <p>{`"Whoever or whatever you are, it is a day of celebration so feel free."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me notices Sir Catalan's stumbling.`}</p>
                     <p>{`"Huh, I knew this would happen. Sir, do you fancy a drink a bit more than you can handle?"`}</p></>
             }, {
@@ -2975,14 +2975,14 @@ export default function RoleplayData() {
                     <p>{`He now turns his haze to you and stops dancing and comes closer.`}</p>
                     <p>{`"Mind if I take a seat?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"No worry, no worry sir, every time is a first time to learn something new, here, to new experiences!"`}</p>
                     <p>{`[Lesser Restoration]`}</p></>
             }, {
                 char: { name: "Sr. Catalan" },
                 content: <><p>{`"You, do you wish to join us as well?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Good Sir, I would love to talk with you but I am but a mere entertainer. Of course if you would want to talk to me about my work, my mission or about Emily, I would be more than happy to oblige 🙂"`}</p>
                     <p>{`Remember Me continues to shake maracas and entertain nearby guests.`}</p></>
             }, {
@@ -2990,7 +2990,7 @@ export default function RoleplayData() {
                 content: <><p>{`He quickly looks at you.`}</p>
                     <p>{`"Hmm Emily I'vew heard that name before ... oh yeah you've been talking about uh ... her? If it's interesting, tell me! I'm interested!"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Something that would be of interest to you and you haven't heard about from me yet? Then ... what if I told you, I am working on something big. So big in fact, that Mechanus invested 1100 Gp into Nueva Sorte just so that they could study it?"`}</p></>
             }, {
                 char: { name: "Sr. Catalan" },
@@ -2998,7 +2998,7 @@ export default function RoleplayData() {
                     <p>{`He pulls out a box of expensive looking cigars puts one in his mouth and offer you one.`}</p>
                     <p>{`He lights the cigar in his mouth and starts smoking it.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Hm, sorry, it might look as if I am breathing, but the process is slightly different for me than it is for you and I only learned it recently, so I can not smoke, but I appreciate the gesture 🙂"`}</p>
                     <p>{`"Indeed, they will be here in a few months, maybe half a year, maybe you would want to meet them? I am working on a device, a very special device, a device for which I am still collecting investments in fact. I was inspired by a dream ... or maybe a memory? For you see, my creator was a very ... worldly figure, and as an elf, a long-lived at that. So she knew quite a lot that more short-lived schools of craftsmanship ... might be too contained to explore."`}</p></>
             }, {
@@ -3006,7 +3006,7 @@ export default function RoleplayData() {
                 content: <><p>{`He looks at you with a very intrigued face.`}</p>
                     <p>{`"Hmm that sounds nice ... I would like to meet them, but I do not have much cash with me ... Oh and would anyone else like a cigar if we're already celebrating..."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Ah, too bad, too bad. Anyway, do drop by when I am finished, Nobody's Respite. Maybe you at least find something of interest, or maybe, you discover something of interest about yourself. It is my belief everyone needs to have a person such as Emily in their life and those who believe, try and try harder ... I believe she smiles upon those who would follow in her footsteps."`}</p></>
             }, {
                 char: { name: "Sr. Catalan" },
@@ -3015,7 +3015,7 @@ export default function RoleplayData() {
                     <p>{`He thinks a little bit" but thats life and you got to enjoy what you have and try to live and maybe fight fate."`}</p>
                     <p>{`He looks back at you chuckling again`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me smiles, kindly.`}</p>
                     <p>{`"Well, in that case, I do hope that fate is kind to you or that your struggle against bears fruit. Whichever it is, do not slack, fight for it with all you got, this is what Emily would do."`}</p>
                     <p>{`[Guidence]`}</p>
@@ -3025,25 +3025,25 @@ export default function RoleplayData() {
                 content: <><p>{`He thinks.`}</p>
                     <p>{`"I will try to do so I hope I find someone if love is not my thing so be it. I have greater things in plan."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`To Isabela.`}</p>
                     <p>{`"Hi there! Your ... clan symbol, it looks ... familiar, did I met you somewhere before?"`}</p></>
             }, {
                 char: { name: "Isabela" },
                 content: <><p>{`"Well we did visit the plane of mechanus together. Your being also makes me feel some passing familiarity, but I can not place it."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Guess so, we are far away from where I come from, so for there to be a person to know about Leshisel would be quite a coincidence ..."`}</p></>
             }, {
                 char: { name: "Isabela" },
                 content: <><p>{`"As they say coincidences happen. Do drop by my place sometime later for a more proper discussion when I am not in this state."`}</p>
                     <p>{`She gestures over herself.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me's expression slightly changes, trying to pierce trough the meaning of her words, yet feygol is far from being smart enough to figure conundrum in front of it on its own.`}</p>
                     <p>{`Maybe I will do exactly that when we have a chance. I believe they said that something is coming up, another trip trough the portal lake, but maybe after that, I would surly be interested to know more about your origins.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(A little bit later same evening.)`}</p></>
             }, {
                 char: { name: "Minamoto" },
@@ -3060,14 +3060,14 @@ export default function RoleplayData() {
                 content: <><p>{`(19 total)`}</p>
                     <p>{`As the two are having a conversation outside, Morwyn notices a slim shape climbing out of the window behind Minamoto's back. Thian more or less rolls out and then tries to sneak off into the caves.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me notices her stumbling and decides to use [Pass Without Trace] on her in order for her to at least have a chance with Minamoto around 👀.`}</p></>
             }, {
                 char: { name: "Ceres Lionari" },
                 content: <><p>{`D20 🎲: 5, Total: 7`}</p>
                     <p>{`Ceres is doing the same thing as Thian, just on the other side of the tavern and far less sneakily as he tries to promote liquor to every other person he sees.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(No Pass for you, mister matey 👀, let the world see 🤘)`}</p></>
             }, {
                 char: { name: "Thian" },
@@ -3077,13 +3077,13 @@ export default function RoleplayData() {
                 content: <><p>{`(I will not forget this betrayal 🤣)`}</p>
                     <p>{`(Who am I kidding, of course I will, I'm dead drunk.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Hey, I am building a device to store and display memories, you can watch later 👀)`}</p></>
             }, {
                 char: { name: "Ceres Lionari" },
                 content: <><p>{`(Oh, Ceres is very interested in memories in general, you'll see soon enough 👀)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Well, the future I am waiting for is when you have kids and they ask this magic device.`}</p>
                     <p>{`"Tell us a bit about our father, what was he like?")`}</p>
                     <p>{`(I think I am starting to understand Gen Z.)`}</p></>
@@ -3095,14 +3095,14 @@ export default function RoleplayData() {
                 content: <><p>{`After some looking around he finds Minamoto and Morwyn. He decides to come to them and asks.`}</p>
                     <p>{`"Where have Thian and Ceres gone?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Mislim da je Morwyn šla v klet se napiti na rumu, tako da je ne boš našel xD)`}</p></>
             }, {
                 char: { name: "Sr. Catalan" },
                 content: <><p>{`(Pol kje je Minamoto je on se vedno tuki? I have almost no idea what's happening.)`}</p>
                     <p>{`(Kaj ti delaš, si se vedno tuki al ...)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Načeloma, life of the party, špilam ropotulje z Repkom, skrbim da se gostje zabavanjo 🙂)`}</p></>
             }, {
                 char: { name: "Rua" },
@@ -3111,7 +3111,7 @@ export default function RoleplayData() {
                     <p>{`If anyone else would like to talk to her that she doesn't know personally yet she's open to that and tries to gift a fitting feather to everyone that she meets!`}</p>
                     <p>{`Then she retires for the evening, with the empty bag 🪶`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`🌱`}</p>
                     <p>{`Remember Me accepts the gift for himself and [Druidcraft] later it is already a natural part of its construction, yet pauses before accepting the gift for Emily.`}</p>
                     <p>{`"I thank you for the offer, but may I make a different kind of a suggestion?"`}</p>
@@ -3132,7 +3132,7 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me", "Parateretes"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me tries to find Fargrim, legendary blacksmith, or so it was told. It is wondering around craftsmen's district, looking for the telltale signs of a smithy.`}</p></>
             }, {
                 char: { name: "Pripovedovalec" },
@@ -3142,7 +3142,7 @@ export default function RoleplayData() {
                 content: <><p>{`You saunter up to an L shaped building in the old part of Rosa Riendo. The longer part of the building has currently open ... windows? walls? You see inside a a couple of artisans crafting, amongst them a young gnome and youngish redheaded dwarf woman.`}</p>
                     <p>{`In front of the shorter part on the porch, you see an elderly dwarf with grey hair and beard, interspersed with some darker strands, who just said goodbye to captain Minamoto and sat down to light a pipe. And it is weird, you don't feel any breeze, but windchimes near the old dwarf are gently swinging. You heard Minamoto use the name Fargrim in his goodbye, before he went in the other direction.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`[Message]`}</p>
                     <p>{`Remember Me points at the dwarf.`}</p>
                     <p>{`"Hi, would you happen to be a blacksmith Fargrim?"`}</p></>
@@ -3152,20 +3152,20 @@ export default function RoleplayData() {
                     <p>{`"Haha, yes I am Fargrim, and i can also do blacksmithing. What can I help you with good person?"`}</p>
                     <p>{`His chuckle sounds like a rolling thunder and the smoke from his pipe twirls around him, yet you still don't feel any wind.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Well, hello then. I am Remember Me, feygol made by Emily, and this is Repko. It shows a happy go lucky turnip on its shoulder.`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`"Uiiiiiiiiii!"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"I come here as Oaksplit and Minamoto recommended you as a blacksmith of great renown. I happened upon a great amount of metal and I thought that learning the way of the metalcraft would give me some ideas what to do with it. A stranger also told me he would need something crafted, if I were to be able, as there is a great lack of blacksmiths around here, so now I am trying to learn the way of yours and I was hoping, if Sir Fargrim would be willing to teach me about his craft."`}</p></>
             }, {
                 char: { name: "Parateretes" },
                 content: <><p>{`"Well well, another pupil. I will gladly teach you smithing, Remember Me. I would also love to meet Emily, the one who created you, for I have a lot of questions for her."`}</p>
                     <p>{`He speaks to you as he is circling you.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me observes the craftsman and chooses its words carefully.`}</p>
                     <p>{`"She is not around anymore, for she gave her life in the pursuit of her craft. That said, I do happen to have many memories of her as well and it is my ongoing intent to tell people about her and her work, so maybe we could some time talk about her or maybe you could drop at our humble house of healing, persevering and remembering. I also have works about her, or I will, because I am still student of art, still learning how to paint, dance, write and sing about her. Maybe you would be even willing to donate some of your fortune in the goals myself strives for? Making sure everyone has a chance to grow, somewhere to sleep, something to eat, somewhere to learn, somewhere to heal, someone to talk to, somewhere where someone would lend them a hand, just like Emily would have benefited from, for she was blind, sickly and untalented, yet more than willing to improve at any chance she got. And as you can see, she did managed to create me."`}</p></>
             }, {
@@ -3175,7 +3175,7 @@ export default function RoleplayData() {
                     <p>{`"I will be glad to listen what you have to say about her. But first let us learn some things about forging."`}</p>
                     <p>{`He gestures you to sit down next to him and starts explaining basic principles of metal crafting. Later he takes you in to the workshop to a forge and shows you the blacksmithing tools. After that he announces that your lession for the day is done and asks you to tell him about Emily on the porch in front of the house. After about an hour or so, he stops you and bids you good night, as he heads inside to rest.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me follows his lead, carefully observing everything he does. It find is intriguing that while great many things are new, for it can not remember how anything looks, he does kind of 'remember' many of the tools, for Emily was using at least some of them as she was crafting its first, at that time mostly mechanical, body. While experience is new, it is still able to remember the feel of the hammer and the swings of the hammer. Remember Me probably won't be creating metalforged anytime soon, but at least it is able to have an idea of what it is trying to do. There is magic in the art of metalcraft and if it could only make the metal sing, sing with it, it remembers that would sound wonderful.`}</p>
                     <p>{`Remember Me retreats, but outside, outside of the city, for there is still something it has to do before it returns to the warehouse, till then, it awaits the next morning.`}</p></>
             }, {
@@ -3183,7 +3183,7 @@ export default function RoleplayData() {
                 content: <><p>{`In following days, as you return to Fargrims workshop, he teaches you how to start a proper forge fire, heat different types of metal and you start working on different smaller projects. After each learning session he sits down with you and with great interest listens to your tale of Emily for about an hour, before retiring to rest.`}</p>
                     <p>{`(You can tell me if you want anything specific / special roleplayed out.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Hm ... @Samo? Imam en projekt v mislih, samo nisem prepričan če bi ga lahko že tukaj zagnal, glede na to, da načeloma še nisem dobil proficiency, pač pa delam na njej. Bi bilo ok, če se projekt vsaj začne kot del treninga? Pa verjetno bi moral s teboj zglancati podrobnosti, ker bo vplivalo na koliko DT, sredstev itn. gre vanj.)`}</p>
                     <p>{`(Zelo na kratko, gre se za ribnik-skulpturo iz kovine, ki vase shrani spomine, nato pa presodi (religious object under Emily's influence) komu do tedaj zbrane spomine deli nazaj, ima pa tudi opcijo, da spomine izbriše (vase), recimo začasno, če so za nekoga pretežki. Mental healing item + learning skratka, recimo ljudje bi se verjetno lahko na takšen način tudi učili drug od drugega, karkoli pač že naprava za shranjevanje, izbris in deljenje spominov omogoča. Predstavljam si, da bi bilo veliko povpraševanja po napravi, ki ti pomaga žalovati, ti čez par generacij da vpogled v prejšnje generacije, recimo staršev, ali ti omogoča da se učiš na izkušnjah predhodnikov.)`}</p>
                     <p>{`(Nekoliko mi deluje kot utelešenje mojega poslanstva, le da manj osredotočeno name, ker ni opredelitve do Emily.)`}</p></>
@@ -3191,7 +3191,7 @@ export default function RoleplayData() {
                 char: { name: "Pripovedovalec" },
                 content: <><p>{`(To bi se čisto dalo! Se pa na to osredotoči bolj za takrat, ko boš že imel proficiency. Razen če bi za template metal že zdaj.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Jup, to je ideja, da se v bistvu skupaj z njim izdela template, glede na to da je že tukaj in mi lahko pomaga, torej učim se od najboljših.)`}</p></>
             }, {
                 char: { name: "Pripovedovalec" },
@@ -3203,13 +3203,13 @@ export default function RoleplayData() {
                 char: { name: "Pripovedovalec" },
                 content: <><p>{`(Can, pol je +2)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Mislim da je stvar nekoliko ... posebna, ker običajno, kolikor sem si bral, rollaš predvsem za ceno, ideja je zbiti ceno, vendar jaz sem izhodiščno rekel, da je cena inputa višja od ponujene cene in da sem pripravljen vložiti še več za več efektov, torej 700 (metal) +50 (wood) +100 (pearls) +50 (Potion) +100 (common magic item minimum price) +? = 1000 Gp +?) (torej bi se ne rollalo za ceno, pač pa za efekte?)`}</p></>
             }, {
                 char: { name: "Parateretese" },
                 content: <><p>{`(We will continue the RP, but I'm sure you'll attain the rank of master blacksmith that's why Fargrim introduced you as such at the party, this is happening before the party.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Kul, bom odgovoril kasneje, trenutno sem se ravno zbudil in sem še motoglav)`}</p>
                     <p>{`(Ok, torej, kaj mečem? V svoje dobro bi navedel, da imam razen po novem proficiency (or tega da Parateretes pomaga, not sure?) na razpolago še: Neomejen Guidence (anything) Neomejen Mending (metal?) Neomejen DruidCraft (wood))`}</p>
                     <p>{`(Na dan: 3x Protection From Energy or 3x Plant Growth or 6x Enhance Ability (6h) or 6x Heat Metal (6 min).)`}</p></>
@@ -3217,26 +3217,26 @@ export default function RoleplayData() {
                 char: { name: "Parateretes" },
                 content: <><p>{`(Kakšne maš pa tool proficiencies?)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(S čim se pa meče? Torej, moj prof bonus je ... +3, tako da zelo odvisno od tega s čim mečem.)`}</p></>
             }, {
                 char: { name: "Parateretes" },
                 content: <><p>{`(Katera orodja znaš uporabljat, če je kakšno ki bi lahko blo primerno za načrtovanje tega kar gradiš, potem dodaš proficiency bonus, drugače pa vržeš d20, dodaš INT / WIS / CHA modifier, si pač sam izbereš in ker ti Fargrim pomaga še +2.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Mmm, imam Herbalist Tools prof ter Smith's Tools prof, če uporabim kot Bard svoj Cha je +4, če dodam tvojo pomoč je +2, je +9.)`}</p>
                     <p>{`(Zadnjič sem uspel od Samota dobiti, da je vsaj še Guidence, glede na to da je stalno v efektu, pa bil sem še dokaj nizko Druid (max 3 h), mi ni dovolil Enhance Abiliti, sem upal da bi bilo tokrat mogoče narediti ali ali (oboje koncentration), ali Guidence, ali Ability.)`}</p></>
             }, {
                 char: { name: "Parateretes" },
                 content: <><p>{`(Kar je drugih bonusov moraš res @Samo vprašati, vem da se da neke stvari uporablati, ampak so malo drgač omejitve kot med samo igro / bojem.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Bdw, razmišljal sem, da bi v prihodnosti ko bo čas dobil tudi Painter's Tools prof (slikal portrete). Je kdo na otoku tega vešč?)`}</p></>
             }, {
                 char: { name: "Parateretes" },
                 content: <><p>{`(Če ne kšn PC ali imenovan NPC, si pa neko osebo izmisliš, vsaj v prvi sezoni je tko delval.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Sure sure, bolj zato če lahko denar vržem v kakšnega igralca, namesto da se izgubi v ekonomijo.)`}</p></>
             }, {
                 char: { name: "Parateretes" },
@@ -3245,7 +3245,7 @@ export default function RoleplayData() {
                 char: { name: "Pripovedovalec" },
                 content: <><p>{`(Kar se tiče vseh teh bonusov mamo 1x na downtime, lahko d4 dodatno za rolat (to je za vse enako - spellcasterje or not).)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Kul ... upajmo da gre bolje kot zadnjič.`}</p>
                     <p>{`D20 🎲: 19, Total: 19`}</p>
                     <p>{`(My God!)`}</p>
@@ -3260,14 +3260,14 @@ export default function RoleplayData() {
                 char: { name: "Parateretes" },
                 content: <><p>{`(Ne najdem threada kjer zbiraš donacije, Parateretes donira 50Gp.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Uh, @👻player-chat, kul, si zabeležim Samota ravno prepričujem, da odobri 5. funkcijo (trenutno je odobril 4))`}</p>
                     <p>{`(Thread bom naredil, ko bo jasno kaj se dogaja, tako da vem kaj opisati, do sedaj je bilo preveč reči v zraku, pa sem bil živčen to storiti.)`}</p></>
             }, {
                 char: { name: "Parateretes" },
                 content: <><p>{`(Ah, gledov po ostalih vseh.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Ok, torej, sedaj bom zapravil 2 DT meta za izdelavo statue, pa na prvega bom dal še 1d4.)`}</p>
                     <p>{`(Relevantni stati so +4 od CHA, +3 od prof, +1 od blessing, +1 od refugees, tako da ... +9. Verjetno je to vse kar lahko storim.)`}</p>
                     <p>{`(Lets go ...)`}</p>
@@ -3276,7 +3276,7 @@ export default function RoleplayData() {
                     <p>{`(In še drugi ...)`}</p>
                     <p>{`D20 🎲: 17 + 9, Total: 26`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Voa, ... to je že več kot pol.)`}</p>
                     <p>{`(Nice, nice, nice, to zelo sprosti "the worst case scenario:")`}</p>
                     <p>{`(Bom posodobil napredek, pa ... ko bom imel več energije bom še nekaj napisal tja ... danes sem popolnoma uničen, cel dan ljubljana, I feel like falling together is the correct decision to make.)`}</p></>
@@ -3284,7 +3284,7 @@ export default function RoleplayData() {
                 char: { name: "Pripovedovalec" },
                 content: <><p>{`(Kk, nice - gradnja gre izredno hitro. Bo tud Oaksplit pršu kej pogledat v naslednjih dneh.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Hoj, bom porabil 2 DT, potrebujem še 2-3 DT, odvisno od kocke.)`}</p>
                     <p>{`(Če se prav spomnim, 4 CHA + 3 prof + 1 + 1 od island efektov, tako da +9 skupno, pa na prvega dam še 1d4.)`}</p>
                     <p>{`D20 🎲: 4 + D4 🎲: 1 + 9, Total: 14`}</p>
@@ -3296,7 +3296,7 @@ export default function RoleplayData() {
                 char: { name: "Parateretes" },
                 content: <><p>{`(Zdej v obeh metih skupaj toliko kot zadnjič v enem.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(True, true, to spremeni, da bosta morda potrebna še 2 DT.)`}</p>
                     <p>{`(Hm, manjka 23, kar bi pomenilo, da se potrebuje naslednjič če je min od 1d4 1 ter prišteje se 9 ... 10-13 na kocki.)`}</p></>
             }, {
@@ -3309,7 +3309,7 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Donations Plaque (can be found on the shelter's wall behing the pond) (numbers in Gp):`}</p>
                     <p>{`- 700 Elemetal (Remember Me)`}</p>
                     <p>{`- 200 Elemetal (Rua)`}</p>
@@ -3341,16 +3341,16 @@ export default function RoleplayData() {
                     <p>{`•	Guidance (no concentration, 12 h time after adventure start limit, does not stack)`}</p>
                     <p>{`Seek the counsel of the statue, it shows you a stored memory that you may or may not understand, but it will guide you when you recall it again. If you happen to have a better exchange of a blessing in mind, you may use that.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Inside of the shelter, still under construction, something more seems to be going on than meets the eye. There is a rumor that Mechanus invested 1000 Gp into construction, only to be able to study a shelter or maybe a shrine? It does not make sense why such a powerful city would be interested in the unfortunate of Nueva Sorte. Something is going on for sure, but nothing is known for certain yet.`}</p></>
             }, {
                 char: { name: "Rmemeber Me", token: 2 },
                 content: <><p>{`With the city officially open, Remember Me doubles the amount of work it is able to invest into the project.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`First comes the grandest if simplest part of the project, a large circular pond with an elemetal base that traces the edge of the room, only leaving enough space for a line of especially rich earth and yet dead wooden branches, tracing both sides of the pond.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Most of the remaining floor area is covered with a thick carpet or moss. The entire area was not yet covered by a roof, so the sun and the moon can still be observed freely at any cloudless part of the day. The room has 3 layers.`}</p>
                     <p>{`•	Top one, where quartz pedestal is located, connected to the lower area with a gentle steps, fully overgrown with moss.`}</p>
                     <p>{`•	On the sides, waterfall is disconnecting the top pool from the rest of the pond.`}</p>
@@ -3359,76 +3359,72 @@ export default function RoleplayData() {
                     <p>{`•	Lower area is least interesting and there seems to be no obvious way how you would get to it (yet) without getting yourself wet by crossing 2 m wide and at the deepest part 1,5 m deep metal pool with rough but safe bottom texture.`}</p>
                     <p>{`Not only the roof, doors are also not installed yet, even stranger, instead of sturdy structure, it seems that dead wood is being planted here the thickest on both sides without yet obvious function it could serve. (Also, pearls have finished soaking in the Healing Potions, just saying to track progression of different parts of a project.) Pool area is through the day already freely accessible for those who would not damage overall "work in progress" and in limited numbers as some structures are not yet sturdy enough to support more than a few people at the time. (you can take a dip or swim) Water is already drinkable, no special properties, but it replenishes itself from elemetal, metal from elemental plane of water, so you will hardly find more waterly water. Water surface is already self-regulating and has limited self-cleaning property. No temperature regulation yet, it is just a metal, magical-ish pool.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Pond bom tako opisal med dt in že tistega bo veliko, tako da verjetno je ok, če že sedaj predstavim kaj je narejeno na kulturni hiši ... želim imeti tole reč za šeranje orkestralne glasbe ipd., stvari ki bi se igrale v njej)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`On in last month or so, finishing touches were made on Emily's House of Culture, that is (for Remember Me) the side building to Pond of Remembrance or Nobody's Faro de Luz Rest it is working on. If you enter from the side facing the west (on the city map), trough a wide main entrance, you enter a wide hallway full of paintings and sculptures of the patrons, many of them not yet dedicated to Emily, even if some are, given that Remember Me is preoccupied with working on the heart of the building at the moment. You can go down to the basement level where you can leave your stuff at dedicated and manned wardrobe or buy snacks and refreshments at for this purpose 2 dedicated stores. Once you return, you can use one of 3 lower entrances leading into the enormous main hall and take one of many dedicated seats or go to the stage, mostly covered by the curtain. Exploring the stage, you notice it is quite big, but among curtains and sets you can go into more crammed backstage, where many useful tools for any occasion can be found. Continue forward left or right trough sound-isolated doors and you will come into the dinning hall of one of 2 dormatories, one of those of more orderly nature and one of those with more chaotic tendencies. Each resident can choose where to live (or if causing troubles will be placed into another dormitory before removal) so residents are least likely to step on each other's nerves given their lifestyle. Each dormitory has their kitchen and main Slime Closets are meant for both patrons and visitors of the House of Culture. Stairs around here lead down, where extensive storage can be found. Dormitories have mostly doubled storage spaces due to their divergent tastes, but they do share storage space for some of the more dedicated equipment as they are in charge of maintaining house as a whole. Going back, if we go past SCs, we can go on the last part of lower level we haven't visited yet.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Here dedicated equipment for the house is stored, sets, props, instruments, everything that might be needed on the stage if need presents itself. Here are also guest rooms, front security that guards the equipment as well as waiting room for performers, where they can take a break, wait for their time, apply makeup or dress themselves in large dedicated theater wardrobe. If we use the same stairs we go up to the 1. floor, where there are common balcony seats as well as some dedicated ones for guests that might require more personal space, as well as another gallery, this one with handpicked selection of art. If the lower one presented work of patrons in general, this one is more curated one. Where the entrance would be on the lower floor, here a giant glass panel is located, making letting guests have a clear view on the coming and going visitors as well as outer wall of the city. Back to the dormitories, we pass manager's office for each dorm-wing and find where most of the patrons rest. There are individual rooms as well as more crammed common ones. There is also the door from each side that leads directly into Nobody's Respite, but it is closed until area around the shrine is more secure. If we go to the highest floor we can find small general storage, as well as many SCs and a place where patrons can bath or clean their tools. Close to here is another gallery, where unfinished-finished works can be presented (or temporary stored), but also where we can access 6 crafting departments, each filled with dedicated tools for creation of works of art. The hope of Remember Me was, that due to high-lvl of production, artists from across the island will come here to perform, work, socialize and share thus their knowledge with less proficient patrons of the shelter, so transfer of know-how can take place. There is also relatively small and more isolated library, segmented into 2 main sections, where knowledge can be stored and and accessed if need be.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Tako, in še razlog zakaj sem pospešil objavo, sedaj lahko naredim tole)`}</p>
                     <p>{`Opening Play`}</p>
-                    <p>{`https://www.youtube.com/watch?v=mauxvpOFth8`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=mauxvpOFth8"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 0)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=ZneqpcVzOWs`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=ZneqpcVzOWs"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Progress on the Nobody's Respite after last mission slowed down quite considerably as Remember Me is still troubled by the results of its last mission. Also, its new and expanding responsibilities as a still developing dormitory supervisor as well as main theater sponsor, training new generation of artists of all sorts as well as general job search and inspections took a lot more time than intended. Still, progress is noticeable. Pond is mostly installed and is now engraved with barely visible but delicate shapes that somewhat resemble druidic language, but shaped into pictures and stories. Most of it thou is covered by seemingly forever regenerating mud that covers most of the pool's bottom, giving it more of a feel of a pond. Some smaller species of fish, insects, snakes, lizards, spiders, amphibians and water plants can sometimes be spotted around the pond, swimming, hiding in mud, moss, rocks placed in the shapes of pathways or plants's branches, giving the room alive feeling. Even more, plants all around the place have grow in miraculous time and indeed give a feeling that this place is somehow alive ... and aware. Plants at the door will sometime block or open the path, seemingly at random, needing a druid to correct them. Central area can now be accessed by a thick bridge and railings made out of living plants ... but sometimes too living and wild as they might decide to open under the guest and let them fall into water. Many more branches form a thick arch all around the pool, continuing upwards to form a terrace and many handy stairs, but again, at any time they might decide to simply stop providing support, so the area is still closed for residents of dormitory, even as it is now connected to it by 2 gates where terraces are. Previous patches of dirt have grown into many individual plants, intertwined into pillars, growing into each other and starting to take the shape of the living canopy, even if the roof is still fully opened to the sky.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Area in general is starting to take shape, lower part dedicated to visitors that simply want some water or prayer, terraces for socializing, medium part for healing, even if everything is still limited due to ongoing development and in general "wild" nature of this place. That said, probably most mysterious is highest and now enclosed part of the pond, divided from the rest of the place by the thick layer of wooden living plants, overgrown by a carpet of sweet alyssum, inner space only accessible trough a curtain of softer, green flowery ones on the top of flowery stairs (that can at druid's command turn into a ramp). There, a quartz platform as well as side-stairs into the pond can be found, but ... it feels empty. As if something is still missing. Something important. Place is still growing, details still need to be polished and something is still being worked on, but for now, the pond is fully operational (without thermal regulation) for those that are not afraid to be from time to time surprised by a overly willful bundle of plants by ending more wet or stuck as expected (I decided Remember Me's body will not evolve again until the pond is finished)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=wVnxsjAIfWg`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=wVnxsjAIfWg"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Tako, ni ne vem kaj, vendar za par ur dela bo vredu Nobody's Respite - Flowery Arch Over the Pond`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=TFRhVq4i4bA`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=TFRhVq4i4bA"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
                     <p>{`Tako, sorry da je vzelo tako dolgo, vendar za kvaliteto je pač potrebno vložiti več časa x) Druga slika kaže kaj je tam, če večine ne zakrijejo vrata xD Tako izgleda torej Nobody's Respite od zunaj pri vhodu. Bela reč je Sladki grobelnik (roža).`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me finishes statue of Emily. She is very detailed, down to the pore, it is clear a lot of work was put into it. She is dressed in druidic clothes Remember Me is from time to time seen wearing, but more properly made. Her arms are from cold metal and brass metal , outstretched down as if channeling something, while she is squatting with one leg lower, destabilizing the whole structure. It is clear it is meant to be placed on some kind of a pedestal, so its leg could hang down from it. The most curious part of the structure are her blind eyes, made out of white pearls, soaked with healing magic. It is almost done. After months and months of work, it is almost over. Just a few more finishing touches and the Pond will be complete. But before that happens ... Remember Me has an appointment.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=7dbwwu7ydhM`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=7dbwwu7ydhM"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=E5g3gixP1bM`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=E5g3gixP1bM"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=P2saF8pHwR4`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=P2saF8pHwR4"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=hqQAEUeGDds`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=hqQAEUeGDds"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=nIZxh_nc64w`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=nIZxh_nc64w"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
-                content: <><p>{`(day 5)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=nIZxh_nc64w`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
                     <p>{`(Remember Me is gone)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=2a2UABmIzEA`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=2a2UABmIzEA"></iframe></>
             }]
         }, {
             title: "Emily",
@@ -3439,7 +3435,7 @@ export default function RoleplayData() {
                 char: { name: "Sr. Catalan" },
                 content: <><p>{`After hearing Remember Me talk about Emily, he becomes intigued about who the being? person? is and why is she so important to Remember Me. To find answers he decides to go and try to find the feygolem and ask him about Emily.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(he / it for now, not yet, not yet)`}</p>
                     <p>{`Remember Me can be found entertaining other guests with Repko as its musical companion. When it notices Sr. Catalan making his way to it, it gives a mental note to Repko, Repko confirms it and it takes the attention of the crowd onto himself, while feygol slips away and asks.`}</p>
                     <p>{`"Hello, Sir Capitan, enjoying the party!? Do you need another Restoration or is something else the matter?"`}</p></>
@@ -3448,7 +3444,7 @@ export default function RoleplayData() {
                 content: <><p>{`He laughs.`}</p>
                     <p>{`"No I'm good ... well, it wouldnt hurt, but I actually came here to ask you about Emily. I still don't understand your obsession with her and what she exactly is. So care to explain. Oh, and I think I drank enough today."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Oh, things of great importance I see! Well, it that case, let me just renew this spell I had on me to let me entertain you for longer."`}</p>
                     <p>{`His body shines for a bit, there is a pair of spectral eagle's wings on feygol's back and eagle's cry can be heard across the room before it dyes out.`}</p>
                     <p>{`"Gentleman of your statue might also want a little bit more care, would that not be so?"`}</p>
@@ -3461,14 +3457,14 @@ export default function RoleplayData() {
                     <p>{`"How neat!"`}</p>
                     <p>{`...and sits down on the chair`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me sits next to him, seemingly more aware and present than it usually is.`}</p>
                     <p>{`"So, what are you interested in? Her in general, something specific? Or is this more about projects we started to run both in this city as well as the one that is still under construction? As it happens, it is my personal hobby or maybe a life-purpose to tell the world about Emily Nightsong, as I believe everyone shound have someone like her in their life. We are trying to make a world a better place by offering her life experiences for everyone to learn from."`}</p></>
             }, {
                 char: { name: "Sr. Catalan" },
                 content: <><p>{`"Hmmm well first tell me what she is and when did you meet her ... I'm also quite interested in the projects your doing, hopefully they're not dangerous."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Hm, I do not believe them to be dangerous, hopefully they are not, we are trying to run a shelter, it would be bad if folks would hurt themselves in our house of healing and rest by accident. Emily is... my creator. She made me. She made my first form and gave a life to it. Sadly, she didn't survive. She died just after I was given life to magic she was using ... it required a sacrifice, and she sacrificed herself. I ... for a long time I couldn't remember. But now I do remember. Just as I can remember anything from her life. So in some way, she lives on, inside of me, or at least this is what I would like to believe. I left her body behind. On the island where I come from. I ... would some day like to go back. Find her, bury her. Say goodbye in another way. But ... in some way, she is still out there, watching over me. I ... I can feel it. She is like that, I remember her and she is trying her best for her lifelong project to ... well, I am not sure what more she wanted from me, but I am trying my best to live up to her expectations."`}</p>
                     <p>{`Remember Me looks at Sr. Catalan.`}</p>
                     <p>{`"Do you also have someone like that. Someone that keeps you going? Master Soldier said for him, his person is Lady Morwyn, for Sir Oaksplit, Sir Manuel. Who is the person you are looking up to? Someone close to your heart, maybe?"`}</p></>
@@ -3479,7 +3475,7 @@ export default function RoleplayData() {
                     <p>{`He takes a pause and thinks.`}</p>
                     <p>{`"Hmmm I think the main driving force trough my life was my great ambition, which Sr. Catalan Sr. didn't care much for and thought a life as a lonely civil servant suited me more and would've calmed me down, and the want some would say the need to prove myself as competent and deserving of my status and maybe of even a higher one."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me nods.`}</p>
                     <p>{`"If I am honest Sr. Catalan, what I am hearing makes me kind of relieved, because you are the first person of greater importance, who doesn't already have a special someone. It is somewhat hard to try and help people, when there is no one who needs your help, except our dear shelter patrons of course. At some point I was even told, that people like me or maybe even you deserve to be ridiculed, because following your believes, forging your own path, is to be looked down on. Yet I see, you had your own share of diverging opinions you stumbled upon. I hope you are stronger than me, because for some time ... it broke me. I forgot about Emily to preserve my own sanity. But then I remembered what I believe, more than ever ... and it saved me. Emily was kind of like you, you know. She was ... nothing much. Not talented, or beautiful, blind, sickly ... nothing special, but burdened with great expectations. Everyone in her clan had to be one of the best, or they were kind of nobody. Servants of those who deserved to lead, with their great intellect, beauty, merits, druidcraft, especially druidcraft, mostly their druidcraft. It was the right way. Everyone did their best and the clan would take care for the rest. It was perfect. But ... for some reason, it just made people hate each other. Emily was trying her best, to go beyond her limits, help her clan the best she could, so others despised her. She had no talent, she would constantly get sick from overextending herself, she was nothing much, just ... a burden, because she was trying too hard, was not willing to give in, stay a child, till the rest of her days, be a servant to those better than her, never meet expectations that were placed upon her at her birth. So she run away. To train somewhere else. To not be a burden to those dear to her. And make them proud. Some day I would like to return and tell them ... she did it. She made a feygol. To make them proud. And hopefully also ... sad."`}</p></>
             }, {
@@ -3487,7 +3483,7 @@ export default function RoleplayData() {
                 content: <><p>{`He thinks.`}</p>
                     <p>{`"Such a sad story ... though that is life ... how I see it every living being seeks to fight against the greatest enemy of them all fate and coincidence ... life is not fair a lot of the time to people some people get born ill, poor or just different which leads to them being outcasts, the only thing they have is to try and fight fate ... because I see life as just a string of events full of coincidences and no matter how hard we fight sometimes we just can't win ... so the only sensible thing to do is how I see it is to fight against fate ... so this Emily she sounds like a genuinely kind and nice person ... can't say the same about myself ... I wish you the best."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Same to you, Sr Catalan."`}</p>
                     <p>{`Remember Me thinks for a bit.`}</p>
                     <p>{`"While what you said is true, it does not need to be so. There was no castle of Rosa Riendo before people came together and built it ... and here it is now, real as anything else. As I said, I do believe everyone needs someone like Emily. One can go far alone, but we last longer if we are going for someone else. Our path, it hurts, it can hurt so much, maybe enough to give up. If we are doing this for ourselves, why would we want to choose to continue suffering? Something would have to be beyond broken, something worse than out suffering, for us to continue under such conditions. But if we are doing it for someone else ... we can do more. It is not about us, about our path, costs and benefits we experience ... to kill a dragon might be at times an easy task to get an apple for a child of our heart, but more importantly, their smile. We will perform within reason, but for someone else ... sometimes a little bit of insanity doesn't sound so bad."`}</p>
@@ -3505,7 +3501,7 @@ export default function RoleplayData() {
                     <p>{`He stops for a bit.`}</p>
                     <p>{`"I do not care much for that Manuel fellow and neither do I know much about him, although it seems he means something to Minamoto. Huh there's someone out there for everyone, I have a hard time believing that, I don't think there's anyone out there for me, but is that so bad ... Maybe I will visit you one day and see what your working on ... The human psyche is indeed a fascinating one and people's reasons for living and wanting to live is quite fascinating, almost every person has his own reasons to live and keep going ... I don't know if your remember and stay in peoples hearts and minds are you truly dead, maybe keeping the memory alive is good enough even after their physical form perishes."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me smiles.`}</p>
                     <p>{`"Who knows. We do live in world of wonder and magic, do we not? I was told that for heroes of our statue, even death might be at some day but an inconvenience we face. I has told after death, both people, plants and animals go somewhere else. Yes, sometimes they get lost, most of the times they never return, but sometimes they do return. If my wish is nothing but a pebble, I only need to gather thousands, millions, if need be billions of them to make my own Rosa Riendo out of them. Remember Me leans closer. Memory is a powerful thing, Sr. Catalan. Never forget who you are ..."`}</p>
                     <p>{`Feygol leans back.`}</p>
@@ -3520,7 +3516,7 @@ export default function RoleplayData() {
                     <p>{`He laugh.`}</p>
                     <p>{`"Powerful people like ME, huh? I wouldn't call myself a powerful man, but thanks for the offer. Goodbye and I'll come to see one day what your making ..."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me smiles as it waves him goodbye. Then it notices the crowd that is going positively berserk over Repko's performance and quickly jumps in to save him friend from the masses, so they can face them, together.`}</p></>
             }]
         }, {
@@ -3529,14 +3525,14 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me", "Isabela"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`With the latest mission behind them, Remember Me decides to make good on its word and visit Isabela. It asks around and seemingly quite a lot of people know about her, even if she might tend to move around quite a bit. Where does the trail to find Isabela lead the feygol?`}</p></>
             }, {
                 char: { name: "Isabela" },
                 content: <><p>{`It finds Isabela in her office space alone, after being directed there by one of her servants along the way. You can see her sitting at a desk, going over piles of paperwork of differing sizes. She is wearing her normal clothes and the feathers Rua gave her in her hair, her sword leaning on the desk, always kept somewhat close. Isabela looks up when you enter the office.`}</p>
                     <p>{`"Ah, hello. Are we supposed to have a meeting today? I don't remember inviting anyone over recently."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Hello, Lady Isabela. Not today, but you did indeed invite me to come and visit you at your place when you are less self indulgent as you were at the party. Are you still in a 'that kind of a state'? Should I come and visit you later? If it is a problem, may I use a spell that removes the poisoning that occurs when concentration of a fruit, grain or other sufficiently rotten sugary substance is ingested? I noticed you consumed quite a lot of it. Dreadful experience I believe."`}</p></>
             }, {
                 char: { name: "Isabela" },
@@ -3547,7 +3543,7 @@ export default function RoleplayData() {
                     <p>{`She says while looking apologetic.`}</p>
                     <p>{`"Now refresh my memory a bit please. What did you want to talk about."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"At the party you acted as if the village of Leshisel is know to you. While I do speak quite a lot about it, it did not feel like you know about it from merely a tale of someone else? I also find familiarity in some of your clan's identifications, even if I do not recognize most of them. Are you related to the clan I belong to?"`}</p>
                     <p>{`[Disguise Self]`}</p>
                     <p>{`Remember Me turns into a somewhat aged elf with regal posture and kind if calculating expression on his face. Tenor Oakborn, the leader of Leshisel, second generation and the one who enacted the policy to start exporting feygols outside of the clan for various benefits from other clans and factions.`}</p></>
@@ -3558,7 +3554,7 @@ export default function RoleplayData() {
                     <p>{`She leans back in her chair.`}</p>
                     <p>{`"I don't believe I met you before though. I would have remembered a feygol this unique."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Elf smiles.`}</p>
                     <p>{`"I do not know when your meeting took place, so it is a bit hard to answer, but it is both true that I might be considered somewhat unique of my kind and that I was never actually a part of the aforementioned village. It is my creator's memories upon which I rely for my knowledge of the Leshisel."`}</p>
                     <p>{`Elf turns back into the humanoid feygol.`}</p>
@@ -3569,7 +3565,7 @@ export default function RoleplayData() {
                     <p>{`Isabela goes back to her paperwork to check something.`}</p>
                     <p>{`"You are a druid yes? I may have a job for you since you are already here."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Thank you."`}</p>
                     <p>{`Remember Me thinks for a bit.`}</p>
                     <p>{`"Sure, ask away, as long as it is within my power, I will do my best to answer."`}</p>
@@ -3582,7 +3578,7 @@ export default function RoleplayData() {
                     <p>{`Isabela slightly blushes at the hero part.`}</p>
                     <p>{`"I wouldn't really call myself a hero. I am just doing my best to help and expand my family name. I am happy to hear the word is spreading around town though. I aspire towards great things here."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me kindly smiles.`}</p>
                     <p>{`"But of course, it would be rude to spoil our successful cooperation, especially as what you are asking of me benefits us both. It is my wish to let it grow, flourish even. In times of abundance, let us share, in times of need, let us resist misfortune together, mayhaps?"`}</p>
                     <p>{`Remember Me absentmindedly places a finger on its chest and starts tapping a melody that seems to follow no conventions, yet it manages to stay harmonious nonetheless.`}</p>
@@ -3593,7 +3589,7 @@ export default function RoleplayData() {
                     <p>{`Isabela takes a pen and writes some things down on the papers, moves them away and takes out new ones from one of the piles in front of her.`}</p>
                     <p>{`"After all, there is no nobility, let alone royalty, without the common folk below them for support."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Indeed, if you would find some time to share your stories yourself that would delight me."`}</p>
                     <p>{`Remember Me stops tapping and thinks deeper.`}</p>
                     <p>{`"About the privilege ... well, I am not smart enough to really know what is best, but the clan I belong to does believe both that there is no inherent nobility, even if ability to rule is closer to some than others, yet they are given such role in order to be the ones most able to take care for everyone else. Even so, Emily suffered, so surely there could be a better way how to run things? She was of privileged blood, yet I do not believe she would want to claim any privilege she didn't earn herself. Sadly, how would such a clan work is beyond me, but I do hope people appreciate what are you doing for them."`}</p>
@@ -3606,7 +3602,7 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`As Oaksplit's upgrades to the original Remember Me's Respite are finished, place feels more inviting and accommodating than ever.`}</p>
                     <p>{`The entire floor is now dedicated to sleeping, so those who might want to spend their times at night doing something else, might do so without disturbing other residents as it was a common problem in the past. The floor also has a bookshelf for reading that was at first located on the ground floor and has mostly titles with entertainment value, a simple fireplace with a polished-stone base and many windows, covered with hanging plants for those who would prefer darkness when sleeping during the day as the place never had enough capacity to house everyone at once, especially after refugees from Yggrasil joined, so a rudimentary sleeping regiment was established.`}</p>
                     <p>{`Lower floor is connected with a not too steep staircase, under which a small storage was established. Mezolček's pond was enlarged, even if lately he was migrated to the new city into Pond of Rememberence, for his wish to swim in bigger waters. Large bookshelf was brought in, now accommodates many books and scrolls with useful information as well as report's and thoughts about Emily's life. Many crude works of Emily can be found hanging on walls, while in the center of the room is overgrown stone altar, not much different than in the past, even if there are more gifts present even if Remember Me is not around as much those days, working on Pond of Rememberance most of its time.`}</p>
@@ -3620,69 +3616,70 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=5wvTs-1jUFE`}</p></>
+                    <p>{`https://www.youtube.com/watch?v=5wvTs-1jUFE`}</p>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=5wvTs-1jUFE"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=yEg02Ui_a8k`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=yEg02Ui_a8k"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=tHZqxecCukg`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=tHZqxecCukg"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=6fEXKtBsjNQ`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=6fEXKtBsjNQ"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=1EdSGUIaJYQ`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=1EdSGUIaJYQ"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=5u3RGhznctE`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=5u3RGhznctE"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=jRFk22ENWNg`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=jRFk22ENWNg"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=zbQRY8KSVbU`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=zbQRY8KSVbU"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=E83hl6hDfKQ`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=E83hl6hDfKQ"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(this one is just so nice that I have to share both xD, Ranking of Kings is amazing)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=dWZAH5w8jkQ`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=dWZAH5w8jkQ"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=60ItHLz5WEA`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=60ItHLz5WEA"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=ED66vOZg9t4`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=ED66vOZg9t4"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=HrO7ql2ZF6M`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=2RrkFCw0t90"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=xG12ghcBKvw`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=xG12ghcBKvw"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=J-j32A2tTlk`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=J-j32A2tTlk"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5, konec)`}</p>
-                    <p>{`https://www.youtube.com/watch?v=Y6ljFaKRTrI`}</p></>
+                    <iframe width="252" height="189" src="https://www.youtube.com/watch?v=Y6ljFaKRTrI"></iframe></>
             }]
         }, {
             title: "Invitation - day 1",
@@ -3690,14 +3687,14 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me", "Morwyn", "Minamoto"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`[Disguide Self - Remember Me]`}</p>
                     <p>{`Remember Me tries to find Master Soldier as it is easier for it to locate him than Morwyn or her familiar and it does know Master Soldier would know where to find her. Where does Remember Me find him?`}</p></>
             }, {
                 char: { name: "Minamoto" },
                 content: <><p>{`As Remember me asks around the training grounds, the soldiers tell him, commander is gone. That he went to see the Fisherman and did not yet return. Nobody knew to what purpose.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Not being able to find Master Soldier, Remember Me leaves one of the soldiers with a letter and gives him instruction that if Master Soldier is to return after Remember Me manages to talk with Morwyn, to give him the letter. When soldier asks how are they to know if Remember Me talked with Morwyn, Remember Me just scratches its head.`}</p>
                     <p>{`"Well, you could ask him? Or her? At least one of them would probably know."`}</p>
                     <p>{`Remember Me then tries to find Caraxes in order to be able to arrange a meeting.`}</p></>
@@ -3708,7 +3705,7 @@ export default function RoleplayData() {
                     <p>{`She smiles at the strange golem she occasionally saw from afar. A tiny surprised hiss escapes Caraxes and he quickly blurts something to Morwyn, the language harsh and strange, before skulking behind the counter.`}</p>
                     <p>{`"Ahh... I'm sorry, you must be Remember Me. Caraxes gave me the invitation to your meeting quite late, but I have been following the progress of your establishments and invested as I could."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Not right now, not right now, in a month's time xD)`}</p>
                     <p>{`Remember Me explains that at the moment it is too busy as he is fully immersed in certain work, but it would be finished in a month or so (in 3 days time), so it would like to arrange a meeting or something like that in a month's time.`}</p>
                     <p>{`"If it would be of no problem to you, maybe we could meet at our theater? I believe you are a bard, yes? One even more proficient as I am? I was wondering how great of a bard are you. Would you mind showing it to me and others? Maybe patrons of our house could even learn a thing or two from you, if you are willing of course. If you are good enough, I might even have a special task for you."`}</p>
@@ -3718,7 +3715,7 @@ export default function RoleplayData() {
                 char: { name: "Morwyn" },
                 content: <><p>{`(U mean literal month?)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Ingame, 3 days literal.)`}</p></>
             }, {
                 char: { name: "Morwyn" },
@@ -3731,7 +3728,7 @@ export default function RoleplayData() {
                     <p>{`She gestures at the bar in a 'can I get you anything?' way as she continues.`}</p>
                     <p>{`"I just might show up, I can't promise anything since I'm planning something during this next couple of months. And even then I don't know how I feel about performing in front of an audience. But I will definitely stop by for a swim, so thank you for your invitation."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me smiles.`}</p>
                     <p>{`"Have you ever performed to Master Soldier? He might have not been entirely lip-sealed with his praises."`}</p>
                     <p>{`Remember Me thinks deeper.`}</p>
@@ -3751,10 +3748,10 @@ export default function RoleplayData() {
                     <p>{`"Then let's meet again. I'll come visit you in your house of culture."`}</p>
                     <p>{`She waves at it in goodbye.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me nods and goes back to its work. As it said, there is a lot to do and not that much time to do it.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`If Minamoto returns and the soldier gives him the letter as instructed, two words can be found inside, written somewhat poorly, yet with care, as if a child has written them.`}</p>
                     <p>{`'Thank you.'`}</p></>
             }]
@@ -3764,14 +3761,14 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me", "Birog"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`[Disguise Self - Remember Me]`}</p>
                     <p>{`With the concert day coming as expected, Remember Me starts to look for someone who will be able to take care of things while it is dealing with that. It turns for help to a fellow druid and invites him to its place, Nobody's Faro de Luz Respite. Remember Me does mention it will explain more when they meet.`}</p></>
             }, {
                 char: { name: "Birog" },
                 content: <><p>{`Despite being pleasantly surprised by the invite, Birog nervously agrees to meet. Wondering all the way to the place about the reason behind this and additional information he will eventually get, he tries to remember the route to the best of his abilities, so he doesn't get lost on the way back.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Emily's House of Culture is reasonably close to Birog's Cookery, also, it is almost next to the same river were Cookery is, so he would probably have not that many problems finding his way back? Remember Me is informed by Repko that Birog is getting nearby, so it comes to meet him in front of the Respite.`}</p>
                     <p>{`"Hi, welcome, I heard you are an able a guardian of nature, just like Emily was? I am glad you managed to find some time to come and visit, but would you mind it I test your abilities for just a bit?"`}</p>
                     <p>{`Remember Me points at the entrance where path is partially blocked by from time to time moving stalks of a woody plants.`}</p>
@@ -3782,7 +3779,7 @@ export default function RoleplayData() {
                 char: { name: "Birog" },
                 content: <><p>{`(I'm sorry, didn't check the map that much.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(well, I was making and remaking it, so I know most locations by heart.)`}</p></>
             }, {
                 char: { name: "Birog" },
@@ -3790,7 +3787,7 @@ export default function RoleplayData() {
                     <p>{`"Greetings young sapling, I do apologies on this intrusion, would you be so kind and clear a passage for the two of us, i do not like using control spells on any being be it beast, animal or a plant, unless my hand is forced to do so in certain circumstances."`}</p>
                     <p>{`Followed by silence as he awaits for the plant to reply.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Plants seem confused for a moment, then you hear thousands of voices, some quite near and strong, others more like chiming in from the distance, interested in what is going on.`}</p>
                     <p>{`"Who are you, to tell us what to do?"`}</p>
                     <p>{`"This is our place and ours only. Our little kingdom."`}</p>
@@ -3802,7 +3799,7 @@ export default function RoleplayData() {
                     <p>{`Offers up a partial bow showing some decree of respect, but not submission in the slightest.`}</p>
                     <p>{`"And please not all of you at once, it is hard to understand this many voices, by chance is it possible that you choose among yourselves a few to represent the majority it is straining to expand all this magic all the way to the back of your kingdom, and speaking of your kingdom ... what is it like?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`There is a silence for a bit before first plant speaks.`}</p>
                     <p>{`•	"I am not sure what to do, what do I do?"`}</p>
                     <p>{`•	"Pretend it is ok, he won't notice, remember, you are a royalty."`}</p>
@@ -3818,7 +3815,7 @@ export default function RoleplayData() {
                 char: { name: "Birog" },
                 content: <><p>{`"My initial plan was to become a visitor of some sort, but it seems to me you need company, entertainment and most of all care to make the dirt softer and nicer, is there anything I can do for you? Would you perhaps want a nother kingdom with lots of sunlight and a big open space? I can do that at least ... sadly its not much, but maybe you could do something for me in return?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Plants think for a moment.`}</p>
                     <p>{`•	"It is small here, and there could be more sun, but here is my family."`}</p>
                     <p>{`•	"And water is nice."`}</p>
@@ -3844,7 +3841,7 @@ export default function RoleplayData() {
                     <p>{`"Is there a chance you are trying to take from this place we are trying to enter or is the goal only to open up a path ...?"`}</p>
                     <p>{`Scratches his head in concern. Repositions the staff as it glows even brighter, making the place more visible.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me scratches its head.`}</p>
                     <p>{`"This place is still in the making, but I need a month or maybe less to finish it. I am not sure what I would wish to take from a place that is considered mine, but I also do not know what were you talking about, I did not hear or understand your chat, thou little ones seemed pleased. I can open the path myself, but lately my powers have weakened, so I was wondering if you could help me take care for this place. As you know, druids should not handle metal in excessive amounts, yet my task has left me with months working on rather large metal artifact. It is probably only temporary, but due to this place being made in a way to have a will of its own ..."`}</p>
                     <p>{`Remember Me gives a kind look to plants still partially blocking the passage.`}</p>
@@ -3859,7 +3856,7 @@ export default function RoleplayData() {
                     <p>{`(Ngl, first time druid, so I legit dunno all the spells, so I thought that I would use [Comunicate with plants] or [Plant control] if the situation got worse ... but I dont see how guardian of nature would help, exept for the name the effects have nothing to do with the task?)`}</p>
                     <p>{`After a short breath Birog looks arround for any cues on what to do next all lost in this situation.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me nods.`}</p>
                     <p>{`"Yes, we most certainly are meant to be quite versatile, it is nice that you remember your teachings, respect to your master, whoever she or he or they were."`}</p>
                     <p>{`It then steps all the way to the living doorframe. It places its hand on one of the plants and as if startled, it twitches. You notice that a small stone fall from Remember Me's arm where it hit feygol's arm, yet it didn't seem like it noticed.`}</p>
@@ -3877,7 +3874,7 @@ export default function RoleplayData() {
                     <p>{`Turnes his gaze downward to watch his footing.`}</p>
                     <p>{`(Plus, looks like I don't have those spells, I checked on my character, even went under the edit option.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Guardian of nature is just another word for a druid ... it is a bit rought to call yourself by class, like bard might not strictly be 'a bard' and rogue might prefer to call itself 'a smuggler', it adds variety 🙂)`}</p>
                     <p>{`Remember Me chuckles.`}</p>
                     <p>{`"Well, I would not consider myself a king, but I believe if that is what they were saying, that would be probably me, I would know about any other plant as I planted them myself. They grew from the wood heroes of Turbulenca gathered and donated, but I did add some other for the variety. As I said, I am in fact a bit weak at the moment due to working on metal much more than I should, but it is nothing you could probably do something about."`}</p>
@@ -3886,7 +3883,7 @@ export default function RoleplayData() {
                 char: { name: "Birog" },
                 content: <><p>{`(There is actually a Guardian of Nature spell tho.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Lol, didn't know, nice xD)`}</p>
                     <p>{`(well, I was using it as a title, not as a spell.)`}</p></>
             }, {
@@ -3895,7 +3892,7 @@ export default function RoleplayData() {
                     <p>{`Takes a short pause and looks arround.`}</p>
                     <p>{`"The plants do have quite the humor tho, I have to admit."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Ou, certainly, try to make sure they do not harm any guest or in general that they do not prank them, maybe play or talk with them from time to time, I am sure they will love having you around, it is probably best to regard them as chindren, they might do something bad, but they usually do not do it out of malice and if they cause you any serious trouble, report back to me. As I said, it shouldn't last for more than a month. Do you require any kind of compensation? I have some yellow pieces on me, as well as some spare metal ..."`}</p>
                     <p>{`It thinks for a bit.`}</p>
                     <p>{`"Also, I have a magical whip. How would you prefer to be compensated for your service?"`}</p></>
@@ -3903,7 +3900,7 @@ export default function RoleplayData() {
                 char: { name: "Birog" },
                 content: <><p>{`"Well since it is something I would rather enjoy quite a lot how bout this, besides iron ... is there any other crafts you are familiar with? I happen to have opened a shop, but I am in desperate needs of a green house or a herb garden of some sorts for my potion making, I will ask arround for the land and practicality, what I would ask of you would simply be to help me construct it, it is embarrassing to admit but I have nearly no strength at all."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`There is a note of sadness on Remember Me's face, it lingers, then disappears.`}</p>
                     <p>{`"Sadly, in my current state, I do not believe this would be possible, if I get better, then gladly. In between, you may take plants that grow here. I do believe you would do so in a responsible manner, no? They get energy from the pond, so you will discover they regenerate faster than anywhere else, priority thou was on protection and support of this place, not on cultivation of materials."`}</p>
                     <p>{`It thinks for a bit.`}</p>
@@ -3913,7 +3910,7 @@ export default function RoleplayData() {
                     <p>{`(Any memory stored in the Pond is available as long as the Pond allows it).`}</p>
                     <p>{`"Would that be considered enough of a reason to keep this place running while I am away?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Here, s temi si se pogovarjal xD)`}</p></>
             }, {
                 char: { name: "Birog" },
@@ -3922,7 +3919,7 @@ export default function RoleplayData() {
                     <p>{`Birog has a stern face of determination to see this through.`}</p>
                     <p>{`"Do make sure to take enough rest and try to finish up with the metalwork soon, it can be really dangerous."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me chuckles.`}</p>
                     <p>{`"Will do, tnx."`}</p></>
             }, {
@@ -3930,7 +3927,7 @@ export default function RoleplayData() {
                 content: <><p>{`After a while Birog comes back well rested.`}</p>
                     <p>{`"Greetings dear children how are you doing today? Would you like to hear some stories to pass the time? I'm aware it can get really boring sometimes, especially now since I will be taking care of you for a little while."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Plants are exuberant they have someone to play with."`}</p></>
             }, {
                 char: { name: "Birog" },
@@ -3939,7 +3936,7 @@ export default function RoleplayData() {
                     <p>{`Sadly it only revives when I use magic the duration depends on how strong the magic was.`}</p>
                     <p>{`(I'll send a story during my brake at work.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Imel sem občutek, da igralec želi igrati dalje, vendar nisem vedel s kakšnim namenom, zato sem da privat kontaktiral in vprašal če želi kaj posebnega ter mu pojasnil, da je bil RP namenjen temu, da mu bo zapuščen po mojem odhodu, iskal sem naslednika.)`}</p></>
             }]
         }, {
@@ -3948,7 +3945,7 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me", "Oaksplit", "Sr. Catalan"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`[Disguise Self - Remember Me]`}</p>
                     <p>{`Remember Me is seeking audience with Oaksplit.`}</p></>
             }, {
@@ -3956,7 +3953,7 @@ export default function RoleplayData() {
                 content: <><p>{`Oaksplit has himself holed up in his office, swamped with papers and some kind of blueprints of a huge ship that he is frantically trying to piece together with different artisans in mind. When Remember Me finally gets the audience, he sees the half orc sitting in his large chair, the hands stained with ink droplets and a wet towel behind his neck. He sees Remember Me enter, smiles and says.`}</p>
                     <p>{`"Remember Me! Has been a time. Sorry I couldn't get to you, been busy as hell. Still managed to see the new theatre and the fountain - incredible work, as usual."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me slowly nods, Oaksplit might discern that Remember Me is also overworked or at least more than usual.`}</p>
                     <p>{`"May Emily smile upon you, Sir Oaksplit."`}</p>
                     <p>{`[Bardic Inspiration]`}</p>
@@ -3967,27 +3964,27 @@ export default function RoleplayData() {
                     <p>{`Oaksplit frowns his brows.`}</p>
                     <p>{`"Are you unwell? Do you need a druid? I sure will protect Turbulenta and all their inhabitants, even rerouting Mechanus fellas. But why the sudden urgency now?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Just a percussion. I already informed them of the project's near completion. I do not care if you act on it, I wouldn't, but I would not consider myself smart enough to know better, so ... just an option."`}</p>
                     <p>{`"Another thing ... I am a bit bussy on said project, so I feel like I am somewhat failing to meet the demands of a theater. Would you be able to find someone to assist me in its operations? I already tried to ask Morwyn, as she seems capable, but sadly, she felt a bit ... off."`}</p></>
             }, {
                 char: { name: "Oaksplit" },
                 content: <><p>{`"Ah, yes the fountain shall be a bit under wraps. As for theatre, I could spare a few workers, but none of them could be used in the mental capacity (I mostly have the guys who build stages and work lights). You could maybe ask someone like... what about Mayor Catalan? He could tell you what his people like?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`You think he would be capable and willing to run such an operation? I will ask him in that case. Thank you.`}</p>
                     <p>{`That was more or less all, I will not take more of your time, but before I go ... thank you for your help ... with everything.`}</p></>
             }, {
                 char: { name: "Oaksplit" },
                 content: <><p>{`"Oh, yes sure! No problem" the hulking half orc smiles and nods.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Hoj, I would just like to ask you if you would be willing to take care for the Emily's House of Culture for a time being? I do not have enough mental energy to RP another thread, so this is just for the logs xD)`}</p></>
             }, {
                 char: { name: "Sr. Catalan" },
                 content: <><p>{`(What would I even do?)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Supervise, make sure they don't start killing each other n stuff, appoint people you guess are most capable to run the facility on senior positions etc., given that you wouldn't be personally involved into day-to-day matters, find people that are better at doing your job than you are and make sure they continue to do a better job than you would, so that the wheels keep turning, people keep being helped, art keeps being produced and money keeps flowing.)`}</p>
                     <p>{`(So, the whole building is producing 350 Gp per dt and part of that is Nobody's Respite, but the majority is probably in House of Culture, given that it has shops and thicket sales, library and art studios.)`}</p></>
             }, {
@@ -3995,7 +3992,7 @@ export default function RoleplayData() {
                 content: <><p>{`(Sure, I'll try and help.)`}</p>
                     <p>{`(Ok, so do you get those 350 gp, do I get a share now or do you get it?)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Na naslednjem dt se lahko z Birog dogovorita kako si jih želita razdeliti, verjetno se bom spomnil pogoje specificirati jutri.)`}</p>
                     <p>{`(Nobody's Respite je več vreden iz vidika vpliva, ker je naravnost nabit z magijo, medtem ko ima preostanek Emily's House of Culture višjo ekonomsko vrednost.)`}</p>
                     <p>{`(Mape si verjetno že tako videl, vendar če jih še nisi, tukaj je link @Pond of Remembrance - Emily's Pond.)`}</p></>
@@ -4009,21 +4006,21 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me", "Morwyn", "Repko"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`[Disguise Self - Remember Me]`}</p>
                     <p>{`The day has come. As she requested, Remember Me asked for the theater to be emptied. There will be no one that will bother them and if she asks around, people will direct her towards the stage where Remember Me is already waiting for her, meditating with Repko in its arms.`}</p></>
             }, {
                 char: { name: "Morwyn" },
                 content: <><p>{`(How does disguised Remember Me look like.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Like Remember Me.)`}</p></>
             }, {
                 char: { name: "Morwyn" },
                 content: <><p>{`As Morwyn walks into the empty theater, the path to the stage with the feygol is clear. As she enters the large stage hall, the faint smell of wood varnish and freshly worked wood and new fabric still permeate the air. On her shoulder, Caraxes sniffs and jumps into the air, flying ahead of her. Morwyn immediately spots Remember Me and makes her way over to talk to it, her soft white shirt shining in the dim and dark lighting.`}</p>
                     <p>{`"Hello. I have come to see what you are offering after all."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Hello to you too, Lady Morwyn, as well as to Master Caraxes. Forgive me if I can not offer you my hand, but as of late I am working on quite potent chemicals while working on the project of mine, metalcrafting. They do not effect me as much as I have stone for my hands, but I do not know how they might effect your constitution."`}</p>
                     <p>{`Saying its greetings, feygol thinks to itself.`}</p>
                     <p>{`"Of course, of course, I indeed have something that might be of interest to you, but as I said, I mostly heard about your abilities trough Master Soldier's tales, so I do wander how ... embellished they might be. Would you care to show them?"`}</p>
@@ -4037,7 +4034,7 @@ export default function RoleplayData() {
                     <p>{`D20 🎲: 11 + 5, Total: 16`}</p>
                     <p>{`(That's for the Disguise Self since she's taking a closer look.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(You might not want to do that, you also do not know the spell is there, this is just for record keeping.)`}</p>
                     <p>{`Remember Me makes a sad face.`}</p>
                     <p>{`"Sadly, I can not show it to you, as it is not a thing and we are not yet at the place where I could share it anyway. It came to me when I saved his life, but I guess, that means less than I hoped to you as you seem quite ... unavailable. I do not particularly care about your abilities beyond that. I thought they might be of more use ..."`}</p>
@@ -4050,7 +4047,7 @@ export default function RoleplayData() {
                 char: { name: "Morwyn" },
                 content: <><p>{`(Don't need to know, I'm investigating and studying him closely so even if i don't know about the spell, I should see if my roll is higher than save.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Well, this is more than 15, so lets see ...)`}</p>
                     <p>{`You also notice the spell, the way there is a slight delay between words and illusion, how shadow is just slightly different than the frame. But it is also quite clear from both that the difference is not significant. It is more like Remember Me is trying to mask a certain feature or a mark, while the general shape of the body is, as far as you can tell, exactly the same. It is quite a unique body-shape, so it is likely Remember Me.`}</p></>
             }, {
@@ -4065,13 +4062,13 @@ export default function RoleplayData() {
                     <p>{`"Well, I am disappointed to find you as stilted, unbending and unfeeling as you look. Farewell."`}</p>
                     <p>{`She turns to leave.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"I am not accusing you of anything, I am just expressing my concerns that this meeting might have been a mistake ... on my part if you will."`}</p></>
             }, {
                 char: { name: "Morwyn" },
                 content: <><p>{`(Also, since I passed the check the illusion would break for me, without Remember me knowing.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(No, it doesn't work that way, you just notice the illusion, not break it.)`}</p>
                     <p>{`(To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.)`}</p></>
             }, {
@@ -4079,7 +4076,7 @@ export default function RoleplayData() {
                 content: <><p>{`(Hmmm... No. I fully see through the illusion i think.)`}</p>
                     <p>{`(Meh, my bad.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`While Morwyn is going away, she might heard Remember Me saying:`}</p>
                     <p>{`"... Well, I hope some day you notice that all our time is valuable ... and short."`}</p></>
             }, {
@@ -4091,7 +4088,7 @@ export default function RoleplayData() {
                     <p>{`She palms the amulet around her neck, her eyes briefly flashing as the feathers in her hair move in a phantom wind.`}</p>
                     <p>{`[Dispel magic on Disguise Self]`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`As the illusion drops ... she sees a thing of horror.`}</p>
                     <p>{`As she knows Remember Me, he is mostly made out of stone and Remember Me evolved many times before, but ... this one is just wrong.`}</p>
                     <p>{`It is not like it changed, more like many tiny woody roots are devouring its body, siphoning its life away from it. It is not clear to her what is going on, but one thing is clear. Remember Me is dying and ... it doesn't have much time left from what you can tell.`}</p>
@@ -4101,11 +4098,11 @@ export default function RoleplayData() {
                 content: <><p>{`Morwyn's gaze drops to it's body and vines consuming it.`}</p>
                     <p>{`"While we didn't start out on the best footing, I would hope your time will not run short. Take care of your health and I will come to one of your plays in the future."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me just nods.`}</p>
                     <p>{`"Goodbye, Lady Morwyn."`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Later that day Remember Me returns back to the Pond of Remembrance, to the most enclosed part of it. Part of its face falls into it, so it fishes it out with its fingers and places it on its face where it belongs.`}</p>
                     <p>{`[Mending]`}</p>
                     <p>{`It is a weak link, as a root that dislodged it is still there, but it is back on its place, where it belongs.`}</p></>
@@ -4114,7 +4111,7 @@ export default function RoleplayData() {
                 content: <><p>{`Repko worriedly looks upon its lifelong friend.`}</p>
                     <p>{`"Ui?"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Do not worry little one. We are almost done."`}</p>
                     <p>{`Remember Me places its finger into the water. It starts to vibrate. The melody of the world-tree, forever changing, forever evolving, forever harmonious. The melody that started to take root when it saved Minamoto. Melody of Minamoto, Remember Me, how they are connected to the universe, melody it wanted to share. A failure on its part. And now ... life for a life. Its druidic powers managed to keep melody at bay, but while working on its last project, they started to fade due to quantity of metal it was handling.`}</p>
                     <p>{`"Let us finish her."`}</p></>
@@ -4129,34 +4126,34 @@ export default function RoleplayData() {
             tags: ["depression", "guilt"],
             chars: ["Remember Me"],
             contents: [{
-                char: { name: "Remember Me", token: 2 },
-                content: <><p>{`https://www.youtube.com/watch?v=VBBFDb0hC4Y`}</p></>
+                char: { name: "Remember Me", token: 3 },
+                content: <><iframe width="252" height="189" src="https://www.youtube.com/watch?v=VBBFDb0hC4Y"></iframe></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`After months and months of work as others finish their preparations for their next mission, Remember Me was working on, trying to stay ahead of the progression of the roots, taking hold of its body. And now, everything was in place. The only thing left was to combine the pond and the statue together and for course troubleshoot any potential error it made along the way.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Temperature regulation - CHECKED`}</p>
                     <p>{`Memory storage, removal and dispersal - CHECKED`}</p>
                     <p>{`Blessings dispersal - CHECKED`}</p>
                     <p>{`(this does not take hold till next mission, testing is being performed while missions are taking place)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Sorry za slabo fotko, vendar sem med delom ugotovil, da bi moral še veliko truda vložiti v raziskave telesa, povrhu vilinskega, sorazmerno daljše noge od človeških, nižja postava ipd., nato še v kako oblačila sodijo gor in se mi enostavno ni dalo, morda če bi imel še teden ... tole je kako približno stvar deluje za občutek kaj se bo dogajalo, na podestu, sede, sproščeno, nagnjeno naprej, oči usmerjene v gladino pred seboj, dlani se dotikajo vode, desna za vroče, leva za hladno, ena noga visi v vodo, nato pa še druidic clothes & long ears.)`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me finished the Pond of Remembrance and ... waited. Observed. Nobody's Faro de Luz Respite opened. Plants were now fully grown, their previously wild and somewhat unpredictable behavior was gone, as they were not following the will of the pond. Everything worked as intended. It was nice. It was harmonious. But more importantly ... it was a failure.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`What was wrong with it, was that it worked exactly as expected. Its actions almost mechanical in their designs. In other words, it was not alive.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me was observing it for a few days. Then when Nobody's Respite cleared once again, it came closer. It knew the air is full of sweet alyssum, but it could not smell anything and due to its waning druidic powers, it could barely turn into an animal to smell it again. The progression of World-tree was severe. It will soon be over, one way or another.`}</p></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`Ui?`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"I still have one more trick to play before I go back to sleep, right Repko? You remember. You were not there, but you remember, don't you?"`}</p>
                     <p>{`Remember Me shares some of its memories and the surface of the water displays the image from good 33 years ago. Inside of it is an elf, sitting on the floor, petting its former shell.`}</p></>
             }, {
@@ -4164,7 +4161,7 @@ export default function RoleplayData() {
                 content: <><p>{`Repko hurries to its master, grabbing its leg, tightly, not willing to let go.`}</p>
                     <p>{`"Uiiiiii!"`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"Sorry, but I have one more task left for you. Please, protect this little one when I am gone. Do not let it be alone like I was. Will you?"`}</p></>
             }, {
                 char: { name: "Repko" },
@@ -4172,13 +4169,13 @@ export default function RoleplayData() {
                     <p>{`"Ui."`}</p>
                     <p>{`...in return.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"You also, Mezolček, you will protect your pond from intruders, won't you?"`}</p></>
             }, {
                 char: { name: "Mezolček" },
                 content: <><p>{`Fish's ugly head surfaces, looks at feygol for a moment or two, then dives again.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me understands that that was its way of accepting its task.`}</p>
                     <p>{`"Come now."`}</p>
                     <p>{`Remember Me offers a hand to Repko and Repko reluctantly jumps on.`}</p>
@@ -4188,7 +4185,7 @@ export default function RoleplayData() {
                 content: <><p>{`"Uiii..."`}</p>
                     <p>{`Repko starts drying out until nothing but an old turnip remains.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me takes one of the thinner and woodier vines, then ties it around the dryed turnip into a necklace. [Unseen Servant] ties it around elf's neck.`}</p>
                     <p>{`Remember Me exhales, which causes another stone to fall painfully from its body.`}</p>
                     <p>{`"Here we go."`}</p>
@@ -4203,7 +4200,7 @@ export default function RoleplayData() {
                     <p>{`"Remember me, Emily."`}</p>
                     <p>{`With that, it crumbles.`}</p></>
             }, {
-                char: { name: "Remember Me", token: 2 },
+                char: { name: "Remember Me", token: 3 },
                 content: <><p>{`When heroes return, others can find its will. Both Nobody's Respites go to Birog as it proved most capable and willing to preserve them. The rest of Emily's House goes to patrons, but under Sir Catalan's supervision. In the coming years, new one will probably listen to the events all around the world, listening, curious, frustrated it can not go adventuring on its own, just like its father and mother did. After some time, it might decide to dive into the last gift father left with it. A melody. A melody of a World-tree. And with that, its roots would start to spread, trough the city, trough the island, slowly, exploring, learning, searching, until there is nothing new to discover. Then it might decide to follow its creators and just like Emily and Remember Me did, create a living construct that will go on, exploring further. But in between time, it would probably honor its father's wishes and protect Faro de Luz with everything it can, from time to time assisted by Repko, bound to Remember Me's life, used to create new Emily ... or however it decided to name itself. When the day comes, would it have to sacrifice itself like those before it did? Or would it find a way to finally overcome the barrier?`}</p>
                     <p>{`Only time will tell.`}</p></>
             }]
