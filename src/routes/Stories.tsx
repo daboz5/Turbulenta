@@ -14,17 +14,6 @@ export default function Stories() {
     const { chars } = CharData();
     const rpSArr = [rpS1, rpS2];
 
-    const tagArr = [{
-        id: "blood",
-        desc: "this character is participating in the roleplay",
-    }, {
-        id: "sex",
-        desc: "this character is participating in the roleplay",
-    }, {
-        id: "18+",
-        desc: "may include: heavy violence or sexual intercourse",
-    }]
-
     const colArr = [
         "rgb(220, 220, 50)",
         "rgb(220, 50, 220)",
@@ -41,14 +30,10 @@ export default function Stories() {
 
     const sortPlays = (cont: RPPlay[]) => {
         const sorted = cont.sort((a, b) => {
-            const upperA = a.title.toLocaleUpperCase();
-            const upperB = b.title.toLocaleUpperCase();
-            if (upperA < upperB) {
-                return -1;
-            }
-            if (upperA > upperB) {
-                return 1;
-            }
+            const upperA = a.date;
+            const upperB = b.date;
+            if (upperA < upperB) { return -1; }
+            if (upperA > upperB) { return 1; }
             return 0
         });
         return sorted;
@@ -59,13 +44,7 @@ export default function Stories() {
         if (target instanceof Element && btns) {
             const btnsStyle = btns.style.display;
             const tClass = target.className;
-            if (
-                tClass !== "rpPlayBtn" &&
-                target.className !== "rpListFilter" &&
-                target.className !== "filterTagCheck" &&
-                target.className !== "filterTagCheckBox flexCen" &&
-                target.className !== "rpListFilterBox flexCol flexCen"
-            ) {
+            if (tClass !== "rpPlayBtn") {
                 if (btnsStyle === "none" || btnsStyle === "") {
                     btns.style.display = "block";
                 } else {
@@ -75,34 +54,13 @@ export default function Stories() {
         }
     }
 
-    const setTag = (id: string) => {
-        const tag = document.getElementById(id);
-        if (tag instanceof Element) {
-            const tagStyle = tag.style;
-            const lightCol = "rgb(255, 204, 171)";
-            const darkCol = "rgb(80, 200, 80)";
-            const shadCol = "rgb(109, 44, 0)";
-            if (tagStyle.backgroundColor === "" || tagStyle.backgroundColor === lightCol) {
-                tagStyle.backgroundColor = darkCol;
-                tagStyle.boxShadow = `inset 0 -1px 2px 4px ${shadCol}`;
-            } else if (tagStyle.backgroundColor === darkCol) {
-                tagStyle.backgroundColor = lightCol;
-                tagStyle.boxShadow = `inset 0 -2px 3px 3px ${shadCol}`;
-            }
-        }
-    }
-
     const switchPlay = (story?: RPPlay) => {
         const el = document.getElementById("roleplayContainer");
-        const tag = document.getElementById("tags");
         if (story && el) {
             el.style.opacity = "1";
             el.style.pointerEvents = "all";
             setPlay(story);
-        } else if ((el && tag)) {
-            const scrollNum = tag.offsetTop - 20;
-            document.body.scrollTop = scrollNum;
-            document.documentElement.scrollTop = scrollNum;
+        } else if ((el)) {
             el.style.opacity = "0";
             el.style.pointerEvents = "none";
             setPlay(null);
@@ -173,18 +131,6 @@ export default function Stories() {
 
     return (
         <>
-            <div id="tagsBox" className="flexCen">
-                <div id="tags">
-                    <h4>Tags:</h4>
-                    <ul>
-                        {tagArr.map((tag, tagInx) => {
-                            return (
-                                <li key={`tag${tagInx}`}><span className="tagExample">{tag.id}</span> - {tag.desc}</li>)
-                        })}
-                    </ul>
-                </div>
-            </div>
-
             <span id="storiesWrapper">
 
                 <span className="flexCol">
@@ -205,15 +151,6 @@ export default function Stories() {
                                 <span
                                     id={`rpPlayBtnBox${grInx}`}
                                     className="rpPlayBtnBox">
-                                    <span className="rpListFilterBox flexCol flexCen">
-                                        <span className="filterTagCheckBox flexCen">
-                                            Is a tag:<div
-                                                id={`filterTag${grInx}`}
-                                                className="filterTagCheck"
-                                                onClick={() => setTag(`filterTag${grInx}`)} />
-                                        </span>
-                                        <input className="rpListFilter" />
-                                    </span>
                                     {sortPlays(group.roleplays).map((playing, inx) => {
                                         return (
                                             <button
@@ -247,7 +184,7 @@ export default function Stories() {
                             <p id="seasonRP">/˘\ <b>{groupId}</b> /ˇ\</p>
                             <p id="shortDescRP">{play.shortDesc}</p>
 
-                            {(play.chars.length + play.tags.length) > 0 &&
+                            {play.chars.length > 0 &&
                                 <>
                                     <hr />
                                     <div id="charsRP" className="flex">
@@ -257,17 +194,6 @@ export default function Stories() {
                                                     className="tag"
                                                     key={`char${charInx}`}>
                                                     {char}
-                                                </span>
-                                            )
-                                        })}
-                                    </div>
-                                    <div id="tagsRP" className="flex">
-                                        {play.tags.map((tag, tagInx) => {
-                                            return (
-                                                <span
-                                                    className="tag"
-                                                    key={`tag${tagInx}`}>
-                                                    {tag}
                                                 </span>
                                             )
                                         })}

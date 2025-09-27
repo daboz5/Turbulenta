@@ -59,16 +59,14 @@ type RPGroup = {
 
 type RPPlay = {
     title: string;
+    date: number;
     shortDesc: string;
-    tags: RPTags[];
     chars: (CharNamesS1 | CharNamesS2 | NPCNamesS1 | NPCNamesS2 | "")[];
     contents: {
         char: { name: CharNamesS1 | CharNamesS2 | NPCNamesS1 | NPCNamesS2 | "", token?: number };
         content: JSX.Element;
     }[];
 }
-
-type RPTags = "sex" | "blood";
 
 type CharNamesS1 = "Minamoto";
 type CharNamesS2 = "Remember Me" | "Minamoto" | "Morwyn" | "Ceres" | "Thian" | "Caraxes" | "Jožef" | "Anderson" | "Alvida" | "Bob" | "Parateretes" | "Catalan" | "Janez" | "Davric" | "Rua" | "Coco";

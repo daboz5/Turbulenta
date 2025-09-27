@@ -1,27 +1,7 @@
 /*TAG EXPLAINER*/
 
-#tagsBox {
-    width: 100%;
-}
 
-#tags {
-    max-width: 700px;
-    border: 3px solid var(--darkMarine);
-    border-radius: 20px;
-    padding: 0px 30px 10px 5px;
-    background-color: var(--darkMarine);
-}
-
-#tagsBox h4 {
-    text-indent: 1rem;
-}
-
-#tagsBox li {
-    margin: 10px 0;
-}
-
-.tag,
-.tagExample {
+.tag {
     color: var(--darkMarine);
     font-size: 1em;
     border-radius: 5px;
@@ -72,7 +52,7 @@
 }
 
 .rpGroupBtn button {
-    font-size: 1.6em;
+    font-size: 1.5em;
     border: none;
     padding: 0 20px;
     background-color: transparent;
@@ -83,61 +63,23 @@
     gap: 10px;
     width: 100%;
     margin-top: 8px;
-    border-top: 3px solid rgba(0, 0, 0, 0.3);
     padding: 3px 0 4px;
 }
 
 .rpPlayBtn {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.25em;
+    margin: 10px 0 5px;
     border: none;
-    padding: 8px 30px 5px;
+    padding: 5px 30px;
     background-color: transparent;
+    border-left: 3px solid rgba(0, 0, 0, 0.2);
+    border-right: 3px solid rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
 .rpPlayBtn:hover {
-    background-color: var(--lightPastel);
-    box-shadow: 0 0 5px 1px var(--lightPastel);
-}
-
-/*FILTER*/
-
-.rpListFilterBox {
-    padding-bottom: 10px;
     background-color: var(--darkPastel);
-    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
-    cursor: default;
-}
-
-.rpListFilter {
-    width: calc(100% - 20px);
-    font-family: "Noto Sans";
-    font-size: 1.5em;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 5px;
-    border: none;
-    padding: 3px 10px 5px;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.filterTagCheckBox {
-    color: var(--shadeBlack);
-    font-size: 1.3em;
-    gap: 5px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.filterTagCheck {
-    display: inline-block;
-    height: 23px;
-    width: 23px;
-    border-radius: 5px;
-    box-shadow: inset 0 -2px 3px 3px rgb(109, 44, 0);
-    background-color: var(--lightPastel);
-    transition: 0.2s;
 }
 
 /*ROLEPLAY*/
@@ -256,3 +198,12 @@
 #talkContent {
     margin-top: 10px;
 }
+
+/*VIDEO & MUSIC*/
+
+.storyFrame {
+    width: 100%;
+    height: 150px;
+}
+
+/*PICS*/

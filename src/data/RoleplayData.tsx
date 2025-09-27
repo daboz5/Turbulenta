@@ -6,8 +6,8 @@ export default function RoleplayData() {
         id: "Season 1",
         roleplays: [{
             title: "Test Play",
+            date: 1,
             shortDesc: "Here to test how dialog would look like",
-            tags: ["blood"],
             chars: ["Remember Me", "Minamoto"],
             contents: [{
                 char: { name: "Remember Me", token: 1 },
@@ -25,9 +25,45 @@ export default function RoleplayData() {
     const rpS2: RPGroup = {
         id: "Season 2",
         roleplays: [{
+            title: "Inner Self 1",
+            date: 20240515,
+            shortDesc: "Remember Me tries to train his problems away. He gains power, but becomes even less stable.",
+            chars: ["Remember Me"],
+            contents: [{
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember me was furious. How could have Oaksplit claimed he cared about his friend and try to honor his memory, while sitting in his big chamber, crafting chairs and inking paper. How could it have trusted such a self-serving person. He was just like one of the council druids from Emily's village. The village that eventually killed her. She was trying so hard and all she got in return was ridicule. Maybe this is why she run away. Maybe this is the only way. Be alone. Do what you can with what you have. This is how it was created after all. Away from the village. Away from everyone else.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Remember Me came to the magic lake. Lake under the world above. Lake to the unknown. Lake where it found its new family. I mean, that exact place was a day away from here, but details weren't that important right now.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`No, that ork was worse. Council member were at least capable. Everyone knew it. They were the most capable members of the entire village. No one could denied it. They each had to create a feygolem and even then, only the best of them ruled above everyone else. It made sense. But that ork ... as he said, woodwhisperer, seedwhisperer, but not a ... what was his role again? Representative of the People. That People person must have had a bad taste in people that represent it.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`It finally found what it was looking for. A fortress at the lake side. A place that needed people. People who could fight. And at the moment, Remember Me was very willing to rip a head or two off any monster that would dare to cross its path. Maybe it was only an imagination, but cave's plants and fungi trembled and moved away as it made its way towards the fortress. This has to be the place. Place that will tell it who to kill.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`To its surprise, this was not "exactly" what happened. First, they sounded an alarm. Monster approaching. Great, it was more than ready to fight one. But it soon found out the monster was Remember Me. Not the best time to humor it, but Remember Me tried its best to be civil and explain their misunderstanding. They didn't seem sure what to do, so they assigned it to some more training. Well, sure, it could probably use some of that, in its 33 years of wandering, there were only few occasions where it actually needed to fight, so its fighting stile relied more on ... instincts of its creation than any real fighting style, unlike most people around it. So ... training it is.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`He became part of 30 men group that slowly started to shrink. Something about how it dispatches training dummies. Tearing them to pieces. One after another. Magic acidic thorns enveloping its arms, teeth of the beasts, claws, fangs ... everything had the same motive. It was primal, bestial, brutal. One of the soldiers vomited just from looking at the process of turning a training dummy into ... whatever remained. In time its "style" was recognized as "chaos bomb". Remember Me didn't know what it means, but as long as it could tear his enemies apart, it did not care. Some day, it will grow. And it will destroy enemies of Emily. It will return. And it will make them pay. Just as Emily would have wanted.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Back to its business, Remember Me was again at its job off smashing training dummies. It was not "meant" to smash them, but little overperformance never killed anyone ... and it was not its fault they were too weak to properly train on.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Oaksplit sent it a letter. He wants to meet. Why? They have nothing to talk about. His picture was cute thou. But he wrote they are sorry. Who is sorry? Remember Me couldn't remember anyone else that wanted to say sorry to it. And sorry about what? It did not seek apology, words, it sought action!`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Primal Savagery and a wild swing with its thorny arm.`}</p></>
+            }, {
+                char: { name: "Remember Me", token: 1 },
+                content: <><p>{`Oops. Another dummy, smashed.`}</p></>
+            }]
+        }, {
             title: "Inner Self 2",
+            date: 20240520,
             shortDesc: "Minamoto tries to help Remember Me understand what is wrong with him.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Minamoto"],
             contents: [{
                 char: { name: "Remember Me", token: 1 },
@@ -354,49 +390,13 @@ export default function RoleplayData() {
                     <p>{`Next day Remember Me was ... not itself. Its movements were so sluggish even beginners could dodge them. So undedicated even dummy might defend against them. And most strange of it all, it did not seem to notice. It was like it was not fully present and while it was, its presence was slipping, like a sand trapped in a sand hour, every now and then turned, only to start slipping away again.`}</p></>
             }, {
                 char: { name: "Remember Me", token: 2 },
-                content: <><iframe width="252" height="189" src="https://www.youtube.com/embed/81c9yXJlzmg"></iframe>
+                content: <><iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/81c9yXJlzmg"></iframe>
                     <p>{`After Remember Me wakes up again ... he starts to change. Its posture is starting to become less animalistic and more humane, little less heavy as before, but it is almost as tall as an average elf now. Remember Me appears driven and at times almost ... playful? What is maybe even more striking is that ... it breathes. It is just an imitation of life, but its chest area does seem to mimic breathing. What is driving those changes? What is Remember Me becoming?`}</p></>
             }]
         }, {
-            title: "Inner Self 1",
-            shortDesc: "Remember Me tries to train his problems away. He gains power, but becomes even less stable.",
-            tags: ["depression", "guilt"],
-            chars: ["Remember Me"],
-            contents: [{
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`Remember me was furious. How could have Oaksplit claimed he cared about his friend and try to honor his memory, while sitting in his big chamber, crafting chairs and inking paper. How could it have trusted such a self-serving person. He was just like one of the council druids from Emily's village. The village that eventually killed her. She was trying so hard and all she got in return was ridicule. Maybe this is why she run away. Maybe this is the only way. Be alone. Do what you can with what you have. This is how it was created after all. Away from the village. Away from everyone else.`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`Remember Me came to the magic lake. Lake under the world above. Lake to the unknown. Lake where it found its new family. I mean, that exact place was a day away from here, but details weren't that important right now.`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`No, that ork was worse. Council member were at least capable. Everyone knew it. They were the most capable members of the entire village. No one could denied it. They each had to create a feygolem and even then, only the best of them ruled above everyone else. It made sense. But that ork ... as he said, woodwhisperer, seedwhisperer, but not a ... what was his role again? Representative of the People. That People person must have had a bad taste in people that represent it.`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`It finally found what it was looking for. A fortress at the lake side. A place that needed people. People who could fight. And at the moment, Remember Me was very willing to rip a head or two off any monster that would dare to cross its path. Maybe it was only an imagination, but cave's plants and fungi trembled and moved away as it made its way towards the fortress. This has to be the place. Place that will tell it who to kill.`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`To its surprise, this was not "exactly" what happened. First, they sounded an alarm. Monster approaching. Great, it was more than ready to fight one. But it soon found out the monster was Remember Me. Not the best time to humor it, but Remember Me tried its best to be civil and explain their misunderstanding. They didn't seem sure what to do, so they assigned it to some more training. Well, sure, it could probably use some of that, in its 33 years of wandering, there were only few occasions where it actually needed to fight, so its fighting stile relied more on ... instincts of its creation than any real fighting style, unlike most people around it. So ... training it is.`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`He became part of 30 men group that slowly started to shrink. Something about how it dispatches training dummies. Tearing them to pieces. One after another. Magic acidic thorns enveloping its arms, teeth of the beasts, claws, fangs ... everything had the same motive. It was primal, bestial, brutal. One of the soldiers vomited just from looking at the process of turning a training dummy into ... whatever remained. In time its "style" was recognized as "chaos bomb". Remember Me didn't know what it means, but as long as it could tear his enemies apart, it did not care. Some day, it will grow. And it will destroy enemies of Emily. It will return. And it will make them pay. Just as Emily would have wanted.`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`Back to its business, Remember Me was again at its job off smashing training dummies. It was not "meant" to smash them, but little overperformance never killed anyone ... and it was not its fault they were too weak to properly train on.`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`Oaksplit sent it a letter. He wants to meet. Why? They have nothing to talk about. His picture was cute thou. But he wrote they are sorry. Who is sorry? Remember Me couldn't remember anyone else that wanted to say sorry to it. And sorry about what? It did not seek apology, words, it sought action!`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`Primal Savagery and a wild swing with its thorny arm.`}</p></>
-            }, {
-                char: { name: "Remember Me", token: 1 },
-                content: <><p>{`Oops. Another dummy, smashed.`}</p></>
-            }]
-        }, {
             title: "First Friend",
+            date: 20240505,
             shortDesc: "Ko Remember Me v Emily's Respite zgradi prvi bazen, ima končno nekaj časa, da se na samem pogovori s svojim novim prijateljem.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Mezolček"],
             contents: [{
                 char: { name: "Remember Me", token: 0 },
@@ -440,8 +440,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Polite Inquiry",
+            date: 20240506,
             shortDesc: "Remember Me se poskuša izpogajati za ceno gradu.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Rosa Guard", "Rosa Clerk", "Oaksplit"],
             contents: [{
                 char: { name: "Remember Me", token: 0 },
@@ -589,8 +589,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Warehouse",
+            date: 20240510,
             shortDesc: "Remember Me začne z gradnjo prvega svetišča / zavetišča.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Oaksplit", "Nobodies"],
             contents: [{
                 char: { name: "Pripovedovalec" },
@@ -918,8 +918,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Reflections",
+            date: 20240525,
             shortDesc: "Remember Me returns for its training after confronting its worst fear, itself.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Minamoto", "Caraxes", "Repko"],
             contents: [{
                 char: { name: "Minamoto", token: 2 },
@@ -1241,8 +1241,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Nightmares",
+            date: 20240521,
             shortDesc: "Remember Me potuje globoko vase, da bi našel vir razdora in se poskusil zaceliti.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Repko", "Penelopa", "Oaksplit", "Minamoto", "Mezolček", "Emily"],
             contents: [{
                 char: { name: "Remember Me", token: 1 },
@@ -2672,8 +2672,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "For the People",
+            date: 20240526,
             shortDesc: "Remember Me is starting to plan statue of Emily.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Oaksplit", "Minamoto"],
             contents: [{
                 char: { name: "Remember Me", token: 2 },
@@ -2742,8 +2742,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "A night to (probably not) remember 🍻 - Remember Me",
+            date: 20240615,
             shortDesc: "People of Rosa Riendo are celebrating. Thread has multiple very chaotic trails, so this is the one that follows Remember Me.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Bob", "Sr. Catalan", "Minamoto", "Morwyn", "Parateretes", "Ceres Lionari", "Ivan", "Davric", "Isabela", "Rua"],
             contents: [{
                 char: { name: "Bob" },
@@ -3128,8 +3128,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "While Metal Is Hot",
+            date: 20240622,
             shortDesc: "Remember Me načrtuje skulpturo od Emily.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Parateretes"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
@@ -3305,8 +3305,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Pond of Remembrance - Emily's Pond 🫗",
+            date: 20240623,
             shortDesc: "Opis magičnega artefakta, gradnje in njegovih efektov.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
@@ -3371,11 +3371,11 @@ export default function RoleplayData() {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Tako, in še razlog zakaj sem pospešil objavo, sedaj lahko naredim tole)`}</p>
                     <p>{`Opening Play`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/mauxvpOFth8"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/mauxvpOFth8"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 0)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/ZneqpcVzOWs"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/ZneqpcVzOWs"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Progress on the Nobody's Respite after last mission slowed down quite considerably as Remember Me is still troubled by the results of its last mission. Also, its new and expanding responsibilities as a still developing dormitory supervisor as well as main theater sponsor, training new generation of artists of all sorts as well as general job search and inspections took a lot more time than intended. Still, progress is noticeable. Pond is mostly installed and is now engraved with barely visible but delicate shapes that somewhat resemble druidic language, but shaped into pictures and stories. Most of it thou is covered by seemingly forever regenerating mud that covers most of the pool's bottom, giving it more of a feel of a pond. Some smaller species of fish, insects, snakes, lizards, spiders, amphibians and water plants can sometimes be spotted around the pond, swimming, hiding in mud, moss, rocks placed in the shapes of pathways or plants's branches, giving the room alive feeling. Even more, plants all around the place have grow in miraculous time and indeed give a feeling that this place is somehow alive ... and aware. Plants at the door will sometime block or open the path, seemingly at random, needing a druid to correct them. Central area can now be accessed by a thick bridge and railings made out of living plants ... but sometimes too living and wild as they might decide to open under the guest and let them fall into water. Many more branches form a thick arch all around the pool, continuing upwards to form a terrace and many handy stairs, but again, at any time they might decide to simply stop providing support, so the area is still closed for residents of dormitory, even as it is now connected to it by 2 gates where terraces are. Previous patches of dirt have grown into many individual plants, intertwined into pillars, growing into each other and starting to take the shape of the living canopy, even if the roof is still fully opened to the sky.`}</p></>
@@ -3385,14 +3385,14 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/wVnxsjAIfWg"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/wVnxsjAIfWg"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Tako, ni ne vem kaj, vendar za par ur dela bo vredu Nobody's Respite - Flowery Arch Over the Pond`}</p></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/TFRhVq4i4bA"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/TFRhVq4i4bA"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
@@ -3403,33 +3403,33 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/7dbwwu7ydhM"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/7dbwwu7ydhM"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/E5g3gixP1bM"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/E5g3gixP1bM"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/P2saF8pHwR4"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/P2saF8pHwR4"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/hqQAEUeGDds"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/hqQAEUeGDds"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/nIZxh_nc64w"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/nIZxh_nc64w"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
                     <p>{`(Remember Me is gone)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/2a2UABmIzEA"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/2a2UABmIzEA"></iframe></>
             }]
         }, {
             title: "Emily",
+            date: 20240620,
             shortDesc: "Remember Me and Sr. Catalan have a little chat about their place in the grand scheme of things and what drives them forward.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Sr. Catalan"],
             contents: [{
                 char: { name: "Sr. Catalan" },
@@ -3521,8 +3521,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Message to Paradise",
+            date: 20240621,
             shortDesc: "Remember Me tries to get into contact with his lost tribe by asking for Isabela's help.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Isabela"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
@@ -3598,8 +3598,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Nobody's Rosa Respite",
+            date: 20240707,
             shortDesc: "Remember Me nadaljuje delo na originalnem zavetišču.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
@@ -3612,78 +3612,78 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Remember Me's Inner Music",
+            date: 20240711,
             shortDesc: "Tempo po katerem je Remember Me umiral, kako se je počutil. Sprva so bili naslovi zakriti, šele ko je bila krinka zdravja razkrita, so bili nemudoma predelani v to kar so dejansko bili, odštevanje do smrti. Zelo sem razmišljal kako želim iti. Odločil sem se, da se želim potruditi po najboljših močeh.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/5wvTs-1jUFE"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/5wvTs-1jUFE"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/yEg02Ui_a8k"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/yEg02Ui_a8k"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 1)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/tHZqxecCukg"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/tHZqxecCukg"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/6fEXKtBsjNQ"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/6fEXKtBsjNQ"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/1EdSGUIaJYQ"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/1EdSGUIaJYQ"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/5u3RGhznctE"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/5u3RGhznctE"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/jRFk22ENWNg"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/jRFk22ENWNg"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/zbQRY8KSVbU"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/zbQRY8KSVbU"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 3)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/E83hl6hDfKQ"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/E83hl6hDfKQ"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(this one is just so nice that I have to share both xD, Ranking of Kings is amazing)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/dWZAH5w8jkQ"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/dWZAH5w8jkQ"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/60ItHLz5WEA"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/60ItHLz5WEA"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/ED66vOZg9t4"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/ED66vOZg9t4"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 4)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/2RrkFCw0t90"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/2RrkFCw0t90"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/xG12ghcBKvw"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/xG12ghcBKvw"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/J-j32A2tTlk"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/J-j32A2tTlk"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 5, konec)`}</p>
-                    <iframe width="252" height="189" src="https://www.youtube.com/embed/Y6ljFaKRTrI"></iframe></>
+                    <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/Y6ljFaKRTrI"></iframe></>
             }]
         }, {
             title: "Invitation - day 1",
+            date: 20240711,
             shortDesc: "Remember Me plans to give to Morwyn the melody that is killing him as a price for when he saved her husband.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Morwyn", "Minamoto"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
@@ -3756,8 +3756,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Reassurance - day 2",
+            date: 20240712,
             shortDesc: "Remember Me išče naslednika za svoje svetišče.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Birog"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
@@ -3940,8 +3940,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Warning - day 3",
+            date: 20240713,
             shortDesc: "Remember Me poskuša posvariti mesto pred morebitnimi tujimi vplivi ter najti naslednika za preostanek njegovih posesti.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Oaksplit", "Sr. Catalan"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
@@ -4001,8 +4001,8 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Arrangements - day 4",
+            date: 20240714,
             shortDesc: "Remember Me poskuša Morwyn zapustiti melodijo, ki jo je dobil od drevesa, ki je skoraj ubilo njenega moža kot poslovilno darilo. Prav tako želi preveriti, če ji lahko v varovanje zapusti del svoje dediščine. Morwyn ga razkrinka in darilo zavrne.",
-            tags: ["depression", "guilt"],
             chars: ["Remember Me", "Morwyn", "Repko"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
@@ -4121,12 +4121,12 @@ export default function RoleplayData() {
             }]
         }, {
             title: "Farewell - day 5",
-            shortDesc: "",
-            tags: ["depression", "guilt"],
+            date: 20240715,
+            shortDesc: "Remember Me gives his life to bring someone else back to life.",
             chars: ["Remember Me"],
             contents: [{
                 char: { name: "Remember Me", token: 3 },
-                content: <><iframe width="252" height="189" src="https://www.youtube.com/embed/VBBFDb0hC4Y"></iframe></>
+                content: <><iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/VBBFDb0hC4Y"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`After months and months of work as others finish their preparations for their next mission, Remember Me was working on, trying to stay ahead of the progression of the roots, taking hold of its body. And now, everything was in place. The only thing left was to combine the pond and the statue together and for course troubleshoot any potential error it made along the way.`}</p></>
