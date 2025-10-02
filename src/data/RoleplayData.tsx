@@ -1,5 +1,27 @@
 import { RPGroup } from "../types"
 
+import Caraxes from "../assets/chars/morwyn/caraxes.png"
+import Repko from "../assets/chars/rememberme/Repko-Token.png"
+import Mezolcek from "../assets/chars/rememberme/Hugger-Fish-Token.png"
+import Fox from "../assets/chars/rememberme/FoxEmily.jpg"
+import Penelopa from "../assets/chars/rememberme/Penelopa.jpg"
+import Oaksplit from "../assets/chars/rememberme/Oaksplit.jpg"
+import FirstRemember from "../assets/chars/rememberme/Remember-Me-1.jpg"
+import SecondRemember from "../assets/chars/rememberme/Remember-Me-2.jpg"
+import FifthRemember from "../assets/chars/rememberme/Remember-Me-5.jpg"
+import SixthRemember from "../assets/chars/rememberme/Remember-Me-6.jpg"
+import Clothes from "../assets/chars/rememberme/Emily's Clothes.jpg"
+import NobodyMap from "../assets/chars/rememberme/Nobody's Respite_Map.png"
+import EHOC_1 from "../assets/chars/rememberme/Emilys_House_of_Culture_-_Basement.png"
+import EHOC0 from "../assets/chars/rememberme/Emilys_House_of_Culture_-_Floor_0.png"
+import EHOC1 from "../assets/chars/rememberme/Emilys_House_of_Culture_-_Floor_1.png"
+import EHOC2 from "../assets/chars/rememberme/Emilys_House_of_Culture_-_Floor_2.png"
+import EHOC_Enter from "../assets/chars/rememberme/Nobody's Respite 2.1.png"
+import EHOC_EnterInner from "../assets/chars/rememberme/Nobody's Respite 2.2.png"
+import EHOC_Pond from "../assets/chars/rememberme/Pond_of_Rememberance.png"
+import EHOC_Arch from "../assets/chars/rememberme/Nobody's Respite.png"
+import EHOC_Sculpture from "../assets/chars/rememberme/Nobody's Respite 3.jpg"
+
 export default function RoleplayData() {
 
     const rpS1: RPGroup = {
@@ -67,7 +89,8 @@ export default function RoleplayData() {
             chars: ["Remember Me", "Minamoto"],
             contents: [{
                 char: { name: "Remember Me", token: 1 },
-                content: <><p>{`For the last 2 months Remember Me was a bit problematic. He was training to help guard the underground fortress, but was quickly designated as a `}<i>{`chaos bomb`}</i>{` or `}<i>{`berserker`}</i>{` type of an asset, it displayed power and violence, not towards anyone in particular, but it still made other soldiers– very uncomfortable and it did cause a lot of training dummies losses. Now, it is continuing to train, soon after it destroyed giant elemental dummy creature, more powerful than ever, more violent than ever, not doing anything wrong, but SOMETHING was clearly wrong, given the reports they had on it from before.`}</p></>
+                content: <><p>{`For the last 2 months Remember Me was a bit problematic. He was training to help guard the underground fortress, but was quickly designated as a `}<i>{`chaos bomb`}</i>{` or `}<i>{`berserker`}</i>{` type of an asset, it displayed power and violence, not towards anyone in particular, but it still made other soldiers– very uncomfortable and it did cause a lot of training dummies losses. Now, it is continuing to train, soon after it destroyed giant elemental dummy creature, more powerful than ever, more violent than ever, not doing anything wrong, but SOMETHING was clearly wrong, given the reports they had on it from before.`}</p>
+                    <img className="storyImgSmall" src={FifthRemember} alt="Remember Me - Peto telo" /></>
             }, {
                 char: { name: "Minamoto" },
                 content: <><p>{`Another afternoon of bashing and raging passes by. While the soldiers stationed at the base have gotten a bit used to it, Remember me's rampage still causes a bit of a disturbance in the training area. Enough for commander Minamoto to finally take notice and investigate. As the tall elven warrior enters the sandy area, he is a witness to yet another dummy smashed to splinters by the raging feygol. Seeing as this little creature might need some guidance he walks over.`}</p>
@@ -391,7 +414,8 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Remember Me", token: 2 },
                 content: <><iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/81c9yXJlzmg"></iframe>
-                    <p>{`After Remember Me wakes up again ... he starts to change. Its posture is starting to become less animalistic and more humane, little less heavy as before, but it is almost as tall as an average elf now. Remember Me appears driven and at times almost ... playful? What is maybe even more striking is that ... it breathes. It is just an imitation of life, but its chest area does seem to mimic breathing. What is driving those changes? What is Remember Me becoming?`}</p></>
+                    <p>{`After Remember Me wakes up again ... he starts to change. Its posture is starting to become less animalistic and more humane, little less heavy as before, but it is almost as tall as an average elf now. Remember Me appears driven and at times almost ... playful? What is maybe even more striking is that ... it breathes. It is just an imitation of life, but its chest area does seem to mimic breathing. What is driving those changes? What is Remember Me becoming?`}</p>
+                    <img className="storyImgSmall" src={SixthRemember} alt="Remember Me - Šesto telo" /></>
             }]
         }, {
             title: "First Friend",
@@ -400,7 +424,9 @@ export default function RoleplayData() {
             chars: ["Remember Me", "Mezolček"],
             contents: [{
                 char: { name: "Remember Me", token: 0 },
-                content: <><p>{`"Torej ... Gospod Riba. Kako naj te kličem? Imaš ime? Naziv? Družino?"`}</p></>
+                content: <>
+                    <img className="storyImgSmall" src={Mezolcek} alt="Mezolček" />
+                    <p>{`"Torej ... Gospod Riba. Kako naj te kličem? Imaš ime? Naziv? Družino?"`}</p></>
             }, {
                 char: { name: "Mezolček" },
                 content: <><p>{`"..ime?"`}</p>
@@ -514,7 +540,8 @@ export default function RoleplayData() {
                     <p>{`The council member Valmo Oaksplit looks up (or in fact down) at you and his face changes from a frown to an expression of puzzled amusement.`}</p>
                     <p>{`"Now what do we have here? Come sit down little fella."`}</p>
                     <p>{`He gestures at an empty wooden chair in front of the desk.`}</p>
-                    <p>{`"Carved that one myself."`}</p></>
+                    <p>{`"Carved that one myself."`}</p>
+                    <img className="storyImgSmall" src={Oaksplit} alt="Oaksplit" /></>
             }, {
                 char: { name: "Remember Me", token: 0 },
                 content: <><p>{`"Uuuu, I will ... no, wait, I almost forgot something!"`}</p>
@@ -1055,6 +1082,7 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Caraxes" },
                 content: <><p>{`Caraxes looks at the strange feygol. He had seen it roaming the streets before, but never paid it much mind.`}</p>
+                    <img className="storyImgSmall" src={Caraxes} alt="Caraxes" />
                     <p>{`"Hellos Rrremembrry. I wills hide now."`}</p>
                     <p>{`Caraxes waves at the feygol before snapping his clawed fingers and going invisible.`}</p></>
             }, {
@@ -1147,7 +1175,8 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`"Uiiiiiiiiiiiii!"`}</p>
-                    <p>{`Repko cheers as it can sense Remember Me's thought's trough their telepathic link.`}</p></>
+                    <p>{`Repko cheers as it can sense Remember Me's thought's trough their telepathic link.`}</p>
+                    <img className="storyImg" src={Repko} alt="Repko" /></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`... annoying Caraxes, that dodges Remember Me's next move, but it is almost like Remember Me was leading him into position for another touch, step back, spin kick, touch again, spin kick, touch ...`}</p>
@@ -1254,7 +1283,8 @@ export default function RoleplayData() {
                 content: <><p>{`t tries to rest. Again. It needs to rest. To get better. To stop falling apart. Just as Oaksplit said.`}</p>
                     <p>{`Light in its eyeholes starts to dim. Magic holding its body together relaxes. When it sees it.`}</p>
                     <p>{`There is a white, shiny fox. And it is looking at it. Unbothered.`}</p>
-                    <p>{`Remember Me looks around. It is not anywhere it would recognize. And there is only it. It and the fox. That is looking at it. Expectingly.`}</p></>
+                    <p>{`Remember Me looks around. It is not anywhere it would recognize. And there is only it. It and the fox. That is looking at it. Expectingly.`}</p>
+                    <img className="storyImgSmall" src={Fox} alt="Fox Feygol" /></>
             }, {
                 char: { name: "Fox" },
                 content: <><p>{`... ... ...`}</p>
@@ -1605,7 +1635,8 @@ export default function RoleplayData() {
                     <p>{`"Repko!"`}</p></>
             }, {
                 char: { name: "Repko" },
-                content: <><p>{`"U uuuuuuuuuuuuiiiiiiiiiiiiiiiiiii!"`}</p></>
+                content: <><p>{`"U uuuuuuuuuuuuiiiiiiiiiiiiiiiiiii!"`}</p>
+                    <img className="storyImgSmall" src={Repko} alt="Repko" /></>
             }, {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`It was its long-lost friend and companion, that was adventuring with him before it left the continent and even some times after.`}</p>
@@ -1888,6 +1919,9 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Remember Me", token: 1 },
                 content: <><p>{`So they went on, Repko showing them where to go, even if Penelope did take charge of the group and lead from the front ... to some extent to not need to look at her heretic companions.`}</p>
+                    <img className="storyImgSmall" src={SecondRemember} alt="Remember Me - Drugo telo" />
+                    <img className="storyImgSmall" src={Repko} alt="Repko" />
+                    <img className="storyImgSmall" src={Penelopa} alt="Penelopa" />
                     <p>{`Together they came ... somewhere. Where they were now didn't feel like a random battlefield of ruins anymore, it felt ... oriented. As if they are near something or somewhere.`}</p></>
             }, {
                 char: { name: "Repko" },
@@ -2462,7 +2496,8 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`"Uiiiiiiiiiiiiiiiii! Uiii uiii uiii, uiiiiiiiiiiiiiiiii!"`}</p>
-                    <p>{`It greets Minamoto and tries to get its attention.`}</p></>
+                    <p>{`It greets Minamoto and tries to get its attention.`}</p>
+                    <img className="storyImgSmall" src={Repko} alt="Repko" /></>
             }, {
                 char: { name: "Minamoto" },
                 content: <><p>{`Half the onlooking soldier immediately back off, the rest peer even closer at the little turnip curiosity. Minamoto's expression reveals much confusion, but he just blinks a couple of time and then focuses on the small turnip.`}</p>
@@ -3348,7 +3383,8 @@ export default function RoleplayData() {
                 content: <><p>{`With the city officially open, Remember Me doubles the amount of work it is able to invest into the project.`}</p></>
             }, {
                 char: { name: "Remember Me", token: 3 },
-                content: <><p>{`First comes the grandest if simplest part of the project, a large circular pond with an elemetal base that traces the edge of the room, only leaving enough space for a line of especially rich earth and yet dead wooden branches, tracing both sides of the pond.`}</p></>
+                content: <><p>{`First comes the grandest if simplest part of the project, a large circular pond with an elemetal base that traces the edge of the room, only leaving enough space for a line of especially rich earth and yet dead wooden branches, tracing both sides of the pond.`}</p>
+                    <img className="storyImgBig" src={EHOC_Pond} alt="Pond of Remembrance" /></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Most of the remaining floor area is covered with a thick carpet or moss. The entire area was not yet covered by a roof, so the sun and the moon can still be observed freely at any cloudless part of the day. The room has 3 layers.`}</p>
@@ -3363,10 +3399,21 @@ export default function RoleplayData() {
                 content: <><p>{`(Pond bom tako opisal med dt in že tistega bo veliko, tako da verjetno je ok, če že sedaj predstavim kaj je narejeno na kulturni hiši ... želim imeti tole reč za šeranje orkestralne glasbe ipd., stvari ki bi se igrale v njej)`}</p></>
             }, {
                 char: { name: "Remember Me", token: 3 },
-                content: <><p>{`On in last month or so, finishing touches were made on Emily's House of Culture, that is (for Remember Me) the side building to Pond of Remembrance or Nobody's Faro de Luz Rest it is working on. If you enter from the side facing the west (on the city map), trough a wide main entrance, you enter a wide hallway full of paintings and sculptures of the patrons, many of them not yet dedicated to Emily, even if some are, given that Remember Me is preoccupied with working on the heart of the building at the moment. You can go down to the basement level where you can leave your stuff at dedicated and manned wardrobe or buy snacks and refreshments at for this purpose 2 dedicated stores. Once you return, you can use one of 3 lower entrances leading into the enormous main hall and take one of many dedicated seats or go to the stage, mostly covered by the curtain. Exploring the stage, you notice it is quite big, but among curtains and sets you can go into more crammed backstage, where many useful tools for any occasion can be found. Continue forward left or right trough sound-isolated doors and you will come into the dinning hall of one of 2 dormatories, one of those of more orderly nature and one of those with more chaotic tendencies. Each resident can choose where to live (or if causing troubles will be placed into another dormitory before removal) so residents are least likely to step on each other's nerves given their lifestyle. Each dormitory has their kitchen and main Slime Closets are meant for both patrons and visitors of the House of Culture. Stairs around here lead down, where extensive storage can be found. Dormitories have mostly doubled storage spaces due to their divergent tastes, but they do share storage space for some of the more dedicated equipment as they are in charge of maintaining house as a whole. Going back, if we go past SCs, we can go on the last part of lower level we haven't visited yet.`}</p></>
+                content: <><p>{`On in last month or so, finishing touches were made on Emily's House of Culture, that is (for Remember Me) the side building to Pond of Remembrance or Nobody's Faro de Luz Rest it is working on.`}</p>
+                    <p>{`If you enter from the side facing the west (on the city map), trough a wide main entrance, you enter a wide hallway full of paintings and sculptures of the patrons, many of them not yet dedicated to Emily, even if some are, given that Remember Me is preoccupied with working on the heart of the building at the moment. You can go down to the basement level where you can leave your stuff at dedicated and manned wardrobe or buy snacks and refreshments at for this purpose 2 dedicated stores.`}</p>
+                    <p>{`Once you return, you can use one of 3 lower entrances leading into the enormous main hall and take one of many dedicated seats or go to the stage, mostly covered by the curtain. Exploring the stage, you notice it is quite big, but among curtains and sets you can go into more crammed backstage, where many useful tools for any occasion can be found.`}</p>
+                    <p>{`Continue forward left or right trough sound-isolated doors and you will come into the dinning hall of one of 2 dormatories, one of those of more orderly nature and one of those with more chaotic tendencies. Each resident can choose where to live (or if causing troubles will be placed into another dormitory before removal) so residents are least likely to step on each other's nerves given their lifestyle. Each dormitory has their kitchen and main Slime Closets are meant for both patrons and visitors of the House of Culture.`}</p>
+                    <p>{`Stairs around here lead down, where extensive storage can be found. Dormitories have mostly doubled storage spaces due to their divergent tastes, but they do share storage space for some of the more dedicated equipment as they are in charge of maintaining house as a whole.`}</p>
+                    <p>{`Going back, if we go past SCs, we can go on the last part of lower level we haven't visited yet.`}</p>
+                    <img className="storyImgBig" src={EHOC_1} alt="Emily's House of Culture - Basement Floor" />
+                    <img className="storyImgBig" src={EHOC0} alt="Emily's House of Culture - Ground Floor" /></>
             }, {
                 char: { name: "Remember Me", token: 3 },
-                content: <><p>{`Here dedicated equipment for the house is stored, sets, props, instruments, everything that might be needed on the stage if need presents itself. Here are also guest rooms, front security that guards the equipment as well as waiting room for performers, where they can take a break, wait for their time, apply makeup or dress themselves in large dedicated theater wardrobe. If we use the same stairs we go up to the 1. floor, where there are common balcony seats as well as some dedicated ones for guests that might require more personal space, as well as another gallery, this one with handpicked selection of art. If the lower one presented work of patrons in general, this one is more curated one. Where the entrance would be on the lower floor, here a giant glass panel is located, making letting guests have a clear view on the coming and going visitors as well as outer wall of the city. Back to the dormitories, we pass manager's office for each dorm-wing and find where most of the patrons rest. There are individual rooms as well as more crammed common ones. There is also the door from each side that leads directly into Nobody's Respite, but it is closed until area around the shrine is more secure. If we go to the highest floor we can find small general storage, as well as many SCs and a place where patrons can bath or clean their tools. Close to here is another gallery, where unfinished-finished works can be presented (or temporary stored), but also where we can access 6 crafting departments, each filled with dedicated tools for creation of works of art. The hope of Remember Me was, that due to high-lvl of production, artists from across the island will come here to perform, work, socialize and share thus their knowledge with less proficient patrons of the shelter, so transfer of know-how can take place. There is also relatively small and more isolated library, segmented into 2 main sections, where knowledge can be stored and and accessed if need be.`}</p></>
+                content: <><p>{`Here dedicated equipment for the house is stored, sets, props, instruments, everything that might be needed on the stage if need presents itself. Here are also guest rooms, front security that guards the equipment as well as waiting room for performers, where they can take a break, wait for their time, apply makeup or dress themselves in large dedicated theater wardrobe.`}</p>
+                    <p>{`If we use the same stairs we go up to the 1. floor, where there are common balcony seats as well as some dedicated ones for guests that might require more personal space, as well as another gallery, this one with handpicked selection of art. If the lower one presented work of patrons in general, this one is more curated one. Where the entrance would be on the lower floor, here a giant glass panel is located, making letting guests have a clear view on the coming and going visitors as well as outer wall of the city. Back to the dormitories, we pass manager's office for each dorm-wing and find where most of the patrons rest. There are individual rooms as well as more crammed common ones. There is also the door from each side that leads directly into Nobody's Respite, but it is closed until area around the shrine is more secure.`}</p>
+                    <p>{`If we go to the highest floor we can find small general storage, as well as many SCs and a place where patrons can bath or clean their tools. Close to here is another gallery, where unfinished-finished works can be presented (or temporary stored), but also where we can access 6 crafting departments, each filled with dedicated tools for creation of works of art. The hope of Remember Me was, that due to high-lvl of production, artists from across the island will come here to perform, work, socialize and share thus their knowledge with less proficient patrons of the shelter, so transfer of know-how can take place. There is also relatively small and more isolated library, segmented into 2 main sections, where knowledge can be stored and and accessed if need be.`}</p>
+                    <img className="storyImgBig" src={EHOC1} alt="Emily's House of Culture - First Floor" />
+                    <img className="storyImgBig" src={EHOC2} alt="Emily's House of Culture - Second Floor" /></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(Tako, in še razlog zakaj sem pospešil objavo, sedaj lahko naredim tole)`}</p>
@@ -3388,7 +3435,8 @@ export default function RoleplayData() {
                     <iframe className="storyFrame" allowFullScreen src="https://www.youtube.com/embed/wVnxsjAIfWg"></iframe></>
             }, {
                 char: { name: "Remember Me", token: 3 },
-                content: <><p>{`Tako, ni ne vem kaj, vendar za par ur dela bo vredu Nobody's Respite - Flowery Arch Over the Pond`}</p></>
+                content: <><p>{`(Tako, ni ne vem kaj, vendar za par ur dela bo vredu Nobody's Respite - Flowery Arch Over the Pond)`}</p>
+                    <img className="storyImgBig" src={EHOC_Arch} alt="Inside of Flowery Arch" /></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
@@ -3396,7 +3444,9 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`(day 2)`}</p>
-                    <p>{`Tako, sorry da je vzelo tako dolgo, vendar za kvaliteto je pač potrebno vložiti več časa x) Druga slika kaže kaj je tam, če večine ne zakrijejo vrata xD Tako izgleda torej Nobody's Respite od zunaj pri vhodu. Bela reč je Sladki grobelnik (roža).`}</p></>
+                    <p>{`(Tako, sorry da je vzelo tako dolgo, vendar za kvaliteto je pač potrebno vložiti več časa x) Druga slika kaže kaj je tam, če večine ne zakrijejo vrata xD Tako izgleda torej Nobody's Respite od zunaj pri vhodu. Bela reč je Sladki grobelnik (roža).)`}</p>
+                    <img className="storyImgBig" src={EHOC_Enter} alt="Pond of Remembrance - Entrance" />
+                    <img className="storyImgBig" src={EHOC_EnterInner} alt="Pond of Remembrance - Entrance without doors" /></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me finishes statue of Emily. She is very detailed, down to the pore, it is clear a lot of work was put into it. She is dressed in druidic clothes Remember Me is from time to time seen wearing, but more properly made. Her arms are from cold metal and brass metal , outstretched down as if channeling something, while she is squatting with one leg lower, destabilizing the whole structure. It is clear it is meant to be placed on some kind of a pedestal, so its leg could hang down from it. The most curious part of the structure are her blind eyes, made out of white pearls, soaked with healing magic. It is almost done. After months and months of work, it is almost over. Just a few more finishing touches and the Pond will be complete. But before that happens ... Remember Me has an appointment.`}</p></>
@@ -3607,7 +3657,10 @@ export default function RoleplayData() {
                     <p>{`The entire floor is now dedicated to sleeping, so those who might want to spend their times at night doing something else, might do so without disturbing other residents as it was a common problem in the past. The floor also has a bookshelf for reading that was at first located on the ground floor and has mostly titles with entertainment value, a simple fireplace with a polished-stone base and many windows, covered with hanging plants for those who would prefer darkness when sleeping during the day as the place never had enough capacity to house everyone at once, especially after refugees from Yggrasil joined, so a rudimentary sleeping regiment was established.`}</p>
                     <p>{`Lower floor is connected with a not too steep staircase, under which a small storage was established. Mezolček's pond was enlarged, even if lately he was migrated to the new city into Pond of Rememberence, for his wish to swim in bigger waters. Large bookshelf was brought in, now accommodates many books and scrolls with useful information as well as report's and thoughts about Emily's life. Many crude works of Emily can be found hanging on walls, while in the center of the room is overgrown stone altar, not much different than in the past, even if there are more gifts present even if Remember Me is not around as much those days, working on Pond of Rememberance most of its time.`}</p>
                     <p>{`Around the altar sweet alyssum took root, its relaxing smell now present in the air.`}</p>
-                    <p>{`Many cushions for reading, relaxations or socializing are placed around an enlarged fireplace for when cooks are not working at their desk, but even more can be found around the place. The entire place is also covered with a carpet of moss and other plants, trying to reclaim it, but as if gardened in a way not to disturb the purpose of the place. Also, a spare Emily's druidic clothes hand-made replica can be found here, not as nice as the original made trough elven years probably was, but the design can still be recognized as if inspired with a somewhat more refined taste than Remember Me was able to demonstrate till now.`}</p>
+                    <p>{`Many cushions for reading, relaxations or socializing are placed around an enlarged fireplace for when cooks are not working at their desk, but even more can be found around the place. The entire place is also covered with a carpet of moss and other plants, trying to reclaim it, but as if gardened in a way not to disturb the purpose of the place.`}</p>
+                    <img className="storyImgSmall" src={NobodyMap} alt="Upgraded Nobody's Respite" />
+                    <p>{`Also, a spare Emily's druidic clothes hand-made replica can be found here, not as nice as the original made trough elven years probably was, but the design can still be recognized as if inspired with a somewhat more refined taste than Remember Me was able to demonstrate till now.`}</p>
+                    <img className="storyImgSmall" src={Clothes} alt="Emily's Clothes" />
                     <p>{`(Picture represents the original design.)`}</p></>
             }]
         }, {
@@ -3845,7 +3898,7 @@ export default function RoleplayData() {
                     <p>{`"This place is still in the making, but I need a month or maybe less to finish it. I am not sure what I would wish to take from a place that is considered mine, but I also do not know what were you talking about, I did not hear or understand your chat, thou little ones seemed pleased. I can open the path myself, but lately my powers have weakened, so I was wondering if you could help me take care for this place. As you know, druids should not handle metal in excessive amounts, yet my task has left me with months working on rather large metal artifact. It is probably only temporary, but due to this place being made in a way to have a will of its own ..."`}</p>
                     <p>{`Remember Me gives a kind look to plants still partially blocking the passage.`}</p>
                     <p>{`"... or rather many wills. It is somewhat hard concentrating at the task at hand while they seek amusement or ... identity. Understandable, but I am simply too stressed for time.`}</p>
-                    <p>{`(will add picture of the place, watery part of the building)`}</p>
+                    <img className="storyImgBig" src={EHOC0} alt="Emily's House of Culture - Ground Floor" />
                     <p>{`Remember Me comes a little bit closer.`}</p>
                     <p>{`"So, what do you think? Can you do it? I do believe guardian of nature would be the most capable one to handle such a task."`}</p></>
             }, {
@@ -3910,7 +3963,8 @@ export default function RoleplayData() {
                     <p>{`"Would that be considered enough of a reason to keep this place running while I am away?"`}</p></>
             }, {
                 char: { name: "Remember Me", token: 3 },
-                content: <><p>{`(Here, s temi si se pogovarjal xD)`}</p></>
+                content: <><p>{`(Here, s temi si se pogovarjal xD)`}</p>
+                    <img className="storyImgSmall" src={EHOC_Enter} alt="Emily's House of Culture - Sanctuary Entrance" /></>
             }, {
                 char: { name: "Birog" },
                 content: <><p>{`"Aye, I will try to the best of my abilities to take care of the children, and no, I didn't intend it as making a harvest spot, I had an idea to use a small plot of land near my shop for a garden of sorts to lower production costs, but in the end it doesn't really change much so I'm dropping the idea ..."`}</p>
@@ -4013,7 +4067,8 @@ export default function RoleplayData() {
                 content: <><p>{`(How does disguised Remember Me look like.)`}</p></>
             }, {
                 char: { name: "Remember Me", token: 3 },
-                content: <><p>{`(Like Remember Me.)`}</p></>
+                content: <><p>{`(Like Remember Me.)`}</p>
+                    <img className="storyImgSmall" src={SixthRemember} alt="Remember Me - Trenutna podoba" /></>
             }, {
                 char: { name: "Morwyn" },
                 content: <><p>{`As Morwyn walks into the empty theater, the path to the stage with the feygol is clear. As she enters the large stage hall, the faint smell of wood varnish and freshly worked wood and new fabric still permeate the air. On her shoulder, Caraxes sniffs and jumps into the air, flying ahead of her. Morwyn immediately spots Remember Me and makes her way over to talk to it, her soft white shirt shining in the dim and dark lighting.`}</p>
@@ -4138,7 +4193,8 @@ export default function RoleplayData() {
                     <p>{`(this does not take hold till next mission, testing is being performed while missions are taking place)`}</p></>
             }, {
                 char: { name: "Remember Me", token: 3 },
-                content: <><p>{`(Sorry za slabo fotko, vendar sem med delom ugotovil, da bi moral še veliko truda vložiti v raziskave telesa, povrhu vilinskega, sorazmerno daljše noge od človeških, nižja postava ipd., nato še v kako oblačila sodijo gor in se mi enostavno ni dalo, morda če bi imel še teden ... tole je kako približno stvar deluje za občutek kaj se bo dogajalo, na podestu, sede, sproščeno, nagnjeno naprej, oči usmerjene v gladino pred seboj, dlani se dotikajo vode, desna za vroče, leva za hladno, ena noga visi v vodo, nato pa še druidic clothes & long ears.)`}</p></>
+                content: <><p>{`(Sorry za slabo fotko, vendar sem med delom ugotovil, da bi moral še veliko truda vložiti v raziskave telesa, povrhu vilinskega, sorazmerno daljše noge od človeških, nižja postava ipd., nato še v kako oblačila sodijo gor in se mi enostavno ni dalo, morda če bi imel še teden ... tole je kako približno stvar deluje za občutek kaj se bo dogajalo, na podestu, sede, sproščeno, nagnjeno naprej, oči usmerjene v gladino pred seboj, dlani se dotikajo vode, desna za vroče, leva za hladno, ena noga visi v vodo, nato pa še druidic clothes & long ears.)`}</p>
+                    <img className="storyImgSmall" src={EHOC_Sculpture} alt="Emily's Sculpture - Silhuete" /></>
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`Remember Me finished the Pond of Remembrance and ... waited. Observed. Nobody's Faro de Luz Respite opened. Plants were now fully grown, their previously wild and somewhat unpredictable behavior was gone, as they were not following the will of the pond. Everything worked as intended. It was nice. It was harmonious. But more importantly ... it was a failure.`}</p></>
@@ -4154,7 +4210,8 @@ export default function RoleplayData() {
             }, {
                 char: { name: "Remember Me", token: 3 },
                 content: <><p>{`"I still have one more trick to play before I go back to sleep, right Repko? You remember. You were not there, but you remember, don't you?"`}</p>
-                    <p>{`Remember Me shares some of its memories and the surface of the water displays the image from good 33 years ago. Inside of it is an elf, sitting on the floor, petting its former shell.`}</p></>
+                    <p>{`Remember Me shares some of its memories and the surface of the water displays the image from good 33 years ago. Inside of it is an elf, sitting on the floor, petting its former shell.`}</p>
+                    <img className="storyImgSmall" src={FirstRemember} alt="Remember Me - Prvo telo" /></>
             }, {
                 char: { name: "Repko" },
                 content: <><p>{`Repko hurries to its master, grabbing its leg, tightly, not willing to let go.`}</p>

@@ -115,10 +115,10 @@
     margin: 0;
 }
 
-#charsRP,
-#tagsRP {
+#charsRP {
     gap: 12px;
     cursor: default;
+    flex-wrap: wrap;
 }
 
 .tag {
@@ -207,3 +207,13 @@
 }
 
 /*PICS*/
+
+.storyImgSmall,
+.storyImgBig {
+    max-width: 100%;
+    margin-bottom: 7px;
+}
+
+.storyImgSmall {
+    max-height: 250px;
+}
